@@ -57,8 +57,8 @@ export default function Contact() {
   return (
     <section id="contact" className={`py-24 relative ${styles.formBackground}`}>
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-indigo-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30" />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -198,7 +198,7 @@ export default function Contact() {
             </button>
 
             <p className="text-center text-sm text-gray-500 mt-4">
-              Réponse garantie sous 24h ouvrées
+              Réponse garantie sous 24-48h
             </p>
           </form>
         </div>
