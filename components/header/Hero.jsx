@@ -5,7 +5,6 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <header className={`relative min-h-screen flex items-center ${styles.heroGradient}`}>
-      {/* Éléments décoratifs en arrière-plan */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className={`${styles.backgroundElement} top-20 right-[10%] w-[500px] h-[500px] bg-blue-100 blur-3xl`} />
         <div className={`${styles.backgroundElement} bottom-40 left-[5%] w-[400px] h-[400px] bg-purple-100 blur-3xl`} />
@@ -14,7 +13,6 @@ export default function Hero() {
 
       <div className="relative max-w-6xl mx-auto px-8 min-h-screen flex items-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
-          {/* Contenu texte - ajustez les classes */}
           <div className="text-center lg:text-left lg:pr-8">
             <h2 className={`text-4xl mb-4 sm:text-5xl lg:text-6xl font-bold tracking-tight ${styles.gradientText}`}>
               Killian Doubre
@@ -46,7 +44,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Image de profil - ajustez la taille */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="relative w-56 h-56 sm:w-64 sm:h-64">

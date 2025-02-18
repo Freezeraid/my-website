@@ -18,7 +18,7 @@ export default function Navbar() {
     const href = e.currentTarget.getAttribute('href')
     const element = document.querySelector(href)
     if (element) {
-      const offsetTop = element.offsetTop - 80 // Ajustez selon la hauteur de votre navbar
+      const offsetTop = element.offsetTop - 80
       window.scrollTo({
         top: offsetTop,
         behavior: 'smooth'
@@ -46,7 +46,6 @@ export default function Navbar() {
             Killian DOUBRE
           </Link>
           
-          {/* Menu Desktop */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
               {navItems.map((item) => (
@@ -64,7 +63,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Menu Mobile */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={`md:hidden p-2 rounded-lg ${
@@ -88,7 +86,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Menu Mobile déroulant */}
         <div
           className={`${
             isOpen ? 'max-h-64' : 'max-h-0'

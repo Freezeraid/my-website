@@ -6,15 +6,15 @@ import Loading from '../components/ui/Loading'
 
 const Services = dynamic(() => import('../components/sections/Services'), {
   loading: () => <Loading />,
-  ssr: true // Active le rendu côté serveur pour le SEO
+  ssr: true
 })
 const Contact = dynamic(() => import('../components/sections/Contact'), {
   loading: () => <Loading />,
-  ssr: true // Active le rendu côté serveur pour le SEO
+  ssr: true
 })
 const Footer = dynamic(() => import('../components/footer/Footer'), {
   loading: () => <Loading />,
-  ssr: true // Active le rendu côté serveur pour le SEO
+  ssr: true
 })
 
 export default function Home() {

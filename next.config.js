@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
   compress: true,
@@ -11,7 +10,7 @@ const nextConfig = {
   experimental: {
     turbo: {
       rules: {
-        // Vos règles Turbopack ici si nécessaire
+        // To add
       }
     }
   }

@@ -39,7 +39,6 @@ export default function Services() {
     <section id="services" className={`py-24 ${styles.gradientBg}`}>
       <div className={styles.decorativeLine + ' ' + styles.top}></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Services */}
         <div className="text-center mb-20">
           <h2 className={`${styles.sectionTitle} text-4xl font-bold mb-6`}>
             Solutions Web Sur-mesure
@@ -74,8 +73,7 @@ export default function Services() {
             </div>
           ))}
         </div>
- 
-        {/* Section Compétences */}
+        
         <div className="mt-32">
           <h2 className={`${styles.sectionTitle} text-4xl font-bold mb-6`}>
             Expertise Technique
