@@ -1,0 +1,35 @@
+.navLink {
+    position: relative;
+  }
+
+  .navbarBackground {
+    background: linear-gradient(to bottom, #1e1e1e, #111827);
+  }
+  
+  .navLink::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #3b82f6;
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .navLink:hover::after {
+    width: 100%;
+  }
+  
+  .mobileNavItem {
+    transform: translateX(-20px);
+    opacity: 0;
+    animation: slideIn 0.2s ease forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

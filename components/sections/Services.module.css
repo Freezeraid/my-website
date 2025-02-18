@@ -1,0 +1,60 @@
+/* Services.module.css */
+.gradientBg {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gradientBg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: 
+      radial-gradient(circle at 0% 0%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+      repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 1px, transparent 1px, transparent 10px);
+    pointer-events: none;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 
+      0 4px 20px -4px rgba(0, 0, 0, 0.1),
+      0 0 0 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    transform: translateY(0);
+    transition: all 0.2s ease;
+  }
+  
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 
+      0 12px 30px -8px rgba(0, 0, 0, 0.15),
+      0 0 0 1px rgba(255, 255, 255, 0.2);
+  }
+  
+  .highlight {
+    color: #3b82f6;
+    font-weight: 500;
+  }
+  
+  .sectionTitle {
+    color: white;
+    position: relative;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sectionTitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+  }

@@ -1,0 +1,37 @@
+.heroGradient {
+    background: linear-gradient(to bottom, #f0f6ff, #ffffff);
+  }
+  
+  
+  .scrollIndicator {
+    animation: smoothScroll 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  @keyframes smoothScroll {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(12px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .backgroundElement {
+    position: absolute;
+    border-radius: 9999px;
+    mix-blend-mode: multiply;
+    will-change: transform;
+    pointer-events: none;
+  }
+  
+  .gradientText {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
