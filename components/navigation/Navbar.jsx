@@ -1,12 +1,10 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
-import { useScroll } from '../../hooks/useScroll'
 import styles from './Navbar.module.css'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
-  const scrolled = useScroll()
 
   const navItems = [
     { href: '#services', label: 'Mes services' },
@@ -31,20 +29,14 @@ export default function Navbar() {
     <nav 
       role="navigation"
       aria-label="Navigation principale"
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled 
-          ? 'bg-white/80 backdrop-blur-md shadow-lg' 
-          : `${styles.navbarBackground} text-white`
-      }`}
+      className={`fixed w-full top-0 z-50 transition-all duration-300 bg-white/80 backdrop-blur-md shadow-lg`}
     >
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link 
             href="/" 
             aria-label="Accueil - Killian DOUBRE"
-            className={`text-xl font-bold ${ 
-              scrolled ? 'text-black' : 'text-white'
-            } hover:opacity-80 transition-opacity`}
+            className={`text-xl font-bold text-black hover:opacity-80 transition-opacity`}
           >
             Killian DOUBRE
           </Link>
@@ -56,9 +48,7 @@ export default function Navbar() {
                   key={item.href}
                   href={item.href}
                   onClick={handleClick}
-                  className={`${styles.navLink} ${
-                    scrolled ? 'text-gray-800' : 'text-white'
-                  } hover:text-blue-600 transition-colors`}
+                  className={`${styles.navLink} text-gray-800 hover:text-blue-600 transition-colors`}
                 >
                   {item.label}
                 </Link>
@@ -68,9 +58,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`md:hidden p-2 rounded-lg ${
-              scrolled ? 'text-gray-800' : 'text-white'
-            } hover:bg-gray-700/10`}
+            className={`md:hidden p-2 rounded-lg text-gray-800 hover:bg-gray-700/10`}
           >
             <span className="sr-only">Menu</span>
             <svg
@@ -94,7 +82,7 @@ export default function Navbar() {
             isOpen ? 'max-h-64' : 'max-h-0'
           } md:hidden overflow-hidden transition-all duration-300 ease-in-out`}
         >
-          <div className={`px-2 pt-2 pb-3 space-y-1 ${scrolled ? 'text-gray-800' : 'text-white'}`}>
+          <div className={`px-2 pt-2 pb-3 space-y-1 text-gray-800`}>
             {navItems.map((item, index) => (
               <Link
                 key={item.href}
