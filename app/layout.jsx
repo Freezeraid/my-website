@@ -1,6 +1,7 @@
 import './globals.css'
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from "@vercel/analytics/react"
 import { Inter, Poppins } from 'next/font/google'
 
 const inter = Inter({
@@ -97,6 +98,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
