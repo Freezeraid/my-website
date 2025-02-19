@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <header className={`relative min-h-[calc(100vh)] pt-20 flex items-center ${styles.heroGradient}`}>
+    <header className={`relative min-h-[calc(100vh)] pt-28 flex items-center ${styles.heroGradient}`}>
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className={`${styles.backgroundElement} top-32 right-[5%] w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-blue-100 blur-3xl`} />
         <div className={`${styles.backgroundElement} bottom-20 left-[5%] w-[250px] h-[250px] md:w-[400px] md:h-[400px] bg-purple-100 blur-3xl`} />
@@ -60,7 +60,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex justify-center pb-8">
+        <div className="flex justify-center pb-8 pt-8">
           <Link 
             href="#services"
             className={`${styles.scrollIndicator} cursor-pointer hover:scale-110 transition-transform duration-300`}
