@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: process.env.SITE_URL || 'https://votresite.fr',
+    siteUrl: process.env.SITE_URL || 'https://killiandoubre.com/',
     generateRobotsTxt: true,
     robotsTxtOptions: {
       policies: [

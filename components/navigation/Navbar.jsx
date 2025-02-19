@@ -9,8 +9,8 @@ export default function Navbar() {
   const scrolled = useScroll()
 
   const navItems = [
-    { href: '#services', label: 'Services' },
-    { href: '#contact', label: 'Contact' }
+    { href: '#services', label: 'Mes services' },
+    { href: '#contact', label: 'Me contacter' }
   ]
 
   const handleClick = (e) => {
@@ -29,6 +29,8 @@ export default function Navbar() {
 
   return (
     <nav 
+      role="navigation"
+      aria-label="Navigation principale"
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         scrolled 
           ? 'bg-white/80 backdrop-blur-md shadow-lg' 
@@ -39,6 +41,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link 
             href="/" 
+            aria-label="Accueil - Killian DOUBRE"
             className={`text-xl font-bold ${ 
               scrolled ? 'text-black' : 'text-white'
             } hover:opacity-80 transition-opacity`}
@@ -55,7 +58,7 @@ export default function Navbar() {
                   onClick={handleClick}
                   className={`${styles.navLink} ${
                     scrolled ? 'text-gray-800' : 'text-white'
-                  } hover:text-blue-500 transition-colors`}
+                  } hover:text-blue-600 transition-colors`}
                 >
                   {item.label}
                 </Link>

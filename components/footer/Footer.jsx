@@ -3,8 +3,8 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   const navigationLinks = [
-    { href: '#services', label: 'Services' },
-    { href: '#contact', label: 'Contact' }
+    { href: '#services', label: 'Mes services' },
+    { href: '#contact', label: 'Me contacter' }
   ]
 
   const socialLinks = [

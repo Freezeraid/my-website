@@ -1,5 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://votredomaine.com/sitemap.xml
+# Host
+Host: https://killiandoubre.com/
+
+# Sitemaps
+Sitemap: https://killiandoubre.com/sitemap.xml
