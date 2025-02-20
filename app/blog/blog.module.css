@@ -1,9 +1,0 @@
-.progressBar {
-    animation: progress 2s ease-in-out infinite;
-  }
-  
-  @keyframes progress {
-    0% { width: 60%; }
-    50% { width: 85%; }
-    100% { width: 60%; }
-  }
