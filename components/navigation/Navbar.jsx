@@ -8,20 +8,25 @@ export default function Navbar() {
 
   const navItems = [
     { href: '#services', label: 'Mes services' },
-    { href: '#contact', label: 'Me contacter' }
+    { href: '#contact', label: 'Me contacter' },
+    { href: '/blog', label: 'Blog' }
   ]
 
   const handleClick = (e) => {
-    e.preventDefault()
     const href = e.currentTarget.getAttribute('href')
-    const element = document.querySelector(href)
-    if (element) {
-      const offsetTop = element.offsetTop - 80
-      window.scrollTo({
-        top: offsetTop,
-        behavior: 'smooth'
-      })
+    
+    if (href.startsWith('#')) {
+      e.preventDefault()
+      const element = document.querySelector(href)
+      if (element) {
+        const offsetTop = element.offsetTop - 80
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth'
+        })
+      }
     }
+    
     if (isOpen) setIsOpen(false)
   }
 

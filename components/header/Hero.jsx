@@ -60,7 +60,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex justify-center pb-8 pt-8">
+        <div className="flex justify-center pb-12 pt-6">
           <Link 
             href="#services"
             className={`${styles.scrollIndicator} cursor-pointer hover:scale-110 transition-transform duration-300`}
