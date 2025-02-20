@@ -3,6 +3,8 @@ import './globals.css'
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from "@vercel/analytics/react"
 import { Inter, Poppins } from 'next/font/google'
+import Navbar from '../components/navigation/Navbar'
+import Footer from '../components/footer/Footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -96,7 +98,9 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={inter.className}>
+        <Navbar />
         {children}
+        <Footer />
         <SpeedInsights />
         <Analytics />
       </body>

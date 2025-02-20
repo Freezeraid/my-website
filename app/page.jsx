@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic'
 import { Suspense } from 'react' 
-import Navbar from '../components/navigation/Navbar'
 import Hero from '../components/header/Hero'
 import Loading from '../components/ui/Loading'
 
@@ -20,7 +19,6 @@ const Footer = dynamic(() => import('../components/footer/Footer'), {
 export default function Home() {
   return (
     <>
-      <Navbar />
       <main>
         <Hero />
         <Suspense fallback={<Loading />}>
@@ -28,7 +26,6 @@ export default function Home() {
           <Contact />
         </Suspense>
       </main>
-      <Footer />
     </>
   )
 }
