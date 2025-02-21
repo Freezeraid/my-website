@@ -88,18 +88,6 @@ const scrollToHeading = (id) => {
 
  if (headings.length === 0) return null
 
- const handleClick = (e, id) => {
-   e.preventDefault()
-   const element = document.getElementById(id)
-   if (!element) return
-
-   const offset = 100
-   window.scrollTo({
-     top: element.offsetTop - offset,
-     behavior: 'smooth'
-   })
- }
-
  return (
    <nav 
      className="sticky top-24 bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-gray-100 shadow-sm"
@@ -121,7 +109,7 @@ const scrollToHeading = (id) => {
               onClick={() => heading.level === 'h2' ? scrollToHeading(heading.id) : null}
               className={`
                 w-full px-4 py-2 rounded-lg 
-                transition-all duration-300 group
+                transition-all duration-300 group group-hover:-translate-y-0.5
                 ${heading.level === 'h3' ? 'text-gray-500' : 
                   activeId === heading.id 
                     ? 'bg-blue-600 text-white font-medium cursor-pointer' 
@@ -129,7 +117,7 @@ const scrollToHeading = (id) => {
                 }
               `}
             >
-              <span className="transition-transform duration-300 group-hover:-translate-y-0.5 block">
+              <span className=" block">
                 {heading.text}
               </span>
               {activeId === heading.id && (

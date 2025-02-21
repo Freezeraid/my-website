@@ -44,16 +44,23 @@ const MDXComponents = {
       </Link>
     )
   },
-  img: ({ src, alt }) => (
-    <div className="relative w-full aspect-video my-8 rounded-xl overflow-hidden">
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        className="object-cover"
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
-      />
-    </div>
+  Image: ({ src, alt, caption }) => (
+    <figure className="my-8 mx-auto w-full sm:w-4/5 text-center">
+      <div className="aspect-video rounded-lg overflow-hidden relative">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
+        />
+      </div>
+      {caption && (
+        <figcaption className="text-xs sm:text-xs lg:text-sm italic text-gray-600 mb-4">
+          {caption}
+        </figcaption>
+      )}
+    </figure>
   ),
 
   FAQ: ({ children }) => (
