@@ -8,7 +8,6 @@ export default function SearchBar({ articles, onFilteredArticles }) {
     const value = e.target.value
     setQuery(value)
 
-    // Filtrer les articles côté client
     const filtered = articles.filter(article => 
       article.title.toLowerCase().includes(value.toLowerCase()) ||
       article.description.toLowerCase().includes(value.toLowerCase())
