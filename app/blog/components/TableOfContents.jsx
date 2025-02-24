@@ -9,7 +9,7 @@ export default function TableOfContents() {
  useEffect(() => {
   const relatedArticlesSection = document.querySelector('#similar-articles')
   
-  const articleHeadings = Array.from(document.querySelectorAll('article h2, article h3'))
+  const articleHeadings = Array.from(document.querySelectorAll('article h2'))
     .filter(heading => {
       if (relatedArticlesSection) {
         return heading.compareDocumentPosition(relatedArticlesSection) & Node.DOCUMENT_POSITION_FOLLOWING

@@ -103,7 +103,8 @@ export default async function ArticlePage({ params }) {
                 <MDXContent source={mdxSource} />
             </div>
 
-             <RelatedArticles articles={relatedArticles} />
+
+            <RelatedArticles articles={relatedArticles} />
 
              <div className="mt-12 pt-8 border-t">
                <h2 className="text-2xl font-semibold text-gray-900 mb-4">

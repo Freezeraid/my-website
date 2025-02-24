@@ -18,15 +18,14 @@ export default function SearchBar({ articles, onFilteredArticles }) {
   return (
     <div className="relative max-w-2xl mx-auto mb-12">
       <input
-        type="search"
         value={query}
         onChange={handleSearch}
         placeholder="Rechercher un article..."
-        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+        className="w-full text-gray-800 px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
         aria-label="Rechercher un article"
       />
       <svg
-        className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+        className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-800"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
