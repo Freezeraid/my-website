@@ -1,4 +1,3 @@
-import { serialize } from 'next-mdx-remote/serialize'
 import { getArticleBySlug, getAllArticles, getRelatedArticles } from '../../../lib/blog'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -16,16 +15,6 @@ function extractHeadings(content) {
     text: heading.match(/>(.*?)</)?.[1] || '',
     level: heading.startsWith('<h2') ? 'h2' : 'h3'
   })) || []
-}
-
-// Fonction pour sérialiser le contenu MDX
-async function serializeMDX(content) {
-  return serialize(content, {
-    parseFrontmatter: true,
-    mdxOptions: {
-      development: false
-    },
-  })
 }
 
 export async function generateStaticParams() {
@@ -57,7 +46,6 @@ export default async function ArticlePage({ params }) {
   const { slug } = await params
   const article = await getArticleBySlug(slug)
   
-  // Traitement du contenu MDX
   const postFilePath = path.join(process.cwd(), 'content/blog', slug, 'index.mdx')
   const source = fs.existsSync(postFilePath) 
     ? fs.readFileSync(postFilePath, 'utf8')
@@ -67,18 +55,14 @@ export default async function ArticlePage({ params }) {
   const processedSource = source.replace(/\[YEAR\]/g, currentYear)
   
   const { content } = matter(processedSource)
-  const mdxSource = await serializeMDX(content)
   
-  // Récupération des articles similaires
   const relatedArticles = await getRelatedArticles(slug)
   
-  // Configuration du breadcrumb
   const breadcrumbItems = [
     { label: 'Blog', href: '/blog' },
     { label: article.title }
   ]
   
-  // Extraction des titres pour le sommaire
   const headings = extractHeadings(content)
 
   return (
@@ -132,7 +116,7 @@ export default async function ArticlePage({ params }) {
               </div>
 
               <div className="prose prose-lg max-w-none prose-blue">
-                <MDXContent source={mdxSource} />
+                <MDXContent source={content} />
               </div>
 
               <RelatedArticles articles={relatedArticles} />
