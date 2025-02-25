@@ -6,6 +6,59 @@ import Breadcrumb from '../../../components/ui/Breadcrumb'
 import TableOfContents from '../components/TableOfContents'
 import RelatedArticles from '../components/RelatedArticles'
 import MDXContent from '../components/MDXContent'
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+
+export async function getStaticPaths() {
+  // Trouver tous les dossiers d'articles dans content/blog
+  const blogDirs = fs.readdirSync(path.join(process.cwd(), 'content/blog'), { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name);
+  
+  // Créer les chemins pour chaque slug
+  const paths = blogDirs.map(dir => ({
+    params: { slug: dir }
+  }));
+  
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
+  try {
+    const article = await getArticleBySlug(params.slug)
+    
+    const postFilePath = path.join(process.cwd(), 'content/blog', params.slug, 'index.mdx')
+    const source = fs.readFileSync(postFilePath, 'utf8')
+    
+    const currentYear = new Date().getFullYear()
+    const processedSource = source.replace(/\[YEAR\]/g, currentYear)
+    
+    const { content, data } = matter(processedSource)
+    
+    const mdxSource = await serialize(content)
+    
+    const relatedArticles = await getRelatedArticles(params.slug)
+    
+    return {
+      props: {
+        article: {
+          ...data,
+          content,
+          slug: params.slug
+        },
+        mdxSource,
+        relatedArticles
+      }
+    }
+  } catch (error) {
+    console.error("Erreur dans getStaticProps:", error)
+    return { notFound: true }
+  }
+}
 
 export async function generateStaticParams() {
  const posts = await getAllArticles()
@@ -35,6 +88,7 @@ export async function generateMetadata({ params }) {
 export default async function ArticlePage({ params }) {
     const { slug } = await params
     const article = await getArticleBySlug(slug)
+
     const relatedArticles = await getRelatedArticles(slug)
     const mdxSource = await serialize(article.content)
 
