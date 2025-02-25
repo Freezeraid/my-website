@@ -2,13 +2,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function ArticlePreview({ article }) {
+  const currentYear = new Date().getFullYear()
+  const processedTitle = article.title.replace(/\[YEAR\]/g, currentYear)
+  const processedDescription= article.description.replace(/\[YEAR\]/g, currentYear)
+
   return (
     <article className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
       <Link href={`/blog/${article.slug}`} className="block h-full">
         <div className="relative h-48 w-full overflow-hidden rounded-t-xl">
           <Image
             src={article.banner}
-            alt={article.title}
+            alt={processedTitle}
             fill
             priority
             className="object-cover"
@@ -30,10 +34,10 @@ export default function ArticlePreview({ article }) {
             })}</span>
           </div>
           <h2 className="text-xl font-semibold text-gray-900 mb-2">
-            {article.title}
+            {processedTitle}
           </h2>
           <p className="text-gray-600 line-clamp-2">
-            {article.description}
+            {processedDescription}
           </p>
           <div className="mt-4 flex items-center gap-2">
             <span className="text-sm text-gray-600">Par {article.author}</span>

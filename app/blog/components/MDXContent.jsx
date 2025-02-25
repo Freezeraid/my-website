@@ -1,6 +1,6 @@
 'use client'
 import { MDXRemote } from 'next-mdx-remote'
-import MDXComponents from './mdx-components'
+import MDXComponents from './MDXComponents'
 
 export default function MDXContent({ source }) {
   return <MDXRemote {...source} components={MDXComponents} />
