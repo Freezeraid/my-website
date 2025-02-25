@@ -7,8 +7,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { href: '#services', label: 'Mes services' },
-    { href: '#contact', label: 'Me contacter' },
+    { href: '/#services', label: 'Mes services' },
+    { href: '/#contact', label: 'Me contacter' },
     { href: '/blog', label: 'Blog' }
   ]
 
