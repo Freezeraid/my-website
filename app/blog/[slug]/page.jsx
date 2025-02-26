@@ -93,7 +93,7 @@ export default async function ArticlePage({ params }) {
                 </span>
                 <span>Par {article.author}</span>
               </div>
-
+{/* 
               <div className="flex gap-2 mb-8">
                 {article.tags.map(tag => (
                   <span 
@@ -103,7 +103,7 @@ export default async function ArticlePage({ params }) {
                     {tag}
                   </span>
                 ))}
-              </div>
+              </div> */}
 
               <div className="relative w-full h-[400px] rounded-xl overflow-hidden mb-8">
                 <Image
