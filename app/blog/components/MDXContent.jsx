@@ -46,24 +46,26 @@ const components = {
     )
   },
   Image: ({ src, alt, caption }) => (
-    <figure className="my-8 mx-auto w-full sm:w-4/5 text-center">
-      <div className="aspect-video rounded-lg overflow-hidden relative">
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
-        />
+    <figure className="my-8 mx-auto w-full sm:w-4/5 flex flex-col">
+      <div className="w-full">
+        <div className="relative pt-[56.25%]">
+          <Image
+            src={src}
+            alt={alt}
+            fill
+            className="absolute inset-0 w-full h-full object-cover rounded-lg"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
+          />
+        </div>
       </div>
+      
       {caption && (
-        <figcaption className="text-xs sm:text-xs lg:text-sm italic text-gray-600 mb-4">
+        <figcaption className="text-xs mt-12 sm:text-sm italic text-gray-600 text-center">
           {caption}
         </figcaption>
       )}
     </figure>
   ),
-
   FAQ: ({ children }) => (
     <div className="mt-12 mb-8 space-y-6">
       <h2 className="text-xl font-bold text-gray-900 mb-8" id="FAQ">
