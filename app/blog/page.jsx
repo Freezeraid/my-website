@@ -28,7 +28,7 @@ export default async function BlogPage() {
             Blog
           </h1>
           <p className="text-lg text-gray-600">
-            Articles techniques, tutoriels et retours d'expérience sur le développement web moderne.
+            Consultez mes articles techniques et retours d'expérience sur le développement web !
           </p>
         </div>
 

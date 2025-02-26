@@ -3,10 +3,11 @@ module.exports = {
     generateRobotsTxt: true,
     robotsTxtOptions: {
       policies: [
-        {
-          userAgent: '*',
-          allow: '/',
-        },
+        { userAgent: '*', allow: '/' },
+        { userAgent: '*', disallow: '/admin' }
+      ],
+      additionalSitemaps: [
+        'https://killiandoubre.com/sitemap.xml',
       ],
     },
     changefreq: 'weekly',
