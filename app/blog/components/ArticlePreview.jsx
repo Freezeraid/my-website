@@ -5,6 +5,8 @@ export default function ArticlePreview({ article }) {
   const currentYear = new Date().getFullYear()
   const processedTitle = article.title.replace(/\[YEAR\]/g, currentYear)
   const processedDescription= article.description.replace(/\[YEAR\]/g, currentYear)
+  const processedDate= article.date.replace(/\[YEAR\]/g, currentYear)
+
 
   return (
     <article className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
@@ -27,7 +29,7 @@ export default function ArticlePreview({ article }) {
               </svg>
               {article.readTime}
             </span>
-            <span>{new Date(article.date).toLocaleDateString('fr-FR', { 
+            <span>{new Date(processedDate).toLocaleDateString('fr-FR', { 
               year: 'numeric', 
               month: 'long', 
               day: 'numeric' 
