@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://killiandoubre.com</loc><lastmod>2025-02-26T15:25:15.921Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://killiandoubre.com/blog</loc><lastmod>2025-02-26T15:25:15.922Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://killiandoubre.com/blog/apprendre-php-8-guide-debutant</loc><lastmod>2025-02-26T15:25:15.922Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://killiandoubre.com/blog/developpeur-web-ia-carriere-avenir</loc><lastmod>2025-02-26T15:25:15.922Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://killiandoubre.com/blog/javascript-article</loc><lastmod>2025-02-26T15:25:15.922Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://killiandoubre.com/blog/nosql-vs-sql</loc><lastmod>2025-02-26T15:25:15.922Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://killiandoubre.com</loc><lastmod>2025-02-27T10:33:07.834Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://killiandoubre.com/blog</loc><lastmod>2025-02-27T10:33:07.835Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://killiandoubre.com/blog/apprendre-php-8-guide-debutant</loc><lastmod>2025-02-27T10:33:07.835Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://killiandoubre.com/blog/developpeur-web-ia-carriere-avenir</loc><lastmod>2025-02-27T10:33:07.835Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://killiandoubre.com/blog/javascript-article</loc><lastmod>2025-02-27T10:33:07.835Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://killiandoubre.com/blog/nosql-vs-sql</loc><lastmod>2025-02-27T10:33:07.835Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://killiandoubre.com/blog/python-in-web-dev</loc><lastmod>2025-02-27T10:33:07.835Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
