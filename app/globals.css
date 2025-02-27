@@ -54,3 +54,7 @@ html {
   scrollbar-width: thin;
   scrollbar-color: #3b82f6 rgba(219, 234, 254, 0.3);
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
