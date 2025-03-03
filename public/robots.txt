@@ -2,12 +2,8 @@
 User-agent: *
 Allow: /
 
-# *
-User-agent: *
-Disallow: /admin
-
 # Host
-Host: https://killiandoubre.com/
+Host: https://killiandoubre.com
 
 # Sitemaps
 Sitemap: https://killiandoubre.com/sitemap.xml

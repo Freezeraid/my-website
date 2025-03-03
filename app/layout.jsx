@@ -20,7 +20,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://killiandoubre.com/'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://killiandoubre.com'),
   title: {
     default: 'Killian DOUBRE - Développeur Web Full Stack',
     template: '%s | Killian DOUBRE'
@@ -30,7 +30,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://killiandoubre.com/',
+    url: 'https://killiandoubre.com',
     title: 'Killian Doubre - Développeur Web Full Stack',
     description: 'Développeur Web Full Stack spécialisé en React, Node.js, et création de sites web performants',
     siteName: 'Killian Doubre',
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Killian Doubre',
-    url: 'https://killiandoubre.com/',
+    url: 'https://killiandoubre.com',
     jobTitle: 'Développeur Web Full Stack',
     sameAs: [
       'https://www.linkedin.com/in/doubre-killian/',
