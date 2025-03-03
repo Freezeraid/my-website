@@ -3,7 +3,7 @@ import ArticlesSection from './components/ArticlesSection'
 import Breadcrumb from '../../components/ui/Breadcrumb'
 
 export const metadata = {
-  title: 'Blog - Killian Doubre | Développeur Web Full Stack',
+  title: 'Blog - Killian Doubre | Développeur Web Freelance',
   description: 'Articles techniques et conseils sur le développement web, React, Node.js et les meilleures pratiques du développement moderne.',
   openGraph: {
     title: 'Blog - Killian Doubre',

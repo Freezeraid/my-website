@@ -19,7 +19,7 @@ export default function Hero() {
                 Killian Doubre
               </h2>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-gray-900">
-                Développeur Web Full Stack
+                Développeur Web Freelance
               </h1>
               <h2 className={`text-2xl sm:text-3xl font-bold tracking-tight ${styles.gradientText}`}>
                 Création & Solutions
