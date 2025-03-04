@@ -79,7 +79,7 @@ export default function Services() {
             Expertise Technique
           </h2>
           <p className="text-lg text-blue-50 text-center max-w-3xl mx-auto mb-16">
-            Développeur Web Full Stack passionné, je maîtrise les technologies modernes 
+            Développeur Web Freelance & Full Stack passionné, je maîtrise les technologies modernes 
             pour créer des applications web robustes et évolutives.
           </p>
         </div>

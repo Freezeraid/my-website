@@ -1,15 +1,26 @@
 module.exports = {
-    siteUrl: process.env.SITE_URL || 'https://killiandoubre.com/',
+    siteUrl: process.env.SITE_URL || 'https://killiandoubre.com',
     generateRobotsTxt: true,
+    exclude: [],
     robotsTxtOptions: {
-      policies: [
-        { userAgent: '*', allow: '/' },
-        { userAgent: '*', disallow: '/admin' }
-      ],
       additionalSitemaps: [
         'https://killiandoubre.com/sitemap.xml',
       ],
     },
-    changefreq: 'weekly',
-    priority: 0.7,
+    transform: async (config, path) => {
+      if (path.includes('/blog/')) {
+        return {
+          loc: path,
+          changefreq: 'weekly',
+          priority: 0.8,
+          lastmod: new Date().toISOString(),
+        }
+      }
+      return {
+        loc: path,
+        changefreq: 'daily',
+        priority: 0.7,
+        lastmod: new Date().toISOString(),
+      }
+    },
   }

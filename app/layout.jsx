@@ -20,31 +20,31 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://killiandoubre.com/'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://killiandoubre.com'),
   title: {
-    default: 'Killian DOUBRE - Développeur Web Full Stack',
+    default: 'Killian DOUBRE - Développeur Web Freelance',
     template: '%s | Killian DOUBRE'
   },
-  description: 'Développeur web full stack spécialisé en React, Node.js, et plus. Création de sites web performants et optimisés.',
-  keywords: ['développeur web', 'full stack', 'react', 'node.js', 'javascript'],
+  description: 'Développeur web full stack freelance spécialisé en React, Node.js, et plus. Création de sites web performants et optimisés.',
+  keywords: ['développeur web', 'freelance', 'full stack', 'react', 'node.js', 'javascript'],
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://killiandoubre.com/',
-    title: 'Killian Doubre - Développeur Web Full Stack',
-    description: 'Développeur Web Full Stack spécialisé en React, Node.js, et création de sites web performants',
+    url: 'https://killiandoubre.com',
+    title: 'Killian Doubre - Développeur Web Freelance',
+    description: 'Développeur Web Freelance spécialisé en React, Node.js, et création de sites web performants',
     siteName: 'Killian Doubre',
     images: [{
       url: '/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Killian Doubre - Développeur Web Full Stack'
+      alt: 'Killian Doubre - Développeur Web Freelance'
     }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Killian Doubre - Développeur Web Full Stack',
-    description: 'Développeur Web Full Stack spécialisé en React, Node.js, et création de sites web performants',
+    title: 'Killian Doubre - Développeur Web Freelance',
+    description: 'Développeur Web Freelance spécialisé en React, Node.js, et création de sites web performants',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -73,17 +73,19 @@ export default function RootLayout({ children }) {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Killian Doubre',
-    url: 'https://killiandoubre.com/',
-    jobTitle: 'Développeur Web Full Stack',
+    url: 'https://killiandoubre.com',
+    jobTitle: 'Développeur Web Freelance',
     sameAs: [
       'https://www.linkedin.com/in/doubre-killian/',
       'https://github.com/Freezeraid/'
     ],
     knowsAbout: [
       'Développement Web',
+      'Freelance',
       'React',
       'Node.js',
-      'Full Stack Development',
+      'Développeur Web Freelance',
+      'Développeur Full Stack',
       'SEO'
     ]
   }
