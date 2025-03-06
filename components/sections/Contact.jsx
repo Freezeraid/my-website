@@ -75,7 +75,7 @@ export default function Contact() {
             <div className={`${styles.featureCard} p-6 rounded-xl shadow-sm`}>
               <div className="text-2xl mb-3">⚡</div>
               <h3 className="font-semibold text-gray-900 mb-2">Développement Rapide</h3>
-              <p className="text-sm text-gray-600">Solutions web modernes avec React & Node.js</p>
+              <p className="text-sm text-gray-600">Solutions web modernes et performants</p>
             </div>
             <div className={`${styles.featureCard} p-6 rounded-xl shadow-sm`}>
               <div className="text-2xl mb-3">🎯</div>
