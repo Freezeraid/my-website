@@ -224,29 +224,43 @@ export default function DeveloppementWebFullStackPage() {
               </div>
 
               <div className="md:w-1/2 flex justify-center md:justify-end">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl transform rotate-3 scale-105 opacity-20 blur-sm"></div>
-                  <div className="relative bg-white p-6 rounded-2xl shadow-xl">
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="bg-blue-50 p-4 rounded-lg text-center">
-                        <div className="text-3xl mb-2">⚛️</div>
-                        <h3 className="font-semibold text-gray-900">React</h3>
-                        <p className="text-sm text-gray-600">Frontend Moderne</p>
-                      </div>
-                      <div className="bg-indigo-50 p-4 rounded-lg text-center">
-                        <div className="text-3xl mb-2">🟢</div>
-                        <h3 className="font-semibold text-gray-900">Node.js</h3>
-                        <p className="text-sm text-gray-600">Backend Performant</p>
-                      </div>
-                      <div className="bg-purple-50 p-4 rounded-lg text-center">
-                        <div className="text-3xl mb-2">🗄️</div>
-                        <h3 className="font-semibold text-gray-900">MongoDB</h3>
-                        <p className="text-sm text-gray-600">Base de Données</p>
-                      </div>
-                      <div className="bg-blue-50 p-4 rounded-lg text-center">
-                        <div className="text-3xl mb-2">☁️</div>
-                        <h3 className="font-semibold text-gray-900">Cloud</h3>
-                        <p className="text-sm text-gray-600">Déploiement</p>
+                <div className="flex flex-col gap-8 items-center">
+                  <div className="flex justify-center">
+                    <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
+                      <OptimizedImage
+                        src="/photo_close.jpg"
+                        alt="Ma photo de profil"
+                        width={256}
+                        height={256}
+                        priority
+                        className="object-cover w-full h-full"
+                      />
+                    </div>
+                  </div>
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl transform rotate-3 scale-105 opacity-20 blur-sm"></div>
+                    <div className="relative bg-white p-6 rounded-2xl shadow-xl">
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="bg-blue-50 p-4 rounded-lg text-center">
+                          <div className="text-3xl mb-2">⚛️</div>
+                          <h3 className="font-semibold text-gray-900">React</h3>
+                          <p className="text-sm text-gray-600">Frontend Moderne</p>
+                        </div>
+                        <div className="bg-indigo-50 p-4 rounded-lg text-center">
+                          <div className="text-3xl mb-2">🟢</div>
+                          <h3 className="font-semibold text-gray-900">Node.js</h3>
+                          <p className="text-sm text-gray-600">Backend Performant</p>
+                        </div>
+                        <div className="bg-purple-50 p-4 rounded-lg text-center">
+                          <div className="text-3xl mb-2">🗄️</div>
+                          <h3 className="font-semibold text-gray-900">MongoDB</h3>
+                          <p className="text-sm text-gray-600">Base de Données</p>
+                        </div>
+                        <div className="bg-blue-50 p-4 rounded-lg text-center">
+                          <div className="text-3xl mb-2">☁️</div>
+                          <h3 className="font-semibold text-gray-900">Cloud</h3>
+                          <p className="text-sm text-gray-600">Déploiement</p>
+                        </div>
                       </div>
                     </div>
                   </div>
