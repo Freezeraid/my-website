@@ -280,10 +280,10 @@ export default function ApplicationMobilePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Pourquoi Choisir un Développeur Freelance ?
+                Pourquoi me choisir pour votre projet d'application mobile ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec un développeur freelance offre de nombreux avantages pour votre projet d'application mobile.
+                Travailler avec moi offre de nombreux avantages pour votre projet d'application mobile.
               </p>
             </div>
             
@@ -461,7 +461,7 @@ export default function ApplicationMobilePage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
+        {/* <section className="py-24 bg-gradient-to-b from-white to-blue-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -525,7 +525,7 @@ export default function ApplicationMobilePage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* CTA Section */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">

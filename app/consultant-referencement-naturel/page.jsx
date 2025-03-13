@@ -362,10 +362,10 @@ export default function ConsultantSEOPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Pourquoi Choisir un Consultant SEO Freelance ?
+                Pourquoi me choisir en tant que Consultant SEO Freelance ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec un consultant SEO freelance offre de nombreux avantages pour l'optimisation de votre présence en ligne.
+                Travailler avec moi offre de nombreux avantages pour l'optimisation de votre présence en ligne.
               </p>
             </div>
             
@@ -503,7 +503,7 @@ export default function ConsultantSEOPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
+        {/* <section className="py-24 bg-gradient-to-b from-white to-blue-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -571,7 +571,7 @@ export default function ConsultantSEOPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* CTA Section */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
