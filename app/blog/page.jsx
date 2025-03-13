@@ -1,6 +1,8 @@
 import { getAllArticles } from '../../lib/blog'
 import ArticlesSection from './components/ArticlesSection'
 import Breadcrumb from '../../components/ui/Breadcrumb'
+import SchemaOrg from '../../components/ui/SchemaOrg'
+import { generateBlogPageSchema } from '../../lib/schema/blog'
 
 export const metadata = {
   title: 'Blog - Killian Doubre | Développeur Web Freelance',
@@ -18,14 +20,17 @@ export default async function BlogPage() {
   const breadcrumbItems = [
     { label: 'Blog' }
   ]
+  
+  const blogPageSchema = generateBlogPageSchema(articles);
 
   return (
     <main className="min-h-[calc(100vh-80px)] pt-20 bg-gradient-to-b from-blue-50 to-white">
+      <SchemaOrg schemas={blogPageSchema} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Breadcrumb items={breadcrumbItems} />
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Blog
+            Mon Blog du Développement Web
           </h1>
           <p className="text-lg text-gray-600">
             Consultez mes articles techniques et retours d'expérience sur le développement web !

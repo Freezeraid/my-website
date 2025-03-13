@@ -1,21 +1,99 @@
 {
-    "name": "Killian Doubre - Développeur Web Freelance",
-    "short_name": "Killian Doubre",
-    "description": "Développeur Web Freelance spécialisé en React, Node.js, et création de sites web performants",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#3b82f6",
-    "icons": [
-      {
-        "src": "/next.svg",
-        "sizes": "192x192",
-        "type": "image/svg"
-      },
-      {
-        "src": "/next.svg",
-        "sizes": "512x512",
-        "type": "image/svg"
-      }
-    ]
-  }
+  "name": "Killian Doubre - Développeur Web Freelance",
+  "short_name": "Killian Doubre",
+  "description": "Développeur Web Freelance spécialisé en React, Node.js, Next.js et création de sites web performants et optimisés pour le SEO",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "dir": "ltr",
+  "lang": "fr-FR",
+  "categories": ["business", "productivity", "web development"],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.jpg",
+      "sizes": "1280x800",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Killian Doubre - Développeur Web Freelance (Desktop)"
+    },
+    {
+      "src": "/screenshots/mobile.jpg",
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "platform": "narrow",
+      "label": "Killian Doubre - Développeur Web Freelance (Mobile)"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Blog",
+      "url": "/blog",
+      "description": "Lire les derniers articles de mon blog"
+    },
+    {
+      "name": "Contact",
+      "url": "/#contact",
+      "description": "Me contacter pour lancer votre projet"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

@@ -11,10 +11,6 @@ const Contact = dynamic(() => import('../components/sections/Contact'), {
   loading: () => <Loading />,
   ssr: true
 })
-const Footer = dynamic(() => import('../components/footer/Footer'), {
-  loading: () => <Loading />,
-  ssr: true
-})
 
 export default function Home() {
   return (

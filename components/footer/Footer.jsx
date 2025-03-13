@@ -8,6 +8,16 @@ export default function Footer() {
     { href: '/blog', label: 'Blog' }
   ]
 
+  const serviceLinks = [
+    { href: '/developpement-site-vitrine', label: 'Site Web Vitrine' },
+    { href: '/developpement-site-ecommerce', label: 'Site E-commerce' },
+    { href: '/developpement-site-portfolio', label: 'Site Portfolio' },
+    { href: '/developpement-site-blog', label: 'Site de Blog' },
+    { href: '/developpement-application-saas', label: 'Application SaaS' },
+    { href: '/developpement-web-fullstack', label: 'Développement Full Stack' },
+    { href: '/consultant-referencement-naturel', label: 'Consultant SEO' }
+  ]
+
   const socialLinks = [
     {
       href: 'https://www.linkedin.com/in/doubre-killian/',
@@ -32,11 +42,11 @@ export default function Footer() {
   return (
     <footer className={`${styles.footerBackground} pt-16 pb-8`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pb-12 border-b border-gray-700">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-gray-700">
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">À propos</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Développeur Web Freelance passionné, je crée des solutions web modernes et performantes avec React, Node.js, Golang, SQL et MongoDB.
+              Développeur Web Freelance passionné, je crée des solutions web modernes et performantes avec React, Node.js, Golang, SQL, MongoDB ou WordPress.
             </p>
           </div>
 
@@ -57,9 +67,25 @@ export default function Footer() {
           </div>
 
           <div>
+            <h3 className="text-white text-lg font-semibold mb-4">Services</h3>
+            <ul className="space-y-3">
+              {serviceLinks.map((link) => (
+                <li key={link.href}>
+                  <Link 
+                    href={link.href}
+                    className={`${styles.footerLink} text-gray-400 hover:text-white text-sm`}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
             <h3 className="text-white text-lg font-semibold mb-4">Contact</h3>
             <p className="text-gray-400 text-sm mb-4">
-              Une idée de projet ? Contactez-moi pour en discuter.
+              Une idée de projet web ? Contactez-moi pour en discuter.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
