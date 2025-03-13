@@ -67,15 +67,15 @@ export default function Contact() {
             Transformons votre vision en réalité
           </h2>
           <p className="text-lg text-gray-600 mb-12">
-            Expert en développement web, je crée des solutions performantes et sur-mesure.
-            Discutons de votre projet et donnons vie à vos idées !
+            Expert en développement web, je crée des sites et applications webs performants et sur-mesure.
+            Discutons de votre projet web et donnons vie à vos idées !
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             <div className={`${styles.featureCard} p-6 rounded-xl shadow-sm`}>
               <div className="text-2xl mb-3">⚡</div>
               <h3 className="font-semibold text-gray-900 mb-2">Développement Rapide</h3>
-              <p className="text-sm text-gray-600">Solutions web modernes et performants</p>
+              <p className="text-sm text-gray-600">Solutions web modernes et performantes</p>
             </div>
             <div className={`${styles.featureCard} p-6 rounded-xl shadow-sm`}>
               <div className="text-2xl mb-3">🎯</div>
