@@ -25,7 +25,6 @@ export const metadata = {
 }
 
 export default function SitePortfolioPage() {
-  // Services spécifiques aux sites portfolio
   const portfolioServices = [
     {
       icon: "🎨",
@@ -59,7 +58,6 @@ export default function SitePortfolioPage() {
     }
   ]
 
-  // Avantages de travailler avec un développeur web freelance
   const freelanceAdvantages = [
     {
       title: "Approche Créative Personnalisée",
@@ -79,7 +77,6 @@ export default function SitePortfolioPage() {
     }
   ]
 
-  // Types de portfolios
   const portfolioTypes = [
     {
       icon: "🎭",
@@ -103,7 +100,6 @@ export default function SitePortfolioPage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",
@@ -146,7 +142,7 @@ export default function SitePortfolioPage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Site Portfolio', href: '/developpement-site-portfolio', current: true }
+                { label: 'Développement de Site Portfolio', href: '/developpement-site-portfolio', current: true }
               ]} 
             />
             
@@ -160,7 +156,7 @@ export default function SitePortfolioPage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur freelance spécialisé en <strong>création de sites portfolio</strong>, je conçois des vitrines digitales créatives et professionnelles qui mettent en lumière votre travail et attirent de nouveaux clients ou opportunités.
+                  Développeur freelance spécialisé en <strong>création de sites portfolio</strong>, je conçois des sites vitrines créatifs et professionnels qui mettent en lumière votre travail et attirent de nouveaux clients ou opportunités.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">

@@ -25,7 +25,6 @@ export const metadata = {
 }
 
 export default function ApplicationMobilePage() {
-  // Services spécifiques aux applications mobiles
   const mobileServices = [
     {
       icon: "📱",
@@ -59,7 +58,6 @@ export default function ApplicationMobilePage() {
     }
   ]
 
-  // Avantages de travailler avec un développeur web freelance
   const freelanceAdvantages = [
     {
       title: "Expertise Mobile Spécialisée",
@@ -79,7 +77,6 @@ export default function ApplicationMobilePage() {
     }
   ]
 
-  // Fonctionnalités mobiles
   const mobileFeatures = [
     {
       icon: "🔐",
@@ -103,7 +100,6 @@ export default function ApplicationMobilePage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",

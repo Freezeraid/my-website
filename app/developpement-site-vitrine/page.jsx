@@ -4,6 +4,8 @@ import Link from 'next/link'
 import OptimizedImage from '../../components/ui/OptimizedImage'
 import Loading from '../../components/ui/Loading'
 import Breadcrumb from '../../components/ui/Breadcrumb'
+import SchemaOrg from '../../components/ui/SchemaOrg'
+import { generateServicePageSchemas, serviceData } from '../../lib/schema/service'
 
 const Contact = dynamic(() => import('../../components/sections/Contact'), {
   loading: () => <Loading />,
@@ -25,7 +27,11 @@ export const metadata = {
 }
 
 export default function DeveloppeurWebFreelancePage() {
-  // Services spécifiques aux sites web vitrine
+  const servicePageSchemas = generateServicePageSchemas(
+    serviceData['developpement-site-vitrine'],
+    serviceData['developpement-site-vitrine'].faqs
+  );
+
   const webDevServices = [
     {
       icon: "🎯",
@@ -59,7 +65,6 @@ export default function DeveloppeurWebFreelancePage() {
     }
   ]
 
-  // Avantages de travailler avec un développeur web freelance
   const freelanceAdvantages = [
     {
       title: "Expertise Technique Spécialisée",
@@ -79,7 +84,6 @@ export default function DeveloppeurWebFreelancePage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",
@@ -94,7 +98,7 @@ export default function DeveloppeurWebFreelancePage() {
     {
       number: "03",
       title: "Développement & Intégration",
-      description: "Je développe votre solution web avec les technologies les plus adaptées à votre projet. Chaque ligne de code est optimisée pour la performance, la sécurité et l'évolutivité."
+      description: "Je développe votre site web avec les technologies les plus adaptées à votre projet. Chaque ligne de code est optimisée pour la performance, la sécurité et l'évolutivité."
     },
     {
       number: "04",
@@ -110,6 +114,7 @@ export default function DeveloppeurWebFreelancePage() {
 
   return (
     <>
+      <SchemaOrg schemas={servicePageSchemas} />
       <main>
         {/* Hero Section */}
         <header className="relative min-h-[80vh] pt-28 flex items-center bg-gradient-to-b from-blue-50 to-white">
@@ -122,7 +127,7 @@ export default function DeveloppeurWebFreelancePage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance', href: '/developpement-site-vitrine', current: true }
+                { label: 'Développement de Site Vitrine', href: '/developpement-site-vitrine', current: true }
               ]} 
             />
             

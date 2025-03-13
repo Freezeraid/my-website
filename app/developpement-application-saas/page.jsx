@@ -25,7 +25,6 @@ export const metadata = {
 }
 
 export default function ApplicationSaasPage() {
-  // Services spécifiques aux applications SaaS
   const saasServices = [
     {
       icon: "🚀",
@@ -59,7 +58,6 @@ export default function ApplicationSaasPage() {
     }
   ]
 
-  // Avantages de travailler avec un développeur web freelance
   const freelanceAdvantages = [
     {
       title: "Expertise SaaS Spécialisée",
@@ -79,7 +77,6 @@ export default function ApplicationSaasPage() {
     }
   ]
 
-  // Fonctionnalités SaaS
   const saasFeatures = [
     {
       icon: "🔐",
@@ -103,7 +100,6 @@ export default function ApplicationSaasPage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",
@@ -146,7 +142,7 @@ export default function ApplicationSaasPage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Application SaaS', href: '/developpement-application-saas', current: true }
+                { label: "Développement d'Application SaaS", href: '/developpement-application-saas', current: true }
               ]} 
             />
             

@@ -6,7 +6,7 @@ export default function Services() {
     {
       icon: "🎯",
       title: "Sites Web Performants",
-      description: "Des sites web modernes qui convertissent. Performance optimale, design sur-mesure et expérience utilisateur exceptionnelle pour votre succès digital.",
+      description: "Des sites web modernes qui convertissent. Performance optimale, design sur-mesure et expérience utilisateur exceptionnelle pour votre succès en ligne.",
       features: [
         "Performance SEO maximale",
         "Design responsive moderne",
@@ -41,10 +41,10 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className={`${styles.sectionTitle} text-4xl font-bold mb-6`}>
-            Solutions Web Sur-mesure
+            Développement Web Sur-mesure
           </h2>
           <p className="text-lg text-blue-50 max-w-3xl mx-auto">
-            Je transforme vos idées en solutions digitales performantes. 
+            Je transforme vos idées en solutions web performantes. 
             Chaque projet est une opportunité de créer quelque chose d'unique 
             qui dépasse vos attentes.
           </p>
@@ -109,7 +109,7 @@ export default function Services() {
                 <p className="font-medium text-gray-800 mb-2">Base de données</p>
                 <p className="text-gray-600">
                   Expertise en <span className={styles.highlight}>MongoDB</span> et <span className={styles.highlight}>SQL</span>.
-                  Conception de schémas optimisés et requêtes performantes.
+                  Conception de schémas de base de données optimisés et requêtes performantes.
                 </p>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Services() {
                 <h4 className="font-medium text-gray-800 mb-3">Freelance</h4>
                 <p className="text-gray-600 mb-4">
                   Disponible pour des missions de développement web. 
-                  Je m'adapte à vos besoins et délais pour délivrer des solutions 
+                  Je m'adapte à vos besoins et délais pour délivrer des produits 
                   de qualité.
                 </p>
               </div>

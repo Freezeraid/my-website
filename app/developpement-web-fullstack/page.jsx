@@ -25,7 +25,6 @@ export const metadata = {
 }
 
 export default function DeveloppementWebFullStackPage() {
-  // Services spécifiques au développement full stack
   const fullStackServices = [
     {
       icon: "⚛️",
@@ -59,7 +58,6 @@ export default function DeveloppementWebFullStackPage() {
     }
   ]
 
-  // Avantages de travailler avec un développeur web freelance
   const freelanceAdvantages = [
     {
       title: "Expertise Full Stack Spécialisée",
@@ -79,7 +77,6 @@ export default function DeveloppementWebFullStackPage() {
     }
   ]
 
-  // Technologies maîtrisées
   const technologies = [
     {
       category: "Frontend",
@@ -123,7 +120,6 @@ export default function DeveloppementWebFullStackPage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",
@@ -152,7 +148,6 @@ export default function DeveloppementWebFullStackPage() {
     }
   ]
 
-  // Types de projets
   const projectTypes = [
     {
       icon: "🚀",

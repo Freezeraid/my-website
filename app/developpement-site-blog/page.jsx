@@ -25,7 +25,6 @@ export const metadata = {
 }
 
 export default function SiteBlogPage() {
-  // Services spécifiques aux sites de blog
   const blogServices = [
     {
       icon: "📝",
@@ -59,7 +58,6 @@ export default function SiteBlogPage() {
     }
   ]
 
-  // Avantages de travailler avec un développeur web freelance
   const freelanceAdvantages = [
     {
       title: "Expertise Blog & Contenu",
@@ -79,7 +77,6 @@ export default function SiteBlogPage() {
     }
   ]
 
-  // Types de blogs
   const blogTypes = [
     {
       icon: "🏢",
@@ -103,7 +100,6 @@ export default function SiteBlogPage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",

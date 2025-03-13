@@ -46,7 +46,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">À propos</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Développeur Web Freelance passionné, je crée des solutions web modernes et performantes avec React, Node.js, Golang, SQL et MongoDB.
+              Développeur Web Freelance passionné, je crée des solutions web modernes et performantes avec React, Node.js, Golang, SQL, MongoDB ou WordPress.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Contact</h3>
             <p className="text-gray-400 text-sm mb-4">
-              Une idée de projet ? Contactez-moi pour en discuter.
+              Une idée de projet web ? Contactez-moi pour en discuter.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (

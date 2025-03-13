@@ -25,7 +25,6 @@ export const metadata = {
 }
 
 export default function ConsultantSEOPage() {
-  // Services spécifiques au SEO
   const seoServices = [
     {
       icon: "🔍",
@@ -73,7 +72,6 @@ export default function ConsultantSEOPage() {
     }
   ]
 
-  // Avantages de travailler avec un consultant SEO freelance
   const freelanceAdvantages = [
     {
       title: "Expertise SEO Spécialisée",
@@ -93,7 +91,6 @@ export default function ConsultantSEOPage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",
@@ -122,7 +119,6 @@ export default function ConsultantSEOPage() {
     }
   ]
 
-  // Facteurs SEO importants
   const seoFactors = [
     {
       icon: "🔧",
@@ -156,7 +152,6 @@ export default function ConsultantSEOPage() {
     }
   ]
 
-  // Outils SEO utilisés
   const seoTools = [
     {
       category: "Analyse & Audit",

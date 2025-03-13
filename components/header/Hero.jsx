@@ -26,7 +26,7 @@ export default function Hero() {
               </h2>
               
               <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
-                Spécialisé dans la création de sites web et d'applications performantes, je transforme vos objectifs en solutions digitales qui se démarquent. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour votre succès.
+                Spécialisé dans la création de sites web et d'applications performantes, je transforme vos objectifs en sites ou applications web qui se démarquent. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour votre succès.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">

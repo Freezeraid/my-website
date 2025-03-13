@@ -4,6 +4,8 @@ import Link from 'next/link'
 import OptimizedImage from '../../components/ui/OptimizedImage'
 import Loading from '../../components/ui/Loading'
 import Breadcrumb from '../../components/ui/Breadcrumb'
+import SchemaOrg from '../../components/ui/SchemaOrg'
+import { generateServicePageSchemas, serviceData } from '../../lib/schema/service'
 
 const Contact = dynamic(() => import('../../components/sections/Contact'), {
   loading: () => <Loading />,
@@ -25,7 +27,11 @@ export const metadata = {
 }
 
 export default function SiteEcommercePage() {
-  // Services spécifiques aux sites e-commerce
+  const servicePageSchemas = generateServicePageSchemas(
+    serviceData['developpement-site-ecommerce'],
+    serviceData['developpement-site-ecommerce'].faqs
+  );
+  
   const ecommerceServices = [
     {
       icon: "🛒",
@@ -59,7 +65,6 @@ export default function SiteEcommercePage() {
     }
   ]
 
-  // Avantages de travailler avec un développeur web freelance
   const freelanceAdvantages = [
     {
       title: "Expertise E-commerce Spécialisée",
@@ -79,7 +84,6 @@ export default function SiteEcommercePage() {
     }
   ]
 
-  // Processus de travail
   const workProcess = [
     {
       number: "01",
@@ -110,6 +114,7 @@ export default function SiteEcommercePage() {
 
   return (
     <>
+      <SchemaOrg schemas={servicePageSchemas} />
       <main>
         {/* Hero Section */}
         <header className="relative min-h-[80vh] pt-28 flex items-center bg-gradient-to-b from-blue-50 to-white">
@@ -122,7 +127,7 @@ export default function SiteEcommercePage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Site E-commerce', href: '/developpement-site-ecommerce', current: true }
+                { label: 'Développement de Site E-commerce', href: '/developpement-site-ecommerce', current: true }
               ]} 
             />
             
