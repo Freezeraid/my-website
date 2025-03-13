@@ -3,9 +3,7 @@ module.exports = {
     generateRobotsTxt: true,
     exclude: [],
     robotsTxtOptions: {
-      additionalSitemaps: [
-        'https://killiandoubre.com/sitemap.xml',
-      ],
+      additionalSitemaps: [],
       policies: [
         {
           userAgent: '*',
