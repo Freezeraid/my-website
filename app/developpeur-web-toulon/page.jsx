@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Toulon | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans le Var.',
+  description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans le Var.',
   keywords: ['développeur web Toulon', 'création site web Toulon', 'freelance web Toulon', 'développeur Toulon', 'site internet Toulon', 'création site e-commerce Toulon', 'développeur application web Toulon', 'agence web Toulon', 'refonte site web Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-toulon',
   },
   openGraph: {
     title: 'Développeur Web à Toulon | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans le Var.',
+    description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans le Var.',
     url: 'https://killiandoubre.com/developpeur-web-toulon',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebToulonPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Local Toulonnais",
-      description: "Ma connaissance approfondie du marché digital à Toulon me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique toulonnais et les opportunités digitales qu'il offre."
+      description: "Ma connaissance approfondie du marché web à Toulon me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique toulonnais et les opportunités web qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
@@ -360,7 +360,7 @@ export default function DeveloppeurWebToulonPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Toulon
+                L'Importance du Web à Toulon
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Découvrez ces données significatives qui soulignent l'impact crucial d'une présence numérique professionnelle pour les entreprises implantées à Toulon.
@@ -470,7 +470,7 @@ export default function DeveloppeurWebToulonPage() {
                   Spécificités du Marché Toulonnais
                 </h3>
                 <p className="text-gray-600">
-                  Toulon possède un écosystème économique unique, entre activités maritimes, défense, tourisme et innovation. Je crée des solutions digitales qui tiennent compte de ces spécificités et vous permettent de vous adresser efficacement à votre clientèle cible.
+                  Toulon possède un écosystème économique unique, entre activités maritimes, défense, tourisme et innovation. Je crée des solutions web qui tiennent compte de ces spécificités et vous permettent de vous adresser efficacement à votre clientèle cible.
                 </p>
               </div>
 
@@ -480,7 +480,7 @@ export default function DeveloppeurWebToulonPage() {
                   Croissance Digitale à Toulon
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Toulon offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Le marché web à Toulon offre d'importantes opportunités de croissance pour les entreprises locales. 
                   Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région varoise.
                 </p>
               </div>

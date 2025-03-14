@@ -483,7 +483,7 @@ export default function ConsultantSEOPage() {
                   ROI & Coût-Efficacité
                 </h3>
                 <p className="text-gray-600">
-                  Le SEO offre l'un des meilleurs retours sur investissement en marketing digital. 
+                  Le SEO offre l'un des meilleurs retours sur investissement en marketing web. 
                   Contrairement au SEA (publicités), le trafic organique ne nécessite pas de paiement par clic.
                 </p>
               </div>

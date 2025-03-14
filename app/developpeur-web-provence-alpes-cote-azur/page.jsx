@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web en Provence-Alpes-Côte d\'Azur | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance en région PACA spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise dans le Sud-Est.',
+  description: 'Développeur web freelance en région PACA spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Sud-Est.',
   keywords: ['développeur web PACA', 'création site web Provence-Alpes-Côte d\'Azur', 'freelance web Sud-Est', 'développeur région PACA', 'site internet Côte d\'Azur', 'création site e-commerce Provence', 'développeur application web PACA', 'agence web Sud-Est', 'refonte site web Provence-Alpes-Côte d\'Azur'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-provence-alpes-cote-azur',
   },
   openGraph: {
     title: 'Développeur Web en Provence-Alpes-Côte d\'Azur | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance en région PACA spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise dans le Sud-Est.',
+    description: 'Développeur web freelance en région PACA spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Sud-Est.',
     url: 'https://killiandoubre.com/developpeur-web-provence-alpes-cote-azur',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Régional",
-      description: "Ma connaissance approfondie de l'écosystème digital en Provence-Alpes-Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et régionaux. Je comprends les spécificités du tissu économique du Sud-Est et les opportunités numériques qu'il offre."
+      description: "Ma connaissance approfondie de l'écosystème web en Provence-Alpes-Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et régionaux. Je comprends les spécificités du tissu économique du Sud-Est et les opportunités numériques qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
@@ -136,7 +136,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
     {
       icon: "🏢",
       title: "Services & Professions Libérales",
-      description: "Solutions digitales pour cabinets d'avocats, experts-comptables, consultants et prestataires de services en région PACA. Plateformes professionnelles renforçant votre crédibilité et facilitant la prise de contact avec votre clientèle régionale."
+      description: "Solutions web pour cabinets d'avocats, experts-comptables, consultants et prestataires de services en région PACA. Plateformes professionnelles renforçant votre crédibilité et facilitant la prise de contact avec votre clientèle régionale."
     },
     {
       icon: "🚀",
@@ -222,7 +222,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans toute la région <strong>Provence-Alpes-Côte d'Azur</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels du Sud-Est. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans toute la région <strong>Provence-Alpes-Côte d'Azur</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels du Sud-Est. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -335,7 +335,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
                 Solutions Adaptées aux Entreprises de la Région
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité en Provence-Alpes-Côte d'Azur, en tenant compte des spécificités régionales.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité en Provence-Alpes-Côte d'Azur, en tenant compte des spécificités régionales.
               </p>
             </div>
             
@@ -360,7 +360,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital en PACA
+                L'Importance du Web en PACA
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises de Provence-Alpes-Côte d'Azur.
@@ -386,7 +386,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Collaborer avec moi présente de nombreux avantages pour votre projet digital en Provence-Alpes-Côte d'Azur.
+                Collaborer avec moi présente de nombreux avantages pour votre projet web en Provence-Alpes-Côte d'Azur.
               </p>
             </div>
             
@@ -480,7 +480,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
                   Croissance Digitale Régionale
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital en Provence-Alpes-Côte d'Azur offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Le marché web en Provence-Alpes-Côte d'Azur offre d'importantes opportunités de croissance pour les entreprises locales. 
                   Un site web ou une application performante vous permet d'étendre votre visibilité dans toute la région et de développer votre activité dans ce territoire économiquement dynamique.
                 </p>
               </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité pour les entreprises de Provence-Alpes-Côte d'Azur.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité pour les entreprises de Provence-Alpes-Côte d'Azur.
               </p>
             </div>
             
@@ -563,7 +563,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
               Prêt à Développer Votre Projet Web en Provence-Alpes-Côte d'Azur ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
+              Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
               Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise en région PACA.
             </p>
             <Link

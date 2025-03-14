@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web dans le Var | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance dans le Var (83) spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise.',
+  description: 'Développeur web freelance dans le Var (83) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
   keywords: ['développeur web Var', 'création site web 83', 'freelance web Var', 'développeur 83', 'site internet Var', 'création site e-commerce 83', 'développeur application web Var', 'agence web 83', 'refonte site web Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-var',
   },
   openGraph: {
     title: 'Développeur Web dans le Var | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance dans le Var (83) spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise.',
+    description: 'Développeur web freelance dans le Var (83) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
     url: 'https://killiandoubre.com/developpeur-web-var',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebVarPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Varois",
-      description: "Ma connaissance approfondie de l'écosystème digital du Var me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique du 83 et les opportunités numériques qu'il offre, entre littoral méditerranéen et arrière-pays provençal."
+      description: "Ma connaissance approfondie de l'écosystème web du Var me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique du 83 et les opportunités numériques qu'il offre, entre littoral méditerranéen et arrière-pays provençal."
     },
     {
       title: "Accompagnement Personnalisé & Réactivité",
@@ -136,12 +136,12 @@ export default function DeveloppeurWebVarPage() {
     {
       icon: "🏠",
       title: "Immobilier & Construction",
-      description: "Plateformes digitales pour agences immobilières, promoteurs et professionnels du bâtiment dans le Var. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées adaptées au marché immobilier dynamique du département."
+      description: "Plateformes web pour agences immobilières, promoteurs et professionnels du bâtiment dans le Var. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées adaptées au marché immobilier dynamique du département."
     },
     {
       icon: "🛍️",
       title: "Commerce & Artisanat",
-      description: "Solutions digitales pour commerçants, artisans et créateurs du Var. Sites web et boutiques en ligne valorisant votre savoir-faire et vos produits, facilitant la vente directe et renforçant votre visibilité auprès de la clientèle locale et des visiteurs."
+      description: "Solutions web pour commerçants, artisans et créateurs du Var. Sites web et boutiques en ligne valorisant votre savoir-faire et vos produits, facilitant la vente directe et renforçant votre visibilité auprès de la clientèle locale et des visiteurs."
     }
   ]
 
@@ -222,7 +222,7 @@ export default function DeveloppeurWebVarPage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans tout le département du <strong>Var (83)</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels locaux. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans tout le département du <strong>Var (83)</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels locaux. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -335,7 +335,7 @@ export default function DeveloppeurWebVarPage() {
                 Solutions Adaptées aux Entreprises du 83
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité dans le Var, en tenant compte des spécificités locales.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité dans le Var, en tenant compte des spécificités locales.
               </p>
             </div>
             
@@ -360,7 +360,7 @@ export default function DeveloppeurWebVarPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital dans le Var
+                L'Importance du Web dans le Var
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises du Var.
@@ -386,7 +386,7 @@ export default function DeveloppeurWebVarPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Collaborer avec moi présente de nombreux avantages pour votre projet digital dans le Var.
+                Collaborer avec moi présente de nombreux avantages pour votre projet web dans le Var.
               </p>
             </div>
             
@@ -480,7 +480,7 @@ export default function DeveloppeurWebVarPage() {
                   Croissance Digitale dans le 83
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital dans le Var offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Le marché web dans le Var offre d'importantes opportunités de croissance pour les entreprises locales. 
                   Un site web ou une application performante vous permet d'étendre votre visibilité dans tout le département et de développer votre activité dans ce territoire à fort potentiel, entre littoral méditerranéen et arrière-pays provençal.
                 </p>
               </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebVarPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité pour les entreprises du Var.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité pour les entreprises du Var.
               </p>
             </div>
             
@@ -563,7 +563,7 @@ export default function DeveloppeurWebVarPage() {
               Prêt à Développer Votre Projet Web dans le Var ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
+              Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
               Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise dans le 83.
             </p>
             <Link

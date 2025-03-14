@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Fréjus | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Fréjus spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise dans le Var.',
+  description: 'Développeur web freelance pour Fréjus spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Var.',
   keywords: ['développeur web Fréjus', 'création site web Fréjus', 'freelance web Fréjus', 'développeur Fréjus', 'site internet Fréjus', 'création site e-commerce Fréjus', 'développeur application web Fréjus', 'agence web Fréjus', 'refonte site web Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-frejus',
   },
   openGraph: {
     title: 'Développeur Web à Fréjus | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Fréjus spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise dans le Var.',
+    description: 'Développeur web freelance pour Fréjus spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Var.',
     url: 'https://killiandoubre.com/developpeur-web-frejus',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebFrejusPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Local de Fréjus",
-      description: "Ma connaissance approfondie de l'écosystème digital de Fréjus me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et touristiques. Je comprends les spécificités du tissu économique varois et les opportunités numériques qu'il offre."
+      description: "Ma connaissance approfondie de l'écosystème web de Fréjus me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et touristiques. Je comprends les spécificités du tissu économique varois et les opportunités numériques qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Réactivité",
@@ -136,7 +136,7 @@ export default function DeveloppeurWebFrejusPage() {
     {
       icon: "🏠",
       title: "Immobilier & Construction",
-      description: "Plateformes digitales pour agences immobilières, promoteurs et professionnels du bâtiment à Fréjus. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées adaptées au marché immobilier dynamique du Var."
+      description: "Plateformes web pour agences immobilières, promoteurs et professionnels du bâtiment à Fréjus. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées adaptées au marché immobilier dynamique du Var."
     },
     {
       icon: "🚤",
@@ -222,7 +222,7 @@ export default function DeveloppeurWebFrejusPage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je développe des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels du Var. Mon approche combine expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong>, je développe des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels du Var. Mon approche combine expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -335,7 +335,7 @@ export default function DeveloppeurWebFrejusPage() {
                 Solutions Adaptées aux Entreprises de Fréjus
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité à Fréjus et dans le Var, en tenant compte des spécificités locales.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Fréjus et dans le Var, en tenant compte des spécificités locales.
               </p>
             </div>
             
@@ -360,7 +360,7 @@ export default function DeveloppeurWebFrejusPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Fréjus
+                L'Importance du Web à Fréjus
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises de Fréjus, particulièrement dans un contexte touristique.
@@ -386,7 +386,7 @@ export default function DeveloppeurWebFrejusPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Collaborer avec moi présente de nombreux avantages pour votre projet digital à Fréjus et dans le Var.
+                Collaborer avec moi présente de nombreux avantages pour votre projet web à Fréjus et dans le Var.
               </p>
             </div>
             
@@ -480,7 +480,7 @@ export default function DeveloppeurWebFrejusPage() {
                   Croissance Digitale à Fréjus
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Fréjus offre d'importantes opportunités de croissance pour les entreprises locales, particulièrement dans les secteurs du tourisme, des loisirs et des services. 
+                  Le marché web à Fréjus offre d'importantes opportunités de croissance pour les entreprises locales, particulièrement dans les secteurs du tourisme, des loisirs et des services. 
                   Un site web ou une application performante vous permet d'attirer une clientèle diversifiée et de développer votre activité dans cette région attractive du Var.
                 </p>
               </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebFrejusPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité pour Fréjus et le Var.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité pour Fréjus et le Var.
               </p>
             </div>
             
@@ -563,7 +563,7 @@ export default function DeveloppeurWebFrejusPage() {
               Prêt à Développer Votre Projet Web à Fréjus ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
+              Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
               Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise à Fréjus et dans le Var.
             </p>
             <Link

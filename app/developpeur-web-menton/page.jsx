@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans les Alpes-Maritimes.',
+  description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans les Alpes-Maritimes.',
   keywords: ['développeur web Menton', 'création site web Menton', 'freelance web Menton', 'développeur Menton', 'site internet Menton', 'création site e-commerce Menton', 'développeur application web Menton', 'agence web Menton', 'refonte site web Alpes-Maritimes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-menton',
   },
   openGraph: {
     title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans les Alpes-Maritimes.',
+    description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans les Alpes-Maritimes.',
     url: 'https://killiandoubre.com/developpeur-web-menton',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebMentonPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Local Mentonnais",
-      description: "Ma connaissance approfondie du marché digital à Menton me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique mentonnais, son caractère transfrontalier et les opportunités digitales qu'il offre."
+      description: "Ma connaissance approfondie du marché web à Menton me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique mentonnais, son caractère transfrontalier et les opportunités web qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
@@ -136,12 +136,12 @@ export default function DeveloppeurWebMentonPage() {
     {
       icon: "🏢",
       title: "Commerces & Services de Proximité",
-      description: "Sites vitrines et solutions digitales pour commerces et prestataires de services mentonnais. Plateformes web permettant de renforcer votre présence locale et d'attirer une clientèle fidèle dans cette ville à taille humaine où la proximité est essentielle."
+      description: "Sites vitrines et solutions web pour commerces et prestataires de services mentonnais. Plateformes web permettant de renforcer votre présence locale et d'attirer une clientèle fidèle dans cette ville à taille humaine où la proximité est essentielle."
     },
     {
       icon: "🌍",
       title: "Services Transfrontaliers",
-      description: "Applications web et sites multilingues pour entreprises travaillant avec l'Italie toute proche. Solutions digitales adaptées au contexte transfrontalier unique de Menton, permettant de toucher efficacement les marchés français et italien."
+      description: "Applications web et sites multilingues pour entreprises travaillant avec l'Italie toute proche. Solutions web adaptées au contexte transfrontalier unique de Menton, permettant de toucher efficacement les marchés français et italien."
     }
   ]
 
@@ -360,7 +360,7 @@ export default function DeveloppeurWebMentonPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Menton
+                L'Importance du Web à Menton
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Voici quelques indicateurs clés qui mettent en lumière la valeur d'une présence en ligne professionnelle pour les entreprises établies à Menton.
@@ -470,7 +470,7 @@ export default function DeveloppeurWebMentonPage() {
                   L'Authenticité Mentonnaise
                 </h3>
                 <p className="text-gray-600">
-                  Menton possède une identité unique, entre traditions méditerranéennes et influences italiennes. Je crée des solutions digitales qui reflètent cette authenticité et vous permettent de valoriser votre ancrage local, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
+                  Menton possède une identité unique, entre traditions méditerranéennes et influences italiennes. Je crée des solutions web qui reflètent cette authenticité et vous permettent de valoriser votre ancrage local, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
                 </p>
               </div>
 
@@ -480,7 +480,7 @@ export default function DeveloppeurWebMentonPage() {
                   Croissance Digitale à Menton
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Menton offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Le marché web à Menton offre d'importantes opportunités de croissance pour les entreprises locales. 
                   Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région, y compris vers le marché italien voisin.
                 </p>
               </div>

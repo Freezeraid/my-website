@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web dans les Alpes-Maritimes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance dans les Alpes-Maritimes (06) spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise.',
+  description: 'Développeur web freelance dans les Alpes-Maritimes (06) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
   keywords: ['développeur web Alpes-Maritimes', 'création site web 06', 'freelance web Alpes-Maritimes', 'développeur 06', 'site internet Alpes-Maritimes', 'création site e-commerce 06', 'développeur application web Alpes-Maritimes', 'agence web 06', 'refonte site web Alpes-Maritimes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-alpes-maritimes',
   },
   openGraph: {
     title: 'Développeur Web dans les Alpes-Maritimes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance dans les Alpes-Maritimes (06) spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes et accompagnement personnalisé pour votre entreprise.',
+    description: 'Développeur web freelance dans les Alpes-Maritimes (06) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
     url: 'https://killiandoubre.com/developpeur-web-alpes-maritimes',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché des Alpes-Maritimes",
-      description: "Ma connaissance approfondie de l'écosystème digital des Alpes-Maritimes me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique du 06 et les opportunités numériques qu'il offre, de la technopole de Sophia Antipolis au tourisme de la Côte d'Azur."
+      description: "Ma connaissance approfondie de l'écosystème web des Alpes-Maritimes me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique du 06 et les opportunités numériques qu'il offre, de la technopole de Sophia Antipolis au tourisme de la Côte d'Azur."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
@@ -131,7 +131,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
     {
       icon: "💻",
       title: "Tech & Innovation",
-      description: "Plateformes web pour startups, entreprises technologiques et acteurs de l'innovation à Sophia Antipolis et dans tout le 06. Solutions digitales avancées pour concrétiser vos concepts et accélérer votre croissance dans cet écosystème tech dynamique."
+      description: "Plateformes web pour startups, entreprises technologiques et acteurs de l'innovation à Sophia Antipolis et dans tout le 06. Solutions web avancées pour concrétiser vos concepts et accélérer votre croissance dans cet écosystème tech dynamique."
     },
     {
       icon: "🏠",
@@ -141,7 +141,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
     {
       icon: "🏢",
       title: "Services & Professions Libérales",
-      description: "Solutions digitales pour cabinets d'avocats, experts-comptables, consultants et prestataires de services dans le 06. Plateformes professionnelles renforçant votre crédibilité et facilitant la prise de contact avec votre clientèle locale."
+      description: "Solutions web pour cabinets d'avocats, experts-comptables, consultants et prestataires de services dans le 06. Plateformes professionnelles renforçant votre crédibilité et facilitant la prise de contact avec votre clientèle locale."
     }
   ]
 
@@ -222,7 +222,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans tout le département des <strong>Alpes-Maritimes (06)</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels locaux. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans tout le département des <strong>Alpes-Maritimes (06)</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels locaux. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -335,7 +335,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
                 Solutions Adaptées aux Entreprises du 06
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité dans les Alpes-Maritimes, en tenant compte des spécificités locales.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité dans les Alpes-Maritimes, en tenant compte des spécificités locales.
               </p>
             </div>
             
@@ -360,7 +360,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital dans les Alpes-Maritimes
+                L'Importance du Web dans les Alpes-Maritimes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises des Alpes-Maritimes.
@@ -386,7 +386,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Collaborer avec moi présente de nombreux avantages pour votre projet digital dans les Alpes-Maritimes.
+                Collaborer avec moi présente de nombreux avantages pour votre projet web dans les Alpes-Maritimes.
               </p>
             </div>
             
@@ -480,7 +480,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
                   Croissance Digitale dans le 06
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital dans les Alpes-Maritimes offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Le marché web dans les Alpes-Maritimes offre d'importantes opportunités de croissance pour les entreprises locales. 
                   Un site web ou une application performante vous permet d'étendre votre visibilité dans tout le département et de développer votre activité dans ce territoire économiquement dynamique, entre mer et montagne.
                 </p>
               </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité pour les entreprises des Alpes-Maritimes.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité pour les entreprises des Alpes-Maritimes.
               </p>
             </div>
             
@@ -563,7 +563,7 @@ export default function DeveloppeurWebAlpesMaritimesPage() {
               Prêt à Développer Votre Projet Web dans les Alpes-Maritimes ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
+              Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
               Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise dans le 06.
             </p>
             <Link

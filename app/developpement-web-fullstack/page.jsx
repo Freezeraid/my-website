@@ -157,7 +157,7 @@ export default function DeveloppementWebFullStackPage() {
     {
       icon: "🔄",
       title: "Intégrations & API",
-      description: "Création d'APIs et intégration avec des systèmes tiers. Connectez vos différents outils et plateformes pour un écosystème digital cohérent et efficace."
+      description: "Création d'APIs et intégration avec des systèmes tiers. Connectez vos différents outils et plateformes pour un écosystème web cohérent et efficace."
     },
     {
       icon: "📊",

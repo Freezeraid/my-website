@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Cannes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
+  description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web sur la Côte d\'Azur.',
   keywords: ['développeur web Cannes', 'création site web Cannes', 'freelance web Cannes', 'développeur Cannes', 'site internet Cannes', 'création site e-commerce Cannes', 'développeur application web Cannes', 'agence web Cannes', 'refonte site web Alpes-Maritimes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-cannes',
   },
   openGraph: {
     title: 'Développeur Web à Cannes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
+    description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web sur la Côte d\'Azur.',
     url: 'https://killiandoubre.com/developpeur-web-cannes',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebCannesPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Local Cannois",
-      description: "Ma connaissance approfondie du marché digital à Cannes me permet de créer des solutions parfaitement adaptées aux attentes d'une clientèle exigeante et internationale. Je comprends les spécificités du tissu économique cannois et les opportunités digitales qu'il offre."
+      description: "Ma connaissance approfondie du marché web à Cannes me permet de créer des solutions parfaitement adaptées aux attentes d'une clientèle exigeante et internationale. Je comprends les spécificités du tissu économique cannois et les opportunités web qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
@@ -141,7 +141,7 @@ export default function DeveloppeurWebCannesPage() {
     {
       icon: "💎",
       title: "Luxe & Commerce Premium",
-      description: "Sites e-commerce et vitrines digitales pour boutiques de luxe, joailliers, galeries d'art et services exclusifs. Solutions digitales raffinées qui reflètent l'élégance et le prestige de votre marque dans l'écosystème cannois."
+      description: "Sites e-commerce et vitrines web pour boutiques de luxe, joailliers, galeries d'art et services exclusifs. Solutions web raffinées qui reflètent l'élégance et le prestige de votre marque dans l'écosystème cannois."
     }
   ]
 
@@ -360,7 +360,7 @@ export default function DeveloppeurWebCannesPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Cannes
+                L'Importance du Web à Cannes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Voici quelques statistiques révélatrices qui illustrent la nécessité d'une présence en ligne professionnelle pour les entreprises établies à Cannes.
@@ -470,7 +470,7 @@ export default function DeveloppeurWebCannesPage() {
                   L'Excellence Cannoise
                 </h3>
                 <p className="text-gray-600">
-                  Cannes est synonyme de prestige et d'excellence. Je crée des solutions digitales qui reflètent ces valeurs et vous permettent de vous démarquer dans un environnement compétitif, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
+                  Cannes est synonyme de prestige et d'excellence. Je crée des solutions web qui reflètent ces valeurs et vous permettent de vous démarquer dans un environnement compétitif, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
                 </p>
               </div>
 
@@ -480,7 +480,7 @@ export default function DeveloppeurWebCannesPage() {
                   Croissance Digitale à Cannes
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Cannes offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Le marché web à Cannes offre d'importantes opportunités de croissance pour les entreprises locales. 
                   Un site web ou une application performante vous permet de toucher une clientèle exigeante et d'étendre votre activité sur toute la Côte d'Azur et au-delà.
                 </p>
               </div>
