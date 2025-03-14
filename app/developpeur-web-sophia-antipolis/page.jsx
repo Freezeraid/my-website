@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web Sophia Antipolis | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Sophia Antipolis spécialisé en création de sites web, applications SaaS et solutions digitales innovantes. Expertise technique adaptée aux startups et entreprises tech de la technopole.',
+  description: 'Développeur web freelance à Sophia Antipolis spécialisé en création de sites web, applications SaaS et solutions Web innovantes. Expertise technique adaptée aux startups et entreprises tech de la technopole.',
   keywords: ['développeur web Sophia Antipolis', 'création site web Sophia Antipolis', 'freelance web Sophia Antipolis', 'développeur technopole', 'site internet Sophia Antipolis', 'création application web Sophia Antipolis', 'développeur SaaS Sophia Antipolis', 'agence web Sophia Antipolis', 'refonte site web Sophia Antipolis'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-sophia-antipolis',
   },
   openGraph: {
     title: 'Développeur Web Sophia Antipolis | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Sophia Antipolis spécialisé en création de sites web, applications SaaS et solutions digitales innovantes. Expertise technique adaptée aux startups et entreprises tech de la technopole.',
+    description: 'Développeur web freelance à Sophia Antipolis spécialisé en création de sites web, applications SaaS et solutions Web innovantes. Expertise technique adaptée aux startups et entreprises tech de la technopole.',
     url: 'https://killiandoubre.com/developpeur-web-sophia-antipolis',
   }
 }
@@ -42,7 +42,7 @@ const serviceData = {
   faqs: [
     {
       question: 'Quels types de projets web développez-vous à Sophia Antipolis ?',
-      answer: 'Je développe tous types de projets web pour les entreprises et startups de Sophia Antipolis : sites vitrines, applications SaaS, plateformes collaboratives, dashboards, API, intranets et solutions digitales sur-mesure adaptés aux besoins spécifiques de chaque secteur d\'activité de la technopole, avec une attention particulière aux entreprises tech, R&D, biotech et services innovants.'
+      answer: 'Je développe tous types de projets web pour les entreprises et startups de Sophia Antipolis : sites vitrines, applications SaaS, plateformes collaboratives, dashboards, API, intranets et solutions Web sur-mesure adaptés aux besoins spécifiques de chaque secteur d\'activité de la technopole, avec une attention particulière aux entreprises tech, R&D, biotech et services innovants.'
     },
     {
       question: 'Combien coûte le développement d\'une application web à Sophia Antipolis ?',
@@ -71,7 +71,7 @@ export default function DeveloppeurWebSophiaAntipolisPage() {
     {
       icon: "⚙️",
       title: "Applications SaaS & Plateformes",
-      description: "Développement d'applications SaaS et plateformes web innovantes pour les entreprises de Sophia Antipolis. Des solutions digitales robustes et évolutives qui répondent aux exigences techniques élevées des acteurs de la technopole et facilitent la transformation numérique de votre organisation.",
+      description: "Développement d'applications SaaS et plateformes web innovantes pour les entreprises de Sophia Antipolis. Des solutions Web robustes et évolutives qui répondent aux exigences techniques élevées des acteurs de la technopole et facilitent la transformation numérique de votre organisation.",
       features: [
         "Architecture scalable et sécurisée",
         "Interfaces utilisateurs intuitives et réactives",
@@ -110,7 +110,7 @@ export default function DeveloppeurWebSophiaAntipolisPage() {
     },
     {
       title: "Accompagnement Technique & Stratégique",
-      description: "En tant que développeur web freelance basé à Nice, je propose mes services aux entreprises de Sophia Antipolis avec une approche qui va au-delà du simple développement. Je vous accompagne dans la définition de votre stratégie technique, le choix des technologies et l'évolution de votre architecture pour garantir la pérennité de vos solutions digitales."
+      description: "En tant que développeur web freelance basé à Nice, je propose mes services aux entreprises de Sophia Antipolis avec une approche qui va au-delà du simple développement. Je vous accompagne dans la définition de votre stratégie technique, le choix des technologies et l'évolution de votre architecture pour garantir la pérennité de vos solutions Web."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises Tech",
@@ -141,7 +141,7 @@ export default function DeveloppeurWebSophiaAntipolisPage() {
     {
       icon: "💊",
       title: "Biotech & Santé",
-      description: "Solutions digitales pour entreprises de biotechnologie et santé de Sophia Antipolis. Sites web et applications respectant les normes strictes du secteur, facilitant la communication scientifique et la présentation de vos innovations médicales tout en garantissant la conformité réglementaire."
+      description: "Solutions Web pour entreprises de biotechnologie et santé de Sophia Antipolis. Sites web et applications respectant les normes strictes du secteur, facilitant la communication scientifique et la présentation de vos innovations médicales tout en garantissant la conformité réglementaire."
     }
   ]
 
@@ -222,7 +222,7 @@ export default function DeveloppeurWebSophiaAntipolisPage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services aux entreprises et startups de <strong>Sophia Antipolis</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux exigences techniques élevées de la technopole. Mon approche combine expertise technique, compréhension de l'écosystème d'innovation et accompagnement personnalisé pour la réussite de votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services aux entreprises et startups de <strong>Sophia Antipolis</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux exigences techniques élevées de la technopole. Mon approche combine expertise technique, compréhension de l'écosystème d'innovation et accompagnement personnalisé pour la réussite de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
