@@ -181,7 +181,7 @@ export default function SitePortfolioPage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Ma photo de profil"
+                        alt="Photo de profil Killian DOUBRE"
                         width={256}
                         height={256}
                         priority

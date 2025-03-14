@@ -49,7 +49,7 @@ export default function Hero() {
               <div className="rounded-full overflow-hidden w-40 h-40 sm:w-48 sm:h-48 lg:w-64 lg:h-64">
                 <OptimizedImage
                   src="/photo_close.jpg"
-                  alt="Ma photo de profil"
+                  alt="Photo de profil Killian DOUBRE"
                   width={256}
                   height={256}
                   priority
