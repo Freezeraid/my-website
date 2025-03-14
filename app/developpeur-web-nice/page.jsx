@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
+  description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web.',
   keywords: ['développeur web Nice', 'création site web Nice', 'freelance web Nice', 'développeur Nice', 'site internet Nice', 'création site e-commerce Nice', 'développeur application web Nice', 'agence web Nice', 'refonte site web Nice'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-nice',
   },
   openGraph: {
     title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
+    description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web.',
     url: 'https://killiandoubre.com/developpeur-web-nice',
   }
 }
@@ -106,7 +106,7 @@ export default function DeveloppeurWebNicePage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Local Niçois",
-      description: "Ma connaissance approfondie du marché digital à Nice et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique niçois et les opportunités digitales qu'il offre."
+      description: "Ma connaissance approfondie du marché web à Nice et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique niçois et les opportunités web qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
@@ -222,7 +222,7 @@ export default function DeveloppeurWebNicePage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels de la Côte d'Azur. Expertise locale, solutions personnalisées et accompagnement de proximité pour votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels de la Côte d'Azur. Expertise locale, solutions personnalisées et accompagnement de proximité pour votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -335,7 +335,7 @@ export default function DeveloppeurWebNicePage() {
                 Solutions Adaptées aux Entreprises Niçoises
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité à Nice et sur la Côte d'Azur.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Nice et sur la Côte d'Azur.
               </p>
             </div>
             
@@ -360,7 +360,7 @@ export default function DeveloppeurWebNicePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Nice
+                L'Importance du Web à Nice
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises niçoises.
@@ -386,7 +386,7 @@ export default function DeveloppeurWebNicePage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet digital à Nice.
+                Travailler avec moi offre de nombreux avantages pour votre projet web à Nice.
               </p>
             </div>
             
@@ -480,7 +480,7 @@ export default function DeveloppeurWebNicePage() {
                   Croissance Digitale à Nice
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Nice offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Le marché web à Nice offre d'importantes opportunités de croissance pour les entreprises locales. 
                   Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité sur la Côte d'Azur.
                 </p>
               </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebNicePage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité.
               </p>
             </div>
             
@@ -563,7 +563,7 @@ export default function DeveloppeurWebNicePage() {
               Prêt à Développer Votre Projet Web à Nice ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
+              Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
               Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise.
             </p>
             <Link

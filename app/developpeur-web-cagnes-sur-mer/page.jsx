@@ -13,24 +13,24 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans les Alpes-Maritimes.',
-  keywords: ['développeur web Menton', 'création site web Menton', 'freelance web Menton', 'développeur Menton', 'site internet Menton', 'création site e-commerce Menton', 'développeur application web Menton', 'agence web Menton', 'refonte site web Alpes-Maritimes'],
+  title: 'Développeur Web à Cagnes-sur-Mer | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance pour Cagnes-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées et accompagnement de proximité pour votre entreprise locale.',
+  keywords: ['développeur web Cagnes-sur-Mer', 'création site web Cagnes-sur-Mer', 'freelance web Cagnes-sur-Mer', 'développeur Cagnes-sur-Mer', 'site internet Cagnes-sur-Mer', 'création site e-commerce Cagnes-sur-Mer', 'développeur application web Cagnes-sur-Mer', 'agence web Cagnes-sur-Mer', 'refonte site web Cagnes-sur-Mer'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-menton',
+    canonical: 'https://killiandoubre.com/developpeur-web-cagnes-sur-mer',
   },
   openGraph: {
-    title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans les Alpes-Maritimes.',
-    url: 'https://killiandoubre.com/developpeur-web-menton',
+    title: 'Développeur Web à Cagnes-sur-Mer | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance pour Cagnes-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées et accompagnement de proximité pour votre entreprise locale.',
+    url: 'https://killiandoubre.com/developpeur-web-cagnes-sur-mer',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance à Menton',
-  description: 'Services de développement web sur-mesure à Menton : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels des Alpes-Maritimes.',
-  slug: 'developpeur-web-menton',
+  name: 'Développeur Web Freelance à Cagnes-sur-Mer',
+  description: 'Services de développement web sur-mesure pour Cagnes-sur-Mer : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels locaux.',
+  slug: 'developpeur-web-cagnes-sur-mer',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
@@ -41,107 +41,107 @@ const serviceData = {
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous à Menton ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels mentonnais : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité local.'
+      question: 'Quels types de sites web développez-vous pour Cagnes-sur-Mer ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels de Cagnes-sur-Mer : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité local.'
     },
     {
-      question: 'Combien coûte la création d\'un site web à Menton ?',
-      answer: 'Le coût d\'un site web à Menton varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse approfondie de votre projet et de vos objectifs commerciaux.'
+      question: 'Combien coûte la création d\'un site web à Cagnes-sur-Mer ?',
+      answer: 'Le coût d\'un site web à Cagnes-sur-Mer varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse approfondie de votre projet et de vos objectifs commerciaux.'
     },
     {
-      question: 'Proposez-vous des services de référencement local pour Menton ?',
-      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché mentonnais, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Menton et sa région, y compris le marché transfrontalier avec l\'Italie.'
+      question: 'Proposez-vous des services de référencement local pour Cagnes-sur-Mer ?',
+      answer: 'Absolument, je propose des services d\'optimisation SEO spécifiquement adaptés au marché de Cagnes-sur-Mer, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Cagnes-sur-Mer et ses environs pour maximiser votre visibilité auprès de la clientèle locale.'
     }
   ]
 }
 
-export default function DeveloppeurWebMentonPage() {
+export default function DeveloppeurWebCagnesSurMerPage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels mentonnais. Des sites vitrines authentiques, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "Conception et réalisation de sites web sur-mesure pour les entreprises et professionnels de Cagnes-sur-Mer. Des sites vitrines attractifs, responsive et optimisés pour transformer vos visiteurs en clients fidèles.",
       features: [
-        "Design adapté à l'identité méditerranéenne de Menton",
-        "Parfaitement responsive sur tous les appareils",
-        "Optimisé pour le référencement local à Menton",
-        "Intégration de fonctionnalités personnalisées"
+        "Design contemporain adapté à l'identité de Cagnes-sur-Mer",
+        "Compatibilité parfaite avec tous les appareils",
+        "Optimisation pour le référencement local à Cagnes-sur-Mer",
+        "Intégration de fonctionnalités spécifiques à votre activité"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Création de sites e-commerce performants pour les commerçants et entrepreneurs mentonnais. Des boutiques en ligne conviviales et intuitives qui valorisent vos produits et services locaux.",
+      description: "Développement de plateformes e-commerce efficaces pour les commerçants et entrepreneurs de Cagnes-sur-Mer. Des boutiques en ligne conviviales et sécurisées qui mettent en valeur vos produits et services locaux.",
       features: [
         "Interface utilisateur intuitive et attrayante",
-        "Gestion simplifiée des produits et des stocks",
-        "Solutions de paiement sécurisées et multiples options de livraison",
-        "Stratégies d'optimisation des taux de conversion"
+        "Gestion simplifiée des produits et inventaires",
+        "Solutions de paiement sécurisées et options de livraison adaptées",
+        "Techniques d'optimisation des conversions"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Menton et dans la région transfrontalière.",
+      description: "Création d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier à Cagnes-sur-Mer et dans les Alpes-Maritimes.",
       features: [
-        "Développement full-stack avec technologies modernes",
-        "Interfaces utilisateurs fluides et performantes",
-        "Architecture sécurisée et évolutive",
-        "Intégration avec vos systèmes existants"
+        "Développement full-stack avec technologies de pointe",
+        "Interfaces utilisateurs fluides et réactives",
+        "Architecture robuste et évolutive",
+        "Intégration avec vos outils et systèmes existants"
       ]
     },
     {
       icon: "🔍",
       title: "SEO & Visibilité Locale",
-      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Menton et dans les Alpes-Maritimes. Attirez plus de clients locaux et transfrontaliers grâce à une stratégie SEO ciblée.",
+      description: "Optimisation du référencement naturel pour renforcer votre présence sur Google à Cagnes-sur-Mer. Attirez davantage de clients locaux grâce à une stratégie SEO ciblée et efficace.",
       features: [
-        "Stratégie SEO locale ciblée sur Menton",
-        "Optimisation Google My Business",
-        "Création de contenu multilingue (français/italien)",
-        "Suivi et amélioration continue des performances"
+        "Stratégie SEO locale centrée sur Cagnes-sur-Mer",
+        "Optimisation complète de votre profil Google My Business",
+        "Création de contenu pertinent pour votre marché local",
+        "Analyse et amélioration continue des performances"
       ]
     }
   ]
 
   const localAdvantages = [
     {
-      title: "Expertise du Marché Local Mentonnais",
-      description: "Ma connaissance approfondie du marché web à Menton me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique mentonnais, son caractère transfrontalier et les opportunités web qu'il offre."
+      title: "Connaissance du Marché Local de Cagnes-sur-Mer",
+      description: "Ma compréhension approfondie de l'écosystème web de Cagnes-sur-Mer me permet de concevoir des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je saisis les particularités du tissu économique de la ville et les opportunités numériques qu'elle présente."
     },
     {
-      title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec votre vision et votre marché local."
+      title: "Suivi Personnalisé & Proximité",
+      description: "En tant que développeur web freelance basé à Nice, je vous offre un accompagnement de proximité pour Cagnes-sur-Mer, facilitant les échanges et la compréhension de vos besoins. Cette relation directe assure une communication fluide et une solution digitale parfaitement alignée avec vos objectifs."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises",
-      description: "Chaque projet est unique, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent aux besoins spécifiques de votre entreprise. Pas de templates génériques, mais des créations originales qui vous démarquent de la concurrence locale et valorisent l'authenticité mentonnaise."
+      title: "Solutions Sur-Mesure pour Entreprises Locales",
+      description: "Chaque projet étant unique, je développe des solutions entièrement personnalisées qui répondent précisément aux exigences spécifiques de votre entreprise à Cagnes-sur-Mer. J'évite les templates génériques pour créer des plateformes originales qui vous distinguent de la concurrence locale."
     },
     {
       title: "Support Technique & Maintenance Réactive",
-      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence digitale toujours fonctionnelle et à jour, essentielle pour maintenir la confiance de vos clients locaux et internationaux."
+      description: "Je vous propose un support technique efficace et une maintenance continue de votre site ou application. Mon intervention rapide depuis Nice garantit une présence digitale toujours opérationnelle, essentielle pour maintenir la confiance de vos clients à Cagnes-sur-Mer."
     }
   ]
 
-  const mentonBusinessSectors = [
+  const cagnesBusinessSectors = [
     {
-      icon: "🍋",
-      title: "Artisanat & Produits Locaux",
-      description: "Sites web et e-commerce pour artisans, producteurs et commerçants de produits locaux à Menton. Solutions optimisées pour valoriser votre savoir-faire, vos produits authentiques et attirer une clientèle sensible aux spécialités mentonnaises."
-    },
-    {
-      icon: "🏨",
-      title: "Tourisme & Hôtellerie",
-      description: "Présence web attractive pour hôtels, restaurants, locations saisonnières et services touristiques à Menton. Sites et applications adaptés pour mettre en valeur votre établissement dans cette destination prisée de la Côte d'Azur, entre mer et montagne."
+      icon: "🏖️",
+      title: "Tourisme & Loisirs",
+      description: "Sites web et applications pour hôtels, restaurants, locations saisonnières et activités de loisirs à Cagnes-sur-Mer. Solutions optimisées pour valoriser votre établissement et attirer les visiteurs tout au long de l'année dans cette destination prisée de la Côte d'Azur."
     },
     {
       icon: "🏢",
-      title: "Commerces & Services de Proximité",
-      description: "Sites vitrines et solutions web pour commerces et prestataires de services mentonnais. Plateformes web permettant de renforcer votre présence locale et d'attirer une clientèle fidèle dans cette ville à taille humaine où la proximité est essentielle."
+      title: "Commerce & Services de Proximité",
+      description: "Présence web efficace pour commerces, artisans et prestataires de services à Cagnes-sur-Mer. Sites vitrines et e-commerce adaptés aux besoins des entreprises locales pour développer votre clientèle et renforcer votre ancrage territorial."
     },
     {
-      icon: "🌍",
-      title: "Services Transfrontaliers",
-      description: "Applications web et sites multilingues pour entreprises travaillant avec l'Italie toute proche. Solutions web adaptées au contexte transfrontalier unique de Menton, permettant de toucher efficacement les marchés français et italien."
+      icon: "🏠",
+      title: "Immobilier & Construction",
+      description: "Plateformes web pour agences immobilières, promoteurs et professionnels du bâtiment à Cagnes-sur-Mer. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées de recherche et de visualisation adaptées au marché local."
+    },
+    {
+      icon: "🌱",
+      title: "Santé & Bien-être",
+      description: "Sites web pour professionnels de santé, thérapeutes et centres de bien-être à Cagnes-sur-Mer. Plateformes intuitives facilitant la prise de rendez-vous et la présentation de vos services pour une clientèle locale en quête de qualité de vie."
     }
   ]
 
@@ -149,46 +149,46 @@ export default function DeveloppeurWebMentonPage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local mentonnais."
+      description: "Je débute par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques à Cagnes-sur-Mer. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte local."
     },
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'identité authentique de Menton."
+      description: "J'élabore une stratégie digitale personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle à Cagnes-sur-Mer."
     },
     {
       number: "03",
       title: "Développement & Intégration",
-      description: "Je code votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement développée et testée pour garantir performance et fiabilité."
+      description: "Je programme votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est méticuleusement développée et testée pour garantir une expérience utilisateur optimale."
     },
     {
       number: "04",
       title: "Optimisation & Tests",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs mentonnais et des visiteurs de la région."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs de Cagnes-sur-Mer et des environs."
     },
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à vos besoins futurs."
+      description: "Après le lancement, je reste disponible pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à l'évolution de vos besoins et du marché local."
     }
   ]
 
-  const mentonDigitalStats = [
+  const cagnesDigitalStats = [
     {
-      figure: "84%",
-      description: "des consommateurs à Menton recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "85%",
+      description: "des habitants de Cagnes-sur-Mer recherchent des entreprises locales en ligne avant de faire un achat"
     },
     {
       figure: "71%",
-      description: "des recherches locales sur mobile à Menton aboutissent à une visite en magasin dans les 24 heures"
+      description: "des recherches locales sur mobile à Cagnes-sur-Mer aboutissent à une visite en magasin dans les 24 heures"
     },
     {
       figure: "65%",
-      description: "des entreprises mentonnaises considèrent que leur site web est essentiel pour leur développement commercial"
+      description: "des entreprises de Cagnes-sur-Mer considèrent que leur site web est crucial pour leur développement commercial"
     },
     {
-      figure: "91%",
-      description: "des utilisateurs à Menton forment leur première impression d'une entreprise à partir de son site web"
+      figure: "93%",
+      description: "des utilisateurs à Cagnes-sur-Mer forment leur première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebMentonPage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance à Menton', href: '/developpeur-web-menton', current: true }
+                { label: 'Développeur Web Freelance à Cagnes-sur-Mer', href: '/developpeur-web-cagnes-sur-mer', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Menton</span>
+                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Cagnes-sur-Mer</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications personnalisées pour répondre aux besoins des entreprises et professionnels des Alpes-Maritimes. Mon approche allie connaissance du contexte transfrontalier, réalisations adaptées et suivi rapproché tout au long de votre aventure numérique.
+                  Développeur web freelance basé à <strong>Nice</strong> je conçois des sites internet et applications sur-mesure répondant aux besoins des entreprises et professionnels locaux. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé tout au long de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebMentonPage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance à Menton"
+                        alt="Killian DOUBRE - Développeur Web Freelance à Cagnes-sur-Mer"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebMentonPage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Menton & Région</p>
+                          <p className="text-sm text-gray-600">Cagnes & Région</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebMentonPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web à Menton
+                Services de Développement Web à Cagnes-sur-Mer
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je vous offre un ensemble complet de services de création web destinés aux acteurs économiques mentonnais.
-                Chaque projet est façonné avec attention pour s'aligner parfaitement avec vos objectifs particuliers et renforcer votre visibilité sur le marché local et transfrontalier.
+                Je propose une gamme complète de services de développement web pour les entreprises et professionnels de Cagnes-sur-Mer.
+                Chaque solution est élaborée sur-mesure pour répondre à vos besoins spécifiques et renforcer votre présence sur le marché local.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebMentonPage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Menton Section */}
+        {/* Secteurs d'activité à Cagnes-sur-Mer Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Mentonnaises
+                Solutions Adaptées aux Entreprises de Cagnes-sur-Mer
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je conçois des outils numériques adaptés aux besoins spécifiques des différents domaines d'activité présents à Menton et dans sa zone frontalière avec l'Italie.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Cagnes-sur-Mer et dans les Alpes-Maritimes.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {mentonBusinessSectors.map((sector, index) => (
+              {cagnesBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebMentonPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à Menton
+                L'Importance du Web à Cagnes-sur-Mer
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Voici quelques indicateurs clés qui mettent en lumière la valeur d'une présence en ligne professionnelle pour les entreprises établies à Menton.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises de Cagnes-sur-Mer.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {mentonDigitalStats.map((stat, index) => (
+              {cagnesDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebMentonPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Faire appel à mes services présente de multiples avantages pour la réalisation de votre projet numérique à Menton.
+                Collaborer avec moi présente de nombreux avantages pour votre projet web à Cagnes-sur-Mer.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebMentonPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche organisée et coopérative qui donne vie à vos idées sous forme de solutions web efficaces et adaptées au contexte mentonnais.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée au marché de Cagnes-sur-Mer.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebMentonPage() {
           </div>
         </section>
 
-        {/* Menton Web Development Section */}
+        {/* Cagnes-sur-Mer Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web à Menton : Expertise Locale
+                Développement Web à Cagnes-sur-Mer : Expertise Locale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Grâce à ma présence à Menton, j'ai acquis une compréhension approfondie des particularités du marché local et des besoins spécifiques des entreprises de cette ville frontalière unique.
+                En tant que développeur web intervenant à Cagnes-sur-Mer, je comprends les spécificités du marché local et les besoins des entreprises de cette commune dynamique des Alpes-Maritimes.
               </p>
             </div>
             
@@ -456,32 +456,32 @@ export default function DeveloppeurWebMentonPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Transfrontalière
+                  Présence Digitale Locale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché mentonnais vous permet d'attirer des clients locaux et transfrontaliers. 
-                  Je développe des sites web bilingues qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Menton, ville frontière entre la France et l'Italie.
+                  Une présence web optimisée pour le marché de Cagnes-sur-Mer vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage dans cette commune attractive entre Nice et Antibes.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
-                <div className="text-3xl mb-4">🍋</div>
+                <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  L'Authenticité Mentonnaise
+                  Collaboration de Proximité
                 </h3>
                 <p className="text-gray-600">
-                  Menton possède une identité unique, entre traditions méditerranéennes et influences italiennes. Je crée des solutions web qui reflètent cette authenticité et vous permettent de valoriser votre ancrage local, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
+                  Travailler avec un développeur web proche de Cagnes-sur-Mer facilite la communication et la collaboration, permettant de mieux comprendre vos besoins spécifiques et d'ajuster rapidement le projet selon vos retours pour un résultat parfaitement adapté à vos attentes.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Menton
+                  Croissance Digitale à Cagnes-sur-Mer
                 </h3>
                 <p className="text-gray-600">
-                  Le marché web à Menton offre d'importantes opportunités de croissance pour les entreprises locales. 
-                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région, y compris vers le marché italien voisin.
+                  Le marché web à Cagnes-sur-Mer offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet d'attirer de nouveaux clients et de développer votre activité dans cette ville dynamique et ses environs.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebMentonPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'emploie les technologies et frameworks les plus actuels pour élaborer des solutions web fiables et évolutives qui répondent parfaitement à vos ambitions.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité pour Cagnes-sur-Mer.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebMentonPage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Menton ?
+              Prêt à Développer Votre Projet Web à Cagnes-sur-Mer ?
             </h2>
-              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Entrez en contact avec moi dès maintenant pour échanger sur votre vision numérique et recevoir une proposition adaptée. 
-              Collaborons pour développer une plateforme web authentique qui valorise l'identité unique de votre entreprise mentonnaise.
+            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+              Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
+              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise à Cagnes-sur-Mer.
             </p>
             <Link
               href="#contact"

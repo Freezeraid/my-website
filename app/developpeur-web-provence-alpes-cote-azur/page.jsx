@@ -13,91 +13,91 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans les Alpes-Maritimes.',
-  keywords: ['développeur web Menton', 'création site web Menton', 'freelance web Menton', 'développeur Menton', 'site internet Menton', 'création site e-commerce Menton', 'développeur application web Menton', 'agence web Menton', 'refonte site web Alpes-Maritimes'],
+  title: 'Développeur Web en Provence-Alpes-Côte d\'Azur | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance en région PACA spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Sud-Est.',
+  keywords: ['développeur web PACA', 'création site web Provence-Alpes-Côte d\'Azur', 'freelance web Sud-Est', 'développeur région PACA', 'site internet Côte d\'Azur', 'création site e-commerce Provence', 'développeur application web PACA', 'agence web Sud-Est', 'refonte site web Provence-Alpes-Côte d\'Azur'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-menton',
+    canonical: 'https://killiandoubre.com/developpeur-web-provence-alpes-cote-azur',
   },
   openGraph: {
-    title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans les Alpes-Maritimes.',
-    url: 'https://killiandoubre.com/developpeur-web-menton',
+    title: 'Développeur Web en Provence-Alpes-Côte d\'Azur | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance en région PACA spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Sud-Est.',
+    url: 'https://killiandoubre.com/developpeur-web-provence-alpes-cote-azur',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance à Menton',
-  description: 'Services de développement web sur-mesure à Menton : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels des Alpes-Maritimes.',
-  slug: 'developpeur-web-menton',
+  name: 'Développeur Web Freelance en Provence-Alpes-Côte d\'Azur',
+  description: 'Services de développement web sur-mesure pour la région PACA : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels du Sud-Est.',
+  slug: 'developpeur-web-provence-alpes-cote-azur',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
     'Développement d\'applications web',
     'Sites e-commerce performants',
-    'Optimisation SEO locale',
+    'Optimisation SEO régionale',
     'Maintenance et support technique'
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous à Menton ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels mentonnais : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité local.'
+      question: 'Quels types de sites web développez-vous en région PACA ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels de la région Provence-Alpes-Côte d\'Azur : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité régional, avec une attention particulière aux entreprises touristiques, culturelles et innovantes.'
     },
     {
-      question: 'Combien coûte la création d\'un site web à Menton ?',
-      answer: 'Le coût d\'un site web à Menton varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse approfondie de votre projet et de vos objectifs commerciaux.'
+      question: 'Combien coûte la création d\'un site web en Provence-Alpes-Côte d\'Azur ?',
+      answer: 'Le coût d\'un site web en région PACA varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis détaillé et transparent après analyse approfondie de votre projet et de vos objectifs commerciaux.'
     },
     {
-      question: 'Proposez-vous des services de référencement local pour Menton ?',
-      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché mentonnais, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Menton et sa région, y compris le marché transfrontalier avec l\'Italie.'
+      question: 'Intervenez-vous dans toute la région Provence-Alpes-Côte d\'Azur ?',
+      answer: 'Oui, basé à Nice, je propose mes services dans l\'ensemble de la région PACA : des Alpes-Maritimes au Vaucluse, en passant par les Bouches-du-Rhône, le Var, les Alpes-de-Haute-Provence et les Hautes-Alpes. Je propose des services de développement web à distance avec des déplacements possibles selon les besoins du projet.'
     }
   ]
 }
 
-export default function DeveloppeurWebMentonPage() {
+export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels mentonnais. Des sites vitrines authentiques, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de la région PACA. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité régionale.",
       features: [
-        "Design adapté à l'identité méditerranéenne de Menton",
-        "Parfaitement responsive sur tous les appareils",
-        "Optimisé pour le référencement local à Menton",
-        "Intégration de fonctionnalités personnalisées"
+        "Design contemporain adapté à l'identité de votre entreprise",
+        "Compatibilité parfaite sur tous les appareils",
+        "Optimisation pour le référencement local et régional",
+        "Intégration de fonctionnalités adaptées à votre secteur d'activité"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Création de sites e-commerce performants pour les commerçants et entrepreneurs mentonnais. Des boutiques en ligne conviviales et intuitives qui valorisent vos produits et services locaux.",
+      description: "Création de plateformes e-commerce performantes pour les commerçants et entrepreneurs de Provence-Alpes-Côte d'Azur. Des boutiques en ligne attractives et fonctionnelles qui valorisent vos produits et services dans toute la région et au-delà.",
       features: [
-        "Interface utilisateur intuitive et attrayante",
+        "Interface utilisateur intuitive et esthétique",
         "Gestion simplifiée des produits et des stocks",
-        "Solutions de paiement sécurisées et multiples options de livraison",
-        "Stratégies d'optimisation des taux de conversion"
+        "Solutions de paiement sécurisées et options de livraison flexibles",
+        "Stratégies d'optimisation des conversions adaptées à votre marché"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Menton et dans la région transfrontalière.",
+      description: "Développement d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier en région PACA, adaptées aux spécificités de votre secteur d'activité.",
       features: [
-        "Développement full-stack avec technologies modernes",
-        "Interfaces utilisateurs fluides et performantes",
+        "Développement full-stack avec technologies de pointe",
+        "Interfaces utilisateurs intuitives et réactives",
         "Architecture sécurisée et évolutive",
-        "Intégration avec vos systèmes existants"
+        "Intégration avec vos systèmes et outils existants"
       ]
     },
     {
       icon: "🔍",
-      title: "SEO & Visibilité Locale",
-      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Menton et dans les Alpes-Maritimes. Attirez plus de clients locaux et transfrontaliers grâce à une stratégie SEO ciblée.",
+      title: "SEO & Visibilité Régionale",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google en Provence-Alpes-Côte d'Azur. Attirez plus de clients locaux et régionaux grâce à une stratégie SEO adaptée à votre zone d'activité.",
       features: [
-        "Stratégie SEO locale ciblée sur Menton",
-        "Optimisation Google My Business",
-        "Création de contenu multilingue (français/italien)",
+        "Stratégie SEO ciblée sur la région PACA",
+        "Optimisation Google My Business pour chaque établissement",
+        "Création de contenu pertinent pour votre marché régional",
         "Suivi et amélioration continue des performances"
       ]
     }
@@ -105,43 +105,43 @@ export default function DeveloppeurWebMentonPage() {
 
   const localAdvantages = [
     {
-      title: "Expertise du Marché Local Mentonnais",
-      description: "Ma connaissance approfondie du marché web à Menton me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique mentonnais, son caractère transfrontalier et les opportunités web qu'il offre."
+      title: "Expertise du Marché Régional",
+      description: "Ma connaissance approfondie de l'écosystème web en Provence-Alpes-Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et régionaux. Je comprends les spécificités du tissu économique du Sud-Est et les opportunités numériques qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec votre vision et votre marché local."
+      description: "En tant que développeur web freelance basé à Nice, je propose mes services dans toute la région PACA pour vous offrir un accompagnement personnalisé. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec vos objectifs commerciaux et votre ancrage territorial."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises",
-      description: "Chaque projet est unique, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent aux besoins spécifiques de votre entreprise. Pas de templates génériques, mais des créations originales qui vous démarquent de la concurrence locale et valorisent l'authenticité mentonnaise."
+      title: "Solutions Sur-Mesure pour Entreprises Régionales",
+      description: "Chaque projet étant unique, je développe des solutions entièrement personnalisées qui répondent précisément aux exigences spécifiques de votre entreprise en PACA. J'évite les templates génériques pour créer des plateformes originales qui vous distinguent dans le paysage économique régional."
     },
     {
       title: "Support Technique & Maintenance Réactive",
-      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence digitale toujours fonctionnelle et à jour, essentielle pour maintenir la confiance de vos clients locaux et internationaux."
+      description: "Je vous propose un support technique efficace et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence digitale toujours opérationnelle, essentielle pour maintenir la confiance de vos clients en Provence-Alpes-Côte d'Azur."
     }
   ]
 
-  const mentonBusinessSectors = [
+  const pacaBusinessSectors = [
     {
-      icon: "🍋",
-      title: "Artisanat & Produits Locaux",
-      description: "Sites web et e-commerce pour artisans, producteurs et commerçants de produits locaux à Menton. Solutions optimisées pour valoriser votre savoir-faire, vos produits authentiques et attirer une clientèle sensible aux spécialités mentonnaises."
+      icon: "🏖️",
+      title: "Tourisme & Hôtellerie",
+      description: "Sites web et applications pour hôtels, résidences, campings et activités touristiques en PACA. Solutions optimisées pour valoriser votre établissement et attirer les visiteurs tout au long de l'année dans cette région touristique majeure, de la Côte d'Azur aux stations alpines."
     },
     {
-      icon: "🏨",
-      title: "Tourisme & Hôtellerie",
-      description: "Présence web attractive pour hôtels, restaurants, locations saisonnières et services touristiques à Menton. Sites et applications adaptés pour mettre en valeur votre établissement dans cette destination prisée de la Côte d'Azur, entre mer et montagne."
+      icon: "🍷",
+      title: "Terroir & Gastronomie",
+      description: "Présence web attractive pour restaurants, producteurs, vignerons et artisans de la gastronomie provençale. Sites vitrines et e-commerce adaptés pour mettre en valeur vos produits du terroir et votre savoir-faire auprès d'une clientèle locale et internationale."
     },
     {
       icon: "🏢",
-      title: "Commerces & Services de Proximité",
-      description: "Sites vitrines et solutions web pour commerces et prestataires de services mentonnais. Plateformes web permettant de renforcer votre présence locale et d'attirer une clientèle fidèle dans cette ville à taille humaine où la proximité est essentielle."
+      title: "Services & Professions Libérales",
+      description: "Solutions web pour cabinets d'avocats, experts-comptables, consultants et prestataires de services en région PACA. Plateformes professionnelles renforçant votre crédibilité et facilitant la prise de contact avec votre clientèle régionale."
     },
     {
-      icon: "🌍",
-      title: "Services Transfrontaliers",
-      description: "Applications web et sites multilingues pour entreprises travaillant avec l'Italie toute proche. Solutions web adaptées au contexte transfrontalier unique de Menton, permettant de toucher efficacement les marchés français et italien."
+      icon: "🚀",
+      title: "Innovation & Startups",
+      description: "Applications web et plateformes pour startups et entreprises innovantes de Sophia Antipolis à Marseille. Solutions technologiques avancées pour concrétiser vos concepts et accélérer votre croissance dans l'écosystème dynamique du Sud-Est."
     }
   ]
 
@@ -149,46 +149,46 @@ export default function DeveloppeurWebMentonPage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local mentonnais."
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques en région PACA. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte régional du Sud-Est."
     },
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'identité authentique de Menton."
+      description: "J'élabore une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle en Provence-Alpes-Côte d'Azur."
     },
     {
       number: "03",
       title: "Développement & Intégration",
-      description: "Je code votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement développée et testée pour garantir performance et fiabilité."
+      description: "Je développe votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement programmée et testée pour garantir une expérience utilisateur optimale."
     },
     {
       number: "04",
       title: "Optimisation & Tests",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs mentonnais et des visiteurs de la région."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs de la région PACA."
     },
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à vos besoins futurs."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à l'évolution de vos besoins et du marché régional."
     }
   ]
 
-  const mentonDigitalStats = [
+  const pacaDigitalStats = [
     {
-      figure: "84%",
-      description: "des consommateurs à Menton recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "86%",
+      description: "des consommateurs en PACA recherchent des entreprises locales en ligne avant de faire un achat"
     },
     {
-      figure: "71%",
-      description: "des recherches locales sur mobile à Menton aboutissent à une visite en magasin dans les 24 heures"
+      figure: "74%",
+      description: "des recherches locales sur mobile en Provence-Alpes-Côte d'Azur aboutissent à une visite en magasin dans les 24 heures"
     },
     {
-      figure: "65%",
-      description: "des entreprises mentonnaises considèrent que leur site web est essentiel pour leur développement commercial"
+      figure: "67%",
+      description: "des entreprises de la région considèrent que leur site web est essentiel pour leur développement commercial"
     },
     {
-      figure: "91%",
-      description: "des utilisateurs à Menton forment leur première impression d'une entreprise à partir de son site web"
+      figure: "94%",
+      description: "des utilisateurs en PACA forment leur première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebMentonPage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance à Menton', href: '/developpeur-web-menton', current: true }
+                { label: 'Développeur Web Freelance en Provence-Alpes-Côte d\'Azur', href: '/developpeur-web-provence-alpes-cote-azur', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Menton</span>
+                  Développeur Web Freelance en <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Provence-Alpes-Côte d'Azur</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications personnalisées pour répondre aux besoins des entreprises et professionnels des Alpes-Maritimes. Mon approche allie connaissance du contexte transfrontalier, réalisations adaptées et suivi rapproché tout au long de votre aventure numérique.
+                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans toute la région <strong>Provence-Alpes-Côte d'Azur</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels du Sud-Est. Mon approche allie expertise technique, connaissance du territoire et accompagnement personnalisé pour la réussite de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebMentonPage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance à Menton"
+                        alt="Killian DOUBRE - Développeur Web Freelance en Provence-Alpes-Côte d'Azur"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebMentonPage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Menton & Région</p>
+                          <p className="text-sm text-gray-600">Région PACA</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebMentonPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web à Menton
+                Services de Développement Web en Provence-Alpes-Côte d'Azur
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je vous offre un ensemble complet de services de création web destinés aux acteurs économiques mentonnais.
-                Chaque projet est façonné avec attention pour s'aligner parfaitement avec vos objectifs particuliers et renforcer votre visibilité sur le marché local et transfrontalier.
+                Je propose une gamme complète de services de développement web pour les entreprises et professionnels de la région PACA.
+                Chaque solution est élaborée sur-mesure pour répondre à vos besoins spécifiques et renforcer votre présence sur le marché régional.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebMentonPage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Menton Section */}
+        {/* Secteurs d'activité en PACA Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Mentonnaises
+                Solutions Adaptées aux Entreprises de la Région
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je conçois des outils numériques adaptés aux besoins spécifiques des différents domaines d'activité présents à Menton et dans sa zone frontalière avec l'Italie.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité en Provence-Alpes-Côte d'Azur, en tenant compte des spécificités régionales.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {mentonBusinessSectors.map((sector, index) => (
+              {pacaBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebMentonPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à Menton
+                L'Importance du Web en PACA
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Voici quelques indicateurs clés qui mettent en lumière la valeur d'une présence en ligne professionnelle pour les entreprises établies à Menton.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises de Provence-Alpes-Côte d'Azur.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {mentonDigitalStats.map((stat, index) => (
+              {pacaDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebMentonPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Faire appel à mes services présente de multiples avantages pour la réalisation de votre projet numérique à Menton.
+                Collaborer avec moi présente de nombreux avantages pour votre projet web en Provence-Alpes-Côte d'Azur.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebMentonPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche organisée et coopérative qui donne vie à vos idées sous forme de solutions web efficaces et adaptées au contexte mentonnais.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée au marché de la région PACA.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebMentonPage() {
           </div>
         </section>
 
-        {/* Menton Web Development Section */}
+        {/* PACA Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web à Menton : Expertise Locale
+                Développement Web en PACA : Expertise Régionale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Grâce à ma présence à Menton, j'ai acquis une compréhension approfondie des particularités du marché local et des besoins spécifiques des entreprises de cette ville frontalière unique.
+                En tant que développeur web intervenant dans toute la région Provence-Alpes-Côte d'Azur, je comprends les spécificités du marché local et les besoins des entreprises de ce territoire dynamique et diversifié.
               </p>
             </div>
             
@@ -456,32 +456,32 @@ export default function DeveloppeurWebMentonPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Transfrontalière
+                  Présence Digitale Régionale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché mentonnais vous permet d'attirer des clients locaux et transfrontaliers. 
-                  Je développe des sites web bilingues qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Menton, ville frontière entre la France et l'Italie.
+                  Une présence web optimisée pour le marché de la région PACA vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches régionales et mettent en valeur votre ancrage territorial, de Marseille à Nice, de Gap à Toulon.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
-                <div className="text-3xl mb-4">🍋</div>
+                <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  L'Authenticité Mentonnaise
+                  Mobilité & Flexibilité
                 </h3>
                 <p className="text-gray-600">
-                  Menton possède une identité unique, entre traditions méditerranéennes et influences italiennes. Je crée des solutions web qui reflètent cette authenticité et vous permettent de valoriser votre ancrage local, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
+                  Basé à Nice, mes services de développeur web freelance dans toute la région PACA pour rencontrer mes clients et comprendre leurs besoins spécifiques. Cette mobilité, combinée à des outils de collaboration à distance efficaces, me permet d'offrir un service personnalisé et réactif à l'ensemble des entreprises du Sud-Est.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Menton
+                  Croissance Digitale Régionale
                 </h3>
                 <p className="text-gray-600">
-                  Le marché web à Menton offre d'importantes opportunités de croissance pour les entreprises locales. 
-                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région, y compris vers le marché italien voisin.
+                  Le marché web en Provence-Alpes-Côte d'Azur offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet d'étendre votre visibilité dans toute la région et de développer votre activité dans ce territoire économiquement dynamique.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebMentonPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'emploie les technologies et frameworks les plus actuels pour élaborer des solutions web fiables et évolutives qui répondent parfaitement à vos ambitions.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité pour les entreprises de Provence-Alpes-Côte d'Azur.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebMentonPage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Menton ?
+              Prêt à Développer Votre Projet Web en Provence-Alpes-Côte d'Azur ?
             </h2>
-              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Entrez en contact avec moi dès maintenant pour échanger sur votre vision numérique et recevoir une proposition adaptée. 
-              Collaborons pour développer une plateforme web authentique qui valorise l'identité unique de votre entreprise mentonnaise.
+            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+              Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
+              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise en région PACA.
             </p>
             <Link
               href="#contact"
