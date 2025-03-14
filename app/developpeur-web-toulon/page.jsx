@@ -13,24 +13,24 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
-  keywords: ['développeur web Nice', 'création site web Nice', 'freelance web Nice', 'développeur Nice', 'site internet Nice', 'création site e-commerce Nice', 'développeur application web Nice', 'agence web Nice', 'refonte site web Nice'],
+  title: 'Développeur Web à Toulon | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans le Var.',
+  keywords: ['développeur web Toulon', 'création site web Toulon', 'freelance web Toulon', 'développeur Toulon', 'site internet Toulon', 'création site e-commerce Toulon', 'développeur application web Toulon', 'agence web Toulon', 'refonte site web Var'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-nice',
+    canonical: 'https://killiandoubre.com/developpeur-web-toulon',
   },
   openGraph: {
-    title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
-    url: 'https://killiandoubre.com/developpeur-web-nice',
+    title: 'Développeur Web à Toulon | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans le Var.',
+    url: 'https://killiandoubre.com/developpeur-web-toulon',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance à Nice',
-  description: 'Services de développement web sur-mesure à Nice : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels.',
-  slug: 'developpeur-web-nice',
+  name: 'Développeur Web Freelance à Toulon',
+  description: 'Services de développement web sur-mesure à Toulon : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels du Var.',
+  slug: 'developpeur-web-toulon',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
@@ -41,63 +41,63 @@ const serviceData = {
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous à Nice ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS.'
+      question: 'Quels types de sites web développez-vous à Toulon ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels toulonnais : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité local.'
     },
     {
-      question: 'Combien coûte la création d\'un site web à Nice ?',
-      answer: 'Le coût d\'un site web à Nice varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse de votre projet.'
+      question: 'Combien coûte la création d\'un site web à Toulon ?',
+      answer: 'Le coût d\'un site web à Toulon varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse approfondie de votre projet et de vos objectifs commerciaux.'
     },
     {
-      question: 'Proposez-vous des services de référencement local pour Nice ?',
-      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché local niçois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Nice et sa région.'
+      question: 'Proposez-vous des services de référencement local pour Toulon ?',
+      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché toulonnais, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Toulon et sa région.'
     }
   ]
 }
 
-export default function DeveloppeurWebNicePage() {
+export default function DeveloppeurWebToulonPage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création de sites web sur-mesure pour les entreprises et professionnels. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels toulonnais. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
       features: [
-        "Design moderne et adapté à votre image",
-        "Parfaitement responsive (mobile, tablette, desktop)",
-        "Optimisé pour le référencement local à Nice",
-        "Intégration de fonctionnalités sur-mesure"
+        "Design adapté à l'identité de votre entreprise",
+        "Parfaitement responsive sur tous les appareils",
+        "Optimisé pour le référencement local à Toulon",
+        "Intégration de fonctionnalités personnalisées"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs. Des boutiques en ligne sécurisées qui transforment les visiteurs en acheteurs.",
+      description: "Création de sites e-commerce performants pour les commerçants et entrepreneurs toulonnais. Des boutiques en ligne sécurisées et intuitives qui maximisent vos ventes et fidélisent votre clientèle.",
       features: [
-        "Interface utilisateur intuitive et attractive",
-        "Gestion des produits et des stocks simplifiée",
-        "Paiements sécurisés et multiples options de livraison",
-        "Optimisation des taux de conversion"
+        "Interface utilisateur intuitive et attrayante",
+        "Gestion simplifiée des produits et des stocks",
+        "Solutions de paiement sécurisées et multiples options de livraison",
+        "Stratégies d'optimisation des taux de conversion"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Création d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Nice et sur la Côte d'Azur.",
+      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Toulon et dans le Var.",
       features: [
         "Développement full-stack avec technologies modernes",
-        "Interfaces utilisateurs intuitives et performantes",
-        "Systèmes sécurisés et évolutifs",
-        "Intégration avec vos outils existants"
+        "Interfaces utilisateurs fluides et performantes",
+        "Architecture sécurisée et évolutive",
+        "Intégration avec vos systèmes existants"
       ]
     },
     {
       icon: "🔍",
       title: "SEO & Visibilité Locale",
-      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Nice et dans les Alpes-Maritimes. Attirez plus de clients locaux grâce au SEO.",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Toulon et dans le Var. Attirez plus de clients locaux grâce à une stratégie SEO ciblée et efficace.",
       features: [
-        "Stratégie SEO locale ciblée sur Nice",
+        "Stratégie SEO locale ciblée sur Toulon",
         "Optimisation Google My Business",
-        "Création de contenu optimisé pour votre marché local",
+        "Création de contenu optimisé pour le marché toulonnais",
         "Suivi et amélioration continue des performances"
       ]
     }
@@ -105,43 +105,43 @@ export default function DeveloppeurWebNicePage() {
 
   const localAdvantages = [
     {
-      title: "Expertise du Marché Local Niçois",
-      description: "Ma connaissance approfondie du marché digital à Nice et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique niçois et les opportunités digitales qu'il offre."
+      title: "Expertise du Marché Local Toulonnais",
+      description: "Ma connaissance approfondie du marché digital à Toulon me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique toulonnais et les opportunités digitales qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, je vous offre un accompagnement de proximité pour mieux comprendre vos besoins. Cette relation directe garantit une communication fluide et une parfaite adéquation entre votre vision et la solution développée."
+      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour mieux comprendre vos besoins. Cette relation directe garantit une communication fluide et une parfaite adéquation entre votre vision et la solution développée."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises",
+      title: "Solutions Sur-Mesure pour Entreprises Toulonnaises",
       description: "Chaque projet est unique, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément aux besoins spécifiques de votre entreprise. Pas de templates génériques, mais des créations originales qui vous démarquent de la concurrence locale."
     },
     {
-      title: "Support Technique & Maintenance Locale",
-      description: "Je vous offre un support technique réactif et une maintenance continue de votre site ou application. En cas de besoin, je peux intervenir rapidement sur place à Nice pour résoudre tout problème technique ou former votre équipe à l'utilisation de votre solution digitale."
+      title: "Support Technique & Maintenance Réactive",
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence digitale toujours fonctionnelle et à jour, essentielle pour maintenir la confiance de vos clients."
     }
   ]
 
-  const niceBusinessSectors = [
+  const toulonBusinessSectors = [
     {
-      icon: "🏨",
-      title: "Hôtellerie & Tourisme",
-      description: "Sites web et applications pour hôtels, restaurants, locations saisonnières et services touristiques à Nice. Solutions optimisées pour les réservations en ligne, la présentation de vos services et l'attraction de touristes internationaux."
+      icon: "⚓",
+      title: "Secteur Maritime & Naval",
+      description: "Sites web et applications pour entreprises du secteur maritime, naval et portuaire à Toulon. Solutions optimisées pour les chantiers navals, services maritimes, écoles nautiques et activités liées à la mer, secteur clé de l'économie toulonnaise."
     },
     {
       icon: "🏢",
       title: "Commerces & Services Locaux",
-      description: "Présence web efficace pour commerces, artisans et prestataires de services niçois. Sites vitrines et e-commerce adaptés aux besoins des entreprises locales pour attirer et fidéliser une clientèle de proximité."
+      description: "Présence web efficace pour commerces, artisans et prestataires de services toulonnais. Sites vitrines et e-commerce adaptés aux besoins des entreprises locales pour attirer et fidéliser une clientèle de proximité."
     },
     {
-      icon: "🏠",
-      title: "Immobilier & Architecture",
-      description: "Plateformes immobilières et sites pour agences, promoteurs et architectes à Nice. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées de recherche et de visualisation."
+      icon: "🏨",
+      title: "Tourisme & Hôtellerie",
+      description: "Plateformes web pour hôtels, restaurants, locations saisonnières et services touristiques à Toulon. Solutions permettant de mettre en valeur votre offre touristique et d'attirer des visiteurs toute l'année dans cette destination méditerranéenne."
     },
     {
-      icon: "🎓",
-      title: "Startups & Innovation",
-      description: "Applications web et plateformes pour startups et entreprises innovantes. Solutions technologiques avancées pour concrétiser vos concepts et accélérer votre croissance sur le marché local et au-delà."
+      icon: "🔬",
+      title: "Innovation & Technologie",
+      description: "Applications web et plateformes pour startups et entreprises innovantes du pôle Mer PACA. Solutions technologiques avancées pour concrétiser vos concepts et accélérer votre croissance dans l'écosystème d'innovation toulonnais."
     }
   ]
 
@@ -149,7 +149,7 @@ export default function DeveloppeurWebNicePage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse en profondeur votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local niçois."
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local toulonnais."
     },
     {
       number: "02",
@@ -164,7 +164,7 @@ export default function DeveloppeurWebNicePage() {
     {
       number: "04",
       title: "Optimisation & Tests",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs toulonnais."
     },
     {
       number: "05",
@@ -173,22 +173,22 @@ export default function DeveloppeurWebNicePage() {
     }
   ]
 
-  const niceDigitalStats = [
+  const toulonDigitalStats = [
     {
-      figure: "87%",
-      description: "des consommateurs à Nice recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "86%",
+      description: "des consommateurs à Toulon recherchent des entreprises locales en ligne avant de faire un achat"
     },
     {
-      figure: "73%",
-      description: "des recherches locales sur mobile à Nice aboutissent à une visite en magasin dans les 24 heures"
+      figure: "74%",
+      description: "des recherches locales sur mobile à Toulon aboutissent à une visite en magasin dans les 24 heures"
     },
     {
-      figure: "68%",
-      description: "des entreprises niçoises considèrent que leur site web est essentiel pour leur développement commercial"
+      figure: "69%",
+      description: "des entreprises toulonnaises considèrent que leur site web est essentiel pour leur développement commercial"
     },
     {
-      figure: "92%",
-      description: "des utilisateurs à Nice forment leur première impression d'une entreprise à partir de son site web"
+      figure: "93%",
+      description: "des utilisateurs à Toulon forment leur première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebNicePage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance à Nice', href: '/developpeur-web-nice', current: true }
+                { label: 'Développeur Web Freelance à Toulon', href: '/developpeur-web-toulon', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Nice</span>
+                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Toulon</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels de la Côte d'Azur. Expertise locale, solutions personnalisées et accompagnement de proximité pour votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong> et originaire de <strong>Toulon</strong>, je développe des sites internet et applications adaptées aux besoins spécifiques des entreprises et professionnels varois. Je combine connaissance du territoire, solutions individualisées et accompagnement attentif tout au long de la réalisation de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebNicePage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance à Nice"
+                        alt="Killian DOUBRE - Développeur Web Freelance à Toulon"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebNicePage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Nice & Région</p>
+                          <p className="text-sm text-gray-600">Toulon & Var</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebNicePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web à Nice
+                Services de Développement Web à Toulon
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je propose une gamme complète de services de développement web pour les entreprises et professionnels.
-                Chaque solution est conçue sur-mesure pour répondre à vos besoins spécifiques et vous démarquer sur le marché local.
+                Je mets à votre disposition une palette complète de prestations de développement web destinées aux acteurs économiques toulonnais.
+                Chaque projet est élaboré avec soin pour correspondre exactement à vos exigences particulières et vous permettre de vous distinguer efficacement sur votre marché.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebNicePage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Nice Section */}
+        {/* Secteurs d'activité à Toulon Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Niçoises
+                Solutions Adaptées aux Entreprises Toulonnaises
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité à Nice et sur la Côte d'Azur.
+                J'élabore des plateformes web personnalisées pour répondre aux enjeux spécifiques des divers domaines d'activité présents à Toulon et dans l'ensemble du département du Var.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {niceBusinessSectors.map((sector, index) => (
+              {toulonBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebNicePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Nice
+                L'Importance du Digital à Toulon
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises niçoises.
+                Découvrez ces données significatives qui soulignent l'impact crucial d'une présence numérique professionnelle pour les entreprises implantées à Toulon.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {niceDigitalStats.map((stat, index) => (
+              {toulonDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebNicePage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet digital à Nice.
+                Me confier votre projet numérique à Toulon vous apporte de nombreux atouts pour sa réussite.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebNicePage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante.
+                Une méthode rigoureuse et interactive qui transforme vos idées en solutions numériques efficaces et durables.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebNicePage() {
           </div>
         </section>
 
-        {/* Nice Web Development Section */}
+        {/* Toulon Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web à Nice : Expertise Locale
+                Développement Web à Toulon : Expertise Locale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web basé à Nice, je comprends les spécificités du marché local et les besoins des entreprises de la région.
+                Grâce à mon ancrage dans l'écosystème toulonnais, j'ai développé une compréhension fine des caractéristiques du marché local et des attentes particulières des entreprises varoises.
               </p>
             </div>
             
@@ -459,29 +459,29 @@ export default function DeveloppeurWebNicePage() {
                   Présence Digitale Locale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché niçois vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Nice.
+                  Une présence web optimisée pour le marché toulonnais vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Toulon et dans le Var.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
-                <div className="text-3xl mb-4">🤝</div>
+                <div className="text-3xl mb-4">⚓</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration de Proximité
+                  Spécificités du Marché Toulonnais
                 </h3>
                 <p className="text-gray-600">
-                  Travailler avec un développeur web local à Nice facilite la communication et la collaboration, permettant de mieux comprendre vos besoins et d'ajuster rapidement le projet selon vos retours.
+                  Toulon possède un écosystème économique unique, entre activités maritimes, défense, tourisme et innovation. Je crée des solutions digitales qui tiennent compte de ces spécificités et vous permettent de vous adresser efficacement à votre clientèle cible.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Nice
+                  Croissance Digitale à Toulon
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Nice offre d'importantes opportunités de croissance pour les entreprises locales. 
-                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité sur la Côte d'Azur.
+                  Le marché digital à Toulon offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région varoise.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebNicePage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité.
+                Je maîtrise les outils et frameworks les plus récents pour créer des solutions web robustes, évolutives et parfaitement adaptées à vos objectifs.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebNicePage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Nice ?
+              Prêt à Développer Votre Projet Web à Toulon ?
             </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
-              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise.
+              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+              N'hésitez pas à me contacter pour échanger sur vos besoins numériques et recevoir une estimation adaptée à votre situation. 
+              Travaillons ensemble pour développer une plateforme web efficace qui servira idéalement les ambitions de votre entreprise à Toulon.
             </p>
             <Link
               href="#contact"

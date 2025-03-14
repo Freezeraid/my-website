@@ -13,24 +13,24 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
-  keywords: ['développeur web Nice', 'création site web Nice', 'freelance web Nice', 'développeur Nice', 'site internet Nice', 'création site e-commerce Nice', 'développeur application web Nice', 'agence web Nice', 'refonte site web Nice'],
+  title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans les Alpes-Maritimes.',
+  keywords: ['développeur web Menton', 'création site web Menton', 'freelance web Menton', 'développeur Menton', 'site internet Menton', 'création site e-commerce Menton', 'développeur application web Menton', 'agence web Menton', 'refonte site web Alpes-Maritimes'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-nice',
+    canonical: 'https://killiandoubre.com/developpeur-web-menton',
   },
   openGraph: {
-    title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
-    url: 'https://killiandoubre.com/developpeur-web-nice',
+    title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital dans les Alpes-Maritimes.',
+    url: 'https://killiandoubre.com/developpeur-web-menton',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance à Nice',
-  description: 'Services de développement web sur-mesure à Nice : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels.',
-  slug: 'developpeur-web-nice',
+  name: 'Développeur Web Freelance à Menton',
+  description: 'Services de développement web sur-mesure à Menton : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels des Alpes-Maritimes.',
+  slug: 'developpeur-web-menton',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
@@ -41,63 +41,63 @@ const serviceData = {
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous à Nice ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS.'
+      question: 'Quels types de sites web développez-vous à Menton ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels mentonnais : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité local.'
     },
     {
-      question: 'Combien coûte la création d\'un site web à Nice ?',
-      answer: 'Le coût d\'un site web à Nice varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse de votre projet.'
+      question: 'Combien coûte la création d\'un site web à Menton ?',
+      answer: 'Le coût d\'un site web à Menton varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse approfondie de votre projet et de vos objectifs commerciaux.'
     },
     {
-      question: 'Proposez-vous des services de référencement local pour Nice ?',
-      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché local niçois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Nice et sa région.'
+      question: 'Proposez-vous des services de référencement local pour Menton ?',
+      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché mentonnais, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Menton et sa région, y compris le marché transfrontalier avec l\'Italie.'
     }
   ]
 }
 
-export default function DeveloppeurWebNicePage() {
+export default function DeveloppeurWebMentonPage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création de sites web sur-mesure pour les entreprises et professionnels. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels mentonnais. Des sites vitrines authentiques, responsive et optimisés pour convertir vos visiteurs en clients.",
       features: [
-        "Design moderne et adapté à votre image",
-        "Parfaitement responsive (mobile, tablette, desktop)",
-        "Optimisé pour le référencement local à Nice",
-        "Intégration de fonctionnalités sur-mesure"
+        "Design adapté à l'identité méditerranéenne de Menton",
+        "Parfaitement responsive sur tous les appareils",
+        "Optimisé pour le référencement local à Menton",
+        "Intégration de fonctionnalités personnalisées"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs. Des boutiques en ligne sécurisées qui transforment les visiteurs en acheteurs.",
+      description: "Création de sites e-commerce performants pour les commerçants et entrepreneurs mentonnais. Des boutiques en ligne conviviales et intuitives qui valorisent vos produits et services locaux.",
       features: [
-        "Interface utilisateur intuitive et attractive",
-        "Gestion des produits et des stocks simplifiée",
-        "Paiements sécurisés et multiples options de livraison",
-        "Optimisation des taux de conversion"
+        "Interface utilisateur intuitive et attrayante",
+        "Gestion simplifiée des produits et des stocks",
+        "Solutions de paiement sécurisées et multiples options de livraison",
+        "Stratégies d'optimisation des taux de conversion"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Création d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Nice et sur la Côte d'Azur.",
+      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Menton et dans la région transfrontalière.",
       features: [
         "Développement full-stack avec technologies modernes",
-        "Interfaces utilisateurs intuitives et performantes",
-        "Systèmes sécurisés et évolutifs",
-        "Intégration avec vos outils existants"
+        "Interfaces utilisateurs fluides et performantes",
+        "Architecture sécurisée et évolutive",
+        "Intégration avec vos systèmes existants"
       ]
     },
     {
       icon: "🔍",
       title: "SEO & Visibilité Locale",
-      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Nice et dans les Alpes-Maritimes. Attirez plus de clients locaux grâce au SEO.",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Menton et dans les Alpes-Maritimes. Attirez plus de clients locaux et transfrontaliers grâce à une stratégie SEO ciblée.",
       features: [
-        "Stratégie SEO locale ciblée sur Nice",
+        "Stratégie SEO locale ciblée sur Menton",
         "Optimisation Google My Business",
-        "Création de contenu optimisé pour votre marché local",
+        "Création de contenu multilingue (français/italien)",
         "Suivi et amélioration continue des performances"
       ]
     }
@@ -105,43 +105,43 @@ export default function DeveloppeurWebNicePage() {
 
   const localAdvantages = [
     {
-      title: "Expertise du Marché Local Niçois",
-      description: "Ma connaissance approfondie du marché digital à Nice et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique niçois et les opportunités digitales qu'il offre."
+      title: "Expertise du Marché Local Mentonnais",
+      description: "Ma connaissance approfondie du marché digital à Menton me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique mentonnais, son caractère transfrontalier et les opportunités digitales qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, je vous offre un accompagnement de proximité pour mieux comprendre vos besoins. Cette relation directe garantit une communication fluide et une parfaite adéquation entre votre vision et la solution développée."
+      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec votre vision et votre marché local."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises",
-      description: "Chaque projet est unique, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément aux besoins spécifiques de votre entreprise. Pas de templates génériques, mais des créations originales qui vous démarquent de la concurrence locale."
+      description: "Chaque projet est unique, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent aux besoins spécifiques de votre entreprise. Pas de templates génériques, mais des créations originales qui vous démarquent de la concurrence locale et valorisent l'authenticité mentonnaise."
     },
     {
-      title: "Support Technique & Maintenance Locale",
-      description: "Je vous offre un support technique réactif et une maintenance continue de votre site ou application. En cas de besoin, je peux intervenir rapidement sur place à Nice pour résoudre tout problème technique ou former votre équipe à l'utilisation de votre solution digitale."
+      title: "Support Technique & Maintenance Réactive",
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence digitale toujours fonctionnelle et à jour, essentielle pour maintenir la confiance de vos clients locaux et internationaux."
     }
   ]
 
-  const niceBusinessSectors = [
+  const mentonBusinessSectors = [
+    {
+      icon: "🍋",
+      title: "Artisanat & Produits Locaux",
+      description: "Sites web et e-commerce pour artisans, producteurs et commerçants de produits locaux à Menton. Solutions optimisées pour valoriser votre savoir-faire, vos produits authentiques et attirer une clientèle sensible aux spécialités mentonnaises."
+    },
     {
       icon: "🏨",
-      title: "Hôtellerie & Tourisme",
-      description: "Sites web et applications pour hôtels, restaurants, locations saisonnières et services touristiques à Nice. Solutions optimisées pour les réservations en ligne, la présentation de vos services et l'attraction de touristes internationaux."
+      title: "Tourisme & Hôtellerie",
+      description: "Présence web attractive pour hôtels, restaurants, locations saisonnières et services touristiques à Menton. Sites et applications adaptés pour mettre en valeur votre établissement dans cette destination prisée de la Côte d'Azur, entre mer et montagne."
     },
     {
       icon: "🏢",
-      title: "Commerces & Services Locaux",
-      description: "Présence web efficace pour commerces, artisans et prestataires de services niçois. Sites vitrines et e-commerce adaptés aux besoins des entreprises locales pour attirer et fidéliser une clientèle de proximité."
+      title: "Commerces & Services de Proximité",
+      description: "Sites vitrines et solutions digitales pour commerces et prestataires de services mentonnais. Plateformes web permettant de renforcer votre présence locale et d'attirer une clientèle fidèle dans cette ville à taille humaine où la proximité est essentielle."
     },
     {
-      icon: "🏠",
-      title: "Immobilier & Architecture",
-      description: "Plateformes immobilières et sites pour agences, promoteurs et architectes à Nice. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées de recherche et de visualisation."
-    },
-    {
-      icon: "🎓",
-      title: "Startups & Innovation",
-      description: "Applications web et plateformes pour startups et entreprises innovantes. Solutions technologiques avancées pour concrétiser vos concepts et accélérer votre croissance sur le marché local et au-delà."
+      icon: "🌍",
+      title: "Services Transfrontaliers",
+      description: "Applications web et sites multilingues pour entreprises travaillant avec l'Italie toute proche. Solutions digitales adaptées au contexte transfrontalier unique de Menton, permettant de toucher efficacement les marchés français et italien."
     }
   ]
 
@@ -149,12 +149,12 @@ export default function DeveloppeurWebNicePage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse en profondeur votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local niçois."
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local mentonnais."
     },
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
+      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'identité authentique de Menton."
     },
     {
       number: "03",
@@ -164,7 +164,7 @@ export default function DeveloppeurWebNicePage() {
     {
       number: "04",
       title: "Optimisation & Tests",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs mentonnais et des visiteurs de la région."
     },
     {
       number: "05",
@@ -173,22 +173,22 @@ export default function DeveloppeurWebNicePage() {
     }
   ]
 
-  const niceDigitalStats = [
+  const mentonDigitalStats = [
     {
-      figure: "87%",
-      description: "des consommateurs à Nice recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "84%",
+      description: "des consommateurs à Menton recherchent des entreprises locales en ligne avant de faire un achat"
     },
     {
-      figure: "73%",
-      description: "des recherches locales sur mobile à Nice aboutissent à une visite en magasin dans les 24 heures"
+      figure: "71%",
+      description: "des recherches locales sur mobile à Menton aboutissent à une visite en magasin dans les 24 heures"
     },
     {
-      figure: "68%",
-      description: "des entreprises niçoises considèrent que leur site web est essentiel pour leur développement commercial"
+      figure: "65%",
+      description: "des entreprises mentonnaises considèrent que leur site web est essentiel pour leur développement commercial"
     },
     {
-      figure: "92%",
-      description: "des utilisateurs à Nice forment leur première impression d'une entreprise à partir de son site web"
+      figure: "91%",
+      description: "des utilisateurs à Menton forment leur première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebNicePage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance à Nice', href: '/developpeur-web-nice', current: true }
+                { label: 'Développeur Web Freelance à Menton', href: '/developpeur-web-menton', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Nice</span>
+                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Menton</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels de la Côte d'Azur. Expertise locale, solutions personnalisées et accompagnement de proximité pour votre projet digital.
+                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications personnalisées pour répondre aux besoins des entreprises et professionnels des Alpes-Maritimes. Mon approche allie connaissance du contexte transfrontalier, réalisations adaptées et suivi rapproché tout au long de votre aventure numérique.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebNicePage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance à Nice"
+                        alt="Killian DOUBRE - Développeur Web Freelance à Menton"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebNicePage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Nice & Région</p>
+                          <p className="text-sm text-gray-600">Menton & Région</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebNicePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web à Nice
+                Services de Développement Web à Menton
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je propose une gamme complète de services de développement web pour les entreprises et professionnels.
-                Chaque solution est conçue sur-mesure pour répondre à vos besoins spécifiques et vous démarquer sur le marché local.
+                Je vous offre un ensemble complet de services de création web destinés aux acteurs économiques mentonnais.
+                Chaque projet est façonné avec attention pour s'aligner parfaitement avec vos objectifs particuliers et renforcer votre visibilité sur le marché local et transfrontalier.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebNicePage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Nice Section */}
+        {/* Secteurs d'activité à Menton Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Niçoises
+                Solutions Adaptées aux Entreprises Mentonnaises
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité à Nice et sur la Côte d'Azur.
+                Je conçois des outils numériques adaptés aux besoins spécifiques des différents domaines d'activité présents à Menton et dans sa zone frontalière avec l'Italie.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {niceBusinessSectors.map((sector, index) => (
+              {mentonBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebNicePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Nice
+                L'Importance du Digital à Menton
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises niçoises.
+                Voici quelques indicateurs clés qui mettent en lumière la valeur d'une présence en ligne professionnelle pour les entreprises établies à Menton.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {niceDigitalStats.map((stat, index) => (
+              {mentonDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebNicePage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet digital à Nice.
+                Faire appel à mes services présente de multiples avantages pour la réalisation de votre projet numérique à Menton.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebNicePage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante.
+                Une approche organisée et coopérative qui donne vie à vos idées sous forme de solutions web efficaces et adaptées au contexte mentonnais.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebNicePage() {
           </div>
         </section>
 
-        {/* Nice Web Development Section */}
+        {/* Menton Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web à Nice : Expertise Locale
+                Développement Web à Menton : Expertise Locale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web basé à Nice, je comprends les spécificités du marché local et les besoins des entreprises de la région.
+                Grâce à ma présence à Menton, j'ai acquis une compréhension approfondie des particularités du marché local et des besoins spécifiques des entreprises de cette ville frontalière unique.
               </p>
             </div>
             
@@ -456,32 +456,32 @@ export default function DeveloppeurWebNicePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Digitale Transfrontalière
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché niçois vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Nice.
+                  Une présence web optimisée pour le marché mentonnais vous permet d'attirer des clients locaux et transfrontaliers. 
+                  Je développe des sites web bilingues qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Menton, ville frontière entre la France et l'Italie.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
-                <div className="text-3xl mb-4">🤝</div>
+                <div className="text-3xl mb-4">🍋</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration de Proximité
+                  L'Authenticité Mentonnaise
                 </h3>
                 <p className="text-gray-600">
-                  Travailler avec un développeur web local à Nice facilite la communication et la collaboration, permettant de mieux comprendre vos besoins et d'ajuster rapidement le projet selon vos retours.
+                  Menton possède une identité unique, entre traditions méditerranéennes et influences italiennes. Je crée des solutions digitales qui reflètent cette authenticité et vous permettent de valoriser votre ancrage local, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Nice
+                  Croissance Digitale à Menton
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Nice offre d'importantes opportunités de croissance pour les entreprises locales. 
-                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité sur la Côte d'Azur.
+                  Le marché digital à Menton offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région, y compris vers le marché italien voisin.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebNicePage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité.
+                J'emploie les technologies et frameworks les plus actuels pour élaborer des solutions web fiables et évolutives qui répondent parfaitement à vos ambitions.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebNicePage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Nice ?
+              Prêt à Développer Votre Projet Web à Menton ?
             </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
-              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise.
+              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+              Entrez en contact avec moi dès maintenant pour échanger sur votre vision numérique et recevoir une proposition adaptée. 
+              Collaborons pour développer une plateforme web authentique qui valorise l'identité unique de votre entreprise mentonnaise.
             </p>
             <Link
               href="#contact"

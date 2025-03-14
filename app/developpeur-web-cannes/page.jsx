@@ -13,24 +13,24 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
-  keywords: ['développeur web Nice', 'création site web Nice', 'freelance web Nice', 'développeur Nice', 'site internet Nice', 'création site e-commerce Nice', 'développeur application web Nice', 'agence web Nice', 'refonte site web Nice'],
+  title: 'Développeur Web à Cannes | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
+  keywords: ['développeur web Cannes', 'création site web Cannes', 'freelance web Cannes', 'développeur Cannes', 'site internet Cannes', 'création site e-commerce Cannes', 'développeur application web Cannes', 'agence web Cannes', 'refonte site web Alpes-Maritimes'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-nice',
+    canonical: 'https://killiandoubre.com/developpeur-web-cannes',
   },
   openGraph: {
-    title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital.',
-    url: 'https://killiandoubre.com/developpeur-web-nice',
+    title: 'Développeur Web à Cannes | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
+    url: 'https://killiandoubre.com/developpeur-web-cannes',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance à Nice',
-  description: 'Services de développement web sur-mesure à Nice : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels.',
-  slug: 'developpeur-web-nice',
+  name: 'Développeur Web Freelance à Cannes',
+  description: 'Services de développement web sur-mesure à Cannes : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels des Alpes-Maritimes.',
+  slug: 'developpeur-web-cannes',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
@@ -41,63 +41,63 @@ const serviceData = {
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous à Nice ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS.'
+      question: 'Quels types de sites web développez-vous à Cannes ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels cannois : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité local.'
     },
     {
-      question: 'Combien coûte la création d\'un site web à Nice ?',
-      answer: 'Le coût d\'un site web à Nice varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse de votre projet.'
+      question: 'Combien coûte la création d\'un site web à Cannes ?',
+      answer: 'Le coût d\'un site web à Cannes varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse approfondie de votre projet et de vos objectifs commerciaux.'
     },
     {
-      question: 'Proposez-vous des services de référencement local pour Nice ?',
-      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché local niçois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Nice et sa région.'
+      question: 'Proposez-vous des services de référencement local pour Cannes ?',
+      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché cannois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Cannes et sa région.'
     }
   ]
 }
 
-export default function DeveloppeurWebNicePage() {
+export default function DeveloppeurWebCannesPage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création de sites web sur-mesure pour les entreprises et professionnels. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels cannois. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients.",
       features: [
-        "Design moderne et adapté à votre image",
-        "Parfaitement responsive (mobile, tablette, desktop)",
-        "Optimisé pour le référencement local à Nice",
-        "Intégration de fonctionnalités sur-mesure"
+        "Design haut de gamme adapté à l'image de Cannes",
+        "Parfaitement responsive sur tous les appareils",
+        "Optimisé pour le référencement local à Cannes",
+        "Intégration de fonctionnalités personnalisées"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs. Des boutiques en ligne sécurisées qui transforment les visiteurs en acheteurs.",
+      description: "Création de sites e-commerce performants pour les commerçants et entrepreneurs cannois. Des boutiques en ligne sophistiquées et intuitives qui valorisent vos produits et services exclusifs.",
       features: [
-        "Interface utilisateur intuitive et attractive",
-        "Gestion des produits et des stocks simplifiée",
-        "Paiements sécurisés et multiples options de livraison",
-        "Optimisation des taux de conversion"
+        "Interface utilisateur élégante et intuitive",
+        "Gestion simplifiée des produits et des stocks",
+        "Solutions de paiement sécurisées et options de livraison premium",
+        "Stratégies d'optimisation des taux de conversion"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Création d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Nice et sur la Côte d'Azur.",
+      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Cannes et sur la Côte d'Azur.",
       features: [
         "Développement full-stack avec technologies modernes",
-        "Interfaces utilisateurs intuitives et performantes",
-        "Systèmes sécurisés et évolutifs",
-        "Intégration avec vos outils existants"
+        "Interfaces utilisateurs sophistiquées et performantes",
+        "Architecture sécurisée et évolutive",
+        "Intégration avec vos systèmes existants"
       ]
     },
     {
       icon: "🔍",
       title: "SEO & Visibilité Locale",
-      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Nice et dans les Alpes-Maritimes. Attirez plus de clients locaux grâce au SEO.",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Cannes et dans les Alpes-Maritimes. Attirez une clientèle locale et internationale grâce à une stratégie SEO ciblée.",
       features: [
-        "Stratégie SEO locale ciblée sur Nice",
+        "Stratégie SEO locale ciblée sur Cannes",
         "Optimisation Google My Business",
-        "Création de contenu optimisé pour votre marché local",
+        "Création de contenu multilingue pour une clientèle internationale",
         "Suivi et amélioration continue des performances"
       ]
     }
@@ -105,43 +105,43 @@ export default function DeveloppeurWebNicePage() {
 
   const localAdvantages = [
     {
-      title: "Expertise du Marché Local Niçois",
-      description: "Ma connaissance approfondie du marché digital à Nice et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes et comportements des utilisateurs locaux. Je comprends les spécificités du tissu économique niçois et les opportunités digitales qu'il offre."
+      title: "Expertise du Marché Local Cannois",
+      description: "Ma connaissance approfondie du marché digital à Cannes me permet de créer des solutions parfaitement adaptées aux attentes d'une clientèle exigeante et internationale. Je comprends les spécificités du tissu économique cannois et les opportunités digitales qu'il offre."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, je vous offre un accompagnement de proximité pour mieux comprendre vos besoins. Cette relation directe garantit une communication fluide et une parfaite adéquation entre votre vision et la solution développée."
+      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec votre image de marque."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises",
-      description: "Chaque projet est unique, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément aux besoins spécifiques de votre entreprise. Pas de templates génériques, mais des créations originales qui vous démarquent de la concurrence locale."
+      title: "Solutions Sur-Mesure pour Entreprises Cannoises",
+      description: "Chaque projet est unique, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent aux exigences spécifiques de votre entreprise. Pas de templates génériques, mais des créations originales qui vous distinguent dans un marché compétitif."
     },
     {
-      title: "Support Technique & Maintenance Locale",
-      description: "Je vous offre un support technique réactif et une maintenance continue de votre site ou application. En cas de besoin, je peux intervenir rapidement sur place à Nice pour résoudre tout problème technique ou former votre équipe à l'utilisation de votre solution digitale."
+      title: "Support Technique & Maintenance Premium",
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence digitale toujours impeccable, essentielle pour maintenir l'image d'excellence attendue à Cannes."
     }
   ]
 
-  const niceBusinessSectors = [
+  const cannesBusinessSectors = [
     {
       icon: "🏨",
-      title: "Hôtellerie & Tourisme",
-      description: "Sites web et applications pour hôtels, restaurants, locations saisonnières et services touristiques à Nice. Solutions optimisées pour les réservations en ligne, la présentation de vos services et l'attraction de touristes internationaux."
+      title: "Hôtellerie & Tourisme de Luxe",
+      description: "Sites web et applications pour hôtels, restaurants gastronomiques, villas de location et services touristiques haut de gamme à Cannes. Solutions optimisées pour valoriser votre établissement et attirer une clientèle internationale exigeante."
     },
     {
-      icon: "🏢",
-      title: "Commerces & Services Locaux",
-      description: "Présence web efficace pour commerces, artisans et prestataires de services niçois. Sites vitrines et e-commerce adaptés aux besoins des entreprises locales pour attirer et fidéliser une clientèle de proximité."
+      icon: "🛥️",
+      title: "Nautisme & Yachting",
+      description: "Présence web sophistiquée pour entreprises du secteur nautique, location de yachts, services maritimes et événements nautiques. Sites et applications adaptés à ce secteur d'excellence cannois pour séduire une clientèle prestigieuse."
     },
     {
-      icon: "🏠",
-      title: "Immobilier & Architecture",
-      description: "Plateformes immobilières et sites pour agences, promoteurs et architectes à Nice. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées de recherche et de visualisation."
+      icon: "🏆",
+      title: "Événementiel & Culture",
+      description: "Plateformes web pour organisateurs d'événements, festivals, congrès et manifestations culturelles. Solutions permettant de mettre en valeur vos événements et d'optimiser l'expérience des participants dans la ville des festivals."
     },
     {
-      icon: "🎓",
-      title: "Startups & Innovation",
-      description: "Applications web et plateformes pour startups et entreprises innovantes. Solutions technologiques avancées pour concrétiser vos concepts et accélérer votre croissance sur le marché local et au-delà."
+      icon: "💎",
+      title: "Luxe & Commerce Premium",
+      description: "Sites e-commerce et vitrines digitales pour boutiques de luxe, joailliers, galeries d'art et services exclusifs. Solutions digitales raffinées qui reflètent l'élégance et le prestige de votre marque dans l'écosystème cannois."
     }
   ]
 
@@ -149,22 +149,22 @@ export default function DeveloppeurWebNicePage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse en profondeur votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local niçois."
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'analyse me permet d'identifier les solutions les plus adaptées à votre projet et au marché local cannois."
     },
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
+      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'image d'excellence de Cannes."
     },
     {
       number: "03",
       title: "Développement & Intégration",
-      description: "Je code votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement développée et testée pour garantir performance et fiabilité."
+      description: "Je code votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement développée et testée pour garantir une expérience utilisateur irréprochable."
     },
     {
       number: "04",
       title: "Optimisation & Tests",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs cannois et internationaux."
     },
     {
       number: "05",
@@ -173,22 +173,22 @@ export default function DeveloppeurWebNicePage() {
     }
   ]
 
-  const niceDigitalStats = [
+  const cannesDigitalStats = [
     {
-      figure: "87%",
-      description: "des consommateurs à Nice recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "89%",
+      description: "des visiteurs et résidents à Cannes recherchent des entreprises locales en ligne avant de faire un achat"
     },
     {
-      figure: "73%",
-      description: "des recherches locales sur mobile à Nice aboutissent à une visite en magasin dans les 24 heures"
+      figure: "78%",
+      description: "des recherches locales sur mobile à Cannes aboutissent à une visite en magasin dans les 24 heures"
     },
     {
-      figure: "68%",
-      description: "des entreprises niçoises considèrent que leur site web est essentiel pour leur développement commercial"
+      figure: "72%",
+      description: "des entreprises cannoises considèrent que leur site web est essentiel pour attirer une clientèle internationale"
     },
     {
-      figure: "92%",
-      description: "des utilisateurs à Nice forment leur première impression d'une entreprise à partir de son site web"
+      figure: "95%",
+      description: "des utilisateurs à Cannes forment leur première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebNicePage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance à Nice', href: '/developpeur-web-nice', current: true }
+                { label: 'Développeur Web Freelance à Cannes', href: '/developpeur-web-cannes', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Nice</span>
+                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Cannes</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels de la Côte d'Azur. Expertise locale, solutions personnalisées et accompagnement de proximité pour votre projet digital.
+                  En qualité de développeur web freelance basé à <strong>Nice</strong>, je réalise des sites internet et applications personnalisées répondant aux exigences des entreprises et professionnels de la Côte d'Azur. Mon approche combine expertise du marché local, créations sur-mesure et suivi personnalisé tout au long de votre projet numérique.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebNicePage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance à Nice"
+                        alt="Killian DOUBRE - Développeur Web Freelance à Cannes"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebNicePage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Nice & Région</p>
+                          <p className="text-sm text-gray-600">Cannes & Région</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebNicePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web à Nice
+                Services de Développement Web à Cannes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je propose une gamme complète de services de développement web pour les entreprises et professionnels.
-                Chaque solution est conçue sur-mesure pour répondre à vos besoins spécifiques et vous démarquer sur le marché local.
+                Mon offre englobe un éventail complet de prestations de développement web destinées aux entreprises et professionnels cannois.
+                Chaque réalisation est élaborée spécifiquement pour satisfaire vos attentes particulières et mettre en valeur votre image de marque auprès d'une clientèle locale et internationale.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebNicePage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Nice Section */}
+        {/* Secteurs d'activité à Cannes Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Niçoises
+                Solutions Adaptées aux Entreprises Cannoises
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions digitales sur-mesure pour différents secteurs d'activité à Nice et sur la Côte d'Azur.
+                Je crée des plateformes numériques adaptées aux besoins spécifiques de divers secteurs d'activité présents à Cannes et dans l'ensemble de la région azuréenne.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {niceBusinessSectors.map((sector, index) => (
+              {cannesBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebNicePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Digital à Nice
+                L'Importance du Digital à Cannes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises niçoises.
+                Voici quelques statistiques révélatrices qui illustrent la nécessité d'une présence en ligne professionnelle pour les entreprises établies à Cannes.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {niceDigitalStats.map((stat, index) => (
+              {cannesDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebNicePage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet digital à Nice.
+                Collaborer ensemble présente de multiples bénéfices pour la réussite de votre projet numérique à Cannes.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebNicePage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante.
+                Ma démarche structurée et participative permet de concrétiser votre vision en une réalisation numérique d'excellence.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebNicePage() {
           </div>
         </section>
 
-        {/* Nice Web Development Section */}
+        {/* Cannes Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web à Nice : Expertise Locale
+                Développement Web à Cannes : Expertise Locale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web basé à Nice, je comprends les spécificités du marché local et les besoins des entreprises de la région.
+                Fort de mon expérience auprès des acteurs économiques cannois, j'ai acquis une compréhension approfondie des particularités du marché local et des attentes spécifiques des entreprises de cette région prestigieuse.
               </p>
             </div>
             
@@ -456,32 +456,32 @@ export default function DeveloppeurWebNicePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Digitale Internationale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché niçois vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Nice.
+                  Une présence web optimisée pour le marché cannois vous permet d'attirer des clients locaux et internationaux. 
+                  Je développe des sites web multilingues qui ciblent spécifiquement les recherches locales et valorisent votre ancrage à Cannes, ville mondialement connue.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
-                <div className="text-3xl mb-4">🤝</div>
+                <div className="text-3xl mb-4">🌴</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration de Proximité
+                  L'Excellence Cannoise
                 </h3>
                 <p className="text-gray-600">
-                  Travailler avec un développeur web local à Nice facilite la communication et la collaboration, permettant de mieux comprendre vos besoins et d'ajuster rapidement le projet selon vos retours.
+                  Cannes est synonyme de prestige et d'excellence. Je crée des solutions digitales qui reflètent ces valeurs et vous permettent de vous démarquer dans un environnement compétitif, avec une attention particulière portée à l'esthétique et à l'expérience utilisateur.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Nice
+                  Croissance Digitale à Cannes
                 </h3>
                 <p className="text-gray-600">
-                  Le marché digital à Nice offre d'importantes opportunités de croissance pour les entreprises locales. 
-                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité sur la Côte d'Azur.
+                  Le marché digital à Cannes offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet de toucher une clientèle exigeante et d'étendre votre activité sur toute la Côte d'Azur et au-delà.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebNicePage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions digitales de qualité.
+                Je m'appuie sur les technologies de pointe les plus innovantes pour concevoir des plateformes numériques alliant performance et élégance.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebNicePage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Nice ?
+              Prêt à Développer Votre Projet Web à Cannes ?
             </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet digital et obtenir un devis personnalisé. 
-              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise.
+              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+              Prenez contact avec moi sans attendre pour échanger sur votre projet numérique et recevoir une proposition sur mesure. 
+              Unissons nos expertises pour développer une plateforme web prestigieuse parfaitement alignée avec les ambitions de votre entreprise cannoise.
             </p>
             <Link
               href="#contact"
