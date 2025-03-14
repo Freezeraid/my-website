@@ -91,6 +91,29 @@ export default function Contact() {
         </div>
 
         <div className="max-w-2xl mx-auto">
+        <div className="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-gray-100">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Tarification transparente</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="text-gray-600">Projets à partir de <span className="font-bold">500€</span> selon la complexité</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="text-gray-600">Devis personnalisé détaillé et sans engagement</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span className="text-gray-600">Paiement en plusieurs fois possible</span>
+              </li>
+            </ul>
+          </div>
           <form onSubmit={handleSubmit} className={`${styles.glassCard} rounded-2xl p-8 md:p-10`}>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
               <div>
@@ -144,15 +167,21 @@ export default function Contact() {
                 <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
                   Budget estimé
                 </label>
-                <input
-                  type="text"
+                <select
                   id="budget"
                   value={formData.budget}
                   required
-                  placeholder="Ex: 5000€"
                   className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
                   onChange={(e) => setFormData({...formData, budget: e.target.value})}
-                />
+                >
+                  <option value="">Sélectionnez</option>
+                  <option value="500-1000">500€ - 1 000€</option>
+                  <option value="1000-3000">1 000€ - 3 000€</option>
+                  <option value="3000-5000">3 000€ - 5 000€</option>
+                  <option value="5000-10000">5 000€ - 10 000€</option>
+                  <option value="10000+">Plus de 10 000€</option>
+                  <option value="unsure">Je ne sais pas encore</option>
+                </select>
               </div>
             </div>
 
@@ -197,9 +226,12 @@ export default function Contact() {
               )}
             </button>
 
-            <p className="text-center text-sm text-gray-500 mt-4">
-              Réponse garantie sous 24-48h
-            </p>
+            <div className="flex items-center justify-center mt-6 text-sm text-gray-500">
+              <svg className="h-5 w-5 text-gray-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <p>Réponse garantie sous 24-48h</p>
+            </div>
           </form>
         </div>
       </div>
