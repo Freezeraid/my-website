@@ -110,7 +110,7 @@ export default function DeveloppeurWebAlpesDeHauteProvencePage() {
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, je propose mes services dans tout le département des Alpes-de-Haute-Provence pour vous offrir un accompagnement personnalisé. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec vos objectifs commerciaux et les particularités de votre territoire."
+      description: "En tant que développeur web freelance basé à Nice, je propose mes services dans tout le département des Alpes-de-Haute-Provence pour vous offrir un accompagnement personnalisé. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec vos objectifs commerciaux et les particularités de votre territoire."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises Locales",
@@ -118,7 +118,7 @@ export default function DeveloppeurWebAlpesDeHauteProvencePage() {
     },
     {
       title: "Support Technique & Maintenance Réactive",
-      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence digitale toujours opérationnelle, essentielle pour maintenir la confiance de vos clients dans les Alpes-de-Haute-Provence, même dans les zones rurales."
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence web toujours opérationnelle, essentielle pour maintenir la confiance de vos clients dans les Alpes-de-Haute-Provence, même dans les zones rurales."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebAlpesDeHauteProvencePage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "J'élabore une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle dans le 04."
+      description: "J'élabore une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle dans le 04."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebAlpesDeHauteProvencePage() {
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à l'évolution de vos besoins et du marché local."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché local."
     }
   ]
 
@@ -363,7 +363,7 @@ export default function DeveloppeurWebAlpesDeHauteProvencePage() {
                 L'Importance du Web dans les Alpes-de-Haute-Provence
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises des Alpes-de-Haute-Provence, particulièrement dans ce territoire où la connectivité digitale permet de dépasser les contraintes géographiques.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises des Alpes-de-Haute-Provence, particulièrement dans ce territoire où la connectivité web permet de dépasser les contraintes géographiques.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebAlpesDeHauteProvencePage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée au marché des Alpes-de-Haute-Provence et à ses spécificités territoriales.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante et adaptée au marché des Alpes-de-Haute-Provence et à ses spécificités territoriales.
               </p>
             </div>
             

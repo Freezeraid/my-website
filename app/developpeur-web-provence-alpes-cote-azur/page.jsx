@@ -110,7 +110,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, je propose mes services dans toute la région PACA pour vous offrir un accompagnement personnalisé. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec vos objectifs commerciaux et votre ancrage territorial."
+      description: "En tant que développeur web freelance basé à Nice, je propose mes services dans toute la région PACA pour vous offrir un accompagnement personnalisé. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec vos objectifs commerciaux et votre ancrage territorial."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises Régionales",
@@ -118,7 +118,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
     },
     {
       title: "Support Technique & Maintenance Réactive",
-      description: "Je vous propose un support technique efficace et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence digitale toujours opérationnelle, essentielle pour maintenir la confiance de vos clients en Provence-Alpes-Côte d'Azur."
+      description: "Je vous propose un support technique efficace et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence web toujours opérationnelle, essentielle pour maintenir la confiance de vos clients en Provence-Alpes-Côte d'Azur."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "J'élabore une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle en Provence-Alpes-Côte d'Azur."
+      description: "J'élabore une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle en Provence-Alpes-Côte d'Azur."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à l'évolution de vos besoins et du marché régional."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché régional."
     }
   ]
 
@@ -413,7 +413,7 @@ export default function DeveloppeurWebProvenceAlpesCoteAzurPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée au marché de la région PACA.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante et adaptée au marché de la région PACA.
               </p>
             </div>
             

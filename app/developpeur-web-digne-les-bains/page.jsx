@@ -110,7 +110,7 @@ export default function DeveloppeurWebDigneLesbainsPage() {
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, je propose mes services aux entreprises de Digne-les-Bains avec une approche personnalisée. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec vos objectifs commerciaux et les particularités de votre territoire entre Préalpes et Haute-Provence."
+      description: "En tant que développeur web freelance basé à Nice, je propose mes services aux entreprises de Digne-les-Bains avec une approche personnalisée. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec vos objectifs commerciaux et les particularités de votre territoire entre Préalpes et Haute-Provence."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises Dignoises",
@@ -118,7 +118,7 @@ export default function DeveloppeurWebDigneLesbainsPage() {
     },
     {
       title: "Support Technique & Maintenance Réactive",
-      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence digitale toujours opérationnelle, essentielle pour maintenir la confiance de vos clients à Digne-les-Bains et optimiser votre visibilité en ligne dans cette région où la connectivité peut parfois représenter un défi."
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence web toujours opérationnelle, essentielle pour maintenir la confiance de vos clients à Digne-les-Bains et optimiser votre visibilité en ligne dans cette région où la connectivité peut parfois représenter un défi."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebDigneLesbainsPage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "J'élabore une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle dignoise."
+      description: "J'élabore une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle dignoise."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebDigneLesbainsPage() {
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à l'évolution de vos besoins et du marché local."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché local."
     }
   ]
 
@@ -413,7 +413,7 @@ export default function DeveloppeurWebDigneLesbainsPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée au marché dignois et à ses spécificités.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante et adaptée au marché dignois et à ses spécificités.
               </p>
             </div>
             

@@ -110,7 +110,7 @@ export default function DeveloppeurWebFrejusPage() {
     },
     {
       title: "Accompagnement Personnalisé & Réactivité",
-      description: "En tant que développeur web freelance basé à Nice, j'offre un accompagnement personnalisé et réactif. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec vos objectifs commerciaux."
+      description: "En tant que développeur web freelance basé à Nice, j'offre un accompagnement personnalisé et réactif. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec vos objectifs commerciaux."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises de Fréjus",
@@ -118,7 +118,7 @@ export default function DeveloppeurWebFrejusPage() {
     },
     {
       title: "Support Technique & Maintenance Fiable",
-      description: "Je vous propose un support technique efficace et une maintenance régulière de votre site ou application. Mon intervention garantit une présence digitale toujours performante, essentielle pour maintenir la confiance de vos clients à Fréjus et dans le Var."
+      description: "Je vous propose un support technique efficace et une maintenance régulière de votre site ou application. Mon intervention garantit une présence web toujours performante, essentielle pour maintenir la confiance de vos clients à Fréjus et dans le Var."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebFrejusPage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "J'élabore une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle à Fréjus."
+      description: "J'élabore une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle à Fréjus."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebFrejusPage() {
     {
       number: "05",
       title: "Lancement & Suivi",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à l'évolution de vos besoins et du marché local."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché local."
     }
   ]
 
@@ -413,7 +413,7 @@ export default function DeveloppeurWebFrejusPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée au marché de Fréjus.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante et adaptée au marché de Fréjus.
               </p>
             </div>
             

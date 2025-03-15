@@ -110,7 +110,7 @@ export default function DeveloppeurWebMentonPage() {
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec votre vision et votre marché local."
+      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec votre vision et votre marché local."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises",
@@ -118,7 +118,7 @@ export default function DeveloppeurWebMentonPage() {
     },
     {
       title: "Support Technique & Maintenance Réactive",
-      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence digitale toujours fonctionnelle et à jour, essentielle pour maintenir la confiance de vos clients locaux et internationaux."
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence web toujours fonctionnelle et à jour, essentielle pour maintenir la confiance de vos clients locaux et internationaux."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebMentonPage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'identité authentique de Menton."
+      description: "Je développe une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'identité authentique de Menton."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebMentonPage() {
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à vos besoins futurs."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
     }
   ]
 

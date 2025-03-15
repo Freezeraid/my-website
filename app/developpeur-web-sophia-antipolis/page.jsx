@@ -413,7 +413,7 @@ export default function DeveloppeurWebSophiaAntipolisPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée aux standards élevés de Sophia Antipolis.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante et adaptée aux standards élevés de Sophia Antipolis.
               </p>
             </div>
             
@@ -565,7 +565,7 @@ export default function DeveloppeurWebSophiaAntipolisPage() {
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
               Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
-              Ensemble, créons une solution digitale performante qui répond parfaitement aux besoins techniques et aux ambitions de votre entreprise dans la technopole.
+              Ensemble, créons une solution web performante qui répond parfaitement aux besoins techniques et aux ambitions de votre entreprise dans la technopole.
             </p>
             <Link
               href="#contact"

@@ -83,7 +83,7 @@ export default function ConsultantSEOPage() {
     },
     {
       title: "Transparence & Pédagogie",
-      description: "Je vous explique clairement les actions entreprises et leurs impacts attendus. Mon approche pédagogique vous permet de comprendre les enjeux du SEO et de prendre des décisions éclairées pour votre stratégie digitale."
+      description: "Je vous explique clairement les actions entreprises et leurs impacts attendus. Mon approche pédagogique vous permet de comprendre les enjeux du SEO et de prendre des décisions éclairées pour votre stratégie web."
     },
     {
       title: "Rapport Qualité-Prix Optimal",
