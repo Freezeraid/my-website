@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Martigues | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Martigues spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales personnalisées pour entreprises martégales avec accompagnement à distance et expertise technique.',
+  description: 'Développeur web freelance pour Martigues spécialisé dans la création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises martégales avec accompagnement à distance et expertise technique.',
   keywords: ['développeur web Martigues', 'création site web Martigues', 'freelance web Martigues', 'développeur Martigues', 'site internet Martigues', 'création site e-commerce Martigues', 'développeur application web Martigues', 'agence web Martigues', 'refonte site web Martigues'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-martigues',
   },
   openGraph: {
     title: 'Développeur Web à Martigues | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Martigues spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales personnalisées pour entreprises martégales avec accompagnement à distance et expertise technique.',
+    description: 'Développeur web freelance pour Martigues spécialisé dans la création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises martégales avec accompagnement à distance et expertise technique.',
     url: 'https://killiandoubre.com/developpeur-web-martigues',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebMartiguesPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Réalisation de sites web sur-mesure pour les entreprises et professionnels martégaux. Des vitrines digitales modernes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Réalisation de sites web sur-mesure pour les entreprises et professionnels martégaux. Des vitrines web modernes, responsive et optimisées pour transformer vos visiteurs en clients.",
       features: [
         "Design adapté à l'identité de Martigues et de votre entreprise",
         "Parfaitement responsive (mobile, tablette, desktop)",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebMartiguesPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Conception d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Martigues et dans les Bouches-du-Rhône.",
+      description: "Conception d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Martigues et dans les Bouches-du-Rhône.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs intuitives et réactives",
@@ -136,7 +136,7 @@ export default function DeveloppeurWebMartiguesPage() {
     {
       icon: "🏖️",
       title: "Tourisme & Loisirs",
-      description: "Sites web et applications pour les acteurs du tourisme et des loisirs à Martigues. Solutions digitales valorisant le patrimoine et les atouts touristiques locaux, avec systèmes de réservation et présentation attractive de votre offre."
+      description: "Sites web et applications pour les acteurs du tourisme et des loisirs à Martigues. Solutions web valorisant le patrimoine et les atouts touristiques locaux, avec systèmes de réservation et présentation attractive de votre offre."
     },
     {
       icon: "🏪",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebMartiguesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché martégal vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebMartiguesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Martigues
+                  Croissance Web à Martigues
                 </h3>
                 <p className="text-gray-600">
                   Le marché web martégal offre d'importantes opportunités de développement pour les entreprises locales. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebMartiguesPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

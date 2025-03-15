@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Saint-Raphaël | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à Saint-Raphaël. Création de sites web, e-commerce et applications sur-mesure. Solutions digitales adaptées aux entreprises de Saint-Raphaël.',
+  description: 'Développeur web freelance basé à Nice intervenant à Saint-Raphaël. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Raphaël.',
   keywords: ['développeur web Saint-Raphaël', 'création site web Saint-Raphaël', 'freelance web Saint-Raphaël', 'développeur Saint-Raphaël', 'site internet Saint-Raphaël', 'création site e-commerce Saint-Raphaël', 'développeur application web Saint-Raphaël', 'agence web Saint-Raphaël', 'refonte site web Saint-Raphaël'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-saint-raphael',
   },
   openGraph: {
     title: 'Développeur Web à Saint-Raphaël | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à Saint-Raphaël. Création de sites web, e-commerce et applications sur-mesure. Solutions digitales adaptées aux entreprises de Saint-Raphaël.',
+    description: 'Développeur web freelance basé à Nice intervenant à Saint-Raphaël. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Raphaël.',
     url: 'https://killiandoubre.com/developpeur-web-saint-raphael',
   }
 }
@@ -82,7 +82,7 @@ export default function DeveloppeurWebSaintRaphaelPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Saint-Raphaël et dans le Var.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Saint-Raphaël et dans le Var.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -106,7 +106,7 @@ export default function DeveloppeurWebSaintRaphaelPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Local de Saint-Raphaël",
-      description: "Ma connaissance approfondie du marché web à Saint-Raphaël et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités économiques de Saint-Raphaël et les opportunités digitales qu'offre cette ville balnéaire dynamique."
+      description: "Ma connaissance approfondie du marché web à Saint-Raphaël et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités économiques de Saint-Raphaël et les opportunités web qu'offre cette ville balnéaire dynamique."
     },
     {
       title: "Accompagnement Personnalisé & Réactivité",
@@ -126,7 +126,7 @@ export default function DeveloppeurWebSaintRaphaelPage() {
     {
       icon: "🏖️",
       title: "Tourisme & Hôtellerie",
-      description: "Sites web et applications pour hôtels, résidences, locations saisonnières et prestataires touristiques à Saint-Raphaël. Solutions digitales pour présenter votre offre, gérer les réservations et fidéliser votre clientèle touristique."
+      description: "Sites web et applications pour hôtels, résidences, locations saisonnières et prestataires touristiques à Saint-Raphaël. Solutions web pour présenter votre offre, gérer les réservations et fidéliser votre clientèle touristique."
     },
     {
       icon: "🏢",
@@ -136,12 +136,12 @@ export default function DeveloppeurWebSaintRaphaelPage() {
     {
       icon: "🍽️",
       title: "Restauration & Loisirs",
-      description: "Applications web et sites pour restaurants, bars et établissements de loisirs à Saint-Raphaël. Solutions digitales pour présenter votre offre, gérer les réservations et fidéliser votre clientèle locale et touristique."
+      description: "Applications web et sites pour restaurants, bars et établissements de loisirs à Saint-Raphaël. Solutions web pour présenter votre offre, gérer les réservations et fidéliser votre clientèle locale et touristique."
     },
     {
       icon: "🏘️",
       title: "Immobilier & Construction",
-      description: "Sites web professionnels pour agences immobilières, promoteurs et entreprises du bâtiment à Saint-Raphaël. Solutions digitales mettant en valeur vos biens, projets et services auprès d'une clientèle locale et internationale."
+      description: "Sites web professionnels pour agences immobilières, promoteurs et entreprises du bâtiment à Saint-Raphaël. Solutions web mettant en valeur vos biens, projets et services auprès d'une clientèle locale et internationale."
     }
   ]
 
@@ -341,7 +341,7 @@ export default function DeveloppeurWebSaintRaphaelPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

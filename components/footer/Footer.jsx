@@ -15,7 +15,8 @@ export default function Footer() {
     { href: '/developpement-site-blog', label: 'Site de Blog' },
     { href: '/developpement-application-saas', label: 'Application SaaS' },
     { href: '/developpement-web-fullstack', label: 'Développement Full Stack' },
-    { href: '/consultant-referencement-naturel', label: 'Consultant SEO' }
+    { href: '/consultant-referencement-naturel', label: 'Consultant SEO' },
+    { href: '/audit-site-web', label: 'Audit de Site Web' }
   ]
 
   const socialLinks = [

@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Saint-Tropez | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à Saint-Tropez. Création de sites web, e-commerce et applications sur-mesure. Solutions digitales adaptées aux entreprises de Saint-Tropez.',
+  description: 'Développeur web freelance basé à Nice intervenant à Saint-Tropez. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Tropez.',
   keywords: ['développeur web Saint-Tropez', 'création site web Saint-Tropez', 'freelance web Saint-Tropez', 'développeur Saint-Tropez', 'site internet Saint-Tropez', 'création site e-commerce Saint-Tropez', 'développeur application web Saint-Tropez', 'agence web Saint-Tropez', 'refonte site web Saint-Tropez'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-saint-tropez',
   },
   openGraph: {
     title: 'Développeur Web à Saint-Tropez | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à Saint-Tropez. Création de sites web, e-commerce et applications sur-mesure. Solutions digitales adaptées aux entreprises de Saint-Tropez.',
+    description: 'Développeur web freelance basé à Nice intervenant à Saint-Tropez. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Tropez.',
     url: 'https://killiandoubre.com/developpeur-web-saint-tropez',
   }
 }
@@ -82,7 +82,7 @@ export default function DeveloppeurWebSaintTropezPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Conception d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Saint-Tropez et sur la Côte d'Azur.",
+      description: "Conception d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Saint-Tropez et sur la Côte d'Azur.",
       features: [
         "Développement full-stack avec technologies innovantes",
         "Interfaces utilisateurs intuitives et sophistiquées",
@@ -106,7 +106,7 @@ export default function DeveloppeurWebSaintTropezPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Premium de Saint-Tropez",
-      description: "Ma connaissance approfondie du marché web à Saint-Tropez et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes d'une clientèle exigeante. Je comprends les spécificités économiques de Saint-Tropez et les opportunités digitales qu'offre cette destination prestigieuse."
+      description: "Ma connaissance approfondie du marché web à Saint-Tropez et sur la Côte d'Azur me permet de créer des solutions parfaitement adaptées aux attentes d'une clientèle exigeante. Je comprends les spécificités économiques de Saint-Tropez et les opportunités web qu'offre cette destination prestigieuse."
     },
     {
       title: "Accompagnement Personnalisé & Discrétion",
@@ -126,7 +126,7 @@ export default function DeveloppeurWebSaintTropezPage() {
     {
       icon: "⛵",
       title: "Tourisme & Hôtellerie de Luxe",
-      description: "Sites web et applications pour hôtels, villas, yachts et prestataires touristiques haut de gamme à Saint-Tropez. Solutions digitales élégantes pour présenter votre offre, gérer les réservations et fidéliser votre clientèle internationale."
+      description: "Sites web et applications pour hôtels, villas, yachts et prestataires touristiques haut de gamme à Saint-Tropez. Solutions web élégantes pour présenter votre offre, gérer les réservations et fidéliser votre clientèle internationale."
     },
     {
       icon: "🛍️",
@@ -136,12 +136,12 @@ export default function DeveloppeurWebSaintTropezPage() {
     {
       icon: "🍽️",
       title: "Gastronomie & Établissements Renommés",
-      description: "Applications web et sites pour restaurants, plages privées et établissements gastronomiques à Saint-Tropez. Solutions digitales raffinées pour présenter votre offre, gérer les réservations et fidéliser votre clientèle privilégiée."
+      description: "Applications web et sites pour restaurants, plages privées et établissements gastronomiques à Saint-Tropez. Solutions web raffinées pour présenter votre offre, gérer les réservations et fidéliser votre clientèle privilégiée."
     },
     {
       icon: "🏘️",
       title: "Immobilier & Propriétés d'Exception",
-      description: "Sites web professionnels pour agences immobilières et promoteurs spécialisés dans les biens d'exception à Saint-Tropez. Solutions digitales mettant en valeur vos propriétés auprès d'une clientèle internationale fortunée."
+      description: "Sites web professionnels pour agences immobilières et promoteurs spécialisés dans les biens d'exception à Saint-Tropez. Solutions web mettant en valeur vos propriétés auprès d'une clientèle internationale fortunée."
     }
   ]
 
@@ -341,7 +341,7 @@ export default function DeveloppeurWebSaintTropezPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

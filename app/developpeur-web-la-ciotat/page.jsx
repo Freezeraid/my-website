@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à La Ciotat | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour La Ciotat spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises ciotadennes avec accompagnement à distance et expertise technique.',
+  description: 'Développeur web freelance pour La Ciotat spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises ciotadennes avec accompagnement à distance et expertise technique.',
   keywords: ['développeur web La Ciotat', 'création site web La Ciotat', 'freelance web La Ciotat', 'développeur La Ciotat', 'site internet La Ciotat', 'création site e-commerce La Ciotat', 'développeur application web La Ciotat', 'agence web La Ciotat', 'refonte site web La Ciotat'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-la-ciotat',
   },
   openGraph: {
     title: 'Développeur Web à La Ciotat | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour La Ciotat spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises ciotadennes avec accompagnement à distance et expertise technique.',
+    description: 'Développeur web freelance pour La Ciotat spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises ciotadennes avec accompagnement à distance et expertise technique.',
     url: 'https://killiandoubre.com/developpeur-web-la-ciotat',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebLaCiotatPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception de sites web sur-mesure pour les entreprises et professionnels ciotadens. Des vitrines digitales élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Conception de sites web sur-mesure pour les entreprises et professionnels ciotadens. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
       features: [
         "Design adapté à l'identité maritime de La Ciotat et de votre entreprise",
         "Parfaitement responsive (mobile, tablette, desktop)",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebLaCiotatPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Création d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à La Ciotat et dans les Bouches-du-Rhône.",
+      description: "Création d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à La Ciotat et dans les Bouches-du-Rhône.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs intuitives et performantes",
@@ -131,7 +131,7 @@ export default function DeveloppeurWebLaCiotatPage() {
     {
       icon: "🏪",
       title: "Commerce & Artisanat Local",
-      description: "Sites web et e-commerce pour les commerçants et artisans ciotadens. Solutions digitales adaptées pour valoriser vos produits et services, avec fonctionnalités de vente en ligne et stratégies de fidélisation de la clientèle locale."
+      description: "Sites web et e-commerce pour les commerçants et artisans ciotadens. Solutions web adaptées pour valoriser vos produits et services, avec fonctionnalités de vente en ligne et stratégies de fidélisation de la clientèle locale."
     },
     {
       icon: "🍽️",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebLaCiotatPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché ciotaden vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebLaCiotatPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à La Ciotat
+                  Croissance Web à La Ciotat
                 </h3>
                 <p className="text-gray-600">
                   Le marché web ciotaden offre d'importantes opportunités de développement pour les entreprises locales. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebLaCiotatPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web Cavaillon | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Cavaillon spécialisé en création de sites web, e-commerce et applications. Solutions digitales adaptées aux entreprises et commerces cavaillonnais, avec accompagnement personnalisé.',
+  description: 'Développeur web freelance à Cavaillon spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces cavaillonnais, avec accompagnement personnalisé.',
   keywords: ['développeur web Cavaillon', 'création site web Cavaillon', 'freelance web Cavaillon', 'développeur 84', 'site internet Cavaillon', 'création site e-commerce Cavaillon', 'développeur application web Cavaillon', 'agence web Cavaillon', 'refonte site web Cavaillon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-cavaillon',
   },
   openGraph: {
     title: 'Développeur Web Cavaillon | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Cavaillon spécialisé en création de sites web, e-commerce et applications. Solutions digitales adaptées aux entreprises et commerces cavaillonnais, avec accompagnement personnalisé.',
+    description: 'Développeur web freelance à Cavaillon spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces cavaillonnais, avec accompagnement personnalisé.',
     url: 'https://killiandoubre.com/developpeur-web-cavaillon',
   }
 }
@@ -82,7 +82,7 @@ export default function DeveloppeurWebCavaillonPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier à Cavaillon, adaptées aux spécificités de votre secteur d'activité et aux particularités du marché local.",
+      description: "Développement d'applications web et plateformes personnalisées pour mettre en ligne vos services et optimiser vos processus métier à Cavaillon, adaptées aux spécificités de votre secteur d'activité et aux particularités du marché local.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebCavaillonPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché cavaillonnais vous permet d'attirer des clients locaux et des visiteurs, tout en vous démarquant de la concurrence. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebCavaillonPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

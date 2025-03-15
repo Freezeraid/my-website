@@ -82,7 +82,7 @@ export default function DeveloppeurWebSolliesPontPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier à Sollies-Pont et dans le Var.",
+      description: "Développement d'applications web et plateformes personnalisées pour mettre en ligne vos services et optimiser vos processus métier à Sollies-Pont et dans le Var.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs fluides et ergonomiques",
@@ -349,7 +349,7 @@ export default function DeveloppeurWebSolliesPontPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

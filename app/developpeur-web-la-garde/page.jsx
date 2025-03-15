@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à La Garde | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à La Garde. Création de sites web, e-commerce et applications sur-mesure. Expertise technique et solutions digitales adaptées aux entreprises de La Garde.',
+  description: 'Développeur web freelance basé à Nice intervenant à La Garde. Création de sites web, e-commerce et applications sur-mesure. Expertise technique et solutions web adaptées aux entreprises de La Garde.',
   keywords: ['développeur web La Garde', 'création site web La Garde', 'freelance web La Garde', 'développeur La Garde', 'site internet La Garde', 'création site e-commerce La Garde', 'développeur application web La Garde', 'agence web La Garde', 'refonte site web La Garde'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-la-garde',
   },
   openGraph: {
     title: 'Développeur Web à La Garde | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à La Garde. Création de sites web, e-commerce et applications sur-mesure. Expertise technique et solutions digitales adaptées aux entreprises de La Garde.',
+    description: 'Développeur web freelance basé à Nice intervenant à La Garde. Création de sites web, e-commerce et applications sur-mesure. Expertise technique et solutions web adaptées aux entreprises de La Garde.',
     url: 'https://killiandoubre.com/developpeur-web-la-garde',
   }
 }
@@ -82,7 +82,7 @@ export default function DeveloppeurWebLaGardePage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à La Garde et dans le Var.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à La Garde et dans le Var.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -106,7 +106,7 @@ export default function DeveloppeurWebLaGardePage() {
   const localAdvantages = [
     {
       title: "Compréhension du Marché Local de La Garde",
-      description: "Ma connaissance approfondie du marché web à La Garde et dans le Var me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités économiques de La Garde et les opportunités digitales qu'offre cette ville dynamique."
+      description: "Ma connaissance approfondie du marché web à La Garde et dans le Var me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités économiques de La Garde et les opportunités web qu'offre cette ville dynamique."
     },
     {
       title: "Accompagnement Personnalisé & Disponibilité",
@@ -136,12 +136,12 @@ export default function DeveloppeurWebLaGardePage() {
     {
       icon: "🏭",
       title: "Industrie & Entreprises",
-      description: "Sites web professionnels pour les entreprises industrielles, PME et sociétés de services B2B à La Garde. Solutions digitales mettant en valeur votre expertise, vos produits et services auprès de clients professionnels."
+      description: "Sites web professionnels pour les entreprises industrielles, PME et sociétés de services B2B à La Garde. Solutions web mettant en valeur votre expertise, vos produits et services auprès de clients professionnels."
     },
     {
       icon: "🥂",
       title: "Restauration & Hôtellerie",
-      description: "Applications web et sites pour restaurants, hôtels et établissements de loisirs à La Garde. Solutions digitales pour présenter votre offre, gérer les réservations et fidéliser votre clientèle locale."
+      description: "Applications web et sites pour restaurants, hôtels et établissements de loisirs à La Garde. Solutions web pour présenter votre offre, gérer les réservations et fidéliser votre clientèle locale."
     }
   ]
 
@@ -456,7 +456,7 @@ export default function DeveloppeurWebLaGardePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché de La Garde vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebLaGardePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à La Garde
+                  Croissance Web à La Garde
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à La Garde offre d'importantes opportunités de développement pour les entreprises locales. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebLaGardePage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

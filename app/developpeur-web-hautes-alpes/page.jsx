@@ -82,7 +82,7 @@ export default function DeveloppeurWebHautesAlpesPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier dans les Hautes-Alpes, adaptées aux spécificités de votre secteur d'activité et aux particularités du territoire montagnard.",
+      description: "Développement d'applications web et plateformes personnalisées pour mettre en ligne vos services et optimiser vos processus métier dans les Hautes-Alpes, adaptées aux spécificités de votre secteur d'activité et aux particularités du territoire montagnard.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebHautesAlpesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Alpine
+                  Présence Web Alpine
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché des Hautes-Alpes vous permet d'attirer des clients locaux et des visiteurs, tout en vous démarquant de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebHautesAlpesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale dans le 05
+                  Croissance Web dans le 05
                 </h3>
                 <p className="text-gray-600">
                   Le marché web dans les Hautes-Alpes offre d'importantes opportunités de croissance pour les entreprises locales. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebHautesAlpesPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

@@ -82,7 +82,7 @@ export default function DeveloppeurWebCannesPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Cannes et sur la Côte d'Azur.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Cannes et sur la Côte d'Azur.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs sophistiquées et performantes",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebCannesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Internationale
+                  Présence Web Internationale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché cannois vous permet d'attirer des clients locaux et internationaux. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebCannesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Cannes
+                  Croissance Web à Cannes
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à Cannes offre d'importantes opportunités de croissance pour les entreprises locales. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebCannesPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

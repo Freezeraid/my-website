@@ -82,7 +82,7 @@ export default function DeveloppeurWebFrejusPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier à Fréjus et dans le Var.",
+      description: "Développement d'applications web et plateformes personnalisées pour mettre en ligne vos services et optimiser vos processus métier à Fréjus et dans le Var.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs intuitives et réactives",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebFrejusPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Touristique
+                  Présence Web Touristique
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché de Fréjus vous permet d'attirer des clients locaux et des touristes tout au long de l'année. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebFrejusPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Fréjus
+                  Croissance Web à Fréjus
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à Fréjus offre d'importantes opportunités de croissance pour les entreprises locales, particulièrement dans les secteurs du tourisme, des loisirs et des services. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebFrejusPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

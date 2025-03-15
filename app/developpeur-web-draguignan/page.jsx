@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Draguignan | Création Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Draguignan spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes pour entreprises et professionnels du Var.',
+  description: 'Développeur web freelance pour Draguignan spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes pour entreprises et professionnels du Var.',
   keywords: ['développeur web Draguignan', 'création site web Draguignan', 'freelance web Draguignan', 'développeur Draguignan', 'site internet Draguignan', 'création site e-commerce Draguignan', 'développeur application web Draguignan', 'agence web Draguignan', 'refonte site web Draguignan'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-draguignan',
   },
   openGraph: {
     title: 'Développeur Web à Draguignan | Création Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Draguignan spécialisé en création de sites web, e-commerce et applications. Solutions digitales innovantes pour entreprises et professionnels du Var.',
+    description: 'Développeur web freelance pour Draguignan spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes pour entreprises et professionnels du Var.',
     url: 'https://killiandoubre.com/developpeur-web-draguignan',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebDraguignanPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Développement de sites web sur-mesure pour les entreprises et professionnels de Draguignan. Des vitrines digitales attractives, responsive et optimisées pour générer des contacts qualifiés et convertir vos visiteurs.",
+      description: "Développement de sites web sur-mesure pour les entreprises et professionnels de Draguignan. Des vitrines web attractives, responsive et optimisées pour générer des contacts qualifiés et convertir vos visiteurs.",
       features: [
         "Design personnalisé reflétant votre identité",
         "Adaptation parfaite à tous les appareils",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebDraguignanPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Draguignan et dans le Var.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Draguignan et dans le Var.",
       features: [
         "Développement full-stack avec technologies actuelles",
         "Interfaces utilisateurs intuitives et réactives",
@@ -445,7 +445,7 @@ export default function DeveloppeurWebDraguignanPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web pour Draguignan : Expertise Digitale
+                Développement Web pour Draguignan : Expertise Web
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 En tant que développeur web freelance, je comprends les spécificités du marché de Draguignan et les besoins des entreprises locales.
@@ -456,7 +456,7 @@ export default function DeveloppeurWebDraguignanPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché de Draguignan vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebDraguignanPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Draguignan
+                  Croissance Web à Draguignan
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à Draguignan offre d'importantes opportunités de croissance pour les entreprises locales. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebDraguignanPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>

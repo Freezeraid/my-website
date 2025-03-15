@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Arles | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Arles spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises arlésiennes avec accompagnement à distance et expertise technique.',
+  description: 'Développeur web freelance pour Arles spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises arlésiennes avec accompagnement à distance et expertise technique.',
   keywords: ['développeur web Arles', 'création site web Arles', 'freelance web Arles', 'développeur Arles', 'site internet Arles', 'création site e-commerce Arles', 'développeur application web Arles', 'agence web Arles', 'refonte site web Arles'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-arles',
   },
   openGraph: {
     title: 'Développeur Web à Arles | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Arles spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises arlésiennes avec accompagnement à distance et expertise technique.',
+    description: 'Développeur web freelance pour Arles spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises arlésiennes avec accompagnement à distance et expertise technique.',
     url: 'https://killiandoubre.com/developpeur-web-arles',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebArlesPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception de sites web sur-mesure pour les entreprises et professionnels arlésiens. Des vitrines digitales attractives, responsive et optimisées pour convertir vos visiteurs en clients.",
+      description: "Conception de sites web sur-mesure pour les entreprises et professionnels arlésiens. Des vitrines web attractives, responsive et optimisées pour convertir vos visiteurs en clients.",
       features: [
         "Design harmonieux adapté à l'identité culturelle d'Arles",
         "Parfaitement responsive (mobile, tablette, desktop)",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebArlesPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Arles et dans les Bouches-du-Rhône.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Arles et dans les Bouches-du-Rhône.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs intuitives et performantes",
@@ -136,7 +136,7 @@ export default function DeveloppeurWebArlesPage() {
     {
       icon: "🍽️",
       title: "Gastronomie & Terroir",
-      description: "Sites web et applications pour restaurants, producteurs locaux et commerces alimentaires arlésiens. Solutions digitales valorisant les produits du terroir camarguais, avec systèmes de réservation et présentation attractive de votre offre."
+      description: "Sites web et applications pour restaurants, producteurs locaux et commerces alimentaires arlésiens. Solutions web valorisant les produits du terroir camarguais, avec systèmes de réservation et présentation attractive de votre offre."
     },
     {
       icon: "🏪",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebArlesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché arlésien vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebArlesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Arles
+                  Croissance Web à Arles
                 </h3>
                 <p className="text-gray-600">
                   Le marché web arlésien offre d'importantes opportunités de développement pour les entreprises locales. 
@@ -570,7 +570,7 @@ export default function DeveloppeurWebArlesPage() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Discuter de votre projet
+              Obtenir votre devis gratuitement !
             </Link>
           </div>
         </section>
