@@ -230,7 +230,7 @@ export default function DeveloppeurWebAntibesPage() {
                     href="#contact"
                     className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-blue-600 text-white font-medium hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                   >
-                    Échanger sur votre projet
+                    Discuter de votre projet
                   </Link>
                   <Link
                     href="#services"
