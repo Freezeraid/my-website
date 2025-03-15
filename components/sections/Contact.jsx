@@ -6,7 +6,6 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    projectType: '',
     budget: '',
     message: ''
   })
@@ -37,7 +36,6 @@ export default function Contact() {
         setFormData({
           name: '',
           email: '',
-          projectType: '',
           budget: '',
           message: ''
         })
@@ -115,20 +113,7 @@ export default function Contact() {
             </ul>
           </div>
           <form onSubmit={handleSubmit} className={`${styles.glassCard} rounded-2xl p-8 md:p-10`}>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                  Votre nom
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  value={formData.name}
-                  required
-                  className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
-                  onChange={(e) => setFormData({...formData, name: e.target.value})}
-                />
-              </div>
+          <div className="mb-6">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                   Votre email
@@ -143,25 +128,19 @@ export default function Contact() {
                 />
               </div>
             </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
               <div>
-                <label htmlFor="projectType" className="block text-sm font-medium text-gray-700 mb-2">
-                  Type de projet
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                  Votre nom
                 </label>
-                <select
-                  id="projectType"
-                  value={formData.projectType}
+                <input
+                  type="text"
+                  id="name"
+                  value={formData.name}
                   required
                   className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
-                  onChange={(e) => setFormData({...formData, projectType: e.target.value})}
-                >
-                  <option value="">Sélectionnez</option>
-                  <option value="website">Site Web / E-commerce</option>
-                  <option value="webapp">Application Web</option>
-                  <option value="fullstack">Projet Web Full Stack</option>
-                  <option value="other">Autre</option>
-                </select>
+                  onChange={(e) => setFormData({...formData, name: e.target.value})}
+                />
               </div>
               <div>
                 <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
@@ -184,7 +163,6 @@ export default function Contact() {
                 </select>
               </div>
             </div>
-
             <div className="mb-6">
               <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                 Votre projet en quelques mots
@@ -222,7 +200,7 @@ export default function Contact() {
                   Envoi en cours...
                 </span>
               ) : (
-                "Lancer mon projet 🚀"
+                "Obtenir un devis gratuit 🚀"
               )}
             </button>
 
