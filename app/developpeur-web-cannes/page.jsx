@@ -110,7 +110,7 @@ export default function DeveloppeurWebCannesPage() {
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution digitale parfaitement alignée avec votre image de marque."
+      description: "En tant que développeur web freelance, je vous offre un accompagnement de proximité pour comprendre précisément vos besoins. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec votre image de marque."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises Cannoises",
@@ -118,7 +118,7 @@ export default function DeveloppeurWebCannesPage() {
     },
     {
       title: "Support Technique & Maintenance Premium",
-      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence digitale toujours impeccable, essentielle pour maintenir l'image d'excellence attendue à Cannes."
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide vous assure une présence web toujours impeccable, essentielle pour maintenir l'image d'excellence attendue à Cannes."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebCannesPage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'image d'excellence de Cannes."
+      description: "Je développe une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et à l'image d'excellence de Cannes."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebCannesPage() {
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à vos besoins futurs."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
     }
   ]
 

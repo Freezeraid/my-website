@@ -110,7 +110,7 @@ export default function DeveloppeurWebCagnesSurMerPage() {
     },
     {
       title: "Suivi Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, je vous offre un accompagnement de proximité pour Cagnes-sur-Mer, facilitant les échanges et la compréhension de vos besoins. Cette relation directe assure une communication fluide et une solution digitale parfaitement alignée avec vos objectifs."
+      description: "En tant que développeur web freelance basé à Nice, je vous offre un accompagnement de proximité pour Cagnes-sur-Mer, facilitant les échanges et la compréhension de vos besoins. Cette relation directe assure une communication fluide et une solution web parfaitement alignée avec vos objectifs."
     },
     {
       title: "Solutions Sur-Mesure pour Entreprises Locales",
@@ -118,7 +118,7 @@ export default function DeveloppeurWebCagnesSurMerPage() {
     },
     {
       title: "Support Technique & Maintenance Réactive",
-      description: "Je vous propose un support technique efficace et une maintenance continue de votre site ou application. Mon intervention rapide depuis Nice garantit une présence digitale toujours opérationnelle, essentielle pour maintenir la confiance de vos clients à Cagnes-sur-Mer."
+      description: "Je vous propose un support technique efficace et une maintenance continue de votre site ou application. Mon intervention rapide depuis Nice garantit une présence web toujours opérationnelle, essentielle pour maintenir la confiance de vos clients à Cagnes-sur-Mer."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebCagnesSurMerPage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "J'élabore une stratégie digitale personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle à Cagnes-sur-Mer."
+      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle à Cagnes-sur-Mer."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebCagnesSurMerPage() {
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste disponible pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à l'évolution de vos besoins et du marché local."
+      description: "Après le lancement, je reste disponible pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché local."
     }
   ]
 
@@ -413,7 +413,7 @@ export default function DeveloppeurWebCagnesSurMerPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante et adaptée au marché de Cagnes-sur-Mer.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante et adaptée au marché de Cagnes-sur-Mer.
               </p>
             </div>
             

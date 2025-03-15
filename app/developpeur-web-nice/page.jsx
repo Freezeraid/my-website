@@ -118,7 +118,7 @@ export default function DeveloppeurWebNicePage() {
     },
     {
       title: "Support Technique & Maintenance Locale",
-      description: "Je vous offre un support technique réactif et une maintenance continue de votre site ou application. En cas de besoin, je peux intervenir rapidement sur place à Nice pour résoudre tout problème technique ou former votre équipe à l'utilisation de votre solution digitale."
+      description: "Je vous offre un support technique réactif et une maintenance continue de votre site ou application. En cas de besoin, je peux intervenir rapidement sur place à Nice pour résoudre tout problème technique ou former votre équipe à l'utilisation de votre solution web."
     }
   ]
 
@@ -154,7 +154,7 @@ export default function DeveloppeurWebNicePage() {
     {
       number: "02",
       title: "Stratégie & Conception",
-      description: "Je développe une stratégie digitale sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
+      description: "Je développe une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
     },
     {
       number: "03",
@@ -169,7 +169,7 @@ export default function DeveloppeurWebNicePage() {
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence digitale à vos besoins futurs."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
     }
   ]
 
@@ -413,7 +413,7 @@ export default function DeveloppeurWebNicePage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution digitale performante.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante.
               </p>
             </div>
             

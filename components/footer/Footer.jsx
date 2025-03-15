@@ -46,7 +46,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">À propos</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Développeur Web Freelance passionné, je crée des solutions web modernes et performantes avec React, Node.js, Golang, SQL, MongoDB ou WordPress.
+              Développeur Web Freelance passionné, je crée des sites et applications web modernes et performantes avec React, Node.js, Golang, SQL, MongoDB ou WordPress.
             </p>
           </div>
 
