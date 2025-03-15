@@ -13,91 +13,91 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Monaco | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions web haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
-  keywords: ['développeur web Monaco', 'création site web Monaco', 'freelance web Monaco', 'site internet Monaco', 'création site e-commerce Monaco', 'développeur application web Monaco', 'agence web Monaco', 'refonte site web Monaco', 'développeur web luxe Monaco'],
+  title: 'Développeur Web à Grasse | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance pour Grasse spécialisé en création de sites web, e-commerce et applications. Solutions numériques personnalisées pour entreprises et professionnels grassois.',
+  keywords: ['développeur web Grasse', 'création site web Grasse', 'freelance web Grasse', 'développeur Grasse', 'site internet Grasse', 'création site e-commerce Grasse', 'développeur application web Grasse', 'agence web Grasse', 'refonte site web Grasse'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-monaco',
+    canonical: 'https://killiandoubre.com/developpeur-web-grasse',
   },
   openGraph: {
-    title: 'Développeur Web Monaco | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions web haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
-    url: 'https://killiandoubre.com/developpeur-web-monaco',
+    title: 'Développeur Web à Grasse | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance pour Grasse spécialisé en création de sites web, e-commerce et applications. Solutions numériques personnalisées pour entreprises et professionnels grassois.',
+    url: 'https://killiandoubre.com/developpeur-web-grasse',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance à Monaco',
-  description: 'Services de développement web sur-mesure à Monaco : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels de cette principauté prestigieuse de la Côte d\'Azur.',
-  slug: 'developpeur-web-monaco',
+  name: 'Développeur Web Freelance pour Grasse',
+  description: 'Services de développement web sur-mesure pour Grasse : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels grassois.',
+  slug: 'developpeur-web-grasse',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
-    'Création de sites web haut de gamme',
-    'Développement d\'applications web sur-mesure',
-    'Sites e-commerce premium',
-    'Optimisation SEO internationale',
-    'Maintenance et support technique dédié'
+    'Création de sites web professionnels',
+    'Développement d\'applications web',
+    'Sites e-commerce performants',
+    'Optimisation SEO locale',
+    'Maintenance et support technique'
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous à Monaco ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels de Monaco : sites vitrines premium, e-commerce de luxe, portfolios exclusifs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité monégasque, avec une attention particulière aux établissements de luxe, services financiers, yachting, immobilier haut de gamme et entreprises internationales établies dans la Principauté.'
+      question: 'Quels types de sites web développez-vous pour Grasse ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels grassois : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS.'
     },
     {
-      question: 'Quels sont vos tarifs pour un site web à Monaco ?',
-      answer: 'Les tarifs pour un site web à Monaco sont établis selon l\'envergure et la complexité du projet. Pour un site vitrine premium, comptez à partir de 3000€, pour une boutique en ligne haut de gamme à partir de 5000€, et pour une application web personnalisée à partir de 8000€. Chaque projet bénéficie d\'un devis détaillé et transparent après analyse approfondie de vos besoins et objectifs commerciaux, avec une attention particulière aux standards d\'excellence attendus à Monaco.'
+      question: 'Combien coûte la création d\'un site web à Grasse ?',
+      answer: 'Le coût d\'un site web à Grasse varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse de votre projet.'
     },
     {
-      question: 'Proposez-vous des services adaptés aux entreprises internationales basées à Monaco ?',
-      answer: 'Absolument, je propose des services spécialement conçus pour les entreprises internationales basées à Monaco, incluant des sites multilingues, des solutions de paiement multi-devises, une optimisation SEO internationale, et des interfaces adaptées aux différentes cultures et marchés. Mon approche tient compte des spécificités réglementaires monégasques tout en assurant une présence web globale, essentielle pour les entreprises opérant depuis la Principauté et visant une clientèle internationale.'
+      question: 'Proposez-vous des services de référencement local pour Grasse ?',
+      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché local grassois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Grasse et sa région.'
     }
   ]
 }
 
-export default function DeveloppeurWebMonacoPage() {
+export default function DeveloppeurWebGrassePage() {
   const webServices = [
     {
       icon: "🖥️",
-      title: "Sites Web",
-      description: "Conception et développement de sites web haut de gamme pour les entreprises et professionnels de Monaco. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et refléter l'excellence et le prestige associés à la Principauté.",
+      title: "Sites Web Professionnels",
+      description: "Réalisation de sites web sur-mesure pour les entreprises et professionnels de Grasse. Des sites vitrines attractifs, responsive et optimisés pour convertir efficacement vos visiteurs en clients.",
       features: [
-        "Design exclusif adapté à l'identité de votre entreprise monégasque",
-        "Compatibilité parfaite sur tous les appareils",
-        "Optimisation pour le référencement local et international",
-        "Intégration de fonctionnalités premium adaptées à votre secteur d'activité"
+        "Design élégant reflétant votre identité de marque",
+        "Parfaitement responsive (mobile, tablette, desktop)",
+        "Optimisé pour le référencement local à Grasse",
+        "Intégration de fonctionnalités adaptées à vos besoins"
       ]
     },
     {
       icon: "🛒",
-      title: "E-commerce & Boutiques de Luxe",
-      description: "Création de plateformes e-commerce haut de gamme pour les enseignes et marques de prestige de Monaco. Des boutiques en ligne sophistiquées qui valorisent vos produits et services exclusifs, avec une expérience utilisateur digne des standards d'excellence de la Principauté.",
+      title: "E-commerce & Boutiques en Ligne",
+      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs grassois. Des boutiques en ligne sécurisées qui optimisent vos ventes et améliorent l'expérience client.",
       features: [
-        "Interface utilisateur élégante et intuitive",
-        "Gestion avancée des produits et des stocks",
-        "Solutions de paiement sécurisées internationales et multi-devises",
-        "Stratégies d'optimisation des conversions pour une clientèle exigeante"
+        "Interface utilisateur conviviale et engageante",
+        "Gestion intuitive des produits et des stocks",
+        "Paiements sécurisés et solutions de livraison adaptées",
+        "Techniques d'optimisation des taux de conversion"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Monaco, adaptées aux exigences élevées de votre secteur d'activité et aux particularités du marché monégasque international.",
+      description: "Création d'applications web et plateformes sur-mesure pour moderniser vos services et optimiser vos processus métier à Grasse et dans les Alpes-Maritimes.",
       features: [
-        "Développement full-stack avec technologies de pointe",
-        "Interfaces utilisateurs sophistiquées et réactives",
-        "Architecture sécurisée, évolutive et conforme aux réglementations",
-        "Intégration avec vos systèmes et outils existants"
+        "Développement full-stack avec technologies modernes",
+        "Interfaces utilisateurs intuitives et réactives",
+        "Systèmes sécurisés et évolutifs",
+        "Intégration fluide avec vos systèmes existants"
       ]
     },
     {
       icon: "🔍",
-      title: "SEO & Visibilité Internationale",
-      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Monaco et à l'international. Attirez une clientèle locale et mondiale grâce à une stratégie SEO adaptée à votre positionnement dans cette place d'affaires internationale prestigieuse.",
+      title: "SEO & Visibilité Locale",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Grasse et ses environs. Attirez plus de clients locaux grâce à une stratégie SEO efficace.",
       features: [
-        "Stratégie SEO multilingue ciblée sur Monaco et les marchés internationaux",
-        "Optimisation Google My Business pour chaque établissement",
-        "Création de contenu premium pour votre marché cible",
+        "Stratégie SEO locale ciblée sur Grasse",
+        "Optimisation Google My Business",
+        "Création de contenu adapté à votre marché local",
         "Suivi et amélioration continue des performances"
       ]
     }
@@ -105,43 +105,43 @@ export default function DeveloppeurWebMonacoPage() {
 
   const localAdvantages = [
     {
-      title: "Expertise du Marché Monégasque",
-      description: "Ma compréhension approfondie de l'écosystème web de Monaco me permet de créer des solutions parfaitement adaptées aux attentes d'une clientèle exigeante et internationale. Je comprends les spécificités du tissu économique de la Principauté et les opportunités numériques qu'elle offre, entre finance, immobilier de luxe, yachting, hôtellerie premium et commerce haut de gamme."
+      title: "Expertise du Marché Grassois",
+      description: "Ma connaissance du tissu économique de Grasse et de sa région me permet de créer des solutions web parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du marché grassois et les opportunités web qu'il offre pour votre entreprise."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
-      description: "En tant que développeur web freelance basé à Nice, à proximité immédiate de Monaco, je propose mes services aux entreprises monégasques avec une approche personnalisée et des rencontres sur place si nécessaire. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec vos objectifs commerciaux et les exigences élevées de votre marché."
+      description: "En tant que développeur web freelance basé à Nice, je reste facilement accessible pour les professionnels de Grasse. Cette proximité géographique facilite nos échanges et garantit un suivi efficace tout au long de votre projet web."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises Monégasques",
-      description: "Chaque projet étant unique, je développe des solutions entièrement personnalisées qui répondent précisément aux exigences spécifiques de votre entreprise à Monaco. J'évite les templates génériques pour créer des plateformes exclusives qui vous distinguent dans le paysage économique prestigieux de la Principauté et reflètent l'excellence associée à votre marque."
+      title: "Solutions Sur-Mesure pour Entreprises Grassoises",
+      description: "Chaque entreprise à Grasse possède ses particularités, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément à vos objectifs. Je crée des sites web uniques qui vous distinguent de vos concurrents locaux."
     },
     {
-      title: "Support Technique & Maintenance Premium",
-      description: "Je vous propose un support technique réactif et une maintenance proactive de votre site ou application. Mon intervention rapide garantit une présence web toujours impeccable, essentielle pour maintenir la confiance de votre clientèle exigeante à Monaco et optimiser votre visibilité en ligne sur ce marché international de premier plan."
+      title: "Support Technique & Évolution Continue",
+      description: "Je vous offre un support technique réactif et un accompagnement continu pour votre site ou application. Je peux intervenir rapidement pour résoudre tout problème technique ou former votre équipe à l'utilisation optimale de votre solution web."
     }
   ]
 
-  const businessSectors = [
+  const grasseBusinessSectors = [
     {
-      icon: "🏦",
-      title: "Finance & Services Bancaires",
-      description: "Sites web et applications pour banques privées, family offices, gestionnaires de patrimoine et sociétés financières de Monaco. Solutions optimisées pour présenter vos services avec élégance, sécuriser les interactions avec vos clients et valoriser votre expertise, tout en respectant les réglementations strictes du secteur financier monégasque."
+      icon: "🌸",
+      title: "Parfumerie & Cosmétique",
+      description: "Sites web et applications pour parfumeries, producteurs de matières premières, musées et ateliers de création à Grasse. Solutions optimisées pour la présentation de vos produits, la vente en ligne et l'attraction d'une clientèle internationale."
     },
     {
       icon: "🏨",
-      title: "Hôtellerie & Restauration de Luxe",
-      description: "Présence web sophistiquée pour hôtels, restaurants gastronomiques et établissements de prestige de Monaco. Sites vitrines et plateformes de réservation adaptés pour mettre en valeur votre offre exceptionnelle, faciliter les réservations et attirer une clientèle internationale exigeante, en reflétant l'excellence de votre établissement."
-    },
-    {
-      icon: "⛵",
-      title: "Yachting & Services Maritimes",
-      description: "Plateformes web pour brokers, chantiers navals, services de charter et événements nautiques de Monaco. Solutions permettant de présenter efficacement vos yachts et services, faciliter les demandes et attirer une clientèle fortunée, en mettant en avant l'expertise monégasque dans le domaine du yachting de luxe."
+      title: "Tourisme & Hôtellerie",
+      description: "Présence web efficace pour hôtels, restaurants, locations saisonnières et prestataires touristiques grassois. Sites vitrines et plateformes de réservation conçus pour valoriser votre établissement et attirer des visiteurs toute l'année."
     },
     {
       icon: "🏢",
-      title: "Immobilier Haut de Gamme",
-      description: "Solutions web pour agences et promoteurs immobiliers spécialisés dans le luxe à Monaco. Sites web et plateformes facilitant la présentation de biens d'exception, la communication avec une clientèle internationale et la valorisation de votre portefeuille immobilier, adaptés aux standards d'excellence du marché immobilier monégasque."
+      title: "Commerces & Artisanat Local",
+      description: "Solutions web pour commerces, artisans et prestataires de services à Grasse. Sites web et e-commerce adaptés pour renforcer votre visibilité locale et développer votre clientèle de proximité."
+    },
+    {
+      icon: "🌿",
+      title: "Agriculture & Produits Locaux",
+      description: "Plateformes web pour producteurs, coopératives et distributeurs de produits locaux à Grasse. Solutions permettant de mettre en valeur vos produits et de développer vos circuits de vente directe et en ligne."
     }
   ]
 
@@ -149,46 +149,46 @@ export default function DeveloppeurWebMonacoPage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques à Monaco. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte exigeant de la Principauté, avec ses particularités économiques, réglementaires et internationales."
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte grassois."
     },
     {
       number: "02",
-      title: "Stratégie & Conception",
-      description: "J'élabore une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes élevées de votre clientèle monégasque et internationale."
+      title: "Conception & Stratégie",
+      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
     },
     {
       number: "03",
       title: "Développement & Intégration",
-      description: "Je développe votre solution avec les technologies les plus avancées, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement programmée et testée pour garantir une expérience utilisateur exceptionnelle et une parfaite adaptation aux exigences du marché monégasque."
+      description: "Je développe votre solution avec les technologies les plus appropriées, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement codée et testée pour garantir fiabilité et performance."
     },
     {
       number: "04",
-      title: "Optimisation & Tests",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local et international pour maximiser votre visibilité auprès des utilisateurs de Monaco et de votre clientèle mondiale."
+      title: "Tests & Optimisation",
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs grassois."
     },
     {
       number: "05",
-      title: "Lancement & Accompagnement",
-      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance premium et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché monégasque exigeant."
+      title: "Lancement & Suivi",
+      description: "Après la mise en ligne, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
     }
   ]
 
-  const digitalStats = [
+  const grasseDigitalStats = [
     {
-      figure: "92%",
-      description: "des consommateurs à Monaco et des visiteurs internationaux recherchent des entreprises locales en ligne avant de faire un achat ou de réserver une prestation"
+      figure: "83%",
+      description: "des consommateurs à Grasse recherchent des informations en ligne avant d'effectuer un achat local"
     },
     {
-      figure: "78%",
-      description: "des recherches locales sur mobile à Monaco aboutissent à une visite en magasin ou à un contact direct dans les 24 heures"
+      figure: "69%",
+      description: "des recherches locales sur mobile à Grasse aboutissent à une visite en magasin dans les 24 heures"
     },
     {
-      figure: "85%",
-      description: "des entreprises monégasques considèrent que leur site web est essentiel pour leur développement commercial et leur visibilité internationale"
+      figure: "62%",
+      description: "des entreprises grassoises estiment qu'un site web professionnel est crucial pour leur développement"
     },
     {
-      figure: "94%",
-      description: "des visiteurs fortunés préparent leur séjour à Monaco en consultant les sites web des hôtels, restaurants et services de luxe avant de réserver"
+      figure: "91%",
+      description: "des utilisateurs à Grasse se forgent une première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebMonacoPage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance à Monaco', href: '/developpeur-web-monaco', current: true }
+                { label: 'Développeur Web Freelance pour Grasse', href: '/developpeur-web-grasse', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Monaco</span>
+                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Grasse</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
-                  Création de Sites Web & Applications Premium
+                  Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services aux entreprises et professionnels de <strong>Monaco</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux exigences élevées du marché monégasque. Mon approche associe excellence technique, compréhension des enjeux internationaux et accompagnement personnalisé pour la réussite de votre projet web dans cette principauté prestigieuse de la Côte d'Azur.
+                  Développeur web freelance basé à <strong>Nice</strong>, j'accompagne les entreprises et professionnels de <strong>Grasse</strong> dans leurs projets digitaux. Je conçois des sites web et applications sur-mesure qui répondent aux besoins spécifiques du marché grassois.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebMonacoPage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance à Monaco"
+                        alt="Killian DOUBRE - Développeur Web Freelance pour Grasse"
                         width={256}
                         height={256}
                         priority
@@ -262,12 +262,12 @@ export default function DeveloppeurWebMonacoPage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🖥️</div>
                           <h3 className="font-semibold text-gray-900">Sites Web</h3>
-                          <p className="text-sm text-gray-600">Premium</p>
+                          <p className="text-sm text-gray-600">Professionnels</p>
                         </div>
                         <div className="bg-indigo-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🛒</div>
                           <h3 className="font-semibold text-gray-900">E-commerce</h3>
-                          <p className="text-sm text-gray-600">Luxe</p>
+                          <p className="text-sm text-gray-600">Performants</p>
                         </div>
                         <div className="bg-purple-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">📱</div>
@@ -276,8 +276,8 @@ export default function DeveloppeurWebMonacoPage() {
                         </div>
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
-                          <h3 className="font-semibold text-gray-900">SEO</h3>
-                          <p className="text-sm text-gray-600">International</p>
+                          <h3 className="font-semibold text-gray-900">SEO Local</h3>
+                          <p className="text-sm text-gray-600">Grasse & Région</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebMonacoPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web à Monaco
+                Services de Développement Web pour Grasse
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je propose une gamme complète de services de développement web haut de gamme pour les entreprises et professionnels de Monaco.
-                Chaque solution est élaborée sur-mesure pour répondre à vos exigences spécifiques et renforcer votre présence sur le marché monégasque et international.
+                Je propose une gamme complète de services de développement web pour les entreprises et professionnels de Grasse.
+                Chaque solution est conçue sur-mesure pour répondre à vos besoins spécifiques et vous démarquer sur le marché local.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebMonacoPage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité Section */}
+        {/* Secteurs d'activité à Grasse Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Monégasques
+                Solutions Adaptées aux Entreprises Grassoises
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Monaco, en tenant compte des spécificités locales et des enjeux propres à cette place d'affaires internationale prestigieuse.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Grasse et dans les Alpes-Maritimes.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {businessSectors.map((sector, index) => (
+              {grasseBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebMonacoPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à Monaco
+                L'Importance du Web à Grasse
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises de Monaco, particulièrement dans cette principauté qui constitue un centre d'affaires international et une destination de luxe mondialement reconnue.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises grassoises.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {digitalStats.map((stat, index) => (
+              {grasseDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebMonacoPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Collaborer avec moi présente de nombreux avantages pour votre projet web à Monaco.
+                Travailler avec moi offre de nombreux avantages pour votre projet web à Grasse.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebMonacoPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution web d'exception, adaptée au marché monégasque exigeant et à ses spécificités internationales.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebMonacoPage() {
           </div>
         </section>
 
-        {/* Web Development Section */}
+        {/* Grasse Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web à Monaco : Expertise Internationale
+                Développement Web à Grasse : Expertise Locale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web proposant mes services à Monaco, je comprends les spécificités du marché local et les besoins des entreprises de cette principauté qui constitue un centre d'affaires international et une destination de luxe mondialement reconnue.
+                En tant que développeur web au service des professionnels de Grasse, je comprends les spécificités du marché local et les besoins des entreprises de la région.
               </p>
             </div>
             
@@ -456,32 +456,32 @@ export default function DeveloppeurWebMonacoPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Web Internationale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché monégasque et international vous permet d'attirer des clients locaux et du monde entier, tout en vous démarquant dans un environnement hautement concurrentiel. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et internationales, et mettent en valeur votre positionnement premium dans cette principauté reconnue pour son excellence et son prestige.
+                  Une présence web optimisée pour le marché grassois vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Grasse.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration Privilégiée
+                  Collaboration de Proximité
                 </h3>
                 <p className="text-gray-600">
-                  Basé à Nice, à proximité immédiate de Monaco, je propose une collaboration privilégiée avec les entreprises monégasques. Cette proximité géographique permet des rencontres sur place si nécessaire, tout en maintenant une communication fluide et des délais optimisés pour la réalisation de votre projet web d'exception.
+                  Travailler avec un développeur web proche de Grasse facilite la communication et la collaboration, permettant de mieux comprendre vos besoins et d'ajuster rapidement le projet selon vos retours.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
-                <div className="text-3xl mb-4">🏆</div>
+                <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Excellence & Standards Internationaux
+                  Croissance Web à Grasse
                 </h3>
                 <p className="text-gray-600">
-                  Monaco, avec son statut de place financière internationale et de destination de luxe, exige les plus hauts standards de qualité et d'excellence. 
-                  Je développe des solutions web qui répondent à ces exigences élevées, notamment en termes de design sophistiqué, de sécurité renforcée et de performances optimales, pour vous permettre de maintenir votre positionnement premium sur ce marché exigeant.
+                  Le marché web à Grasse offre d'importantes opportunités de développement pour les entreprises locales. 
+                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans la région.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebMonacoPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus avancées et performantes pour développer des solutions web d'exception pour les entreprises de Monaco.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité.
               </p>
             </div>
             
@@ -515,13 +515,13 @@ export default function DeveloppeurWebMonacoPage() {
                   <div>
                     <p className="font-medium text-gray-800 mb-2">Design & UX/UI</p>
                     <p className="text-gray-600">
-                      Design Premium, Responsive Design, Mobile-First, Figma, Adobe XD, Accessibilité Web, Animations & Transitions
+                      Responsive Design, Mobile-First, Figma, Adobe XD, Accessibilité Web, Animations & Transitions
                     </p>
                   </div>
                   <div>
                     <p className="font-medium text-gray-800 mb-2">Performance & Optimisation</p>
                     <p className="text-gray-600">
-                      Optimisation des performances, Core Web Vitals, Lazy Loading, Compression d'images, Caching avancé
+                      Optimisation des performances, Core Web Vitals, Lazy Loading, Compression d'images, Caching
                     </p>
                   </div>
                 </div>
@@ -539,15 +539,15 @@ export default function DeveloppeurWebMonacoPage() {
                     </p>
                   </div>
                   <div>
-                    <p className="font-medium text-gray-800 mb-2">Bases de Données & Sécurité</p>
+                    <p className="font-medium text-gray-800 mb-2">Bases de Données</p>
                     <p className="text-gray-600">
-                      MySQL, PostgreSQL, MongoDB, Firebase, Redis, Cryptage avancé, Protection des données
+                      MySQL, PostgreSQL, MongoDB, Firebase, Redis, Gestion de données structurées
                     </p>
                   </div>
                   <div>
                     <p className="font-medium text-gray-800 mb-2">Déploiement & DevOps</p>
                     <p className="text-gray-600">
-                      AWS, Vercel, Netlify, Docker, CI/CD, Gestion de serveurs sécurisés, Conformité RGPD
+                      AWS, Vercel, Netlify, Docker, CI/CD, Gestion de serveurs, Sécurité web
                     </p>
                   </div>
                 </div>
@@ -560,11 +560,11 @@ export default function DeveloppeurWebMonacoPage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Monaco ?
+              Prêt à Développer Votre Projet Web à Grasse ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
               Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
-              Ensemble, créons une solution web d'exception qui répond parfaitement aux exigences élevées de votre entreprise dans cette principauté prestigieuse de la Côte d'Azur.
+              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise à Grasse.
             </p>
             <Link
               href="#contact"
