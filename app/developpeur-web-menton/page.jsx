@@ -82,7 +82,7 @@ export default function DeveloppeurWebMentonPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Menton et dans la région transfrontalière.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Menton et dans la région transfrontalière.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs fluides et performantes",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebMentonPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Transfrontalière
+                  Présence Web Transfrontalière
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché mentonnais vous permet d'attirer des clients locaux et transfrontaliers. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebMentonPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Menton
+                  Croissance Web à Menton
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à Menton offre d'importantes opportunités de croissance pour les entreprises locales. 

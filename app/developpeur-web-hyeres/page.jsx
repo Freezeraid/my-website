@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Hyères | Création Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Hyères spécialisé en création de sites web, e-commerce et applications. Solutions digitales adaptées aux entreprises et professionnels du Var.',
+  description: 'Développeur web freelance pour Hyères spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et professionnels du Var.',
   keywords: ['développeur web Hyères', 'création site web Hyères', 'freelance web Hyères', 'développeur Hyères', 'site internet Hyères', 'création site e-commerce Hyères', 'développeur application web Hyères', 'agence web Hyères', 'refonte site web Hyères'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-hyeres',
   },
   openGraph: {
     title: 'Développeur Web à Hyères | Création Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Hyères spécialisé en création de sites web, e-commerce et applications. Solutions digitales adaptées aux entreprises et professionnels du Var.',
+    description: 'Développeur web freelance pour Hyères spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et professionnels du Var.',
     url: 'https://killiandoubre.com/developpeur-web-hyeres',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebHyeresPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création et développement de sites web sur-mesure pour les entreprises et professionnels d'Hyères. Des vitrines digitales élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Création et développement de sites web sur-mesure pour les entreprises et professionnels d'Hyères. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
       features: [
         "Design moderne adapté à votre identité de marque",
         "Compatibilité optimale sur tous les appareils",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebHyeresPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Conception d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Hyères et dans le Var.",
+      description: "Conception d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Hyères et dans le Var.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs fluides et performantes",
@@ -445,7 +445,7 @@ export default function DeveloppeurWebHyeresPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web pour Hyères : Expertise Digitale
+                Développement Web pour Hyères : Expertise Web
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 En tant que développeur web freelance, je comprends les particularités du marché d'Hyères et les besoins des entreprises locales.
@@ -456,7 +456,7 @@ export default function DeveloppeurWebHyeresPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché d'Hyères vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebHyeresPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Hyères
+                  Croissance Web à Hyères
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à Hyères présente d'importantes opportunités de croissance pour les entreprises locales. 

@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Salon-de-Provence | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Salon-de-Provence spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises salonaises avec accompagnement à distance et expertise technique.',
+  description: 'Développeur web freelance pour Salon-de-Provence spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises salonaises avec accompagnement à distance et expertise technique.',
   keywords: ['développeur web Salon-de-Provence', 'création site web Salon-de-Provence', 'freelance web Salon', 'développeur Salon', 'site internet Salon', 'création site e-commerce Salon-de-Provence', 'développeur application web Salon', 'agence web Salon-de-Provence', 'refonte site web Salon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-salon-de-provence',
   },
   openGraph: {
     title: 'Développeur Web à Salon-de-Provence | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Salon-de-Provence spécialisé dans la création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises salonaises avec accompagnement à distance et expertise technique.',
+    description: 'Développeur web freelance pour Salon-de-Provence spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises salonaises avec accompagnement à distance et expertise technique.',
     url: 'https://killiandoubre.com/developpeur-web-salon-de-provence',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebSalonDeProvencePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception de sites web sur-mesure pour les entreprises et professionnels salonais. Des vitrines digitales élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Conception de sites web sur-mesure pour les entreprises et professionnels salonais. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
       features: [
         "Design adapté à l'identité de Salon-de-Provence et de votre entreprise",
         "Parfaitement responsive (mobile, tablette, desktop)",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebSalonDeProvencePage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Création d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Salon-de-Provence et dans les Bouches-du-Rhône.",
+      description: "Création d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Salon-de-Provence et dans les Bouches-du-Rhône.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs intuitives et performantes",
@@ -131,7 +131,7 @@ export default function DeveloppeurWebSalonDeProvencePage() {
     {
       icon: "🍽️",
       title: "Gastronomie & Terroir",
-      description: "Sites web et applications pour restaurants, producteurs locaux et commerces alimentaires salonais. Solutions digitales valorisant les produits du terroir provençal, avec systèmes de réservation et présentation attractive de votre offre."
+      description: "Sites web et applications pour restaurants, producteurs locaux et commerces alimentaires salonais. Solutions web valorisant les produits du terroir provençal, avec systèmes de réservation et présentation attractive de votre offre."
     },
     {
       icon: "🏢",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebSalonDeProvencePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché salonais vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebSalonDeProvencePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Salon-de-Provence
+                  Croissance Web à Salon-de-Provence
                 </h3>
                 <p className="text-gray-600">
                   Le marché web salonais offre d'importantes opportunités de développement pour les entreprises locales. 

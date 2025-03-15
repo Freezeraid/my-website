@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à La Valette-du-Var | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à La Valette-du-Var. Création de sites web, e-commerce et applications sur-mesure. Solutions digitales adaptées aux entreprises de La Valette-du-Var.',
+  description: 'Développeur web freelance basé à Nice intervenant à La Valette-du-Var. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de La Valette-du-Var.',
   keywords: ['développeur web La Valette-du-Var', 'création site web La Valette-du-Var', 'freelance web La Valette-du-Var', 'développeur La Valette-du-Var', 'site internet La Valette-du-Var', 'création site e-commerce La Valette-du-Var', 'développeur application web La Valette-du-Var', 'agence web La Valette-du-Var', 'refonte site web La Valette-du-Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-la-valette-du-var',
   },
   openGraph: {
     title: 'Développeur Web à La Valette-du-Var | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à La Valette-du-Var. Création de sites web, e-commerce et applications sur-mesure. Solutions digitales adaptées aux entreprises de La Valette-du-Var.',
+    description: 'Développeur web freelance basé à Nice intervenant à La Valette-du-Var. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de La Valette-du-Var.',
     url: 'https://killiandoubre.com/developpeur-web-la-valette-du-var',
   }
 }
@@ -82,7 +82,7 @@ export default function DeveloppeurWebLaValetteDuVarPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Conception d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à La Valette-du-Var et dans le Var.",
+      description: "Conception d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à La Valette-du-Var et dans le Var.",
       features: [
         "Développement full-stack avec technologies innovantes",
         "Interfaces utilisateurs intuitives et performantes",
@@ -106,7 +106,7 @@ export default function DeveloppeurWebLaValetteDuVarPage() {
   const localAdvantages = [
     {
       title: "Expertise du Marché Local de La Valette-du-Var",
-      description: "Ma connaissance approfondie du marché web à La Valette-du-Var et dans le Var me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités économiques de La Valette-du-Var et les opportunités digitales qu'offre cette ville dynamique."
+      description: "Ma connaissance approfondie du marché web à La Valette-du-Var et dans le Var me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités économiques de La Valette-du-Var et les opportunités web qu'offre cette ville dynamique."
     },
     {
       title: "Accompagnement Personnalisé & Proximité",
@@ -131,17 +131,17 @@ export default function DeveloppeurWebLaValetteDuVarPage() {
     {
       icon: "🏬",
       title: "Centres Commerciaux & Retail",
-      description: "Solutions digitales pour les commerces et enseignes des zones commerciales de La Valette-du-Var. Sites web et applications permettant de valoriser votre offre, améliorer l'expérience client et développer votre activité en ligne."
+      description: "Solutions web pour les commerces et enseignes des zones commerciales de La Valette-du-Var. Sites web et applications permettant de valoriser votre offre, améliorer l'expérience client et développer votre activité en ligne."
     },
     {
       icon: "🏭",
       title: "PME & Entreprises",
-      description: "Sites web professionnels pour les PME, entreprises industrielles et sociétés de services B2B à La Valette-du-Var. Solutions digitales mettant en valeur votre expertise, vos produits et services auprès de clients professionnels."
+      description: "Sites web professionnels pour les PME, entreprises industrielles et sociétés de services B2B à La Valette-du-Var. Solutions web mettant en valeur votre expertise, vos produits et services auprès de clients professionnels."
     },
     {
       icon: "🍽️",
       title: "Restauration & Loisirs",
-      description: "Applications web et sites pour restaurants, bars et établissements de loisirs à La Valette-du-Var. Solutions digitales pour présenter votre offre, gérer les réservations et fidéliser votre clientèle locale."
+      description: "Applications web et sites pour restaurants, bars et établissements de loisirs à La Valette-du-Var. Solutions web pour présenter votre offre, gérer les réservations et fidéliser votre clientèle locale."
     }
   ]
 

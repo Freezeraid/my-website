@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web Monaco | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions digitales haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
+  description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions web haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
   keywords: ['développeur web Monaco', 'création site web Monaco', 'freelance web Monaco', 'site internet Monaco', 'création site e-commerce Monaco', 'développeur application web Monaco', 'agence web Monaco', 'refonte site web Monaco', 'développeur web luxe Monaco'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-monaco',
   },
   openGraph: {
     title: 'Développeur Web Monaco | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions digitales haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
+    description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions web haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
     url: 'https://killiandoubre.com/developpeur-web-monaco',
   }
 }
@@ -82,7 +82,7 @@ export default function DeveloppeurWebMonacoPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Monaco, adaptées aux exigences élevées de votre secteur d'activité et aux particularités du marché monégasque international.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Monaco, adaptées aux exigences élevées de votre secteur d'activité et aux particularités du marché monégasque international.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs sophistiquées et réactives",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebMonacoPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Internationale
+                  Présence Web Internationale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché monégasque et international vous permet d'attirer des clients locaux et du monde entier, tout en vous démarquant dans un environnement hautement concurrentiel. 

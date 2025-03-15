@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Six-Fours-les-Plages | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Six-Fours-les-Plages spécialisé en création de sites web, e-commerce et applications. Solutions digitales personnalisées pour entreprises et professionnels du Var.',
+  description: 'Développeur web freelance pour Six-Fours-les-Plages spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
   keywords: ['développeur web Six-Fours-les-Plages', 'création site web Six-Fours-les-Plages', 'freelance web Six-Fours-les-Plages', 'développeur Six-Fours-les-Plages', 'site internet Six-Fours-les-Plages', 'création site e-commerce Six-Fours-les-Plages', 'développeur application web Six-Fours-les-Plages', 'agence web Six-Fours-les-Plages', 'refonte site web Six-Fours-les-Plages'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-six-fours-les-plages',
   },
   openGraph: {
     title: 'Développeur Web à Six-Fours-les-Plages | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Six-Fours-les-Plages spécialisé en création de sites web, e-commerce et applications. Solutions digitales personnalisées pour entreprises et professionnels du Var.',
+    description: 'Développeur web freelance pour Six-Fours-les-Plages spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
     url: 'https://killiandoubre.com/developpeur-web-six-fours-les-plages',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebSixFourslesPlagesPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception de sites web sur-mesure pour les entreprises et professionnels de Six-Fours-les-Plages. Des vitrines digitales modernes, responsive et optimisées pour attirer et convertir votre audience locale.",
+      description: "Conception de sites web sur-mesure pour les entreprises et professionnels de Six-Fours-les-Plages. Des vitrines web modernes, responsive et optimisées pour attirer et convertir votre audience locale.",
       features: [
         "Design unique adapté à l'identité de votre entreprise",
         "Compatibilité totale avec tous les appareils",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebSixFourslesPlagesPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Six-Fours-les-Plages et dans le Var.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Six-Fours-les-Plages et dans le Var.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et performantes",
@@ -445,7 +445,7 @@ export default function DeveloppeurWebSixFourslesPlagesPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web pour Six-Fours-les-Plages : Expertise Digitale
+                Développement Web pour Six-Fours-les-Plages : Expertise Web
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 En tant que développeur web freelance, je comprends les particularités du marché de Six-Fours-les-Plages et les besoins des entreprises locales.
@@ -456,7 +456,7 @@ export default function DeveloppeurWebSixFourslesPlagesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché de Six-Fours-les-Plages vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebSixFourslesPlagesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Six-Fours-les-Plages
+                  Croissance Web à Six-Fours-les-Plages
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à Six-Fours-les-Plages présente d'importantes opportunités de croissance pour les entreprises locales. 

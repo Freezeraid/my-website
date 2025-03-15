@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à La Seyne-sur-Mer | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour La Seyne-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions digitales personnalisées pour entreprises et professionnels du Var.',
+  description: 'Développeur web freelance pour La Seyne-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
   keywords: ['développeur web La Seyne-sur-Mer', 'création site web La Seyne-sur-Mer', 'freelance web La Seyne-sur-Mer', 'développeur La Seyne-sur-Mer', 'site internet La Seyne-sur-Mer', 'création site e-commerce La Seyne-sur-Mer', 'développeur application web La Seyne-sur-Mer', 'agence web La Seyne-sur-Mer', 'refonte site web La Seyne-sur-Mer'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-la-seyne-sur-mer',
   },
   openGraph: {
     title: 'Développeur Web à La Seyne-sur-Mer | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour La Seyne-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions digitales personnalisées pour entreprises et professionnels du Var.',
+    description: 'Développeur web freelance pour La Seyne-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
     url: 'https://killiandoubre.com/developpeur-web-la-seyne-sur-mer',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebLaSeynesurMerPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de La Seyne-sur-Mer. Des vitrines digitales modernes, responsive et optimisées pour convertir vos visiteurs en clients.",
+      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de La Seyne-sur-Mer. Des vitrines web modernes, responsive et optimisées pour convertir vos visiteurs en clients.",
       features: [
         "Design contemporain adapté à votre identité visuelle",
         "Compatibilité parfaite sur tous les appareils",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebLaSeynesurMerPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à La Seyne-sur-Mer et dans le Var.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à La Seyne-sur-Mer et dans le Var.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -445,7 +445,7 @@ export default function DeveloppeurWebLaSeynesurMerPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web pour La Seyne-sur-Mer : Expertise Digitale
+                Développement Web pour La Seyne-sur-Mer : Expertise Web
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 En tant que développeur web freelance, je comprends les spécificités du marché de La Seyne-sur-Mer et les besoins des entreprises locales.
@@ -456,7 +456,7 @@ export default function DeveloppeurWebLaSeynesurMerPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché de La Seyne-sur-Mer vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebLaSeynesurMerPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à La Seyne-sur-Mer
+                  Croissance Web à La Seyne-sur-Mer
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à La Seyne-sur-Mer offre d'importantes opportunités de croissance pour les entreprises locales. 

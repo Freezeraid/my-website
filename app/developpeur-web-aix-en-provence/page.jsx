@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions digitales personnalisées pour les entreprises aixoises avec accompagnement à distance.',
+  description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
   keywords: ['développeur web Aix-en-Provence', 'création site web Aix-en-Provence', 'freelance web Aix', 'développeur Aix', 'site internet Aix', 'création site e-commerce Aix', 'développeur application web Aix', 'agence web Aix-en-Provence', 'refonte site web Aix'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
   },
   openGraph: {
     title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions digitales personnalisées pour les entreprises aixoises avec accompagnement à distance.',
+    description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
     url: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création de sites web sur-mesure pour les entreprises et professionnels aixois. Des vitrines digitales élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Création de sites web sur-mesure pour les entreprises et professionnels aixois. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
       features: [
         "Design raffiné adapté à l'image de marque aixoise",
         "Parfaitement responsive (mobile, tablette, desktop)",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Conception d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Aix-en-Provence et dans les Bouches-du-Rhône.",
+      description: "Conception d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Aix-en-Provence et dans les Bouches-du-Rhône.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs fluides et ergonomiques",
@@ -136,7 +136,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
     {
       icon: "🍷",
       title: "Gastronomie & Terroir",
-      description: "Sites web et applications pour restaurants, producteurs locaux et commerces de bouche aixois. Solutions digitales valorisant les produits du terroir et l'art de vivre provençal, avec systèmes de réservation et présentation attractive de votre offre."
+      description: "Sites web et applications pour restaurants, producteurs locaux et commerces de bouche aixois. Solutions web valorisant les produits du terroir et l'art de vivre provençal, avec systèmes de réservation et présentation attractive de votre offre."
     },
     {
       icon: "💼",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché aixois vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Aix-en-Provence
+                  Croissance Web à Aix-en-Provence
                 </h3>
                 <p className="text-gray-600">
                   Le marché web aixois offre d'importantes opportunités de développement pour les entreprises locales. 

@@ -82,7 +82,7 @@ export default function DeveloppeurWebToulonPage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Toulon et dans le Var.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Toulon et dans le Var.",
       features: [
         "Développement full-stack avec technologies modernes",
         "Interfaces utilisateurs fluides et performantes",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebToulonPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché toulonnais vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebToulonPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Toulon
+                  Croissance Web à Toulon
                 </h3>
                 <p className="text-gray-600">
                   Le marché web à Toulon offre d'importantes opportunités de croissance pour les entreprises locales. 

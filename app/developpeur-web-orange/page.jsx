@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web Orange | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Orange spécialisé en création de sites web, e-commerce et applications. Solutions digitales adaptées aux entreprises et commerces orangeois, avec accompagnement personnalisé.',
+  description: 'Développeur web freelance à Orange spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces orangeois, avec accompagnement personnalisé.',
   keywords: ['développeur web Orange', 'création site web Orange', 'freelance web Orange', 'développeur 84', 'site internet Orange', 'création site e-commerce Orange', 'développeur application web Orange', 'agence web Orange', 'refonte site web Orange'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-orange',
   },
   openGraph: {
     title: 'Développeur Web Orange | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Orange spécialisé en création de sites web, e-commerce et applications. Solutions digitales adaptées aux entreprises et commerces orangeois, avec accompagnement personnalisé.',
+    description: 'Développeur web freelance à Orange spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces orangeois, avec accompagnement personnalisé.',
     url: 'https://killiandoubre.com/developpeur-web-orange',
   }
 }
@@ -82,7 +82,7 @@ export default function DeveloppeurWebOrangePage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier à Orange, adaptées aux spécificités de votre secteur d'activité et aux particularités du marché local.",
+      description: "Développement d'applications web et plateformes personnalisées pour mettre en ligne vos services et optimiser vos processus métier à Orange, adaptées aux spécificités de votre secteur d'activité et aux particularités du marché local.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebOrangePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché orangeois vous permet d'attirer des clients locaux et des visiteurs, tout en vous démarquant de la concurrence. 

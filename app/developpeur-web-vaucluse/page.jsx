@@ -82,7 +82,7 @@ export default function DeveloppeurWebVauclusePage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes personnalisées pour digitaliser vos services et optimiser vos processus métier dans le Vaucluse, adaptées aux spécificités de votre secteur d'activité et aux particularités du territoire provençal.",
+      description: "Développement d'applications web et plateformes personnalisées pour mettre en ligne vos services et optimiser vos processus métier dans le Vaucluse, adaptées aux spécificités de votre secteur d'activité et aux particularités du territoire provençal.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebVauclusePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Départementale
+                  Présence Web Départementale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché du Vaucluse vous permet d'attirer des clients locaux et des visiteurs, tout en vous démarquant de la concurrence. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebVauclusePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale dans le 84
+                  Croissance Web dans le 84
                 </h3>
                 <p className="text-gray-600">
                   Le marché web dans le Vaucluse offre d'importantes opportunités de croissance pour les entreprises locales. 

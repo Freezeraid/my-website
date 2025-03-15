@@ -14,14 +14,14 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 
 export const metadata = {
   title: 'Développeur Web à Marseille | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Marseille spécialisé en création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises marseillaises avec expertise technique et accompagnement personnalisé.',
+  description: 'Développeur web freelance pour Marseille spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises marseillaises avec expertise technique et accompagnement personnalisé.',
   keywords: ['développeur web Marseille', 'création site web Marseille', 'freelance web Marseille', 'développeur Marseille', 'site internet Marseille', 'création site e-commerce Marseille', 'développeur application web Marseille', 'agence web Marseille', 'refonte site web Marseille'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-marseille',
   },
   openGraph: {
     title: 'Développeur Web à Marseille | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Marseille spécialisé en création de sites web, e-commerce et applications. Solutions digitales sur-mesure pour entreprises marseillaises avec expertise technique et accompagnement personnalisé.',
+    description: 'Développeur web freelance pour Marseille spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises marseillaises avec expertise technique et accompagnement personnalisé.',
     url: 'https://killiandoubre.com/developpeur-web-marseille',
   }
 }
@@ -60,7 +60,7 @@ export default function DeveloppeurWebMarseillePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises marseillaises. Des vitrines digitales modernes, responsive et optimisées pour convertir vos visiteurs en clients fidèles.",
+      description: "Conception et développement de sites web sur-mesure pour les entreprises marseillaises. Des vitrines web modernes, responsive et optimisées pour convertir vos visiteurs en clients fidèles.",
       features: [
         "Design contemporain adapté à votre identité visuelle",
         "Parfaitement responsive (mobile, tablette, desktop)",
@@ -82,7 +82,7 @@ export default function DeveloppeurWebMarseillePage() {
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Marseille et dans les Bouches-du-Rhône.",
+      description: "Développement d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Marseille et dans les Bouches-du-Rhône.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et réactives",
@@ -456,7 +456,7 @@ export default function DeveloppeurWebMarseillePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Digitale Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
                   Une présence web optimisée pour le marché marseillais vous permet d'attirer des clients locaux et de vous distinguer de vos concurrents. 
@@ -477,7 +477,7 @@ export default function DeveloppeurWebMarseillePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Digitale à Marseille
+                  Croissance Web à Marseille
                 </h3>
                 <p className="text-gray-600">
                   Le marché web marseillais offre d'importantes opportunités de développement pour les entreprises locales. 
