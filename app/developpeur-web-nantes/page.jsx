@@ -13,24 +13,24 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Antibes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Antibes spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises et professionnels antibois.',
-  keywords: ['développeur web Antibes', 'création site web Antibes', 'freelance web Antibes', 'développeur Antibes', 'site internet Antibes', 'création site e-commerce Antibes', 'développeur application web Antibes', 'agence web Antibes', 'refonte site web Antibes'],
+  title: 'Développeur Web à Nantes | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance pour Nantes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise technique et accompagnement personnalisé pour votre projet web.',
+  keywords: ['développeur web Nantes', 'création site web Nantes', 'freelance web Nantes', 'développeur Nantes', 'site internet Nantes', 'création site e-commerce Nantes', 'développeur application web Nantes', 'agence web Nantes', 'refonte site web Nantes'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-antibes',
+    canonical: 'https://killiandoubre.com/developpeur-web-nantes',
   },
   openGraph: {
-    title: 'Développeur Web à Antibes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Antibes spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises et professionnels antibois.',
-    url: 'https://killiandoubre.com/developpeur-web-antibes',
+    title: 'Développeur Web à Nantes | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance pour Nantes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise technique et accompagnement personnalisé pour votre projet web.',
+    url: 'https://killiandoubre.com/developpeur-web-nantes',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance pour Antibes',
-  description: 'Services de développement web sur-mesure pour Antibes : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels antibois.',
-  slug: 'developpeur-web-antibes',
+  name: 'Développeur Web Freelance pour Nantes',
+  description: 'Services de développement web sur-mesure pour Nantes : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels.',
+  slug: 'developpeur-web-nantes',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
@@ -41,61 +41,61 @@ const serviceData = {
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous pour Antibes ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels antibois : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS.'
+      question: 'Quels types de sites web développez-vous pour les entreprises nantaises ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels de Nantes : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS.'
     },
     {
-      question: 'Combien coûte la création d\'un site web à Antibes ?',
-      answer: 'Le coût d\'un site web à Antibes varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse de votre projet.'
+      question: 'Combien coûte la création d\'un site web pour une entreprise à Nantes ?',
+      answer: 'Le coût d\'un site web pour Nantes varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse de votre projet.'
     },
     {
-      question: 'Proposez-vous des services de référencement local pour Antibes ?',
-      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché local antibois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Antibes et ses environs.'
+      question: 'Proposez-vous des services de référencement local pour Nantes ?',
+      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché nantais, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Nantes et sa région.'
     }
   ]
 }
 
-export default function DeveloppeurWebAntibesPage() {
+export default function DeveloppeurWebNantesPage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception de sites web sur-mesure pour les entreprises et professionnels d'Antibes. Des sites vitrines élégants, responsive et optimisés pour transformer vos visiteurs en clients fidèles.",
+      description: "Conception de sites web sur-mesure pour les entreprises nantaises. Des sites vitrines modernes, responsive et optimisés pour transformer vos visiteurs en clients fidèles.",
       features: [
-        "Design contemporain adapté à votre identité",
+        "Design contemporain adapté à votre identité visuelle",
         "Parfaitement responsive (mobile, tablette, desktop)",
-        "Optimisé pour le référencement local à Antibes",
+        "Optimisé pour le référencement local à Nantes",
         "Intégration de fonctionnalités personnalisées"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Création de sites e-commerce efficaces pour les commerçants et entrepreneurs antibois. Des boutiques en ligne sécurisées qui maximisent vos ventes et fidélisent votre clientèle.",
+      description: "Création de sites e-commerce performants pour les commerçants et entrepreneurs nantais. Des boutiques en ligne sécurisées qui maximisent vos ventes et fidélisent votre clientèle.",
       features: [
         "Interface utilisateur intuitive et attrayante",
         "Gestion simplifiée des produits et des stocks",
-        "Paiements sécurisés et options de livraison flexibles",
+        "Solutions de paiement sécurisées et options de livraison multiples",
         "Stratégies d'optimisation des conversions"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Antibes et dans les Alpes-Maritimes.",
+      description: "Développement d'applications web et plateformes sur-mesure pour digitaliser vos services et optimiser vos processus métier à Nantes et dans toute la Loire-Atlantique.",
       features: [
         "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs fluides et performantes",
-        "Systèmes robustes et évolutifs",
-        "Intégration harmonieuse avec vos outils existants"
+        "Architecture sécurisée et évolutive",
+        "Intégration avec vos systèmes existants"
       ]
     },
     {
       icon: "🔍",
       title: "SEO & Visibilité Locale",
-      description: "Optimisation du référencement naturel pour renforcer votre présence sur Google à Antibes et ses environs. Attirez davantage de clients locaux grâce à une stratégie SEO ciblée.",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Nantes et dans la région Pays de la Loire. Attirez davantage de clients locaux grâce au SEO.",
       features: [
-        "Stratégie SEO locale ciblée sur Antibes",
+        "Stratégie SEO locale ciblée sur Nantes",
         "Optimisation Google My Business",
         "Création de contenu pertinent pour votre marché local",
         "Analyse et amélioration continue des performances"
@@ -105,43 +105,43 @@ export default function DeveloppeurWebAntibesPage() {
 
   const localAdvantages = [
     {
-      title: "Connaissance Approfondie du Marché Antibois",
-      description: "Ma compréhension du tissu économique d'Antibes et de sa région me permet de créer des solutions web parfaitement adaptées aux attentes des utilisateurs locaux. Je saisis les particularités du marché antibois et les opportunités web qu'il présente pour votre entreprise."
+      title: "Compréhension du Marché Web Nantais",
+      description: "Ma connaissance approfondie des tendances web et du marché web nantais me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique de Nantes et les opportunités numériques qu'il présente."
     },
     {
-      title: "Suivi Personnalisé & Accessibilité",
-      description: "En tant que développeur web freelance basé à Nice, je reste facilement accessible pour les professionnels d'Antibes. Cette proximité géographique facilite les échanges et garantit une communication efficace tout au long de votre projet web."
+      title: "Collaboration à Distance Efficace",
+      description: "En tant que développeur web freelance basé à Nice travaillant pour Nantes, je vous offre un accompagnement personnalisé grâce à une méthodologie de travail à distance éprouvée. Cette approche garantit une communication fluide et une parfaite adéquation entre votre vision et la solution développée."
     },
     {
-      title: "Solutions Web Adaptées aux Entreprises Antiboises",
-      description: "Chaque entreprise à Antibes a ses spécificités, c'est pourquoi je conçois des solutions entièrement personnalisées qui répondent précisément à vos objectifs. Je développe des créations originales qui vous distinguent de vos concurrents locaux."
+      title: "Solutions Web Sur-Mesure",
+      description: "Chaque entreprise nantaise a ses propres défis, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément à vos besoins spécifiques. Pas de templates génériques, mais des créations originales qui vous démarquent de la concurrence locale."
     },
     {
-      title: "Assistance Technique & Évolution Continue",
-      description: "Je vous offre un support technique réactif et un accompagnement continu pour votre site ou application. Je peux intervenir rapidement pour résoudre tout problème technique ou former votre équipe à l'utilisation optimale de votre solution web."
+      title: "Support Technique & Maintenance Continue",
+      description: "Je vous offre un support technique réactif et une maintenance continue de votre site ou application. Mon approche de travail à distance me permet d'intervenir rapidement pour résoudre tout problème technique ou former votre équipe à l'utilisation de votre solution web."
     }
   ]
 
-  const antibesBusinessSectors = [
+  const nantesBusinessSectors = [
     {
-      icon: "⛵",
-      title: "Nautisme & Activités Maritimes",
-      description: "Sites web et applications pour ports de plaisance, locations de bateaux, écoles de voile et services nautiques à Antibes. Solutions optimisées pour la réservation en ligne, la présentation de vos services et l'attraction d'une clientèle internationale."
-    },
-    {
-      icon: "🏨",
-      title: "Hôtellerie & Tourisme",
-      description: "Présence web efficace pour hôtels, restaurants, locations saisonnières et prestataires touristiques antibois. Sites vitrines et plateformes de réservation adaptés pour valoriser votre établissement et attirer des visiteurs toute l'année."
+      icon: "🚢",
+      title: "Industrie & Innovation",
+      description: "Sites web et applications pour les entreprises industrielles, startups et sociétés innovantes de Nantes. Solutions web adaptées aux besoins spécifiques du secteur industriel et technologique nantais."
     },
     {
       icon: "🏢",
-      title: "Commerces & Services Locaux",
-      description: "Solutions web pour commerces, artisans et prestataires de services à Antibes. Sites web et e-commerce conçus pour renforcer votre visibilité locale et développer votre clientèle de proximité."
+      title: "Services & Commerce Local",
+      description: "Présence web efficace pour commerces, artisans et prestataires de services nantais. Sites vitrines et e-commerce adaptés aux besoins des entreprises locales pour développer leur clientèle dans l'agglomération nantaise."
     },
     {
-      icon: "🏠",
-      title: "Immobilier & Résidentiel",
-      description: "Plateformes immobilières et sites pour agences, promoteurs et architectes à Antibes. Solutions permettant de mettre en valeur vos biens et projets avec des fonctionnalités avancées de recherche et de visualisation."
+      icon: "🎓",
+      title: "Éducation & Formation",
+      description: "Plateformes web pour établissements d'enseignement, organismes de formation et EdTech à Nantes. Solutions permettant de digitaliser l'offre de formation et d'améliorer l'expérience d'apprentissage."
+    },
+    {
+      icon: "🌱",
+      title: "Économie Verte & Durable",
+      description: "Applications web et sites pour entreprises éco-responsables et acteurs de la transition écologique à Nantes. Solutions web alignées avec les valeurs de durabilité et d'innovation sociale."
     }
   ]
 
@@ -149,46 +149,46 @@ export default function DeveloppeurWebAntibesPage() {
     {
       number: "01",
       title: "Analyse & Découverte",
-      description: "Je débute par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte antibois."
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au marché nantais."
     },
     {
       number: "02",
-      title: "Planification & Design",
-      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous travaillons ensemble pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent exactement à votre vision."
+      title: "Planification & Conception",
+      description: "J'élabore une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement à distance pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
     },
     {
       number: "03",
-      title: "Développement & Programmation",
-      description: "Je développe votre solution avec les technologies les plus appropriées, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est méticuleusement codée et testée pour garantir fiabilité et performance."
+      title: "Développement & Intégration",
+      description: "Je code votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement développée et testée pour garantir performance et fiabilité."
     },
     {
       number: "04",
       title: "Tests & Optimisation",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs antibois."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs nantais."
     },
     {
       number: "05",
       title: "Déploiement & Accompagnement",
-      description: "Après la mise en ligne, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
     }
   ]
 
-  const antibesDigitalStats = [
+  const nantesDigitalStats = [
     {
       figure: "85%",
-      description: "des consommateurs à Antibes consultent internet avant de faire un achat local"
+      description: "des consommateurs à Nantes recherchent des entreprises locales en ligne avant de faire un achat"
     },
     {
       figure: "71%",
-      description: "des recherches locales sur mobile à Antibes conduisent à une visite en magasin dans les 24 heures"
+      description: "des recherches locales sur mobile à Nantes aboutissent à une visite en magasin dans les 24 heures"
     },
     {
-      figure: "64%",
-      description: "des entreprises antiboises considèrent leur site web comme un outil essentiel de développement commercial"
+      figure: "76%",
+      description: "des entreprises nantaises considèrent que leur site web est crucial pour leur développement commercial"
     },
     {
       figure: "93%",
-      description: "des utilisateurs à Antibes forment leur première impression d'une entreprise à partir de son site web"
+      description: "des utilisateurs à Nantes forment leur première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebAntibesPage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance pour Antibes', href: '/developpeur-web-antibes', current: true }
+                { label: 'Développeur Web Freelance pour Nantes', href: '/developpeur-web-nantes', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Antibes</span>
+                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Nantes</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services aux entreprises et professionnels d'<strong>Antibes</strong>. Je crée des sites web et applications sur-mesure qui répondent parfaitement aux besoins spécifiques du marché antibois.
+                  Développeur web freelance basé à <strong>Nice</strong> travaillant pour <strong>Nantes</strong>, je conçois des sites web et applications sur-mesure pour les entreprises et professionnels nantais. Expertise technique, solutions personnalisées et accompagnement à distance pour votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -236,7 +236,7 @@ export default function DeveloppeurWebAntibesPage() {
                     href="#services"
                     className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 border-blue-600 text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 transform hover:-translate-y-0.5"
                   >
-                    Explorer mes services
+                    Découvrir mes services
                   </Link>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default function DeveloppeurWebAntibesPage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance pour Antibes"
+                        alt="Killian DOUBRE - Développeur Web Freelance pour Nantes"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebAntibesPage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Antibes & Région</p>
+                          <p className="text-sm text-gray-600">Nantes & Région</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebAntibesPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web pour Antibes
+                Services de Développement Web pour Nantes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'offre une gamme complète de services de développement web pour les entreprises et professionnels d'Antibes.
-                Chaque solution est élaborée sur-mesure pour répondre à vos besoins spécifiques et vous démarquer sur le marché local.
+                Je propose une gamme complète de services de développement web pour les entreprises et professionnels nantais.
+                Chaque solution est conçue sur-mesure pour répondre à vos besoins spécifiques et vous démarquer sur le marché local.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebAntibesPage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Antibes Section */}
+        {/* Secteurs d'activité à Nantes Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Antiboises
+                Solutions Adaptées aux Entreprises Nantaises
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Antibes et dans les Alpes-Maritimes.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Nantes et dans toute la Loire-Atlantique.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {antibesBusinessSectors.map((sector, index) => (
+              {nantesBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebAntibesPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à Antibes
+                L'Importance du Web à Nantes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises antiboises.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises nantaises.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {antibesDigitalStats.map((stat, index) => (
+              {nantesDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebAntibesPage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Collaborer avec moi présente de nombreux avantages pour votre projet web à Antibes.
+                Travailler avec moi offre de nombreux avantages pour votre projet web à Nantes.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebAntibesPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche structurée et collaborative pour transformer votre vision en une solution web efficace.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebAntibesPage() {
           </div>
         </section>
 
-        {/* Antibes Web Development Section */}
+        {/* Nantes Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web à Antibes : Expertise Locale
+                Développement Web pour Nantes : Expertise Web
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web au service des professionnels d'Antibes, je comprends les particularités du marché local et les besoins des entreprises de la région.
+                En tant que développeur web travaillant avec les entreprises nantaises, je comprends les spécificités du marché local et les besoins des entreprises de la région.
               </p>
             </div>
             
@@ -456,32 +456,32 @@ export default function DeveloppeurWebAntibesPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Visibilité Web Locale
+                  Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché antibois vous permet d'attirer des clients locaux et de vous distinguer de vos concurrents. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et valorisent votre ancrage à Antibes.
+                  Une présence web optimisée pour le marché nantais vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Nantes.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration Efficace
+                  Collaboration à Distance Efficace
                 </h3>
                 <p className="text-gray-600">
-                  Travailler avec un développeur web proche d'Antibes facilite la communication et la collaboration, permettant de mieux cerner vos besoins et d'adapter rapidement le projet selon vos retours.
+                  Grâce à une méthodologie de travail à distance éprouvée, je vous offre une collaboration fluide et efficace. Les outils numériques modernes nous permettent de travailler ensemble comme si j'étais à Nantes, avec des échanges réguliers et une réactivité optimale.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Développement Web à Antibes
+                  Croissance Web à Nantes
                 </h3>
                 <p className="text-gray-600">
-                  Le marché web à Antibes offre d'importantes perspectives de croissance pour les entreprises locales. 
-                  Un site web ou une application performante vous permet d'atteindre de nouveaux clients et d'étendre votre activité dans la région.
+                  Le marché web à Nantes offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région Pays de la Loire.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebAntibesPage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus innovantes et performantes pour développer des solutions web de qualité.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebAntibesPage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Antibes ?
+              Prêt à Développer Votre Projet Web à Nantes ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
               Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
-              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise à Antibes.
+              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise nantaise.
             </p>
             <Link
               href="#contact"
