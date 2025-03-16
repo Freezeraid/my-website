@@ -4,14 +4,13 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <header className={`relative min-h-[calc(100vh)] pt-28 flex items-center ${styles.heroGradient}`}>
+    <header className={`relative min-h-[90vh] pt-28 flex items-center ${styles.heroGradient}`}>
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className={`${styles.backgroundElement} top-32 right-[5%] w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-blue-100 blur-3xl`} />
-        <div className={`${styles.backgroundElement} bottom-20 left-[5%] w-[250px] h-[250px] md:w-[400px] md:h-[400px] bg-purple-100 blur-3xl`} />
-        <div className={`${styles.backgroundElement} top-40 left-[15%] w-[200px] h-[200px] md:w-[300px] md:h-[300px] bg-indigo-100 blur-3xl`} />
+        <div className="absolute top-32 right-[5%] w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-blue-100 blur-3xl opacity-70" />
+        <div className="absolute bottom-20 left-[5%] w-[250px] h-[250px] md:w-[400px] md:h-[400px] bg-purple-100 blur-3xl opacity-60" />
       </div>
 
-      <div className="relative w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col min-h-[calc(100vh-80px)]">
+      <div className="relative w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col min-h-[calc(90vh-80px)]">
         <div className="flex-1 flex flex-col justify-center">
           <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-6 md:gap-12 items-center">
             <div className="text-center md:text-left space-y-4 mt-6 md:mt-0">
