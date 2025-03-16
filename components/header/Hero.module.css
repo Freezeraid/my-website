@@ -5,6 +5,7 @@
   
   .scrollIndicator {
     animation: smoothScroll 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    will-change: transform, opacity;
   }
 
   @keyframes smoothScroll {
@@ -26,8 +27,11 @@
     position: absolute;
     border-radius: 9999px;
     mix-blend-mode: multiply;
-    will-change: transform;
+    /* Utilisation plus ciblée de will-change pour éviter la surconsommation de ressources */
+    /* will-change: transform; */
     pointer-events: none;
+    /* Utilisation de transform: translate3d pour forcer l'accélération GPU sans will-change */
+    transform: translate3d(0, 0, 0);
   }
   
   .gradientText {

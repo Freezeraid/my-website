@@ -1,4 +1,4 @@
-import { getAllArticles } from '../../lib/blog'
+import { getAllArticles, preloadAllArticles } from '../../lib/blog'
 import ArticlesSection from './components/ArticlesSection'
 import Breadcrumb from '../../components/ui/Breadcrumb'
 import SchemaOrg from '../../components/ui/SchemaOrg'
@@ -15,7 +15,11 @@ export const metadata = {
 }
 
 export default async function BlogPage() {
+  // Charge tous les articles
   const articles = await getAllArticles()
+  
+  // Précharge le contenu des articles pour améliorer les performances de navigation
+  await preloadAllArticles()
 
   const breadcrumbItems = [
     { label: 'Blog' }

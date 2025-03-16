@@ -42,6 +42,7 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
+  // swcMinify: true, // Option supprimée car non reconnue dans Next.js 15.1.7
   images: {
     remotePatterns: [
       {
@@ -95,6 +96,15 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
     ];
   },
   
@@ -124,6 +134,7 @@ const nextConfig = {
     },
     mdxRs: true,
     webVitalsAttribution: ['CLS', 'LCP', 'FCP', 'FID', 'TTFB', 'INP'],
+    optimizePackageImports: ['framer-motion'],
   },
   
   compiler: {

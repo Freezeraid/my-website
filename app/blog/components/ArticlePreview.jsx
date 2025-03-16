@@ -1,22 +1,37 @@
+'use client'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useCallback, useState } from 'react'
+import { useRouter } from 'next/navigation'
 
 export default function ArticlePreview({ article }) {
+  const router = useRouter()
+  const [isHovered, setIsHovered] = useState(false)
   const currentYear = new Date().getFullYear()
   const processedTitle = article.title.replace(/\[YEAR\]/g, currentYear)
   const processedDescription= article.description.replace(/\[YEAR\]/g, currentYear)
   const processedDate= article.date.replace(/\[YEAR\]/g, currentYear)
 
 
+  const handleMouseEnter = useCallback(() => {
+    setIsHovered(true)
+    router.prefetch(`/blog/${article.slug}`)
+    
+  }, [router, article.slug])
+
   return (
-    <article className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+    <article 
+      className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300"
+      onMouseEnter={handleMouseEnter}
+    >
       <Link href={`/blog/${article.slug}`} className="block h-full">
         <div className="relative h-48 w-full overflow-hidden rounded-t-xl">
           <Image
             src={article.banner}
             alt={processedTitle}
             fill
-            priority
+            // Utilise uniquement priority ou loading, pas les deux
+            {...(isHovered ? { priority: true } : { loading: "lazy" })}
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
