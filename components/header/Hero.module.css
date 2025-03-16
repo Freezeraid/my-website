@@ -1,11 +1,13 @@
 .heroGradient {
     background: linear-gradient(to bottom, #f0f6ff, #ffffff);
+    contain: paint;
   }
   
   
   .scrollIndicator {
-    animation: smoothScroll 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    animation: smoothScroll 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
     will-change: transform, opacity;
+    transform: translateZ(0);
   }
 
   @keyframes smoothScroll {
@@ -14,8 +16,8 @@
       opacity: 1;
     }
     50% {
-      transform: translateY(12px);
-      opacity: 0.5;
+      transform: translateY(10px);
+      opacity: 0.6;
     }
     100% {
       transform: translateY(0);
@@ -26,16 +28,16 @@
   .backgroundElement {
     position: absolute;
     border-radius: 9999px;
-    mix-blend-mode: multiply;
-    /* Utilisation plus ciblée de will-change pour éviter la surconsommation de ressources */
-    /* will-change: transform; */
+    mix-blend-mode: screen;
+    will-change: opacity;
     pointer-events: none;
-    /* Utilisation de transform: translate3d pour forcer l'accélération GPU sans will-change */
     transform: translate3d(0, 0, 0);
+    contain: paint;
   }
   
   .gradientText {
     background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-rendering: optimizeLegibility;
   }
