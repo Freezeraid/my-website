@@ -13,6 +13,8 @@
       radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
       repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 1px, transparent 1px, transparent 10px);
     pointer-events: none;
+    /* Forcer l'accélération GPU pour les motifs complexes */
+    transform: translate3d(0, 0, 0);
   }
   
   .card {
@@ -22,7 +24,12 @@
       0 0 0 1px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
     transform: translateY(0);
-    transition: all 0.2s ease;
+    /* Transitions spécifiques au lieu de transition: all */
+    transition-property: transform, box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    /* Utilisation ciblée de will-change */
+    will-change: transform;
   }
   
 

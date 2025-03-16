@@ -22,14 +22,16 @@ body {
 
 html {
   scroll-padding-top: 80px;
-  scroll-behavior: smooth;
+  /* Désactivation du scroll-behavior CSS pour éviter les conflits avec JS */
+  /* scroll-behavior: smooth; */
 }
 
-@supports (-webkit-hyphens:none) {
+/* Safari-specific override no longer needed since we're using JS for smooth scrolling */
+/* @supports (-webkit-hyphens:none) {
   html {
     scroll-behavior: auto;
   }
-}
+} */
 
 ::-webkit-scrollbar {
   width: 12px;

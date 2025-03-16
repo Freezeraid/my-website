@@ -8,29 +8,42 @@
     backdrop-filter: blur(8px);
     background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease;
+    /* Transitions spécifiques au lieu de transition: all */
+    transition-property: box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
   }
   
   .inputField {
     color: #0a0a0a;
     background: rgba(255, 255, 255, 0.9);
-    transition: all 0.2s ease;
+    /* Transitions spécifiques au lieu de transition: all */
+    transition-property: background, box-shadow, transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
   }
   
   .inputField:focus {
     background: white;
     box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
     transform: translateY(-1px);
+    /* Utilisation ciblée de will-change uniquement sur focus */
+    will-change: transform;
   }
   
   .submitButton {
     background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-    transition: all 0.2s ease;
+    /* Transitions spécifiques au lieu de transition: all */
+    transition-property: transform, box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
   }
   
   .submitButton:hover:not(:disabled) {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    /* Utilisation ciblée de will-change uniquement sur hover */
+    will-change: transform;
   }
   
   .submitButton:disabled {
@@ -40,9 +53,12 @@
   
   .featureCard {
     background: rgba(255, 255, 255, 0.9);
+    /* Déjà optimisé avec transition spécifique */
     transition: transform 0.2s ease;
   }
   
   .featureCard:hover {
     transform: translateY(-4px);
+    /* Utilisation ciblée de will-change uniquement sur hover */
+    will-change: transform;
   }

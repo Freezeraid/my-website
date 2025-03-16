@@ -19,11 +19,28 @@ export default function Navbar() {
       e.preventDefault()
       const element = document.querySelector(href)
       if (element) {
+        // Utilisation de requestAnimationFrame pour un défilement plus fluide
         const offsetTop = element.offsetTop - 80
-        window.scrollTo({
-          top: offsetTop,
-          behavior: 'smooth'
-        })
+        const duration = 800 // ms
+        const start = window.pageYOffset
+        const distance = offsetTop - start
+        let startTime = null
+        
+        function animation(currentTime) {
+          if (startTime === null) startTime = currentTime
+          const timeElapsed = currentTime - startTime
+          const progress = Math.min(timeElapsed / duration, 1)
+          // Fonction d'easing pour un défilement plus naturel
+          const ease = t => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t
+          
+          window.scrollTo(0, start + distance * ease(progress))
+          
+          if (timeElapsed < duration) {
+            requestAnimationFrame(animation)
+          }
+        }
+        
+        requestAnimationFrame(animation)
       }
     }
     

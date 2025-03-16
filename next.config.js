@@ -124,6 +124,8 @@ const nextConfig = {
     },
     mdxRs: true,
     webVitalsAttribution: ['CLS', 'LCP', 'FCP', 'FID', 'TTFB', 'INP'],
+    // Optimisation pour les animations et le défilement
+    optimizePackageImports: ['framer-motion'],
   },
   
   compiler: {
