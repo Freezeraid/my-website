@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from './Contact.module.css'
 
 export default function Contact() {
@@ -11,6 +11,13 @@ export default function Contact() {
   })
   const [status, setStatus] = useState({ type: '', message: '' })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isContactDisabled, setIsContactDisabled] = useState(false)
+
+  useEffect(() => {
+    const contactDisabled = process.env.NEXT_PUBLIC_CONTACT_FORM_DISABLED === 'true'
+    setIsContactDisabled(contactDisabled)
+  }, [])
+
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -112,105 +119,123 @@ export default function Contact() {
               </li>
             </ul>
           </div>
-          <form onSubmit={handleSubmit} className={`${styles.glassCard} rounded-2xl p-8 md:p-10`}>
-          <div className="mb-6">
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                  Votre email
+          {isContactDisabled ? (
+            <div className={`${styles.glassCard} rounded-2xl p-8 md:p-10 text-center`}>
+            <div className="bg-amber-50 p-6 rounded-lg mb-4 border border-amber-200">
+              <h3 className="text-xl font-bold text-amber-800 mb-2">📅 Indisponibilité temporaire</h3>
+              <p className="text-amber-700 mb-3">
+                Je ne prends plus de nouveaux projets pour le moment en raison d'un carnet de commandes complet.
+                Merci de votre compréhension !
+              </p>
+              <p className="text-amber-700">
+                En attendant, n'hésitez pas à consulter <a href="/blog" className="font-medium underline hover:text-amber-900 transition-colors">mon blog</a> pour découvrir mes derniers articles et suivre l'actualité de mes projets en cours.
+              </p>
+            </div>
+            <p className="text-gray-600 mt-4">
+              Revenez dans quelques jours pour vérifier mes nouvelles disponibilités.
+            </p>
+          </div>
+          ) : (
+            <form onSubmit={handleSubmit} className={`${styles.glassCard} rounded-2xl p-8 md:p-10`}>
+              <div className="mb-6">
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    Votre email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    value={formData.email}
+                    required
+                    className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
+                    onChange={(e) => setFormData({...formData, email: e.target.value})}
+                  />
+                </div>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    Votre nom
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    value={formData.name}
+                    required
+                    className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
+                    onChange={(e) => setFormData({...formData, name: e.target.value})}
+                  />
+                </div>
+                <div>
+                  <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
+                    Budget estimé
+                  </label>
+                  <select
+                    id="budget"
+                    value={formData.budget}
+                    required
+                    className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
+                    onChange={(e) => setFormData({...formData, budget: e.target.value})}
+                  >
+                    <option value="">Sélectionnez</option>
+                    <option value="500-1000">500€ - 1 000€</option>
+                    <option value="1000-3000">1 000€ - 3 000€</option>
+                    <option value="3000-5000">3 000€ - 5 000€</option>
+                    <option value="5000-10000">5 000€ - 10 000€</option>
+                    <option value="10000+">Plus de 10 000€</option>
+                    <option value="unsure">Je ne sais pas encore</option>
+                  </select>
+                </div>
+              </div>
+              <div className="mb-6">
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  Votre projet en quelques mots
                 </label>
-                <input
-                  type="email"
-                  id="email"
-                  value={formData.email}
+                <textarea
+                  id="message"
+                  value={formData.message}
                   required
+                  rows={4}
                   className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
-                  onChange={(e) => setFormData({...formData, email: e.target.value})}
+                  onChange={(e) => setFormData({...formData, message: e.target.value})}
+                  placeholder="Décrivez vos objectifs, vos besoins spécifiques..."
                 />
               </div>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                  Votre nom
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  value={formData.name}
-                  required
-                  className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
-                  onChange={(e) => setFormData({...formData, name: e.target.value})}
-                />
-              </div>
-              <div>
-                <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
-                  Budget estimé
-                </label>
-                <select
-                  id="budget"
-                  value={formData.budget}
-                  required
-                  className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
-                  onChange={(e) => setFormData({...formData, budget: e.target.value})}
-                >
-                  <option value="">Sélectionnez</option>
-                  <option value="500-1000">500€ - 1 000€</option>
-                  <option value="1000-3000">1 000€ - 3 000€</option>
-                  <option value="3000-5000">3 000€ - 5 000€</option>
-                  <option value="5000-10000">5 000€ - 10 000€</option>
-                  <option value="10000+">Plus de 10 000€</option>
-                  <option value="unsure">Je ne sais pas encore</option>
-                </select>
-              </div>
-            </div>
-            <div className="mb-6">
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                Votre projet en quelques mots
-              </label>
-              <textarea
-                id="message"
-                value={formData.message}
-                required
-                rows={4}
-                className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
-                onChange={(e) => setFormData({...formData, message: e.target.value})}
-                placeholder="Décrivez vos objectifs, vos besoins spécifiques..."
-              />
-            </div>
 
-            {status.message && (
-              <div className={`p-4 rounded-lg mb-6 ${
-                status.type === 'success' ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'
-              }`}>
-                {status.message}
-              </div>
-            )}
-
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className={`${styles.submitButton} w-full py-4 px-6 rounded-lg text-white font-medium relative`}
-            >
-              {isSubmitting ? (
-                <span className="flex items-center justify-center">
-                  <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                  Envoi en cours...
-                </span>
-              ) : (
-                "Obtenir un devis gratuit 🚀"
+              {status.message && (
+                <div className={`p-4 rounded-lg mb-6 ${
+                  status.type === 'success' ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'
+                }`}>
+                  {status.message}
+                </div>
               )}
-            </button>
 
-            <div className="flex items-center justify-center mt-6 text-sm text-gray-500">
-              <svg className="h-5 w-5 text-gray-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-              <p>Réponse garantie sous 24-48h</p>
-            </div>
-          </form>
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className={`${styles.submitButton} w-full py-4 px-6 rounded-lg text-white font-medium relative`}
+              >
+                {isSubmitting ? (
+                  <span className="flex items-center justify-center">
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Envoi en cours...
+                  </span>
+                ) : (
+                  "Obtenir un devis gratuit 🚀"
+                )}
+              </button>
+
+              <div className="flex items-center justify-center mt-6 text-sm text-gray-500">
+                <svg className="h-5 w-5 text-gray-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <p>Réponse garantie sous 24-48h</p>
+              </div>
+            </form>
+          )}
         </div>
       </div>
     </section>
