@@ -176,29 +176,54 @@ const components = {
     </pre>
   ),
   
-  Image: ({ src, alt, caption, ...props }) => (
-    <figure className="my-8 mx-auto w-full sm:w-4/5 flex flex-col">
-      <div className="w-full">
-        <div className="relative pt-[56.25%]">
-          <Image
-            src={src}
-            alt={alt || "Image de l'article"}
-            fill
-            className="absolute inset-0 w-full h-full object-cover rounded-lg"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
-            loading="lazy"
-            {...props}
-          />
+  Image: ({ src, alt, caption, url, ...props }) => {
+    const Link = props.components?.Link || require('next/link').default;
+    
+    return (
+      <figure className="my-8 mx-auto w-full sm:w-4/5 flex flex-col">
+        <div className="w-full">
+          <div className="relative pt-[56.25%]">
+            {url ? (
+              <Link href={url} legacyBehavior={false} rel="noopener noreferrer" target="_blank" className="block absolute inset-0">
+                <Image
+                  src={src}
+                  alt={alt || "Image de l'article"}
+                  fill
+                  className="absolute inset-0 w-full h-full object-cover rounded-lg transition-opacity hover:opacity-90"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
+                  loading="lazy"
+                  {...props}
+                />
+              </Link>
+            ) : (
+              <Image
+                src={src}
+                alt={alt || "Image de l'article"}
+                fill
+                className="absolute inset-0 w-full h-full object-cover rounded-lg"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
+                loading="lazy"
+                {...props}
+              />
+            )}
+          </div>
         </div>
-      </div>
-      
-      {caption && (
-        <figcaption className="text-xs mt-12 sm:text-sm italic text-gray-600 text-center">
-          {caption}
-        </figcaption>
-      )}
-    </figure>
-  ),
+        
+        {caption && (
+          <figcaption className="text-xs mt-12 sm:text-sm italic text-gray-600 text-center">
+            {caption}
+            {url && (
+              <span className="ml-1 not-italic">
+                [<Link href={url} className="text-blue-600 hover:underline">
+                  Lien
+                </Link>]
+              </span>
+            )}
+          </figcaption>
+        )}
+      </figure>
+    );
+  },
   
   table: ({ children, ...props }) => (
     <div className="overflow-x-auto my-8">
