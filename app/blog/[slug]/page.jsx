@@ -118,7 +118,7 @@ export default async function ArticlePage({ params }) {
                 ))}
               </div>
 
-              <div className="relative w-full h-[400px] rounded-xl overflow-hidden mb-8">
+              {/* <div className="relative w-full h-[400px] rounded-xl overflow-hidden mb-8">
                 <Image
                   src={article.banner}
                   alt={article.title}
@@ -126,7 +126,7 @@ export default async function ArticlePage({ params }) {
                   priority
                   className="object-cover"
                 />
-              </div>
+              </div> */}
 
               <div className="prose prose-lg max-w-none prose-blue">
                 <MDXContent source={content} />
