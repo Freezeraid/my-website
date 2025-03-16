@@ -42,7 +42,7 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  swcMinify: true, // Utilise SWC pour la minification (plus rapide que Terser)
+  // swcMinify: true, // Option supprimée car non reconnue dans Next.js 15.1.7
   images: {
     remotePatterns: [
       {
