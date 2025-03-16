@@ -1,26 +1,15 @@
-import dynamic from 'next/dynamic'
-import { Suspense } from 'react' 
 import Hero from '../components/header/Hero'
-import Loading from '../components/ui/Loading'
-
-const Services = dynamic(() => import('../components/sections/Services'), {
-  loading: () => <Loading />,
-  ssr: true
-})
-const Contact = dynamic(() => import('../components/sections/Contact'), {
-  loading: () => <Loading />,
-  ssr: true
-})
+import ClientSections from '../components/ui/ClientSections'
 
 export default function Home() {
   return (
     <>
       <main>
+        {/* Hero est chargé immédiatement */}
         <Hero />
-        <Suspense fallback={<Loading />}>
-          <Services />
-          <Contact />
-        </Suspense>
+        
+        {/* Utilisation du composant client pour les sections */}
+        <ClientSections />
       </main>
     </>
   )

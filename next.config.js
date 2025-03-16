@@ -42,6 +42,7 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
+  swcMinify: true, // Utilise SWC pour la minification (plus rapide que Terser)
   images: {
     remotePatterns: [
       {
@@ -95,6 +96,15 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
     ];
   },
   
@@ -124,7 +134,6 @@ const nextConfig = {
     },
     mdxRs: true,
     webVitalsAttribution: ['CLS', 'LCP', 'FCP', 'FID', 'TTFB', 'INP'],
-    // Optimisation pour les animations et le défilement
     optimizePackageImports: ['framer-motion'],
   },
   

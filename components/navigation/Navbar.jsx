@@ -1,10 +1,12 @@
 'use client'
-import { useState } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import Link from 'next/link'
 import styles from './Navbar.module.css'
+import useNavigation from '../../hooks/useNavigation'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const { navigateSmoothly, prefetchVisibleLinks, pathname } = useNavigation()
 
   const navItems = [
     { href: '/#services', label: 'Mes services' },
@@ -12,40 +14,27 @@ export default function Navbar() {
     { href: '/blog', label: 'Blog' }
   ]
 
-  const handleClick = (e) => {
+  // Mémoisation de la fonction handleClick pour éviter les recréations inutiles
+  const handleClick = useCallback((e) => {
     const href = e.currentTarget.getAttribute('href')
     
-    if (href.startsWith('#')) {
+    // Utilise notre hook personnalisé pour une navigation optimisée
+    if (href) {
       e.preventDefault()
-      const element = document.querySelector(href)
-      if (element) {
-        // Utilisation de requestAnimationFrame pour un défilement plus fluide
-        const offsetTop = element.offsetTop - 80
-        const duration = 800 // ms
-        const start = window.pageYOffset
-        const distance = offsetTop - start
-        let startTime = null
-        
-        function animation(currentTime) {
-          if (startTime === null) startTime = currentTime
-          const timeElapsed = currentTime - startTime
-          const progress = Math.min(timeElapsed / duration, 1)
-          // Fonction d'easing pour un défilement plus naturel
-          const ease = t => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t
-          
-          window.scrollTo(0, start + distance * ease(progress))
-          
-          if (timeElapsed < duration) {
-            requestAnimationFrame(animation)
-          }
-        }
-        
-        requestAnimationFrame(animation)
-      }
+      navigateSmoothly(href, {
+        scrollSmooth: true,
+        scrollToTop: !href.includes('#')
+      })
     }
     
+    // Fermer le menu mobile si ouvert
     if (isOpen) setIsOpen(false)
-  }
+  }, [isOpen, navigateSmoothly]);
+
+  // Précharge les liens visibles lors du montage du composant
+  useEffect(() => {
+    prefetchVisibleLinks()
+  }, [prefetchVisibleLinks]);
 
   return (
     <nav 
@@ -58,6 +47,7 @@ export default function Navbar() {
           <Link 
             href="/" 
             aria-label="Accueil - Killian DOUBRE"
+            onClick={handleClick}
             className={`text-xl font-bold text-black hover:opacity-80 transition-opacity`}
           >
             Killian DOUBRE
@@ -70,6 +60,7 @@ export default function Navbar() {
                   key={item.href}
                   href={item.href}
                   onClick={handleClick}
+                  prefetch={!item.href.startsWith('#')} // Préchargement des pages non-ancres
                   className={`${styles.navLink} text-gray-800 hover:text-blue-600 transition-colors`}
                 >
                   {item.label}
@@ -110,8 +101,9 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={handleClick}
+                prefetch={!item.href.startsWith('#')} // Préchargement des pages non-ancres
                 className={`${styles.mobileNavItem} block px-3 py-2 rounded-md hover:bg-gray-700/10`}
-                style={{ animationDelay: `${index * 0.1}s` }}
+                style={{ animationDelay: `${index * 0.05}s` }} // Réduit le délai d'animation
               >
                 {item.label}
               </Link>

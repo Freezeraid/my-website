@@ -1,17 +1,19 @@
 import './globals.css'
 
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from "@vercel/analytics/react"
 import { Inter, Poppins } from 'next/font/google'
 import Navbar from '../components/navigation/Navbar'
-import Footer from '../components/footer/Footer'
 import SchemaOrg from '../components/ui/SchemaOrg'
+import ClientFooter from '../components/ui/ClientFooter'
+import ClientAnalytics from '../components/ui/ClientAnalytics'
 import { generateHomePageSchemas } from '../lib/schema'
 
+// Optimisation du chargement des polices
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
+  preload: true, // Préchargement de la police pour améliorer les performances
+  fallback: ['system-ui', 'sans-serif'] // Police de secours pendant le chargement
 })
 
 const poppins = Poppins({
@@ -19,6 +21,8 @@ const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-poppins',
+  preload: true, // Préchargement de la police pour améliorer les performances
+  fallback: ['system-ui', 'sans-serif'] // Police de secours pendant le chargement
 })
 
 export const metadata = {
@@ -114,13 +118,19 @@ export default function RootLayout({ children }) {
       <head>
         <SchemaOrg schemas={homePageSchemas} />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
       </head>
       <body className={inter.className}>
         <Navbar />
         {children}
-        <Footer />
-        <SpeedInsights />
-        <Analytics />
+        
+        {/* Chargement différé des composants non critiques */}
+        <ClientFooter />
+        
+        {/* Chargement différé des outils d'analyse */}
+        <ClientAnalytics />
       </body>
     </html>
   )
