@@ -9,7 +9,8 @@ const Footer = dynamic(
   () => import('../footer/Footer'),
   { 
     loading: () => <Loading />,
-    ssr: true
+    ssr: true,
+    preload: false // Désactiver le préchargement automatique pour éviter les avertissements
   }
 )
 

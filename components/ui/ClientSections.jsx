@@ -9,7 +9,8 @@ const Services = dynamic(
   () => import('../sections/Services'),
   { 
     loading: () => <Loading />,
-    ssr: false
+    ssr: true,
+    preload: false // Désactiver le préchargement automatique pour éviter les problèmes de chargement
   }
 )
 
@@ -17,7 +18,8 @@ const Contact = dynamic(
   () => import('../sections/Contact'),
   { 
     loading: () => <Loading />,
-    ssr: false
+    ssr: true,
+    preload: false // Désactiver le préchargement automatique pour éviter les problèmes de chargement
   }
 )
 
