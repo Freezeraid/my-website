@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 export async function POST(request) {
   try {
     const body = await request.json();
-    const { name, email, budget, message } = body;
+    const { name, email, message } = body;
 
     const mailOptions = {
       from: process.env.SMTP_USER,
@@ -24,7 +24,6 @@ export async function POST(request) {
         <h2>Nouveau message de contact: ${name}</h2>
         <p><strong>Nom :</strong> ${name}</p>
         <p><strong>Email :</strong> ${email}</p>
-        <p><strong>Budget :</strong> ${budget}</p>
         <p><strong>Message :</strong></p>
         <p>${message}</p>
       `,

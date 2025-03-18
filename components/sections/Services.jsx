@@ -44,9 +44,7 @@ export default function Services() {
             Développement Web Sur-mesure
           </h2>
           <p className="text-lg text-blue-50 max-w-3xl mx-auto">
-            Je transforme vos idées en solutions web performantes. 
-            Chaque projet est une opportunité de créer quelque chose d'unique 
-            qui dépasse vos attentes.
+            Propulsez votre entreprise avec des solutions web sur mesure qui convertissent. Votre vision mérite une réalisation exceptionnelle qui ne se contente pas de répondre à vos attentes, mais les redéfinit complètement !
           </p>
         </div>
         

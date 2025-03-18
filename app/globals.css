@@ -42,19 +42,19 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3b82f6;
+  background: #2563eb;
   border-radius: 6px;
   border: 2px solid #ffffff;
   transition: all 0.2s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563eb;
+  background: #4f46e5;
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #3b82f6 rgba(219, 234, 254, 0.3);
+  scrollbar-color: #2563eb rgba(219, 234, 254, 0.3);
 }
 
 .scrollbar-hide::-webkit-scrollbar {

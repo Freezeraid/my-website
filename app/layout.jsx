@@ -28,10 +28,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://killiandoubre.com'),
   title: {
-    default: 'Killian DOUBRE - Développeur Web Freelance | Expert React, Node.js',
+    default: 'Killian DOUBRE - Développeur Web Freelance',
     template: '%s | Killian DOUBRE - Développeur Web Freelance'
   },
-  description: 'Développeur web full stack freelance à Paris. Expert en création de sites web, applications web et e-commerce. Spécialiste React, Node.js, Next.js et SEO. Devis gratuit pour votre projet web.',
+  description: "Développeur Web Freelance basé à Nice. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour garantir votre succès.",
   keywords: [
     'développeur web freelance', 
     'développeur full stack', 
@@ -42,7 +42,7 @@ export const metadata = {
     'site web professionnel', 
     'site e-commerce', 
     'application web', 
-    'développeur web paris',
+    'développeur web nice',
     'site web responsive',
     'optimisation seo',
     'site web performant'
@@ -59,8 +59,8 @@ export const metadata = {
     type: 'website',
     locale: 'fr_FR',
     url: 'https://killiandoubre.com',
-    title: 'Killian DOUBRE - Développeur Web Freelance | Expert React, Node.js',
-    description: 'Développeur web full stack freelance à Paris. Expert en création de sites web, applications web et e-commerce. Spécialiste React, Node.js, Next.js et SEO. Devis gratuit pour votre projet web.',
+    title: 'Killian DOUBRE - Développeur Web Freelance',
+    description: "Développeur Web Freelance basé à Nice. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour garantir votre succès.",
     siteName: 'Killian DOUBRE - Développeur Web Freelance',
     images: [{
       url: '/og-image.jpg',
@@ -72,8 +72,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Killian DOUBRE - Développeur Web Freelance | Expert React, Node.js',
-    description: 'Développeur web full stack freelance à Paris. Expert en création de sites web, applications web et e-commerce. Spécialiste React, Node.js, Next.js et SEO.',
+    title: 'Killian DOUBRE - Développeur Web Freelance',
+    description: "Développeur Web Freelance basé à Nice. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour garantir votre succès.",
     images: ['/og-image.jpg'],
     creator: '@KillianDoubre',
   },

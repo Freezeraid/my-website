@@ -10,8 +10,8 @@ export default function Navbar() {
 
   const navItems = [
     { href: '/#services', label: 'Mes services' },
-    { href: '/#contact', label: 'Me contacter' },
-    { href: '/blog', label: 'Blog' }
+    { href: '/blog', label: 'Blog' },
+    { href: '/#contact', label: 'Obtenir mon devis gratuit' },
   ]
 
   // Mémoisation de la fonction handleClick pour éviter les recréations inutiles

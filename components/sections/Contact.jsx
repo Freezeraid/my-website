@@ -6,7 +6,6 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    budget: '',
     message: ''
   })
   const [status, setStatus] = useState({ type: '', message: '' })
@@ -38,12 +37,11 @@ export default function Contact() {
       if (response.ok) {
         setStatus({
           type: 'success',
-          message: 'Message envoyé avec succès ! Je vous recontacte dans les 24h.'
+          message: 'Message envoyé avec succès ! Je vous recontacte dans les 24h - 48h.'
         })
         setFormData({
           name: '',
           email: '',
-          budget: '',
           message: ''
         })
       } else {
@@ -69,11 +67,11 @@ export default function Contact() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Transformons votre vision en réalité
+            Repoussons les limites de votre ambition
           </h2>
           <p className="text-lg text-gray-600 mb-12">
             Expert en développement web, je crée des sites et applications webs performants et sur-mesure.
-            Discutons de votre projet web et donnons vie à vos idées !
+            Grâce à un référencement optimisé et une experience utilisateur exceptionnelle, faisons passer ensemble un nouveau cap à votre business !
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
@@ -111,12 +109,6 @@ export default function Contact() {
                 </svg>
                 <span className="text-gray-600">Devis personnalisé détaillé et sans engagement</span>
               </li>
-              <li className="flex items-start">
-                <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span className="text-gray-600">Paiement en plusieurs fois possible</span>
-              </li>
             </ul>
           </div>
           {isContactDisabled ? (
@@ -137,10 +129,10 @@ export default function Contact() {
           </div>
           ) : (
             <form onSubmit={handleSubmit} className={`${styles.glassCard} rounded-2xl p-8 md:p-10`}>
-              <div className="mb-6">
-                <div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+              <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Votre email
+                    Votre email *
                   </label>
                   <input
                     type="email"
@@ -151,11 +143,9 @@ export default function Contact() {
                     onChange={(e) => setFormData({...formData, email: e.target.value})}
                   />
                 </div>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Votre nom
+                    Votre nom *
                   </label>
                   <input
                     type="text"
@@ -166,30 +156,10 @@ export default function Contact() {
                     onChange={(e) => setFormData({...formData, name: e.target.value})}
                   />
                 </div>
-                <div>
-                  <label htmlFor="budget" className="block text-sm font-medium text-gray-700 mb-2">
-                    Budget estimé
-                  </label>
-                  <select
-                    id="budget"
-                    value={formData.budget}
-                    required
-                    className={`${styles.inputField} w-full px-4 py-3 rounded-lg border border-gray-200`}
-                    onChange={(e) => setFormData({...formData, budget: e.target.value})}
-                  >
-                    <option value="">Sélectionnez</option>
-                    <option value="500-1000">500€ - 1 000€</option>
-                    <option value="1000-3000">1 000€ - 3 000€</option>
-                    <option value="3000-5000">3 000€ - 5 000€</option>
-                    <option value="5000-10000">5 000€ - 10 000€</option>
-                    <option value="10000+">Plus de 10 000€</option>
-                    <option value="unsure">Je ne sais pas encore</option>
-                  </select>
-                </div>
               </div>
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  Votre projet en quelques mots
+                  Votre projet en quelques mots *
                 </label>
                 <textarea
                   id="message"
@@ -224,7 +194,7 @@ export default function Contact() {
                     Envoi en cours...
                   </span>
                 ) : (
-                  "Obtenir un devis gratuit 🚀"
+                  "Obtenir mon devis gratuit 🚀"
                 )}
               </button>
 
