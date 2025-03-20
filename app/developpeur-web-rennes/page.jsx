@@ -60,7 +60,7 @@ export default function DeveloppeurWebRennesPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels rennais. Des sites vitrines élégants, responsive et optimisés pour transformer vos visiteurs en clients.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels rennais. Des sites vitrines élégants, responsive et optimisés pour transformer vos visiteurs en clients.",
       features: [
         "Design contemporain adapté à votre identité visuelle",
         "Compatibilité totale avec tous les appareils",

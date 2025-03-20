@@ -60,7 +60,7 @@ export default function DeveloppeurWebHyeresPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création et développement de sites web sur-mesure pour les entreprises et professionnels d'Hyères. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Création et création de sites web sur-mesure pour les entreprises et professionnels d'Hyères. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
       features: [
         "Design moderne adapté à votre identité de marque",
         "Compatibilité optimale sur tous les appareils",

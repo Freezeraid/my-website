@@ -60,7 +60,7 @@ export default function DeveloppeurWebOrangePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels d'Orange. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette ville au riche patrimoine romain.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels d'Orange. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette ville au riche patrimoine romain.",
       features: [
         "Design moderne adapté à l'identité de votre entreprise orangeoise",
         "Compatibilité optimale sur tous les appareils",

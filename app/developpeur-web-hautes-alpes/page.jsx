@@ -60,7 +60,7 @@ export default function DeveloppeurWebHautesAlpesPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels des Hautes-Alpes. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans ce territoire montagnard.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels des Hautes-Alpes. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans ce territoire montagnard.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise alpine",
         "Compatibilité parfaite sur tous les appareils",

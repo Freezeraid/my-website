@@ -60,7 +60,7 @@ export default function DeveloppeurWebVauclusePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels du Vaucluse. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans ce territoire riche en patrimoine et en culture.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels du Vaucluse. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans ce territoire riche en patrimoine et en culture.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise vauclusienne",
         "Compatibilité parfaite sur tous les appareils",

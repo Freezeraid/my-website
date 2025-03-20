@@ -60,7 +60,7 @@ export default function DeveloppeurWebDraguignanPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Développement de sites web sur-mesure pour les entreprises et professionnels de Draguignan. Des vitrines web attractives, responsive et optimisées pour générer des contacts qualifiés et convertir vos visiteurs.",
+      description: "création de sites web sur-mesure pour les entreprises et professionnels de Draguignan. Des vitrines web attractives, responsive et optimisées pour générer des contacts qualifiés et convertir vos visiteurs.",
       features: [
         "Design personnalisé reflétant votre identité",
         "Adaptation parfaite à tous les appareils",

@@ -60,7 +60,7 @@ export default function DeveloppeurWebSaintLaurentDuVarPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Développement de sites web sur-mesure pour les entreprises et professionnels de Saint-Laurent-du-Var. Des sites vitrines dynamiques, responsive et optimisés pour attirer des clients et renforcer votre présence en ligne.",
+      description: "création de sites web sur-mesure pour les entreprises et professionnels de Saint-Laurent-du-Var. Des sites vitrines dynamiques, responsive et optimisés pour attirer des clients et renforcer votre présence en ligne.",
       features: [
         "Design moderne adapté à l'identité de votre entreprise",
         "Parfaitement responsive (mobile, tablette, desktop)",

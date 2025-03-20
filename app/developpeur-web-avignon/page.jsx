@@ -60,7 +60,7 @@ export default function DeveloppeurWebAvignonPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels d'Avignon. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette cité historique et culturelle du Vaucluse.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels d'Avignon. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette cité historique et culturelle du Vaucluse.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise avignonnaise",
         "Compatibilité parfaite sur tous les appareils",

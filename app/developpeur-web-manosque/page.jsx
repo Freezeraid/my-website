@@ -60,7 +60,7 @@ export default function DeveloppeurWebManosquePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de Manosque. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette ville dynamique du Luberon.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels de Manosque. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette ville dynamique du Luberon.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise manosquine",
         "Compatibilité parfaite sur tous les appareils",

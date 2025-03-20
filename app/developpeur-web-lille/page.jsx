@@ -71,7 +71,7 @@ export default function DeveloppeurWebLillePage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs lillois. Des boutiques en ligne sécurisées qui dynamisent vos ventes et améliorent l'expérience client.",
+      description: "création de sites e-commerce performants pour les commerçants et entrepreneurs lillois. Des boutiques en ligne sécurisées qui dynamisent vos ventes et améliorent l'expérience client.",
       features: [
         "Interface utilisateur intuitive et parcours d'achat optimisé",
         "Gestion efficace des produits, stocks et commandes",

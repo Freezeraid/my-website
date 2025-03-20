@@ -71,7 +71,7 @@ export default function DeveloppeurWebSaintTropezPage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce sophistiqués pour les commerces et marques de Saint-Tropez. Des boutiques en ligne sécurisées et raffinées qui valorisent vos produits auprès d'une clientèle internationale.",
+      description: "création de sites e-commerce sophistiqués pour les commerces et marques de Saint-Tropez. Des boutiques en ligne sécurisées et raffinées qui valorisent vos produits auprès d'une clientèle internationale.",
       features: [
         "Interface utilisateur élégante et immersive",
         "Gestion avancée des produits et inventaires",

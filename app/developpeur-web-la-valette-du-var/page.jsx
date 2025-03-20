@@ -71,7 +71,7 @@ export default function DeveloppeurWebLaValetteDuVarPage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs de La Valette-du-Var. Des boutiques en ligne sécurisées et intuitives qui stimulent vos ventes en ligne.",
+      description: "création de sites e-commerce performants pour les commerçants et entrepreneurs de La Valette-du-Var. Des boutiques en ligne sécurisées et intuitives qui stimulent vos ventes en ligne.",
       features: [
         "Interface utilisateur fluide et attrayante",
         "Gestion simplifiée des produits et des stocks",

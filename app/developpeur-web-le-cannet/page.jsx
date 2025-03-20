@@ -71,7 +71,7 @@ export default function DeveloppeurWebLeCannetPage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce efficaces pour les commerçants et entrepreneurs cannettans. Des boutiques en ligne sécurisées qui stimulent vos ventes et améliorent l'expérience d'achat.",
+      description: "création de sites e-commerce efficaces pour les commerçants et entrepreneurs cannettans. Des boutiques en ligne sécurisées qui stimulent vos ventes et améliorent l'expérience d'achat.",
       features: [
         "Interface utilisateur intuitive et attractive",
         "Gestion simplifiée des produits et des inventaires",

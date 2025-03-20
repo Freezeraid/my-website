@@ -60,7 +60,7 @@ export default function DeveloppeurWebCannesPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels cannois. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels cannois. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients.",
       features: [
         "Design haut de gamme adapté à l'image de Cannes",
         "Parfaitement responsive sur tous les appareils",

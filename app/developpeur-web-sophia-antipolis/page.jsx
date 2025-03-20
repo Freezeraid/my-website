@@ -60,7 +60,7 @@ export default function DeveloppeurWebSophiaAntipolisPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et startups de Sophia Antipolis. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre expertise technologique dans cette technopole d'excellence.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et startups de Sophia Antipolis. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre expertise technologique dans cette technopole d'excellence.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise tech",
         "Compatibilité parfaite sur tous les appareils",
