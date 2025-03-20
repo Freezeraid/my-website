@@ -60,7 +60,7 @@ export default function DeveloppeurWebGrenoblePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Développement de sites web sur-mesure pour les entreprises et professionnels grenoblois. Des sites vitrines innovants, responsive et optimisés pour transformer vos visiteurs en clients fidèles.",
+      description: "création de sites web sur-mesure pour les entreprises et professionnels grenoblois. Des sites vitrines innovants, responsive et optimisés pour transformer vos visiteurs en clients fidèles.",
       features: [
         "Design moderne adapté à l'identité de votre entreprise",
         "Parfaitement responsive (mobile, tablette, desktop)",

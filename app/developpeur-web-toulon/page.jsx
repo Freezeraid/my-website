@@ -60,7 +60,7 @@ export default function DeveloppeurWebToulonPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels toulonnais. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels toulonnais. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
       features: [
         "Design adapté à l'identité de votre entreprise",
         "Parfaitement responsive sur tous les appareils",

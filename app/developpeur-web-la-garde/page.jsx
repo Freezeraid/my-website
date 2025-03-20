@@ -60,7 +60,7 @@ export default function DeveloppeurWebLaGardePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Développement de sites web sur-mesure pour les entreprises et professionnels de La Garde. Des sites vitrines modernes, responsive et optimisés pour transformer vos visiteurs en clients fidèles.",
+      description: "création de sites web sur-mesure pour les entreprises et professionnels de La Garde. Des sites vitrines modernes, responsive et optimisés pour transformer vos visiteurs en clients fidèles.",
       features: [
         "Design contemporain adapté à votre identité visuelle",
         "Parfaitement responsive (mobile, tablette, desktop)",

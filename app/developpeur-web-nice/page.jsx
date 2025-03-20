@@ -71,7 +71,7 @@ export default function DeveloppeurWebNicePage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs. Des boutiques en ligne sécurisées qui transforment les visiteurs en acheteurs.",
+      description: "création de sites e-commerce performants pour les commerçants et entrepreneurs. Des boutiques en ligne sécurisées qui transforment les visiteurs en acheteurs.",
       features: [
         "Interface utilisateur intuitive et attractive",
         "Gestion des produits et des stocks simplifiée",

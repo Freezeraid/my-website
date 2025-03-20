@@ -60,7 +60,7 @@ export default function DeveloppeurWebCavaillonPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de Cavaillon. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette ville dynamique du Vaucluse.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels de Cavaillon. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette ville dynamique du Vaucluse.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise cavaillonnaise",
         "Compatibilité parfaite sur tous les appareils",

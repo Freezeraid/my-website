@@ -60,7 +60,7 @@ export default function DeveloppeurWebLaSeynesurMerPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de La Seyne-sur-Mer. Des vitrines web modernes, responsive et optimisées pour convertir vos visiteurs en clients.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels de La Seyne-sur-Mer. Des vitrines web modernes, responsive et optimisées pour convertir vos visiteurs en clients.",
       features: [
         "Design contemporain adapté à votre identité visuelle",
         "Compatibilité parfaite sur tous les appareils",

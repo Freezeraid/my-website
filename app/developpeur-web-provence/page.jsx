@@ -60,7 +60,7 @@ export default function DeveloppeurWebProvencePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de Provence. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette région riche en patrimoine, en culture et en traditions.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels de Provence. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans cette région riche en patrimoine, en culture et en traditions.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise provençale",
         "Compatibilité parfaite sur tous les appareils",

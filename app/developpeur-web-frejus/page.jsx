@@ -60,7 +60,7 @@ export default function DeveloppeurWebFrejusPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création et développement de sites web sur-mesure pour les entreprises et professionnels de Fréjus. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale.",
+      description: "Création et création de sites web sur-mesure pour les entreprises et professionnels de Fréjus. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale.",
       features: [
         "Design moderne adapté à l'identité de Fréjus",
         "Compatibilité optimale sur tous les appareils",

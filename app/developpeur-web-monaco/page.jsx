@@ -60,7 +60,7 @@ export default function DeveloppeurWebMonacoPage() {
     {
       icon: "🖥️",
       title: "Sites Web",
-      description: "Conception et développement de sites web haut de gamme pour les entreprises et professionnels de Monaco. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et refléter l'excellence et le prestige associés à la Principauté.",
+      description: "Conception et création de sites web haut de gamme pour les entreprises et professionnels de Monaco. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et refléter l'excellence et le prestige associés à la Principauté.",
       features: [
         "Design exclusif adapté à l'identité de votre entreprise monégasque",
         "Compatibilité parfaite sur tous les appareils",

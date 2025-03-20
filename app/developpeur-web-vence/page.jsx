@@ -71,7 +71,7 @@ export default function DeveloppeurWebVencePage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce efficaces pour les artisans, commerçants et entrepreneurs vençois. Des boutiques en ligne sécurisées qui augmentent vos ventes et offrent une expérience d'achat fluide.",
+      description: "création de sites e-commerce efficaces pour les artisans, commerçants et entrepreneurs vençois. Des boutiques en ligne sécurisées qui augmentent vos ventes et offrent une expérience d'achat fluide.",
       features: [
         "Interface utilisateur intuitive et esthétique",
         "Gestion optimisée des produits et des stocks",

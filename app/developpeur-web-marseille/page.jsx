@@ -60,7 +60,7 @@ export default function DeveloppeurWebMarseillePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises marseillaises. Des vitrines web modernes, responsive et optimisées pour convertir vos visiteurs en clients fidèles.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises marseillaises. Des vitrines web modernes, responsive et optimisées pour convertir vos visiteurs en clients fidèles.",
       features: [
         "Design contemporain adapté à votre identité visuelle",
         "Parfaitement responsive (mobile, tablette, desktop)",

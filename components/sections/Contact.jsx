@@ -70,7 +70,7 @@ export default function Contact() {
             Repoussons les limites de votre ambition
           </h2>
           <p className="text-lg text-gray-600 mb-12">
-            Expert en développement web, je crée des sites et applications webs performants et sur-mesure.
+            Expert en développement web, je crée des sites et sites webs performants et sur-mesure.
             Grâce à un référencement optimisé et une experience utilisateur exceptionnelle, faisons passer ensemble un nouveau cap à votre business !
           </p>
 

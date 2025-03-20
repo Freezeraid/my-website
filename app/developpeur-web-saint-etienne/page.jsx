@@ -60,7 +60,7 @@ export default function DeveloppeurWebSaintEtiennePage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Développement de sites web sur-mesure pour les entreprises et professionnels stéphanois. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
+      description: "création de sites web sur-mesure pour les entreprises et professionnels stéphanois. Des sites vitrines modernes, responsive et optimisés pour convertir vos visiteurs en clients.",
       features: [
         "Design contemporain adapté à votre identité de marque",
         "Compatibilité optimale sur tous les appareils",

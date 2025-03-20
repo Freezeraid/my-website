@@ -71,7 +71,7 @@ export default function DeveloppeurWebGrassePage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs grassois. Des boutiques en ligne sécurisées qui optimisent vos ventes et améliorent l'expérience client.",
+      description: "création de sites e-commerce performants pour les commerçants et entrepreneurs grassois. Des boutiques en ligne sécurisées qui optimisent vos ventes et améliorent l'expérience client.",
       features: [
         "Interface utilisateur conviviale et engageante",
         "Gestion intuitive des produits et des stocks",

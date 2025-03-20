@@ -60,7 +60,7 @@ export default function DeveloppeurWebGapPage() {
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception et développement de sites web sur-mesure pour les entreprises et professionnels de Gap. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans la capitale des Hautes-Alpes.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels de Gap. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans la capitale des Hautes-Alpes.",
       features: [
         "Design contemporain adapté à l'identité de votre entreprise gapençaise",
         "Compatibilité parfaite sur tous les appareils",

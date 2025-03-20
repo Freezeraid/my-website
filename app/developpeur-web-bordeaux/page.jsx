@@ -71,7 +71,7 @@ export default function DeveloppeurWebBordeauxPage() {
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de sites e-commerce performants pour les commerçants et entrepreneurs bordelais. Des boutiques en ligne sécurisées qui boostent vos ventes et fidélisent votre clientèle.",
+      description: "création de sites e-commerce performants pour les commerçants et entrepreneurs bordelais. Des boutiques en ligne sécurisées qui boostent vos ventes et fidélisent votre clientèle.",
       features: [
         "Interface utilisateur intuitive et expérience d'achat optimisée",
         "Gestion simplifiée des produits, stocks et commandes",
