@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
+  title: 'Développeur Web Freelance Aix-en-Provence | Expert Sites & Applications',
+  description: 'Expert en développement web à Aix-en-Provence proposant des solutions digitales innovantes et personnalisées. Création de sites vitrines, e-commerce et applications web pour entreprises aixoises.',
   keywords: ['développeur web Aix-en-Provence', 'création site web Aix-en-Provence', 'freelance web Aix', 'développeur Aix', 'site internet Aix', 'création site e-commerce Aix', 'développeur application web Aix', 'agence web Aix-en-Provence', 'refonte site web Aix'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
@@ -222,7 +222,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à Nice proposant mes services pour <strong>Aix-en-Provence</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels aixois. Expertise technique, solutions personnalisées et accompagnement à distance pour donner vie à votre projet web.
+                  Développeur web freelance proposant mes services pour <strong>Aix-en-Provence</strong>, je conçois des sites web et applications sur-mesure qui répondent aux besoins spécifiques des entreprises et professionnels aixois. Mon expertise technique et mon approche personnalisée vous garantissent une solution digitale performante et adaptée au marché local.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -288,7 +288,62 @@ export default function DeveloppeurWebAixEnProvencePage() {
           </div>
         </header>
 
-        {/* Services Section */}
+        {/* Avantages Section - Déplacée en haut */}
+        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                Pourquoi me choisir pour votre projet web à Aix-en-Provence ?
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Travailler avec un développeur web freelance offre de nombreux avantages pour votre projet digital aixois.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {localAdvantages.map((advantage, index) => (
+                <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                    {advantage.title}
+                  </h3>
+                  <p className="text-gray-600">
+                    {advantage.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Secteurs d'activité à Aix-en-Provence Section - Maintenue à cette position */}
+        <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                Solutions Adaptées aux Entreprises Aixoises
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Aix-en-Provence et sa région.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {aixBusinessSectors.map((sector, index) => (
+                <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <div className="text-3xl mb-4">{sector.icon}</div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                    {sector.title}
+                  </h3>
+                  <p className="text-gray-600">
+                    {sector.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Services Section - Déplacée après les secteurs d'activité */}
         <section id="services" className="py-24 bg-gradient-to-b from-white to-blue-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
@@ -327,86 +382,8 @@ export default function DeveloppeurWebAixEnProvencePage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Aix-en-Provence Section */}
+        {/* Processus Section - Maintenue à cette position */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Aixoises
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Aix-en-Provence et sa région.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {aixBusinessSectors.map((sector, index) => (
-                <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-                  <div className="text-3xl mb-4">{sector.icon}</div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    {sector.title}
-                  </h3>
-                  <p className="text-gray-600">
-                    {sector.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Statistiques Section */}
-        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à Aix-en-Provence
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises aixoises.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {aixDigitalStats.map((stat, index) => (
-                <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
-                  <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
-                  <p className="text-gray-700">{stat.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Avantages Section */}
-        <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Pourquoi me choisir pour votre projet web ?
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet web à Aix-en-Provence.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {localAdvantages.map((advantage, index) => (
-                <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    {advantage.title}
-                  </h3>
-                  <p className="text-gray-600">
-                    {advantage.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Processus Section */}
-        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -440,7 +417,30 @@ export default function DeveloppeurWebAixEnProvencePage() {
           </div>
         </section>
 
-        {/* Aix-en-Provence Web Development Section */}
+        {/* Statistiques Section - Déplacée après le processus */}
+        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                L'Importance du Web à Aix-en-Provence
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises aixoises.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {aixDigitalStats.map((stat, index) => (
+                <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
+                  <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
+                  <p className="text-gray-700">{stat.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Aix-en-Provence Web Development Section - Maintenue à cette position */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
