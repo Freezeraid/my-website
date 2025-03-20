@@ -13,24 +13,24 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
-  keywords: ['développeur web Aix-en-Provence', 'création site web Aix-en-Provence', 'freelance web Aix', 'développeur Aix', 'site internet Aix', 'création site e-commerce Aix', 'développeur application web Aix', 'agence web Aix-en-Provence', 'refonte site web Aix'],
+  title: 'Développeur Web à Saint-Laurent-du-Var | Création de Sites Web & Applications | Freelance',
+  description: 'Développeur web freelance pour Saint-Laurent-du-Var spécialisé en création de sites web, e-commerce et applications. Solutions numériques sur-mesure pour entreprises et professionnels laurentins.',
+  keywords: ['développeur web Saint-Laurent-du-Var', 'création site web Saint-Laurent-du-Var', 'freelance web Saint-Laurent-du-Var', 'développeur Saint-Laurent-du-Var', 'site internet Saint-Laurent-du-Var', 'création site e-commerce Saint-Laurent-du-Var', 'développeur application web Saint-Laurent-du-Var', 'agence web Saint-Laurent-du-Var', 'refonte site web Saint-Laurent-du-Var'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
+    canonical: 'https://killiandoubre.com/developpeur-web-saint-laurent-du-var',
   },
   openGraph: {
-    title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
-    url: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
+    title: 'Développeur Web à Saint-Laurent-du-Var | Création de Sites Web & Applications | Freelance',
+    description: 'Développeur web freelance pour Saint-Laurent-du-Var spécialisé en création de sites web, e-commerce et applications. Solutions numériques sur-mesure pour entreprises et professionnels laurentins.',
+    url: 'https://killiandoubre.com/developpeur-web-saint-laurent-du-var',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance pour Aix-en-Provence',
-  description: 'Services de développement web sur-mesure pour Aix-en-Provence : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels aixois.',
-  slug: 'developpeur-web-aix-en-provence',
+  name: 'Développeur Web Freelance pour Saint-Laurent-du-Var',
+  description: 'Services de développement web sur-mesure pour Saint-Laurent-du-Var : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels laurentins.',
+  slug: 'developpeur-web-saint-laurent-du-var',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
@@ -41,63 +41,63 @@ const serviceData = {
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous pour Aix-en-Provence ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels aixois : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques du marché d\'Aix-en-Provence.'
+      question: 'Quels types de sites web développez-vous à Saint-Laurent-du-Var ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels laurentins : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS.'
     },
     {
-      question: 'Combien coûte un site web pour une entreprise à Aix-en-Provence ?',
-      answer: 'Le prix d\'un site web pour une entreprise aixoise dépend de sa complexité et des fonctionnalités souhaitées. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après étude de votre projet.'
+      question: 'Combien coûte la création d\'un site web à Saint-Laurent-du-Var ?',
+      answer: 'Le coût d\'un site web à Saint-Laurent-du-Var varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse de votre projet.'
     },
     {
-      question: 'Offrez-vous des services de référencement local pour Aix-en-Provence ?',
-      answer: 'Tout à fait, je propose des services d\'optimisation SEO spécifiquement adaptés au marché aixois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Aix-en-Provence et sa région.'
+      question: 'Proposez-vous des services de référencement local pour Saint-Laurent-du-Var ?',
+      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché local laurentin, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Saint-Laurent-du-Var et ses environs.'
     }
   ]
 }
 
-export default function DeveloppeurWebAixEnProvencePage() {
+export default function DeveloppeurWebSaintLaurentDuVarPage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création de sites web sur-mesure pour les entreprises et professionnels aixois. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "création de sites web sur-mesure pour les entreprises et professionnels de Saint-Laurent-du-Var. Des sites vitrines dynamiques, responsive et optimisés pour attirer des clients et renforcer votre présence en ligne.",
       features: [
-        "Design raffiné adapté à l'image de marque aixoise",
+        "Design moderne adapté à l'identité de votre entreprise",
         "Parfaitement responsive (mobile, tablette, desktop)",
-        "Optimisé pour le référencement local à Aix-en-Provence",
-        "Intégration de fonctionnalités personnalisées"
+        "Optimisé pour le référencement local à Saint-Laurent-du-Var",
+        "Intégration de fonctionnalités spécifiques à votre activité"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de plateformes e-commerce performantes pour les commerçants et entrepreneurs d'Aix-en-Provence. Des boutiques en ligne sécurisées qui offrent une expérience d'achat optimale.",
+      description: "Création de sites e-commerce performants pour les commerçants et entrepreneurs laurentins. Des boutiques en ligne sécurisées qui boostent vos ventes et offrent une expérience d'achat optimale.",
       features: [
-        "Interface utilisateur intuitive et esthétique",
-        "Gestion simplifiée des produits et des inventaires",
-        "Solutions de paiement sécurisées et options de livraison flexibles",
-        "Stratégies d'optimisation des taux de conversion"
+        "Interface utilisateur intuitive et engageante",
+        "Gestion efficace des produits et des stocks",
+        "Paiements sécurisés et options de livraison personnalisables",
+        "Techniques d'optimisation des taux de conversion"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Conception d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Aix-en-Provence et dans les Bouches-du-Rhône.",
+      description: "Développement d'applications web et plateformes sur-mesure pour numériser vos services et optimiser vos processus métier à Saint-Laurent-du-Var et dans les Alpes-Maritimes.",
       features: [
-        "Développement full-stack avec technologies modernes",
-        "Interfaces utilisateurs fluides et ergonomiques",
+        "Développement full-stack avec technologies de pointe",
+        "Interfaces utilisateurs intuitives et performantes",
         "Systèmes sécurisés et évolutifs",
-        "Intégration avec vos outils existants"
+        "Intégration transparente avec vos systèmes existants"
       ]
     },
     {
       icon: "🔍",
       title: "SEO & Visibilité Locale",
-      description: "Stratégies d'optimisation du référencement naturel pour améliorer votre visibilité sur Google à Aix-en-Provence. Attirez plus de clients locaux grâce à un SEO ciblé et efficace.",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google à Saint-Laurent-du-Var et ses environs. Attirez davantage de clients locaux grâce à une stratégie SEO ciblée.",
       features: [
-        "Stratégie SEO locale ciblée sur Aix-en-Provence",
+        "Stratégie SEO locale ciblée sur Saint-Laurent-du-Var",
         "Optimisation Google My Business",
-        "Création de contenu pertinent pour votre marché local",
+        "Création de contenu adapté à votre marché local",
         "Suivi et amélioration continue des performances"
       ]
     }
@@ -105,43 +105,43 @@ export default function DeveloppeurWebAixEnProvencePage() {
 
   const localAdvantages = [
     {
-      title: "Connaissance du Marché Aixois",
-      description: "Bien que basé à Nice, j'ai développé une compréhension approfondie du marché web aixois et de ses particularités. Cette connaissance me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et aux spécificités économiques d'Aix-en-Provence."
+      title: "Expertise du Marché Laurentin",
+      description: "Ma connaissance du tissu économique de Saint-Laurent-du-Var et de sa région me permet de créer des solutions web parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du marché laurentin et les opportunités web qu'il présente pour votre entreprise."
     },
     {
-      title: "Accompagnement Personnalisé & Flexibilité",
-      description: "En tant que développeur web freelance, je vous offre un accompagnement sur-mesure et une communication directe tout au long de votre projet. Cette approche personnalisée garantit une meilleure compréhension de vos besoins et une adaptation agile aux évolutions de votre projet web."
+      title: "Accompagnement Personnalisé & Proximité",
+      description: "En tant que développeur web freelance basé à Nice, je suis particulièrement accessible pour les professionnels de Saint-Laurent-du-Var. Cette proximité géographique facilite nos échanges et garantit un suivi efficace tout au long de votre projet web."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises Aixoises",
-      description: "Chaque entreprise aixoise possède ses propres enjeux et objectifs. C'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément à vos besoins spécifiques, vous permettant de vous démarquer efficacement dans l'environnement concurrentiel local."
+      title: "Solutions Sur-Mesure pour Entreprises Laurentines",
+      description: "Chaque entreprise à Saint-Laurent-du-Var a ses particularités, c'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément à vos objectifs. Je crée des sites web uniques qui vous distinguent de vos concurrents locaux."
     },
     {
-      title: "Support Technique & Maintenance à Distance",
-      description: "Je vous propose un support technique réactif et une maintenance régulière de votre site ou application. Grâce aux outils de collaboration à distance, je peux intervenir rapidement pour résoudre tout problème technique ou former votre équipe à l'utilisation optimale de votre solution web."
+      title: "Support Technique & Évolution Continue",
+      description: "Je vous offre un support technique réactif et un accompagnement continu pour votre site ou application. Je peux intervenir rapidement pour résoudre tout problème technique ou former votre équipe à l'utilisation optimale de votre solution web."
     }
   ]
 
-  const aixBusinessSectors = [
+  const laurentinBusinessSectors = [
     {
-      icon: "🎓",
-      title: "Éducation & Formation",
-      description: "Solutions web pour les établissements d'enseignement, écoles et organismes de formation à Aix-en-Provence. Sites et plateformes adaptés aux besoins spécifiques du secteur éducatif, avec fonctionnalités de gestion des cours et communication."
+      icon: "🏬",
+      title: "Commerce & Distribution",
+      description: "Sites web et applications pour commerces, boutiques et enseignes de distribution à Saint-Laurent-du-Var. Solutions optimisées pour la visibilité locale, la présentation de vos produits et l'attraction d'une clientèle de proximité."
     },
     {
-      icon: "🏛️",
-      title: "Culture & Tourisme",
-      description: "Présence web efficace pour musées, galeries d'art, sites touristiques et événements culturels aixois. Sites vitrines et plateformes optimisés pour mettre en valeur le patrimoine culturel d'Aix-en-Provence et attirer visiteurs et touristes."
+      icon: "🌊",
+      title: "Tourisme & Loisirs",
+      description: "Présence web efficace pour hôtels, restaurants, activités nautiques et prestataires touristiques laurentins. Sites vitrines et plateformes de réservation conçus pour valoriser votre établissement et attirer des visiteurs toute l'année."
     },
     {
-      icon: "🍷",
-      title: "Gastronomie & Terroir",
-      description: "Sites web et applications pour restaurants, producteurs locaux et commerces de bouche aixois. Solutions web valorisant les produits du terroir et l'art de vivre provençal, avec systèmes de réservation et présentation attractive de votre offre."
+      icon: "🏢",
+      title: "Services aux Entreprises",
+      description: "Solutions web pour consultants, agences et prestataires B2B à Saint-Laurent-du-Var. Sites web et plateformes adaptés pour présenter vos services professionnels et générer des leads qualifiés."
     },
     {
-      icon: "💼",
-      title: "Services & Professions Libérales",
-      description: "Plateformes web pour cabinets d'avocats, consultants, experts-comptables et autres professionnels libéraux d'Aix-en-Provence. Solutions élégantes et fonctionnelles qui reflètent le prestige et le sérieux de votre activité."
+      icon: "🚢",
+      title: "Activités Portuaires & Maritimes",
+      description: "Plateformes web pour entreprises liées au port et aux activités maritimes à Saint-Laurent-du-Var. Solutions permettant de mettre en valeur vos services et d'optimiser vos processus métier spécifiques."
     }
   ]
 
@@ -149,46 +149,46 @@ export default function DeveloppeurWebAixEnProvencePage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et le contexte aixois dans lequel vous évoluez. Cette étape fondamentale me permet d'identifier les solutions les plus adaptées à votre projet et à votre marché local."
+      description: "Je débute par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte laurentin."
     },
     {
       number: "02",
-      title: "Stratégie & Design",
-      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle aixoise."
+      title: "Planification & Design",
+      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
     },
     {
       number: "03",
       title: "Développement & Programmation",
-      description: "Je développe votre solution avec les technologies les plus appropriées, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement codée et testée pour garantir performance, sécurité et fiabilité."
+      description: "Je développe votre solution avec les technologies les plus appropriées, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est méticuleusement codée et testée pour garantir fiabilité et performance."
     },
     {
       number: "04",
       title: "Tests & Optimisation",
-      description: "Votre site ou application est minutieusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs aixois."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs laurentins."
     },
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après la mise en ligne, je reste à votre disposition pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché aixois."
+      description: "Après la mise en ligne, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
     }
   ]
 
-  const aixDigitalStats = [
+  const laurentinDigitalStats = [
     {
-      figure: "83%",
-      description: "des consommateurs à Aix-en-Provence recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "86%",
+      description: "des consommateurs à Saint-Laurent-du-Var recherchent des informations en ligne avant d'effectuer un achat local"
     },
     {
       figure: "74%",
-      description: "des recherches locales sur mobile à Aix-en-Provence aboutissent à une visite en magasin dans les 24 heures"
+      description: "des recherches locales sur mobile à Saint-Laurent-du-Var aboutissent à une visite en magasin dans les 24 heures"
     },
     {
-      figure: "69%",
-      description: "des entreprises aixoises estiment que leur site web est crucial pour leur développement commercial"
+      figure: "67%",
+      description: "des entreprises laurentines considèrent qu'un site web professionnel est essentiel pour leur développement"
     },
     {
-      figure: "91%",
-      description: "des utilisateurs à Aix-en-Provence forment leur première impression d'une entreprise à partir de son site web"
+      figure: "95%",
+      description: "des utilisateurs à Saint-Laurent-du-Var se forgent une première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebAixEnProvencePage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance pour Aix-en-Provence', href: '/developpeur-web-aix-en-provence', current: true }
+                { label: 'Développeur Web Freelance pour Saint-Laurent-du-Var', href: '/developpeur-web-saint-laurent-du-var', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Aix-en-Provence</span>
+                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Saint-Laurent-du-Var</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à Nice proposant mes services pour <strong>Aix-en-Provence</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels aixois. Expertise technique, solutions personnalisées et accompagnement à distance pour donner vie à votre projet web.
+                  Développeur web freelance basé à <strong>Nice</strong>, j'accompagne les entreprises et professionnels de <strong>Saint-Laurent-du-Var</strong> dans leurs projets digitaux. Je conçois des sites web et applications sur-mesure qui répondent aux besoins spécifiques du marché laurentin.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance pour Aix-en-Provence"
+                        alt="Killian DOUBRE - Développeur Web Freelance pour Saint-Laurent-du-Var"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Aix-en-Provence</p>
+                          <p className="text-sm text-gray-600">Saint-Laurent & Région</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebAixEnProvencePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web pour Aix-en-Provence
+                Services de Développement Web pour Saint-Laurent-du-Var
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je propose une gamme complète de services de développement web adaptés aux besoins des entreprises aixoises.
-                Chaque solution est conçue sur-mesure pour répondre à vos objectifs spécifiques et renforcer votre présence web sur le marché local.
+                Je propose une gamme complète de services de développement web pour les entreprises et professionnels de Saint-Laurent-du-Var.
+                Chaque solution est conçue sur-mesure pour répondre à vos besoins spécifiques et vous démarquer sur le marché local.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebAixEnProvencePage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Aix-en-Provence Section */}
+        {/* Secteurs d'activité à Saint-Laurent-du-Var Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Aixoises
+                Solutions Adaptées aux Entreprises Laurentines
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Aix-en-Provence et sa région.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Saint-Laurent-du-Var et dans les Alpes-Maritimes.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {aixBusinessSectors.map((sector, index) => (
+              {laurentinBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebAixEnProvencePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à Aix-en-Provence
+                L'Importance du Web à Saint-Laurent-du-Var
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises aixoises.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises laurentines.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {aixDigitalStats.map((stat, index) => (
+              {laurentinDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet web à Aix-en-Provence.
+                Travailler avec moi offre de nombreux avantages pour votre projet web à Saint-Laurent-du-Var.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebAixEnProvencePage() {
           </div>
         </section>
 
-        {/* Aix-en-Provence Web Development Section */}
+        {/* Saint-Laurent-du-Var Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web pour Aix-en-Provence : Expertise Adaptée
+                Développement Web à Saint-Laurent-du-Var : Expertise Locale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web proposant mes services pour Aix-en-Provence, je comprends les spécificités du marché local et les besoins des entreprises de la région.
+                En tant que développeur web au service des professionnels de Saint-Laurent-du-Var, je comprends les spécificités du marché local et les besoins des entreprises de la région.
               </p>
             </div>
             
@@ -459,29 +459,29 @@ export default function DeveloppeurWebAixEnProvencePage() {
                   Présence Web Locale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché aixois vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Aix-en-Provence.
+                  Une présence web optimisée pour le marché laurentin vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Saint-Laurent-du-Var.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration Efficace à Distance
+                  Collaboration de Proximité
                 </h3>
                 <p className="text-gray-600">
-                  Grâce aux outils de collaboration modernes, je vous propose un accompagnement efficace à distance. Visioconférences, partage d'écran et communication régulière permettent de mener à bien votre projet web avec la même qualité qu'en présentiel.
+                  Travailler avec un développeur web proche de Saint-Laurent-du-Var facilite la communication et la collaboration, permettant de mieux comprendre vos besoins et d'ajuster rapidement le projet selon vos retours.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Web à Aix-en-Provence
+                  Croissance Web à Saint-Laurent-du-Var
                 </h3>
                 <p className="text-gray-600">
-                  Le marché web aixois offre d'importantes opportunités de développement pour les entreprises locales. 
-                  Un site web ou une application performante vous permet d'atteindre de nouveaux clients et d'étendre votre activité dans la région d'Aix-en-Provence.
+                  Le marché web à Saint-Laurent-du-Var offre d'importantes opportunités de développement pour les entreprises locales. 
+                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans la région.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité supérieure.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebAixEnProvencePage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Aix-en-Provence ?
+              Prêt à Développer Votre Projet Web à Saint-Laurent-du-Var ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
               Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
-              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise aixoise.
+              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise à Saint-Laurent-du-Var.
             </p>
             <Link
               href="#contact"
