@@ -13,24 +13,24 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
-  keywords: ['développeur web Aix-en-Provence', 'création site web Aix-en-Provence', 'freelance web Aix', 'développeur Aix', 'site internet Aix', 'création site e-commerce Aix', 'développeur application web Aix', 'agence web Aix-en-Provence', 'refonte site web Aix'],
+  title: 'Développeur Web Alpes-de-Haute-Provence | Création Sites & Applications | Freelance',
+  description: 'Développeur web freelance pour les Alpes-de-Haute-Provence (04) spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises locales et accompagnement personnalisé.',
+  keywords: ['développeur web Alpes-de-Haute-Provence', 'création site web 04', 'freelance web Digne-les-Bains', 'développeur 04', 'site internet Manosque', 'création site e-commerce Alpes-de-Haute-Provence', 'développeur application web Sisteron', 'agence web 04', 'refonte site web Alpes-de-Haute-Provence'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
+    canonical: 'https://killiandoubre.com/developpeur-web-alpes-de-haute-provence',
   },
   openGraph: {
-    title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
-    url: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
+    title: 'Développeur Web Alpes-de-Haute-Provence | Création Sites & Applications | Freelance',
+    description: 'Développeur web freelance pour les Alpes-de-Haute-Provence (04) spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises locales et accompagnement personnalisé.',
+    url: 'https://killiandoubre.com/developpeur-web-alpes-de-haute-provence',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance pour Aix-en-Provence',
-  description: 'Services de développement web sur-mesure pour Aix-en-Provence : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels aixois.',
-  slug: 'developpeur-web-aix-en-provence',
+  name: 'Développeur Web Freelance dans les Alpes-de-Haute-Provence',
+  description: 'Services de développement web sur-mesure dans les Alpes-de-Haute-Provence (04) : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels du département.',
+  slug: 'developpeur-web-alpes-de-haute-provence',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
@@ -41,62 +41,62 @@ const serviceData = {
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous pour Aix-en-Provence ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels aixois : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques du marché d\'Aix-en-Provence.'
+      question: 'Quels types de sites web développez-vous dans les Alpes-de-Haute-Provence ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels des Alpes-de-Haute-Provence : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques de chaque secteur d\'activité local, avec une attention particulière aux entreprises touristiques, agricoles et artisanales du territoire.'
     },
     {
-      question: 'Combien coûte un site web pour une entreprise à Aix-en-Provence ?',
-      answer: 'Le prix d\'un site web pour une entreprise aixoise dépend de sa complexité et des fonctionnalités souhaitées. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après étude de votre projet.'
+      question: 'Combien coûte la création d\'un site web dans les Alpes-de-Haute-Provence ?',
+      answer: 'Le coût d\'un site web dans les Alpes-de-Haute-Provence varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis détaillé et transparent après analyse approfondie de votre projet et de vos objectifs commerciaux.'
     },
     {
-      question: 'Offrez-vous des services de référencement local pour Aix-en-Provence ?',
-      answer: 'Tout à fait, je propose des services d\'optimisation SEO spécifiquement adaptés au marché aixois, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant Aix-en-Provence et sa région.'
+      question: 'Intervenez-vous dans tout le département des Alpes-de-Haute-Provence ?',
+      answer: 'Oui, basé à Nice, je propose mes services dans l\'ensemble du département des Alpes-de-Haute-Provence (04) : de Digne-les-Bains à Manosque, en passant par Sisteron, Barcelonnette, Forcalquier et toutes les communes du département. Je propose des services de développement web à distance avec une communication fluide et efficace tout au long du projet.'
     }
   ]
 }
 
-export default function DeveloppeurWebAixEnProvencePage() {
+export default function DeveloppeurWebAlpesDeHauteProvencePage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Création de sites web sur-mesure pour les entreprises et professionnels aixois. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Conception et création de sites web sur-mesure pour les entreprises et professionnels des Alpes-de-Haute-Provence. Des sites vitrines élégants, responsive et optimisés pour convertir vos visiteurs en clients et valoriser votre activité locale dans ce territoire entre Alpes et Provence.",
       features: [
-        "Design raffiné adapté à l'image de marque aixoise",
-        "Parfaitement responsive (mobile, tablette, desktop)",
-        "Optimisé pour le référencement local à Aix-en-Provence",
-        "Intégration de fonctionnalités personnalisées"
+        "Design contemporain adapté à l'identité de votre entreprise",
+        "Compatibilité parfaite sur tous les appareils",
+        "Optimisation pour le référencement local dans le 04",
+        "Intégration de fonctionnalités adaptées à votre secteur d'activité"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de plateformes e-commerce performantes pour les commerçants et entrepreneurs d'Aix-en-Provence. Des boutiques en ligne sécurisées qui offrent une expérience d'achat optimale.",
+      description: "Création de plateformes e-commerce performantes pour les commerçants et producteurs des Alpes-de-Haute-Provence. Des boutiques en ligne attractives et fonctionnelles qui valorisent vos produits et services locaux, idéales pour étendre votre marché au-delà des limites géographiques du département.",
       features: [
         "Interface utilisateur intuitive et esthétique",
-        "Gestion simplifiée des produits et des inventaires",
-        "Solutions de paiement sécurisées et options de livraison flexibles",
-        "Stratégies d'optimisation des taux de conversion"
+        "Gestion simplifiée des produits et des stocks",
+        "Solutions de paiement sécurisées et options de livraison adaptées",
+        "Stratégies d'optimisation des conversions adaptées à votre marché"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Conception d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à Aix-en-Provence et dans les Bouches-du-Rhône.",
+      description: "Développement d'applications web et plateformes personnalisées pour mettre en ligne vos services et optimiser vos processus métier dans les Alpes-de-Haute-Provence, adaptées aux spécificités de votre secteur d'activité et aux particularités du territoire.",
       features: [
-        "Développement full-stack avec technologies modernes",
-        "Interfaces utilisateurs fluides et ergonomiques",
-        "Systèmes sécurisés et évolutifs",
-        "Intégration avec vos outils existants"
+        "Développement full-stack avec technologies de pointe",
+        "Interfaces utilisateurs intuitives et réactives",
+        "Architecture sécurisée et évolutive",
+        "Intégration avec vos systèmes et outils existants"
       ]
     },
     {
       icon: "🔍",
       title: "SEO & Visibilité Locale",
-      description: "Stratégies d'optimisation du référencement naturel pour améliorer votre visibilité sur Google à Aix-en-Provence. Attirez plus de clients locaux grâce à un SEO ciblé et efficace.",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google dans les Alpes-de-Haute-Provence. Attirez plus de clients locaux et de visiteurs grâce à une stratégie SEO adaptée à votre zone d'activité dans le 04.",
       features: [
-        "Stratégie SEO locale ciblée sur Aix-en-Provence",
-        "Optimisation Google My Business",
+        "Stratégie SEO ciblée sur les Alpes-de-Haute-Provence",
+        "Optimisation Google My Business pour chaque établissement",
         "Création de contenu pertinent pour votre marché local",
         "Suivi et amélioration continue des performances"
       ]
@@ -105,43 +105,43 @@ export default function DeveloppeurWebAixEnProvencePage() {
 
   const localAdvantages = [
     {
-      title: "Connaissance du Marché Aixois",
-      description: "Bien que basé à Nice, j'ai développé une compréhension approfondie du marché web aixois et de ses particularités. Cette connaissance me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et aux spécificités économiques d'Aix-en-Provence."
+      title: "Expertise du Marché des Alpes-de-Haute-Provence",
+      description: "Ma compréhension des enjeux digitaux spécifiques aux Alpes-de-Haute-Provence me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux. Je comprends les spécificités du tissu économique du 04 et les opportunités numériques qu'il offre, entre tourisme, agriculture et artisanat local."
     },
     {
-      title: "Accompagnement Personnalisé & Flexibilité",
-      description: "En tant que développeur web freelance, je vous offre un accompagnement sur-mesure et une communication directe tout au long de votre projet. Cette approche personnalisée garantit une meilleure compréhension de vos besoins et une adaptation agile aux évolutions de votre projet web."
+      title: "Accompagnement Personnalisé & Proximité",
+      description: "En tant que développeur web freelance basé à Nice, je propose mes services dans tout le département des Alpes-de-Haute-Provence pour vous offrir un accompagnement personnalisé. Cette relation directe garantit une communication fluide et une solution web parfaitement alignée avec vos objectifs commerciaux et les particularités de votre territoire."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises Aixoises",
-      description: "Chaque entreprise aixoise possède ses propres enjeux et objectifs. C'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément à vos besoins spécifiques, vous permettant de vous démarquer efficacement dans l'environnement concurrentiel local."
+      title: "Solutions Sur-Mesure pour Entreprises Locales",
+      description: "Chaque projet étant unique, je développe des solutions entièrement personnalisées qui répondent précisément aux exigences spécifiques de votre entreprise dans les Alpes-de-Haute-Provence. J'évite les templates génériques pour créer des plateformes originales qui vous distinguent dans le paysage économique local."
     },
     {
-      title: "Support Technique & Maintenance à Distance",
-      description: "Je vous propose un support technique réactif et une maintenance régulière de votre site ou application. Grâce aux outils de collaboration à distance, je peux intervenir rapidement pour résoudre tout problème technique ou former votre équipe à l'utilisation optimale de votre solution web."
+      title: "Support Technique & Maintenance Réactive",
+      description: "Je vous propose un support technique réactif et une maintenance continue de votre site ou application. Mon intervention rapide garantit une présence web toujours opérationnelle, essentielle pour maintenir la confiance de vos clients dans les Alpes-de-Haute-Provence, même dans les zones rurales."
     }
   ]
 
-  const aixBusinessSectors = [
+  const businessSectors = [
     {
-      icon: "🎓",
-      title: "Éducation & Formation",
-      description: "Solutions web pour les établissements d'enseignement, écoles et organismes de formation à Aix-en-Provence. Sites et plateformes adaptés aux besoins spécifiques du secteur éducatif, avec fonctionnalités de gestion des cours et communication."
+      icon: "🏞️",
+      title: "Tourisme & Loisirs",
+      description: "Sites web et applications pour hébergements touristiques, activités de plein air et prestataires de loisirs dans les Alpes-de-Haute-Provence. Solutions optimisées pour valoriser votre établissement et attirer les visiteurs tout au long de l'année dans ce département qui allie richesses naturelles, villages de caractère et activités outdoor."
     },
     {
-      icon: "🏛️",
-      title: "Culture & Tourisme",
-      description: "Présence web efficace pour musées, galeries d'art, sites touristiques et événements culturels aixois. Sites vitrines et plateformes optimisés pour mettre en valeur le patrimoine culturel d'Aix-en-Provence et attirer visiteurs et touristes."
+      icon: "🌿",
+      title: "Agriculture & Produits Locaux",
+      description: "Présence web attractive pour producteurs, agriculteurs et transformateurs des Alpes-de-Haute-Provence. Sites vitrines et e-commerce adaptés pour mettre en valeur vos produits du terroir auprès d'une clientèle locale et nationale, dans ce département réputé pour ses productions de qualité (lavande, miel, fromages, etc.)."
     },
     {
-      icon: "🍷",
-      title: "Gastronomie & Terroir",
-      description: "Sites web et applications pour restaurants, producteurs locaux et commerces de bouche aixois. Solutions web valorisant les produits du terroir et l'art de vivre provençal, avec systèmes de réservation et présentation attractive de votre offre."
+      icon: "🏺",
+      title: "Artisanat & Savoir-faire",
+      description: "Plateformes web pour artisans, créateurs et entreprises artisanales des Alpes-de-Haute-Provence. Solutions permettant de mettre en valeur votre savoir-faire et vos créations avec des fonctionnalités avancées adaptées à la vente directe et à la valorisation de votre expertise."
     },
     {
-      icon: "💼",
-      title: "Services & Professions Libérales",
-      description: "Plateformes web pour cabinets d'avocats, consultants, experts-comptables et autres professionnels libéraux d'Aix-en-Provence. Solutions élégantes et fonctionnelles qui reflètent le prestige et le sérieux de votre activité."
+      icon: "🏡",
+      title: "Services & Commerces Locaux",
+      description: "Solutions web pour prestataires de services, commerces et entreprises locales des Alpes-de-Haute-Provence. Sites web et plateformes valorisant votre offre et vos services, facilitant la prise de contact et renforçant votre visibilité auprès des habitants et visiteurs du territoire."
     }
   ]
 
@@ -149,46 +149,46 @@ export default function DeveloppeurWebAixEnProvencePage() {
     {
       number: "01",
       title: "Consultation & Analyse",
-      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et le contexte aixois dans lequel vous évoluez. Cette étape fondamentale me permet d'identifier les solutions les plus adaptées à votre projet et à votre marché local."
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques dans les Alpes-de-Haute-Provence. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte local du département."
     },
     {
       number: "02",
-      title: "Stratégie & Design",
-      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle aixoise."
+      title: "Stratégie & Conception",
+      description: "J'élabore une stratégie web sur-mesure et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle dans le 04."
     },
     {
       number: "03",
-      title: "Développement & Programmation",
-      description: "Je développe votre solution avec les technologies les plus appropriées, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement codée et testée pour garantir performance, sécurité et fiabilité."
+      title: "Développement & Intégration",
+      description: "Je développe votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement programmée et testée pour garantir une expérience utilisateur optimale, même dans les zones à connectivité limitée."
     },
     {
       number: "04",
-      title: "Tests & Optimisation",
-      description: "Votre site ou application est minutieusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs aixois."
+      title: "Optimisation & Tests",
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs des Alpes-de-Haute-Provence et des visiteurs du département."
     },
     {
       number: "05",
       title: "Lancement & Accompagnement",
-      description: "Après la mise en ligne, je reste à votre disposition pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché aixois."
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché local."
     }
   ]
 
-  const aixDigitalStats = [
+  const digitalStats = [
     {
-      figure: "83%",
-      description: "des consommateurs à Aix-en-Provence recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "79%",
+      description: "des consommateurs dans les Alpes-de-Haute-Provence recherchent des entreprises locales en ligne avant de faire un achat ou de réserver une prestation"
     },
     {
-      figure: "74%",
-      description: "des recherches locales sur mobile à Aix-en-Provence aboutissent à une visite en magasin dans les 24 heures"
+      figure: "68%",
+      description: "des recherches locales sur mobile dans le 04 aboutissent à une visite en magasin ou à un contact direct dans les 24 heures"
     },
     {
-      figure: "69%",
-      description: "des entreprises aixoises estiment que leur site web est crucial pour leur développement commercial"
+      figure: "62%",
+      description: "des entreprises des Alpes-de-Haute-Provence considèrent que leur site web est essentiel pour leur développement commercial, notamment pour toucher une clientèle au-delà des limites du département"
     },
     {
-      figure: "91%",
-      description: "des utilisateurs à Aix-en-Provence forment leur première impression d'une entreprise à partir de son site web"
+      figure: "85%",
+      description: "des touristes préparent leur séjour dans les Alpes-de-Haute-Provence en consultant les sites web des hébergements et activités avant de réserver"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebAixEnProvencePage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance pour Aix-en-Provence', href: '/developpeur-web-aix-en-provence', current: true }
+                { label: 'Développeur Web Freelance dans les Alpes-de-Haute-Provence', href: '/developpeur-web-alpes-de-haute-provence', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Aix-en-Provence</span>
+                  Développeur Web Freelance dans les <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Alpes-de-Haute-Provence</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à Nice proposant mes services pour <strong>Aix-en-Provence</strong>, je crée des sites web et applications sur-mesure pour les entreprises et professionnels aixois. Expertise technique, solutions personnalisées et accompagnement à distance pour donner vie à votre projet web.
+                  Développeur web freelance basé à <strong>Nice</strong>, je propose mes services dans tout le département des <strong>Alpes-de-Haute-Provence (04)</strong> pour concevoir des sites internet et applications sur-mesure adaptés aux besoins des entreprises et professionnels locaux. Mon approche allie expertise technique, compréhension des enjeux territoriaux et accompagnement personnalisé pour la réussite de votre projet web.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -247,7 +247,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance pour Aix-en-Provence"
+                        alt="Killian DOUBRE - Développeur Web Freelance dans les Alpes-de-Haute-Provence"
                         width={256}
                         height={256}
                         priority
@@ -277,7 +277,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
                           <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">Aix-en-Provence</p>
+                          <p className="text-sm text-gray-600">Alpes-de-Haute-Provence</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebAixEnProvencePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web pour Aix-en-Provence
+                Services de Développement Web dans les Alpes-de-Haute-Provence
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je propose une gamme complète de services de développement web adaptés aux besoins des entreprises aixoises.
-                Chaque solution est conçue sur-mesure pour répondre à vos objectifs spécifiques et renforcer votre présence web sur le marché local.
+                Je propose une gamme complète de services de développement web pour les entreprises et professionnels des Alpes-de-Haute-Provence.
+                Chaque solution est élaborée sur-mesure pour répondre à vos besoins spécifiques et renforcer votre présence sur le marché local et au-delà.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebAixEnProvencePage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à Aix-en-Provence Section */}
+        {/* Secteurs d'activité Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Aixoises
+                Solutions Adaptées aux Entreprises du 04
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions web sur-mesure pour différents secteurs d'activité à Aix-en-Provence et sa région.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité dans les Alpes-de-Haute-Provence, en tenant compte des spécificités locales et des enjeux propres à ce territoire entre Alpes et Provence.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {aixBusinessSectors.map((sector, index) => (
+              {businessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebAixEnProvencePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à Aix-en-Provence
+                L'Importance du Web dans les Alpes-de-Haute-Provence
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises aixoises.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises des Alpes-de-Haute-Provence, particulièrement dans ce territoire où la connectivité web permet de dépasser les contraintes géographiques.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {aixDigitalStats.map((stat, index) => (
+              {digitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -386,7 +386,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                 Pourquoi me choisir pour votre projet web ?
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet web à Aix-en-Provence.
+                Collaborer avec moi présente de nombreux avantages pour votre projet web dans les Alpes-de-Haute-Provence.
               </p>
             </div>
             
@@ -413,7 +413,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante.
+                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante et adaptée au marché des Alpes-de-Haute-Provence et à ses spécificités territoriales.
               </p>
             </div>
             
@@ -440,15 +440,15 @@ export default function DeveloppeurWebAixEnProvencePage() {
           </div>
         </section>
 
-        {/* Aix-en-Provence Web Development Section */}
+        {/* Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web pour Aix-en-Provence : Expertise Adaptée
+                Développement Web dans les Alpes-de-Haute-Provence : Expertise Locale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web proposant mes services pour Aix-en-Provence, je comprends les spécificités du marché local et les besoins des entreprises de la région.
+                En tant que développeur web proposant mes services dans tout le département des Alpes-de-Haute-Provence, je comprends les spécificités du marché local et les besoins des entreprises de ce territoire aux paysages variés et au riche patrimoine.
               </p>
             </div>
             
@@ -456,32 +456,32 @@ export default function DeveloppeurWebAixEnProvencePage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Web Locale
+                  Présence Web Départementale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché aixois vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à Aix-en-Provence.
+                  Une présence web optimisée pour le marché des Alpes-de-Haute-Provence vous permet d'attirer des clients locaux et des visiteurs, tout en vous démarquant de la concurrence. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage territorial, de Digne-les-Bains à Manosque, de Sisteron à Barcelonnette, et dans tout le 04.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration Efficace à Distance
+                  Collaboration à Distance Efficace
                 </h3>
                 <p className="text-gray-600">
-                  Grâce aux outils de collaboration modernes, je vous propose un accompagnement efficace à distance. Visioconférences, partage d'écran et communication régulière permettent de mener à bien votre projet web avec la même qualité qu'en présentiel.
+                  Basé à Nice, je travaille efficacement avec les entreprises des Alpes-de-Haute-Provence grâce à une méthodologie éprouvée de collaboration à distance. Cette approche flexible permet de maintenir une communication fluide tout en optimisant les délais de réalisation de votre projet web, malgré les distances géographiques.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Web à Aix-en-Provence
+                  Croissance Web dans le 04
                 </h3>
                 <p className="text-gray-600">
-                  Le marché web aixois offre d'importantes opportunités de développement pour les entreprises locales. 
-                  Un site web ou une application performante vous permet d'atteindre de nouveaux clients et d'étendre votre activité dans la région d'Aix-en-Provence.
+                  Le marché web dans les Alpes-de-Haute-Provence offre d'importantes opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet d'étendre votre visibilité au-delà des limites du département et de développer votre activité dans ce territoire à fort potentiel touristique et agricole.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function DeveloppeurWebAixEnProvencePage() {
                 Technologies & Expertise
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité supérieure.
+                J'utilise les technologies les plus modernes et performantes pour développer des solutions web de qualité pour les entreprises des Alpes-de-Haute-Provence.
               </p>
             </div>
             
@@ -560,11 +560,11 @@ export default function DeveloppeurWebAixEnProvencePage() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web à Aix-en-Provence ?
+              Prêt à Développer Votre Projet Web dans les Alpes-de-Haute-Provence ?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
               Contactez-moi dès aujourd'hui pour discuter de votre projet web et obtenir un devis personnalisé. 
-              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise aixoise.
+              Ensemble, créons une solution web performante qui répond parfaitement aux besoins de votre entreprise dans le 04.
             </p>
             <Link
               href="#contact"
