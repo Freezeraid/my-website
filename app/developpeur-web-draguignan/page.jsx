@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Draguignan | Création Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Draguignan spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes pour entreprises et professionnels du Var.',
+  title: 'Développeur Web Draguignan | Solutions Digitales Viticulture & Patrimoine',
+  description: 'Création de sites web et applications pour entreprises dracénoises. Expertise numérique dédiée aux domaines viticoles, commerces locaux et acteurs du tourisme avec stratégies de visibilité adaptées au marché varois.',
   keywords: ['développeur web Draguignan', 'création site web Draguignan', 'freelance web Draguignan', 'développeur Draguignan', 'site internet Draguignan', 'création site e-commerce Draguignan', 'développeur application web Draguignan', 'agence web Draguignan', 'refonte site web Draguignan'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-draguignan',
   },
   openGraph: {
-    title: 'Développeur Web à Draguignan | Création Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Draguignan spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes pour entreprises et professionnels du Var.',
+    title: 'Développeur Web Draguignan | Solutions Digitales Viticulture & Patrimoine',
+    description: 'Création de sites web et applications pour entreprises dracénoises. Expertise numérique dédiée aux domaines viticoles, commerces locaux et acteurs du tourisme avec stratégies de visibilité adaptées au marché varois.',
     url: 'https://killiandoubre.com/developpeur-web-draguignan',
   }
 }

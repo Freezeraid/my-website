@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Saint-Raphaël | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à Saint-Raphaël. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Raphaël.',
+  title: 'Expert Développeur Web Saint-Raphaël | Solutions Digitales Personnalisées',
+  description: 'Développeur web freelance pour Saint-Raphaël spécialisé dans la création de sites vitrines, e-commerce et applications métier. Expertise technique locale et solutions web innovantes pour booster votre présence digitale.',
   keywords: ['développeur web Saint-Raphaël', 'création site web Saint-Raphaël', 'freelance web Saint-Raphaël', 'développeur Saint-Raphaël', 'site internet Saint-Raphaël', 'création site e-commerce Saint-Raphaël', 'développeur application web Saint-Raphaël', 'agence web Saint-Raphaël', 'refonte site web Saint-Raphaël'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-saint-raphael',
   },
   openGraph: {
-    title: 'Développeur Web à Saint-Raphaël | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à Saint-Raphaël. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Raphaël.',
+    title: 'Expert Développeur Web Saint-Raphaël | Solutions Digitales Personnalisées',
+    description: 'Développeur web freelance pour Saint-Raphaël spécialisé dans la création de sites vitrines, e-commerce et applications métier. Expertise technique locale et solutions web innovantes pour booster votre présence digitale.',
     url: 'https://killiandoubre.com/developpeur-web-saint-raphael',
   }
 }

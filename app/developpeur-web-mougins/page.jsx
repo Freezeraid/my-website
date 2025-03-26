@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Mougins | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Mougins spécialisé en création de sites web, e-commerce et applications. Solutions numériques sur-mesure pour entreprises et professionnels mouginois.',
+  title: 'Développeur Web Mougins | Solutions Digitales Gastronomiques | Expert Luxe',
+  description: 'Création de sites web et applications haut de gamme pour les entreprises de Mougins. Expertise en développement numérique adapté au secteur gastronomique et touristique d\'excellence, avec interfaces élégantes et optimisation SEO ciblée pour une clientèle exigeante.',
   keywords: ['développeur web Mougins', 'création site web Mougins', 'freelance web Mougins', 'développeur Mougins', 'site internet Mougins', 'création site e-commerce Mougins', 'développeur application web Mougins', 'agence web Mougins', 'refonte site web Mougins'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-mougins',

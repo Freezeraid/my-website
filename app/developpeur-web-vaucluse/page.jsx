@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Vaucluse | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour le Vaucluse (84) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+  title: 'Développeur Web Vaucluse (84) | Solutions Digitales Provençales',
+  description: 'Création de sites web et applications pour les entreprises du Vaucluse, d\'Avignon à Carpentras. Solutions digitales adaptées aux secteurs viticole, touristique et artisanal pour valoriser votre activité dans ce territoire riche en patrimoine.',
   keywords: ['développeur web Vaucluse', 'création site web 84', 'freelance web Avignon', 'développeur 84', 'site internet Carpentras', 'création site e-commerce Vaucluse', 'développeur application web Orange', 'agence web 84', 'refonte site web Vaucluse'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-vaucluse',
   },
   openGraph: {
-    title: 'Développeur Web Vaucluse | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour le Vaucluse (84) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+    title: 'Développeur Web Vaucluse (84) | Solutions Digitales Provençales',
+    description: 'Création de sites web et applications pour les entreprises du Vaucluse, d\'Avignon à Carpentras. Solutions digitales adaptées aux secteurs viticole, touristique et artisanal pour valoriser votre activité dans ce territoire riche en patrimoine.',
     url: 'https://killiandoubre.com/developpeur-web-vaucluse',
   }
 }

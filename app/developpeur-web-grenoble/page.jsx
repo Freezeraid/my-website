@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Grenoble | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Grenoble spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement expert pour votre projet web grenoblois.',
+  title: 'Développeur Web Grenoble | Solutions Digitales Tech & Innovation Alpine',
+  description: 'Création de sites web et applications pour entreprises grenobloises. Expertise numérique dédiée aux startups technologiques, laboratoires de recherche et acteurs de l\'innovation avec stratégies de visibilité adaptées à l\'écosystème tech alpin.',
   keywords: ['développeur web Grenoble', 'création site web Grenoble', 'freelance web Grenoble', 'développeur Grenoble', 'site internet Grenoble', 'création site e-commerce Grenoble', 'développeur application web Grenoble', 'agence web Grenoble', 'refonte site web Grenoble'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-grenoble',
   },
   openGraph: {
-    title: 'Développeur Web à Grenoble | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Grenoble spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement expert pour votre projet web grenoblois.',
+    title: 'Développeur Web Grenoble | Solutions Digitales Tech & Innovation Alpine',
+    description: 'Création de sites web et applications pour entreprises grenobloises. Expertise numérique dédiée aux startups technologiques, laboratoires de recherche et acteurs de l\'innovation avec stratégies de visibilité adaptées à l\'écosystème tech alpin.',
     url: 'https://killiandoubre.com/developpeur-web-grenoble',
   }
 }

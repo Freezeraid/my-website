@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web en Provence-Alpes-Côte d\'Azur | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance en région PACA spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Sud-Est.',
+  title: 'Développeur Web PACA | Solutions Digitales Méditerranéennes | Expert Sud-Est',
+  description: 'Création de sites web et applications spécialisés pour les entreprises de Provence-Alpes-Côte d\'Azur. Expertise en développement numérique adapté aux secteurs touristique, viticole et technologique régionaux, avec interfaces modernes valorisant l\'identité méditerranéenne pour une visibilité optimale.',
   keywords: ['développeur web PACA', 'création site web Provence-Alpes-Côte d\'Azur', 'freelance web Sud-Est', 'développeur région PACA', 'site internet Côte d\'Azur', 'création site e-commerce Provence', 'développeur application web PACA', 'agence web Sud-Est', 'refonte site web Provence-Alpes-Côte d\'Azur'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-provence-alpes-cote-azur',

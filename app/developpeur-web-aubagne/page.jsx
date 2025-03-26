@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Aubagne | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Aubagne spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises aubagnaises avec accompagnement à distance et expertise technique.',
+  title: 'Développeur Web Aubagne | Solutions Digitales Industrie & Commerce Local',
+  description: 'Conception de sites web et applications pour entreprises aubagnaises. Expertise en développement numérique pour secteurs industriels, artisanaux et commerces de proximité avec valorisation du savoir-faire provençal.',
   keywords: ['développeur web Aubagne', 'création site web Aubagne', 'freelance web Aubagne', 'développeur Aubagne', 'site internet Aubagne', 'création site e-commerce Aubagne', 'développeur application web Aubagne', 'agence web Aubagne', 'refonte site web Aubagne'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-aubagne',
   },
   openGraph: {
-    title: 'Développeur Web à Aubagne | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Aubagne spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises aubagnaises avec accompagnement à distance et expertise technique.',
+    title: 'Développeur Web Aubagne | Solutions Digitales Industrie & Commerce Local',
+    description: 'Conception de sites web et applications pour entreprises aubagnaises. Expertise en développement numérique pour secteurs industriels, artisanaux et commerces de proximité avec valorisation du savoir-faire provençal.',
     url: 'https://killiandoubre.com/developpeur-web-aubagne',
   }
 }

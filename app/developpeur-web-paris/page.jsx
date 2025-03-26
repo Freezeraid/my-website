@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Paris | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice proposant ses services à Paris. Création de sites web, e-commerce et applications sur-mesure avec expertise technique et accompagnement personnalisé.',
-  keywords: ['développeur web Paris', 'création site web Paris', 'freelance web Paris', 'développeur Paris', 'site internet Paris', 'création site e-commerce Paris', 'développeur application web Paris', 'agence web Paris', 'refonte site web Paris'],
+  title: 'Développeur Web Paris | Création de Sites Web | Startups & Entreprises',
+  description: 'Création de sites web et applications pour entreprises parisiennes dans les secteurs startup, finance, culture et commerce. Solutions digitales innovantes avec optimisation SEO locale et e-commerce performant pour la capitale.',
+  keywords: ['développeur web Paris', 'création site web Paris', 'freelance web Paris', 'site internet startup Paris', 'création site e-commerce Paris', 'développeur application finance Paris', 'site web culture Paris', 'développeur commerce Paris', 'SEO local Paris'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-paris',
   },
   openGraph: {
-    title: 'Développeur Web à Paris | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice proposant ses services à Paris. Création de sites web, e-commerce et applications sur-mesure avec expertise technique et accompagnement personnalisé.',
+    title: 'Développeur Web Paris | Création de Sites Web | Startups & Entreprises',
+    description: 'Création de sites web et applications pour entreprises parisiennes dans les secteurs startup, finance, culture et commerce. Solutions digitales innovantes avec optimisation SEO locale et e-commerce performant pour la capitale.',
     url: 'https://killiandoubre.com/developpeur-web-paris',
   }
 }

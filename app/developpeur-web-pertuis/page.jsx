@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Pertuis | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Pertuis spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces pertuisiens, avec accompagnement personnalisé.',
+  title: 'Développeur Web Pertuis | Solutions Digitales Luberon | Expert Sud Provence',
+  description: 'Création de sites web et applications spécialisés pour les entreprises de Pertuis. Expertise en développement numérique adapté au secteur industriel et viticole local, avec interfaces modernes valorisant la position stratégique entre Aix et Luberon pour une visibilité optimale.',
   keywords: ['développeur web Pertuis', 'création site web Pertuis', 'freelance web Pertuis', 'développeur 84', 'site internet Pertuis', 'création site e-commerce Pertuis', 'développeur application web Pertuis', 'agence web Pertuis', 'refonte site web Pertuis'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-pertuis',

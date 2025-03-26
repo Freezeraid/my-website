@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Digne-les-Bains | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Digne-les-Bains spécialisé en création de sites web, e-commerce et applications. Solutions Web adaptées aux entreprises et commerces dignois, avec accompagnement personnalisé.',
+  title: 'Développeur Web Digne-les-Bains | Expertise Digitale Thermalisme & Géotourisme',
+  description: 'Création de sites web et applications pour entreprises dignoises. Solutions numériques spécialisées pour établissements thermaux, acteurs du géotourisme et commerces locaux avec optimisation pour la visibilité dans les Alpes-de-Haute-Provence.',
   keywords: ['développeur web Digne-les-Bains', 'création site web Digne-les-Bains', 'freelance web Digne-les-Bains', 'développeur 04', 'site internet Digne-les-Bains', 'création site e-commerce Digne-les-Bains', 'développeur application web Digne-les-Bains', 'agence web Digne-les-Bains', 'refonte site web Digne-les-Bains'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-digne-les-bains',
   },
   openGraph: {
-    title: 'Développeur Web Digne-les-Bains | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Digne-les-Bains spécialisé en création de sites web, e-commerce et applications. Solutions Web adaptées aux entreprises et commerces dignois, avec accompagnement personnalisé.',
+    title: 'Développeur Web Digne-les-Bains | Expertise Digitale Thermalisme & Géotourisme',
+    description: 'Création de sites web et applications pour entreprises dignoises. Solutions numériques spécialisées pour établissements thermaux, acteurs du géotourisme et commerces locaux avec optimisation pour la visibilité dans les Alpes-de-Haute-Provence.',
     url: 'https://killiandoubre.com/developpeur-web-digne-les-bains',
   }
 }

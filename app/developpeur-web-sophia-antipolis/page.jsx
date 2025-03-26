@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Sophia Antipolis | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Sophia Antipolis spécialisé en création de sites web, applications SaaS et solutions Web innovantes. Expertise technique adaptée aux startups et entreprises tech de la technopole.',
-  keywords: ['développeur web Sophia Antipolis', 'création site web Sophia Antipolis', 'freelance web Sophia Antipolis', 'développeur technopole', 'site internet Sophia Antipolis', 'création application web Sophia Antipolis', 'développeur SaaS Sophia Antipolis', 'agence web Sophia Antipolis', 'refonte site web Sophia Antipolis'],
+  title: 'Développeur Web Sophia Antipolis | Expert Applications SaaS & Tech | Startups & R&D',
+  description: 'Développement d\'applications SaaS, plateformes web et MVP pour startups et entreprises tech de Sophia Antipolis. Solutions innovantes pour secteurs R&D, IA, biotech avec architecture scalable et méthodologie agile.',
+  keywords: ['développeur web Sophia Antipolis', 'création application SaaS Sophia Antipolis', 'développeur startup technopole', 'MVP Sophia Antipolis', 'développeur R&D Sophia Antipolis', 'création plateforme web tech', 'développeur IA Sophia Antipolis', 'application biotech Sophia', 'développeur full-stack technopole'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-sophia-antipolis',
   },
   openGraph: {
-    title: 'Développeur Web Sophia Antipolis | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Sophia Antipolis spécialisé en création de sites web, applications SaaS et solutions Web innovantes. Expertise technique adaptée aux startups et entreprises tech de la technopole.',
+    title: 'Développeur Web Sophia Antipolis | Expert Applications SaaS & Tech | Startups & R&D',
+    description: 'Développement d\'applications SaaS, plateformes web et MVP pour startups et entreprises tech de Sophia Antipolis. Solutions innovantes pour secteurs R&D, IA, biotech avec architecture scalable et méthodologie agile.',
     url: 'https://killiandoubre.com/developpeur-web-sophia-antipolis',
   }
 }

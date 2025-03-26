@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Gap | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Gap spécialisé en création de sites web, e-commerce et applications. Solutions Web adaptées aux entreprises et commerces gapençais, avec accompagnement personnalisé.',
+  title: 'Développeur Web Gap | Solutions Digitales Montagne & Tourisme Alpin',
+  description: 'Création de sites web et applications pour entreprises gapençaises. Expertise numérique dédiée aux acteurs du tourisme montagnard, commerces locaux et prestataires de sports d\'hiver avec stratégies de visibilité adaptées à la saisonnalité alpine.',
   keywords: ['développeur web Gap', 'création site web Gap', 'freelance web Gap', 'développeur 05', 'site internet Gap', 'création site e-commerce Gap', 'développeur application web Gap', 'agence web Gap', 'refonte site web Gap'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-gap',
   },
   openGraph: {
-    title: 'Développeur Web Gap | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Gap spécialisé en création de sites web, e-commerce et applications. Solutions Web adaptées aux entreprises et commerces gapençais, avec accompagnement personnalisé.',
+    title: 'Développeur Web Gap | Solutions Digitales Montagne & Tourisme Alpin',
+    description: 'Création de sites web et applications pour entreprises gapençaises. Expertise numérique dédiée aux acteurs du tourisme montagnard, commerces locaux et prestataires de sports d\'hiver avec stratégies de visibilité adaptées à la saisonnalité alpine.',
     url: 'https://killiandoubre.com/developpeur-web-gap',
   }
 }

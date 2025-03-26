@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Saint-Tropez | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à Saint-Tropez. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Tropez.',
+  title: 'Développeur Web Premium Saint-Tropez | Sites Haut de Gamme & Applications',
+  description: 'Création de sites web et applications haut de gamme pour Saint-Tropez. Développeur freelance spécialisé dans les solutions digitales premium pour établissements prestigieux et marques de luxe. Expertise technique et design raffiné.',
   keywords: ['développeur web Saint-Tropez', 'création site web Saint-Tropez', 'freelance web Saint-Tropez', 'développeur Saint-Tropez', 'site internet Saint-Tropez', 'création site e-commerce Saint-Tropez', 'développeur application web Saint-Tropez', 'agence web Saint-Tropez', 'refonte site web Saint-Tropez'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-saint-tropez',
   },
   openGraph: {
-    title: 'Développeur Web à Saint-Tropez | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à Saint-Tropez. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de Saint-Tropez.',
+    title: 'Développeur Web Premium Saint-Tropez | Sites Haut de Gamme & Applications',
+    description: 'Création de sites web et applications haut de gamme pour Saint-Tropez. Développeur freelance spécialisé dans les solutions digitales premium pour établissements prestigieux et marques de luxe. Expertise technique et design raffiné.',
     url: 'https://killiandoubre.com/developpeur-web-saint-tropez',
   }
 }

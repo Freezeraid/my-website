@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à La Garde | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à La Garde. Création de sites web, e-commerce et applications sur-mesure. Expertise technique et solutions web adaptées aux entreprises de La Garde.',
+  title: 'Développeur Web La Garde | Solutions Digitales Commerce & Services Locaux',
+  description: 'Création de sites web et applications pour entreprises gardéennes. Expertise numérique dédiée aux commerces de proximité, établissements d\'enseignement et entreprises industrielles avec stratégies de visibilité adaptées au tissu économique varois.',
   keywords: ['développeur web La Garde', 'création site web La Garde', 'freelance web La Garde', 'développeur La Garde', 'site internet La Garde', 'création site e-commerce La Garde', 'développeur application web La Garde', 'agence web La Garde', 'refonte site web La Garde'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-la-garde',
   },
   openGraph: {
-    title: 'Développeur Web à La Garde | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à La Garde. Création de sites web, e-commerce et applications sur-mesure. Expertise technique et solutions web adaptées aux entreprises de La Garde.',
+    title: 'Développeur Web La Garde | Solutions Digitales Commerce & Services Locaux',
+    description: 'Création de sites web et applications pour entreprises gardéennes. Expertise numérique dédiée aux commerces de proximité, établissements d\'enseignement et entreprises industrielles avec stratégies de visibilité adaptées au tissu économique varois.',
     url: 'https://killiandoubre.com/developpeur-web-la-garde',
   }
 }

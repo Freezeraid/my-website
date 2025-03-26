@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Alpes-de-Haute-Provence | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour les Alpes-de-Haute-Provence (04) spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises locales et accompagnement personnalisé.',
+  title: 'Développeur Web Alpes-de-Haute-Provence | Solutions Digitales Rurales & Touristiques',
+  description: 'Conception de sites web et applications adaptés aux spécificités du territoire alpin. Expertise en solutions digitales pour le tourisme, l\'agriculture et l\'artisanat local avec optimisation pour les zones rurales du 04.',
   keywords: ['développeur web Alpes-de-Haute-Provence', 'création site web 04', 'freelance web Digne-les-Bains', 'développeur 04', 'site internet Manosque', 'création site e-commerce Alpes-de-Haute-Provence', 'développeur application web Sisteron', 'agence web 04', 'refonte site web Alpes-de-Haute-Provence'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-alpes-de-haute-provence',
   },
   openGraph: {
-    title: 'Développeur Web Alpes-de-Haute-Provence | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour les Alpes-de-Haute-Provence (04) spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises locales et accompagnement personnalisé.',
+    title: 'Développeur Web Alpes-de-Haute-Provence | Solutions Digitales Rurales & Touristiques',
+    description: 'Conception de sites web et applications adaptés aux spécificités du territoire alpin. Expertise en solutions digitales pour le tourisme, l\'agriculture et l\'artisanat local avec optimisation pour les zones rurales du 04.',
     url: 'https://killiandoubre.com/developpeur-web-alpes-de-haute-provence',
   }
 }

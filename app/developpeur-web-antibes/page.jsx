@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Antibes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Antibes spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises et professionnels antibois.',
-  keywords: ['développeur web Antibes', 'création site web Antibes', 'freelance web Antibes', 'développeur Antibes', 'site internet Antibes', 'création site e-commerce Antibes', 'développeur application web Antibes', 'agence web Antibes', 'refonte site web Antibes'],
+  title: 'Développeur Web Antibes | Expert Nautique & Tech | Sites & Applications sur-mesure',
+  description: 'Développeur web spécialisé pour Antibes et Sophia Antipolis. Création de sites web et applications pour secteurs nautique, touristique et technologique. Solutions digitales optimisées pour les entreprises antiboises avec SEO local.',
+  keywords: ['développeur web Antibes', 'création site web Antibes', 'freelance web Antibes', 'développeur Sophia Antipolis', 'site internet nautique Antibes', 'création site e-commerce Antibes', 'développeur application web Antibes', 'site web port Antibes', 'développeur tech Antibes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-antibes',
   },
   openGraph: {
-    title: 'Développeur Web à Antibes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Antibes spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises et professionnels antibois.',
+    title: 'Développeur Web Antibes | Expert Nautique & Tech | Sites & Applications sur-mesure',
+    description: 'Développeur web spécialisé pour Antibes et Sophia Antipolis. Création de sites web et applications pour secteurs nautique, touristique et technologique. Solutions digitales optimisées pour les entreprises antiboises avec SEO local.',
     url: 'https://killiandoubre.com/developpeur-web-antibes',
   }
 }

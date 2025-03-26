@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à La Valette-du-Var | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice intervenant à La Valette-du-Var. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de La Valette-du-Var.',
+  title: 'Développeur Web La Valette-du-Var | Solutions Digitales Retail & PME Locales',
+  description: 'Création de sites web et applications pour entreprises valettoises. Expertise numérique dédiée aux commerces de proximité, zones commerciales et PME avec stratégies de visibilité adaptées au tissu économique varois.',
   keywords: ['développeur web La Valette-du-Var', 'création site web La Valette-du-Var', 'freelance web La Valette-du-Var', 'développeur La Valette-du-Var', 'site internet La Valette-du-Var', 'création site e-commerce La Valette-du-Var', 'développeur application web La Valette-du-Var', 'agence web La Valette-du-Var', 'refonte site web La Valette-du-Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-la-valette-du-var',
   },
   openGraph: {
-    title: 'Développeur Web à La Valette-du-Var | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice intervenant à La Valette-du-Var. Création de sites web, e-commerce et applications sur-mesure. Solutions web adaptées aux entreprises de La Valette-du-Var.',
+    title: 'Développeur Web La Valette-du-Var | Solutions Digitales Retail & PME Locales',
+    description: 'Création de sites web et applications pour entreprises valettoises. Expertise numérique dédiée aux commerces de proximité, zones commerciales et PME avec stratégies de visibilité adaptées au tissu économique varois.',
     url: 'https://killiandoubre.com/developpeur-web-la-valette-du-var',
   }
 }

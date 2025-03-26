@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
+  title: 'Expert Développeur Web Aix-en-Provence | Solutions Digitales Innovantes',
+  description: 'Création de sites web et applications sur-mesure pour entreprises aixoises. Expertise en développement e-commerce, applications métier et solutions digitales adaptées au patrimoine culturel et économique d\'Aix-en-Provence.',
   keywords: ['développeur web Aix-en-Provence', 'création site web Aix-en-Provence', 'freelance web Aix', 'développeur Aix', 'site internet Aix', 'création site e-commerce Aix', 'développeur application web Aix', 'agence web Aix-en-Provence', 'refonte site web Aix'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
   },
   openGraph: {
-    title: 'Développeur Web à Aix-en-Provence | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Aix-en-Provence spécialisé dans la création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises aixoises avec accompagnement à distance.',
+    title: 'Expert Développeur Web Aix-en-Provence | Solutions Digitales Innovantes',
+    description: 'Création de sites web et applications sur-mesure pour entreprises aixoises. Expertise en développement e-commerce, applications métier et solutions digitales adaptées au patrimoine culturel et économique d\'Aix-en-Provence.',
     url: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
   }
 }

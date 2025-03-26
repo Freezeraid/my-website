@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Sollies-Pont | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance originaire de Sollies-Pont, spécialisé en création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises locales avec une connaissance approfondie du territoire varois.',
+  title: 'Développeur Web Sollies-Pont | Expertise Locale & Solutions Digitales',
+  description: 'Développeur web natif de Sollies-Pont créant des sites et applications adaptés aux entreprises varoises. Connaissance intime du territoire et solutions digitales sur-mesure pour valoriser les commerces, producteurs et artisans locaux.',
   keywords: ['développeur web Sollies-Pont', 'création site web Sollies-Pont', 'freelance web Sollies-Pont', 'développeur Sollies-Pont', 'site internet Sollies-Pont', 'création site e-commerce Sollies-Pont', 'développeur application web Sollies-Pont', 'agence web Sollies-Pont', 'refonte site web Sollies-Pont'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-sollies-pont',
   },
   openGraph: {
-    title: 'Développeur Web à Sollies-Pont | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance originaire de Sollies-Pont, spécialisé en création de sites web, applications et e-commerce. Solutions web personnalisées pour les entreprises locales avec une connaissance approfondie du territoire varois.',
+    title: 'Développeur Web Sollies-Pont | Expertise Locale & Solutions Digitales',
+    description: 'Développeur web natif de Sollies-Pont créant des sites et applications adaptés aux entreprises varoises. Connaissance intime du territoire et solutions digitales sur-mesure pour valoriser les commerces, producteurs et artisans locaux.',
     url: 'https://killiandoubre.com/developpeur-web-sollies-pont',
   }
 }

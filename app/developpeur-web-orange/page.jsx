@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Orange | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Orange spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces orangeois, avec accompagnement personnalisé.',
+  title: 'Développeur Web Orange | Solutions Digitales Antiques | Expert Romain',
+  description: 'Création de sites web et applications spécialisés pour les entreprises d\'Orange. Expertise en développement numérique adapté au secteur touristique et viticole local, avec interfaces modernes valorisant le patrimoine romain et l\'identité provençale pour une visibilité optimale.',
   keywords: ['développeur web Orange', 'création site web Orange', 'freelance web Orange', 'développeur 84', 'site internet Orange', 'création site e-commerce Orange', 'développeur application web Orange', 'agence web Orange', 'refonte site web Orange'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-orange',

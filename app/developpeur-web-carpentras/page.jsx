@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Carpentras | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Carpentras spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces carpentrassiens, avec accompagnement personnalisé.',
+  title: 'Développeur Web Carpentras | Expertise Digitale Terroir & Commerce Local',
+  description: 'Création de sites web et applications pour valoriser les entreprises carpentrassiennes. Solutions numériques adaptées aux producteurs agricoles, commerces et artisans du Comtat Venaissin avec optimisation pour la visibilité locale.',
   keywords: ['développeur web Carpentras', 'création site web Carpentras', 'freelance web Carpentras', 'développeur 84', 'site internet Carpentras', 'création site e-commerce Carpentras', 'développeur application web Carpentras', 'agence web Carpentras', 'refonte site web Carpentras'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-carpentras',
   },
   openGraph: {
-    title: 'Développeur Web Carpentras | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Carpentras spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces carpentrassiens, avec accompagnement personnalisé.',
+    title: 'Développeur Web Carpentras | Expertise Digitale Terroir & Commerce Local',
+    description: 'Création de sites web et applications pour valoriser les entreprises carpentrassiennes. Solutions numériques adaptées aux producteurs agricoles, commerces et artisans du Comtat Venaissin avec optimisation pour la visibilité locale.',
     url: 'https://killiandoubre.com/developpeur-web-carpentras',
   }
 }

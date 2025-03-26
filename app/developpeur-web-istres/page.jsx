@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Istres | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Istres spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises istréennes avec accompagnement à distance et expertise technique.',
+  title: 'Développeur Web Istres | Solutions Digitales Industrie & Commerce Local',
+  description: 'Création de sites web et applications pour entreprises istréennes. Expertise numérique dédiée aux industries locales, commerces de proximité et services avec stratégies de visibilité adaptées au tissu économique des Bouches-du-Rhône.',
   keywords: ['développeur web Istres', 'création site web Istres', 'freelance web Istres', 'développeur Istres', 'site internet Istres', 'création site e-commerce Istres', 'développeur application web Istres', 'agence web Istres', 'refonte site web Istres'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-istres',
   },
   openGraph: {
-    title: 'Développeur Web à Istres | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Istres spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises istréennes avec accompagnement à distance et expertise technique.',
+    title: 'Développeur Web Istres | Solutions Digitales Industrie & Commerce Local',
+    description: 'Création de sites web et applications pour entreprises istréennes. Expertise numérique dédiée aux industries locales, commerces de proximité et services avec stratégies de visibilité adaptées au tissu économique des Bouches-du-Rhône.',
     url: 'https://killiandoubre.com/developpeur-web-istres',
   }
 }

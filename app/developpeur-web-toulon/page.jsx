@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Toulon | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans le Var.',
-  keywords: ['développeur web Toulon', 'création site web Toulon', 'freelance web Toulon', 'développeur Toulon', 'site internet Toulon', 'création site e-commerce Toulon', 'développeur application web Toulon', 'agence web Toulon', 'refonte site web Var'],
+  title: 'Développeur Web Toulon | Sites Web & Applications | Secteur Maritime & Naval',
+  description: 'Création de sites web et applications pour entreprises toulonnaises dans les secteurs maritime, naval, défense et tourisme. Solutions digitales adaptées au Var avec optimisation SEO locale et expertise technique pour le pôle Mer PACA.',
+  keywords: ['développeur web Toulon', 'création site web Toulon', 'freelance web Toulon', 'site internet maritime Toulon', 'création site e-commerce Var', 'développeur application navale', 'site web défense Toulon', 'développeur tourisme Var', 'SEO local Toulon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-toulon',
   },
   openGraph: {
-    title: 'Développeur Web à Toulon | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Toulon spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans le Var.',
+    title: 'Développeur Web Toulon | Sites Web & Applications | Secteur Maritime & Naval',
+    description: 'Création de sites web et applications pour entreprises toulonnaises dans les secteurs maritime, naval, défense et tourisme. Solutions digitales adaptées au Var avec optimisation SEO locale et expertise technique pour le pôle Mer PACA.',
     url: 'https://killiandoubre.com/developpeur-web-toulon',
   }
 }

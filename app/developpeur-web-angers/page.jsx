@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Angers | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Angers spécialisé en création de sites web, e-commerce et applications. Solutions numériques personnalisées et accompagnement expert pour votre projet web angevin.',
+  title: 'Développeur Web Angers | Solutions Digitales Éducation & Innovation',
+  description: 'Conception de sites web et applications pour entreprises angevines. Expertise en développement numérique pour secteurs éducatifs, startups et commerces locaux avec optimisation SEO Maine-et-Loire.',
   keywords: ['développeur web Angers', 'création site web Angers', 'freelance web Angers', 'développeur Angers', 'site internet Angers', 'création site e-commerce Angers', 'développeur application web Angers', 'agence web Angers', 'refonte site web Angers'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-angers',
   },
   openGraph: {
-    title: 'Développeur Web à Angers | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Angers spécialisé en création de sites web, e-commerce et applications. Solutions numériques personnalisées et accompagnement expert pour votre projet web angevin.',
+    title: 'Développeur Web Angers | Solutions Digitales Éducation & Innovation',
+    description: 'Conception de sites web et applications pour entreprises angevines. Expertise en développement numérique pour secteurs éducatifs, startups et commerces locaux avec optimisation SEO Maine-et-Loire.',
     url: 'https://killiandoubre.com/developpeur-web-angers',
   }
 }

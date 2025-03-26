@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Cavaillon | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Cavaillon spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces cavaillonnais, avec accompagnement personnalisé.',
+  title: 'Développeur Web Cavaillon | Solutions Numériques Agroalimentaire & Terroir',
+  description: 'Développement de sites web et applications pour valoriser les entreprises cavaillonnaises. Expertise digitale dédiée aux producteurs agricoles, commerces et artisans avec solutions e-commerce optimisées pour la vente directe et la promotion des produits du terroir.',
   keywords: ['développeur web Cavaillon', 'création site web Cavaillon', 'freelance web Cavaillon', 'développeur 84', 'site internet Cavaillon', 'création site e-commerce Cavaillon', 'développeur application web Cavaillon', 'agence web Cavaillon', 'refonte site web Cavaillon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-cavaillon',
   },
   openGraph: {
-    title: 'Développeur Web Cavaillon | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Cavaillon spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces cavaillonnais, avec accompagnement personnalisé.',
+    title: 'Développeur Web Cavaillon | Solutions Numériques Agroalimentaire & Terroir',
+    description: 'Développement de sites web et applications pour valoriser les entreprises cavaillonnaises. Expertise digitale dédiée aux producteurs agricoles, commerces et artisans avec solutions e-commerce optimisées pour la vente directe et la promotion des produits du terroir.',
     url: 'https://killiandoubre.com/developpeur-web-cavaillon',
   }
 }

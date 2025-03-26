@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web au Cannet | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Le Cannet spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels cannettans.',
+  title: 'Développeur Web Le Cannet | Solutions Digitales Immobilier & Commerce Local',
+  description: 'Création de sites web et applications pour entreprises cannettanes. Expertise numérique dédiée au secteur immobilier, commerces de proximité et professions libérales avec stratégies de visibilité adaptées au contexte économique azuréen.',
   keywords: ['développeur web Le Cannet', 'création site web Le Cannet', 'freelance web Le Cannet', 'développeur Le Cannet', 'site internet Le Cannet', 'création site e-commerce Le Cannet', 'développeur application web Le Cannet', 'agence web Le Cannet', 'refonte site web Le Cannet'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-le-cannet',
   },
   openGraph: {
-    title: 'Développeur Web au Cannet | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Le Cannet spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels cannettans.',
+    title: 'Développeur Web Le Cannet | Solutions Digitales Immobilier & Commerce Local',
+    description: 'Création de sites web et applications pour entreprises cannettanes. Expertise numérique dédiée au secteur immobilier, commerces de proximité et professions libérales avec stratégies de visibilité adaptées au contexte économique azuréen.',
     url: 'https://killiandoubre.com/developpeur-web-le-cannet',
   }
 }
