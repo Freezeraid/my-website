@@ -296,10 +296,7 @@ export default function ApplicationSaasPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi me choisir pour le développement de votre application SaaS ?
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet d'application SaaS.
-              </p>
-            </div>
+                          </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {freelanceAdvantages.map((advantage, index) => (
@@ -400,83 +397,7 @@ export default function ApplicationSaasPage() {
           </div>
         </section>
 
-        {/* Technologies Section */}
-        <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Technologies SaaS
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des applications SaaS avec les technologies modernes les plus adaptées à vos besoins spécifiques.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white p-8 rounded-xl shadow-md">
-                <h3 className="text-xl font-semibold text-gray-900 mb-6">
-                  Frontend & Expérience Utilisateur
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Frameworks UI Modernes</p>
-                    <p className="text-gray-600">
-                      React, Vue.js ou Angular pour des interfaces utilisateur réactives et performantes.
-                      Next.js pour le rendu côté serveur et l'optimisation SEO.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Design System & Composants</p>
-                    <p className="text-gray-600">
-                      Bibliothèques de composants comme Material UI, Tailwind CSS ou Chakra UI.
-                      Design systems personnalisés pour une expérience utilisateur cohérente.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">State Management</p>
-                    <p className="text-gray-600">
-                      Redux, Zustand ou Context API pour la gestion d'état.
-                      React Query ou SWR pour la gestion des données et du cache.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white p-8 rounded-xl shadow-md">
-                <h3 className="text-xl font-semibold text-gray-900 mb-6">
-                  Backend & Infrastructure
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">APIs & Serveurs</p>
-                    <p className="text-gray-600">
-                      Node.js avec Express ou NestJS pour des APIs RESTful.
-                      GraphQL avec Apollo Server pour des requêtes flexibles et efficaces.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Bases de Données</p>
-                    <p className="text-gray-600">
-                      PostgreSQL ou MySQL pour les données relationnelles.
-                      MongoDB ou DynamoDB pour les données NoSQL.
-                      Redis pour le caching et les sessions.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Cloud & DevOps</p>
-                    <p className="text-gray-600">
-                      AWS, Google Cloud ou Azure pour l'infrastructure cloud.
-                      Docker et Kubernetes pour la conteneurisation et l'orchestration.
-                      CI/CD avec GitHub Actions ou GitLab CI pour le déploiement continu.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
+                {/* FAQ Section */}
         {/* <section className="py-24 bg-gradient-to-b from-white to-blue-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">

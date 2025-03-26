@@ -253,11 +253,7 @@ export default function DeveloppeurWebFreelancePage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi me choisir pour votre projet de site vitrine ?
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages par rapport aux agences traditionnelles. 
-                Découvrez comment cette approche peut bénéficier à votre projet.
-              </p>
-            </div>
+                          </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {freelanceAdvantages.map((advantage, index) => (

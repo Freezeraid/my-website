@@ -364,10 +364,7 @@ export default function ConsultantSEOPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi me choisir en tant que Consultant SEO Freelance ?
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour l'optimisation de votre présence en ligne.
-              </p>
-            </div>
+                          </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {freelanceAdvantages.map((advantage, index) => (

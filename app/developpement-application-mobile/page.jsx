@@ -282,10 +282,7 @@ export default function ApplicationMobilePage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi me choisir pour votre projet d'application mobile ?
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet d'application mobile.
-              </p>
-            </div>
+                          </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {freelanceAdvantages.map((advantage, index) => (
@@ -386,81 +383,7 @@ export default function ApplicationMobilePage() {
           </div>
         </section>
 
-        {/* Technologies Section */}
-        <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Technologies Mobiles
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des applications mobiles avec les technologies modernes les plus adaptées à vos besoins spécifiques.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white p-8 rounded-xl shadow-md">
-                <h3 className="text-xl font-semibold text-gray-900 mb-6">
-                  Développement Cross-Platform
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">React Native</p>
-                    <p className="text-gray-600">
-                      Framework JavaScript pour développer des applications natives pour iOS et Android à partir d'une base de code unique.
-                      Performances proches du natif avec l'efficacité du développement cross-platform.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Flutter</p>
-                    <p className="text-gray-600">
-                      Framework de Google utilisant Dart pour créer des applications visuellement riches et performantes.
-                      Rendu graphique de haute qualité et animations fluides sur les deux plateformes.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Capacitor / Ionic</p>
-                    <p className="text-gray-600">
-                      Solutions hybrides basées sur les technologies web (HTML, CSS, JavaScript) pour des applications simples et rapides à développer.
-                      Idéal pour les projets avec des contraintes de budget et de délai.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white p-8 rounded-xl shadow-md">
-                <h3 className="text-xl font-semibold text-gray-900 mb-6">
-                  Développement Natif
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">iOS (Swift)</p>
-                    <p className="text-gray-600">
-                      Développement natif pour iOS avec Swift, le langage moderne d'Apple.
-                      Performances optimales et intégration parfaite avec l'écosystème Apple.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Android (Kotlin)</p>
-                    <p className="text-gray-600">
-                      Développement natif pour Android avec Kotlin, le langage recommandé par Google.
-                      Expérience utilisateur fluide et accès complet aux fonctionnalités Android.
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-medium text-gray-800 mb-2">Backend & API</p>
-                    <p className="text-gray-600">
-                      Développement de backends robustes et d'APIs RESTful ou GraphQL pour alimenter vos applications mobiles.
-                      Solutions cloud (Firebase, AWS, etc.) pour l'authentification, le stockage et les notifications.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
+                {/* FAQ Section */}
         {/* <section className="py-24 bg-gradient-to-b from-white to-blue-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
