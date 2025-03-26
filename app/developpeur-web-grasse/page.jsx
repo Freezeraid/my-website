@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Grasse | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Grasse spécialisé en création de sites web, e-commerce et applications. Solutions numériques personnalisées pour entreprises et professionnels grassois.',
+  title: 'Développeur Web Grasse | Solutions Digitales Parfumerie & Artisanat',
+  description: 'Création de sites web et applications pour entreprises grassoises. Expertise numérique dédiée aux parfumeries, producteurs locaux et acteurs du tourisme avec stratégies de visibilité adaptées au patrimoine olfactif unique de la région.',
   keywords: ['développeur web Grasse', 'création site web Grasse', 'freelance web Grasse', 'développeur Grasse', 'site internet Grasse', 'création site e-commerce Grasse', 'développeur application web Grasse', 'agence web Grasse', 'refonte site web Grasse'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-grasse',
   },
   openGraph: {
-    title: 'Développeur Web à Grasse | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Grasse spécialisé en création de sites web, e-commerce et applications. Solutions numériques personnalisées pour entreprises et professionnels grassois.',
+    title: 'Développeur Web Grasse | Solutions Digitales Parfumerie & Artisanat',
+    description: 'Création de sites web et applications pour entreprises grassoises. Expertise numérique dédiée aux parfumeries, producteurs locaux et acteurs du tourisme avec stratégies de visibilité adaptées au patrimoine olfactif unique de la région.',
     url: 'https://killiandoubre.com/developpeur-web-grasse',
   }
 }

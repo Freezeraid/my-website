@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Arles | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Arles spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises arlésiennes avec accompagnement à distance et expertise technique.',
+  title: 'Développeur Web Arles | Solutions Digitales Patrimoine & Culture',
+  description: 'Création de sites web et applications pour entreprises arlésiennes. Expertise en développement numérique pour secteurs culturels, touristiques et artisanaux avec valorisation du patrimoine camarguais et optimisation SEO locale.',
   keywords: ['développeur web Arles', 'création site web Arles', 'freelance web Arles', 'développeur Arles', 'site internet Arles', 'création site e-commerce Arles', 'développeur application web Arles', 'agence web Arles', 'refonte site web Arles'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-arles',
   },
   openGraph: {
-    title: 'Développeur Web à Arles | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Arles spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises arlésiennes avec accompagnement à distance et expertise technique.',
+    title: 'Développeur Web Arles | Solutions Digitales Patrimoine & Culture',
+    description: 'Création de sites web et applications pour entreprises arlésiennes. Expertise en développement numérique pour secteurs culturels, touristiques et artisanaux avec valorisation du patrimoine camarguais et optimisation SEO locale.',
     url: 'https://killiandoubre.com/developpeur-web-arles',
   }
 }

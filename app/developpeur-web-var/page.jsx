@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web dans le Var | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance dans le Var (83) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+  title: 'Développeur Web Var (83) | Solutions Digitales Méditerranéennes',
+  description: 'Création de sites web et applications pour les entreprises du Var, de Toulon à Saint-Raphaël. Développeur freelance spécialisé dans les solutions digitales adaptées aux secteurs touristique, viticole et commercial du 83.',
   keywords: ['développeur web Var', 'création site web 83', 'freelance web Var', 'développeur 83', 'site internet Var', 'création site e-commerce 83', 'développeur application web Var', 'agence web 83', 'refonte site web Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-var',
   },
   openGraph: {
-    title: 'Développeur Web dans le Var | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance dans le Var (83) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+    title: 'Développeur Web Var (83) | Solutions Digitales Méditerranéennes',
+    description: 'Création de sites web et applications pour les entreprises du Var, de Toulon à Saint-Raphaël. Développeur freelance spécialisé dans les solutions digitales adaptées aux secteurs touristique, viticole et commercial du 83.',
     url: 'https://killiandoubre.com/developpeur-web-var',
   }
 }

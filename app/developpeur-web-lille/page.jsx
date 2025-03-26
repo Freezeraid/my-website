@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Lille | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Lille spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre projet web.',
-  keywords: ['développeur web Lille', 'création site web Lille', 'freelance web Lille', 'développeur Lille', 'site internet Lille', 'création site e-commerce Lille', 'développeur application web Lille', 'agence web Lille', 'refonte site web Lille'],
+  title: 'Développeur Web Lille | Sites & Applications | Industrie & Transfrontalier',
+  description: 'Création de sites web et applications pour entreprises lilloises dans les secteurs industrie, innovation, éducation et projets transfrontaliers. Solutions digitales adaptées aux Hauts-de-France avec expertise multilingue et plateformes collaboratives.',
+  keywords: ['développeur web Lille', 'création site web Lille', 'freelance web Lille', 'site internet industrie Lille', 'création site e-commerce Hauts-de-France', 'développeur application transfrontalière', 'site web éducation Lille', 'développeur innovation Lille', 'SEO local Lille'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-lille',
   },
   openGraph: {
-    title: 'Développeur Web à Lille | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Lille spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Lille | Sites & Applications | Industrie & Transfrontalier',
+    description: 'Création de sites web et applications pour entreprises lilloises dans les secteurs industrie, innovation, éducation et projets transfrontaliers. Solutions digitales adaptées aux Hauts-de-France avec expertise multilingue et plateformes collaboratives.',
     url: 'https://killiandoubre.com/developpeur-web-lille',
   }
 }

@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Saint-Laurent-du-Var | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Saint-Laurent-du-Var spécialisé en création de sites web, e-commerce et applications. Solutions numériques sur-mesure pour entreprises et professionnels laurentins.',
+  title: 'Développeur Web Saint-Laurent-du-Var | Solutions Digitales Locales',
+  description: 'Création de sites web et applications adaptés aux entreprises laurentines. Développeur freelance proposant des solutions digitales sur-mesure pour valoriser votre activité à Saint-Laurent-du-Var et attirer une clientèle locale.',
   keywords: ['développeur web Saint-Laurent-du-Var', 'création site web Saint-Laurent-du-Var', 'freelance web Saint-Laurent-du-Var', 'développeur Saint-Laurent-du-Var', 'site internet Saint-Laurent-du-Var', 'création site e-commerce Saint-Laurent-du-Var', 'développeur application web Saint-Laurent-du-Var', 'agence web Saint-Laurent-du-Var', 'refonte site web Saint-Laurent-du-Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-saint-laurent-du-var',
   },
   openGraph: {
-    title: 'Développeur Web à Saint-Laurent-du-Var | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Saint-Laurent-du-Var spécialisé en création de sites web, e-commerce et applications. Solutions numériques sur-mesure pour entreprises et professionnels laurentins.',
+    title: 'Développeur Web Saint-Laurent-du-Var | Solutions Digitales Locales',
+    description: 'Création de sites web et applications adaptés aux entreprises laurentines. Développeur freelance proposant des solutions digitales sur-mesure pour valoriser votre activité à Saint-Laurent-du-Var et attirer une clientèle locale.',
     url: 'https://killiandoubre.com/developpeur-web-saint-laurent-du-var',
   }
 }

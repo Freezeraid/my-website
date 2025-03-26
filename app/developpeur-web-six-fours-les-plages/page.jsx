@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Six-Fours-les-Plages | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Six-Fours-les-Plages spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
+  title: 'Développeur Web Six-Fours-les-Plages | Expertise Digitale Balnéaire',
+  description: 'Développeur web freelance créant des sites et applications optimisés pour les entreprises de Six-Fours-les-Plages. Solutions digitales adaptées au secteur touristique, maritime et commercial du littoral varois pour maximiser votre visibilité locale.',
   keywords: ['développeur web Six-Fours-les-Plages', 'création site web Six-Fours-les-Plages', 'freelance web Six-Fours-les-Plages', 'développeur Six-Fours-les-Plages', 'site internet Six-Fours-les-Plages', 'création site e-commerce Six-Fours-les-Plages', 'développeur application web Six-Fours-les-Plages', 'agence web Six-Fours-les-Plages', 'refonte site web Six-Fours-les-Plages'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-six-fours-les-plages',
   },
   openGraph: {
-    title: 'Développeur Web à Six-Fours-les-Plages | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Six-Fours-les-Plages spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
+    title: 'Développeur Web Six-Fours-les-Plages | Expertise Digitale Balnéaire',
+    description: 'Développeur web freelance créant des sites et applications optimisés pour les entreprises de Six-Fours-les-Plages. Solutions digitales adaptées au secteur touristique, maritime et commercial du littoral varois pour maximiser votre visibilité locale.',
     url: 'https://killiandoubre.com/developpeur-web-six-fours-les-plages',
   }
 }

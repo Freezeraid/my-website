@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Saint-Étienne | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Saint-Étienne spécialisé en création de sites web, e-commerce et applications. Solutions web performantes et accompagnement personnalisé pour votre projet web.',
-  keywords: ['développeur web Saint-Étienne', 'création site web Saint-Étienne', 'freelance web Saint-Étienne', 'développeur Saint-Étienne', 'site internet Saint-Étienne', 'création site e-commerce Saint-Étienne', 'développeur application web Saint-Étienne', 'agence web Saint-Étienne', 'refonte site web Saint-Étienne'],
+  title: 'Développeur Web Saint-Étienne | Expert Sites & Applications | Design & Industrie',
+  description: 'Création de sites web et applications pour entreprises stéphanoises dans les secteurs design, industrie, innovation et créativité. Solutions digitales adaptées à la Loire avec expertise en transformation numérique et plateformes créatives.',
+  keywords: ['développeur web Saint-Étienne', 'création site web Saint-Étienne', 'freelance web Saint-Étienne', 'site internet design Saint-Étienne', 'création site e-commerce Loire', 'développeur application industrie', 'site web créatif Saint-Étienne', 'développeur innovation Saint-Étienne', 'SEO local Saint-Étienne'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-saint-etienne',
   },
   openGraph: {
-    title: 'Développeur Web à Saint-Étienne | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Saint-Étienne spécialisé en création de sites web, e-commerce et applications. Solutions web performantes et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Saint-Étienne | Expert Sites & Applications | Design & Industrie',
+    description: 'Création de sites web et applications pour entreprises stéphanoises dans les secteurs design, industrie, innovation et créativité. Solutions digitales adaptées à la Loire avec expertise en transformation numérique et plateformes créatives.',
     url: 'https://killiandoubre.com/developpeur-web-saint-etienne',
   }
 }

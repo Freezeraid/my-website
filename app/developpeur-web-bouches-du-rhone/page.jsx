@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Bouches-du-Rhône | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour les Bouches-du-Rhône (13) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+  title: 'Développeur Web Bouches-du-Rhône | Solutions Digitales Métropole & Littoral',
+  description: 'Conception de sites web et applications pour entreprises du 13. Expertise en développement numérique pour secteurs urbains, touristiques et industriels avec optimisation pour la diversité territoriale entre Marseille, Aix et littoral méditerranéen.',
   keywords: ['développeur web Bouches-du-Rhône', 'création site web 13', 'freelance web Marseille', 'développeur 13', 'site internet Aix-en-Provence', 'création site e-commerce Bouches-du-Rhône', 'développeur application web Marseille', 'agence web 13', 'refonte site web Bouches-du-Rhône'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-bouches-du-rhone',
   },
   openGraph: {
-    title: 'Développeur Web Bouches-du-Rhône | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour les Bouches-du-Rhône (13) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+    title: 'Développeur Web Bouches-du-Rhône | Solutions Digitales Métropole & Littoral',
+    description: 'Conception de sites web et applications pour entreprises du 13. Expertise en développement numérique pour secteurs urbains, touristiques et industriels avec optimisation pour la diversité territoriale entre Marseille, Aix et littoral méditerranéen.',
     url: 'https://killiandoubre.com/developpeur-web-bouches-du-rhone',
   }
 }

@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Hautes-Alpes | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour les Hautes-Alpes (05) spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises alpines et accompagnement personnalisé.',
+  title: 'Développeur Web Hautes-Alpes | Solutions Digitales Tourisme & Montagne',
+  description: 'Création de sites web et applications pour entreprises du 05. Expertise numérique dédiée aux stations de ski, hébergements touristiques et commerces locaux avec stratégies de visibilité adaptées aux territoires montagnards et à leur saisonnalité.',
   keywords: ['développeur web Hautes-Alpes', 'création site web 05', 'freelance web Gap', 'développeur 05', 'site internet Briançon', 'création site e-commerce Hautes-Alpes', 'développeur application web Gap', 'agence web 05', 'refonte site web Hautes-Alpes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-hautes-alpes',
   },
   openGraph: {
-    title: 'Développeur Web Hautes-Alpes | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour les Hautes-Alpes (05) spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises alpines et accompagnement personnalisé.',
+    title: 'Développeur Web Hautes-Alpes | Solutions Digitales Tourisme & Montagne',
+    description: 'Création de sites web et applications pour entreprises du 05. Expertise numérique dédiée aux stations de ski, hébergements touristiques et commerces locaux avec stratégies de visibilité adaptées aux territoires montagnards et à leur saisonnalité.',
     url: 'https://killiandoubre.com/developpeur-web-hautes-alpes',
   }
 }

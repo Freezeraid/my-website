@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Cagnes-sur-Mer | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Cagnes-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées et accompagnement de proximité pour votre entreprise locale.',
+  title: 'Développeur Web Cagnes-sur-Mer | Solutions Digitales Côte d\'Azur',
+  description: 'Création de sites web et applications pour entreprises cagnoises. Expertise en développement numérique pour secteurs touristiques, commerces de proximité et immobilier avec optimisation pour la clientèle locale et saisonnière.',
   keywords: ['développeur web Cagnes-sur-Mer', 'création site web Cagnes-sur-Mer', 'freelance web Cagnes-sur-Mer', 'développeur Cagnes-sur-Mer', 'site internet Cagnes-sur-Mer', 'création site e-commerce Cagnes-sur-Mer', 'développeur application web Cagnes-sur-Mer', 'agence web Cagnes-sur-Mer', 'refonte site web Cagnes-sur-Mer'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-cagnes-sur-mer',
   },
   openGraph: {
-    title: 'Développeur Web à Cagnes-sur-Mer | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Cagnes-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées et accompagnement de proximité pour votre entreprise locale.',
+    title: 'Développeur Web Cagnes-sur-Mer | Solutions Digitales Côte d\'Azur',
+    description: 'Création de sites web et applications pour entreprises cagnoises. Expertise en développement numérique pour secteurs touristiques, commerces de proximité et immobilier avec optimisation pour la clientèle locale et saisonnière.',
     url: 'https://killiandoubre.com/developpeur-web-cagnes-sur-mer',
   }
 }

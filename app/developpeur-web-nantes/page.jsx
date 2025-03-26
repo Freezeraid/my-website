@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Nantes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Nantes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise technique et accompagnement personnalisé pour votre projet web.',
-  keywords: ['développeur web Nantes', 'création site web Nantes', 'freelance web Nantes', 'développeur Nantes', 'site internet Nantes', 'création site e-commerce Nantes', 'développeur application web Nantes', 'agence web Nantes', 'refonte site web Nantes'],
+  title: 'Développeur Web Nantes | Sites & Applications | Innovation & Écologie',
+  description: 'Création de sites web et applications pour entreprises nantaises dans les secteurs innovation, économie verte, industrie maritime et formation. Solutions digitales adaptées aux Pays de la Loire avec expertise en développement durable et plateformes éducatives.',
+  keywords: ['développeur web Nantes', 'création site web Nantes', 'freelance web Nantes', 'site internet écologique Nantes', 'création site e-commerce Pays de la Loire', 'développeur application maritime', 'site web formation Nantes', 'développeur innovation Nantes', 'SEO local Nantes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-nantes',
   },
   openGraph: {
-    title: 'Développeur Web à Nantes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Nantes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise technique et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Nantes | Sites & Applications | Innovation & Écologie',
+    description: 'Création de sites web et applications pour entreprises nantaises dans les secteurs innovation, économie verte, industrie maritime et formation. Solutions digitales adaptées aux Pays de la Loire avec expertise en développement durable et plateformes éducatives.',
     url: 'https://killiandoubre.com/developpeur-web-nantes',
   }
 }

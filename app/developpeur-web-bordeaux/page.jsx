@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Bordeaux | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Bordeaux spécialisé en création de sites web, e-commerce et applications. Solutions web créatives et accompagnement personnalisé pour votre projet web.',
-  keywords: ['développeur web Bordeaux', 'création site web Bordeaux', 'freelance web Bordeaux', 'développeur Bordeaux', 'site internet Bordeaux', 'création site e-commerce Bordeaux', 'développeur application web Bordeaux', 'agence web Bordeaux', 'refonte site web Bordeaux'],
+  title: 'Développeur Web Bordeaux | Création de Sites & Applications | Vin & Culture',
+  description: 'Création de sites web et applications pour entreprises bordelaises dans les secteurs viticole, œnotourisme, culture et industries créatives. Solutions digitales adaptées à la Nouvelle-Aquitaine avec expertise e-commerce et plateformes innovantes.',
+  keywords: ['développeur web Bordeaux', 'création site web Bordeaux', 'freelance web Bordeaux', 'site internet viticole Bordeaux', 'création site e-commerce vin', 'développeur application œnotourisme', 'site web culture Bordeaux', 'développeur créatif Bordeaux', 'SEO local Bordeaux'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-bordeaux',
   },
   openGraph: {
-    title: 'Développeur Web à Bordeaux | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Bordeaux spécialisé en création de sites web, e-commerce et applications. Solutions web créatives et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Bordeaux | Création de Sites & Applications | Vin & Culture',
+    description: 'Création de sites web et applications pour entreprises bordelaises dans les secteurs viticole, œnotourisme, culture et industries créatives. Solutions digitales adaptées à la Nouvelle-Aquitaine avec expertise e-commerce et plateformes innovantes.',
     url: 'https://killiandoubre.com/developpeur-web-bordeaux',
   }
 }

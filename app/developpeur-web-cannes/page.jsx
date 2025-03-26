@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Cannes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web sur la Côte d\'Azur.',
-  keywords: ['développeur web Cannes', 'création site web Cannes', 'freelance web Cannes', 'développeur Cannes', 'site internet Cannes', 'création site e-commerce Cannes', 'développeur application web Cannes', 'agence web Cannes', 'refonte site web Alpes-Maritimes'],
+  title: 'Développeur Web Freelance Cannes | Expert Sites Premium & Applications | Côte d\'Azur',
+  description: 'Expert en développement web à Cannes créant des sites et applications haut de gamme pour hôtels, commerces de luxe et événementiel. Solutions digitales premium adaptées au prestige cannois avec optimisation SEO locale.',
+  keywords: ['développeur web Cannes', 'création site web Cannes', 'freelance web Cannes', 'développeur Cannes', 'site internet luxe Cannes', 'création site e-commerce Cannes', 'développeur application web Cannes', 'site web hôtel Cannes', 'développeur événementiel Cannes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-cannes',
   },
   openGraph: {
-    title: 'Développeur Web à Cannes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Cannes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web sur la Côte d\'Azur.',
+    title: 'Développeur Web Freelance Cannes | Expert Sites & Applications | Côte d\'Azur',
+    description: 'Expert en développement web à Cannes créant des sites et applications haut de gamme pour hôtels, commerces de luxe et événementiel. Solutions digitales premium adaptées au prestige cannois avec optimisation SEO locale.',
     url: 'https://killiandoubre.com/developpeur-web-cannes',
   }
 }

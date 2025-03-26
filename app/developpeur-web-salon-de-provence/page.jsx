@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Salon-de-Provence | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Salon-de-Provence spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises salonaises avec accompagnement à distance et expertise technique.',
+  title: 'Développeur Web Salon-de-Provence | Solutions Digitales Locales | Freelance',
+  description: 'Création de sites web et applications adaptés au marché salonais. Développeur freelance proposant des solutions digitales sur-mesure pour valoriser votre entreprise à Salon-de-Provence et attirer une clientèle locale.',
   keywords: ['développeur web Salon-de-Provence', 'création site web Salon-de-Provence', 'freelance web Salon', 'développeur Salon', 'site internet Salon', 'création site e-commerce Salon-de-Provence', 'développeur application web Salon', 'agence web Salon-de-Provence', 'refonte site web Salon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-salon-de-provence',
   },
   openGraph: {
-    title: 'Développeur Web à Salon-de-Provence | Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Salon-de-Provence spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises salonaises avec accompagnement à distance et expertise technique.',
+    title: 'Développeur Web Salon-de-Provence | Solutions Digitales Locales | Freelance',
+    description: 'Création de sites web et applications adaptés au marché salonais. Développeur freelance proposant des solutions digitales sur-mesure pour valoriser votre entreprise à Salon-de-Provence et attirer une clientèle locale.',
     url: 'https://killiandoubre.com/developpeur-web-salon-de-provence',
   }
 }

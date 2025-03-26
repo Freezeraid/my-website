@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Monaco | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions web haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
-  keywords: ['développeur web Monaco', 'création site web Monaco', 'freelance web Monaco', 'site internet Monaco', 'création site e-commerce Monaco', 'développeur application web Monaco', 'agence web Monaco', 'refonte site web Monaco', 'développeur web luxe Monaco'],
+  title: 'Développeur Web Monaco | Créations de Sites & Applications',
+  description: 'Création de sites web et applications haut de gamme pour entreprises monégasques dans les secteurs finance, immobilier de luxe et yachting. Solutions digitales internationales multilingues avec design exclusif et sécurité renforcée.',
+  keywords: ['développeur web Monaco', 'création site web Monaco', 'freelance web Monaco', 'site internet luxe Monaco', 'création site e-commerce Monaco', 'développeur application web Monaco', 'site web finance Monaco', 'développeur yachting Monaco', 'site web multilingue Monaco'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-monaco',
   },
   openGraph: {
-    title: 'Développeur Web Monaco | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Monaco spécialisé en création de sites web, e-commerce et applications. Solutions web haut de gamme adaptées aux entreprises et commerces monégasques, avec accompagnement personnalisé.',
+    title: 'Développeur Web Monaco | Créations de Sites & Applications',
+    description: 'Création de sites web et applications haut de gamme pour entreprises monégasques dans les secteurs finance, immobilier de luxe et yachting. Solutions digitales internationales multilingues avec design exclusif et sécurité renforcée.',
     url: 'https://killiandoubre.com/developpeur-web-monaco',
   }
 }

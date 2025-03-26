@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à La Seyne-sur-Mer | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour La Seyne-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
+  title: 'Développeur Web La Seyne-sur-Mer | Solutions Digitales Maritime & Immobilier',
+  description: 'Création de sites web et applications pour entreprises seynoises. Expertise numérique dédiée aux activités maritimes, commerces locaux et secteur immobilier avec stratégies de visibilité adaptées au contexte portuaire méditerranéen.',
   keywords: ['développeur web La Seyne-sur-Mer', 'création site web La Seyne-sur-Mer', 'freelance web La Seyne-sur-Mer', 'développeur La Seyne-sur-Mer', 'site internet La Seyne-sur-Mer', 'création site e-commerce La Seyne-sur-Mer', 'développeur application web La Seyne-sur-Mer', 'agence web La Seyne-sur-Mer', 'refonte site web La Seyne-sur-Mer'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-la-seyne-sur-mer',
   },
   openGraph: {
-    title: 'Développeur Web à La Seyne-sur-Mer | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour La Seyne-sur-Mer spécialisé en création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises et professionnels du Var.',
+    title: 'Développeur Web La Seyne-sur-Mer | Solutions Digitales Maritime & Immobilier',
+    description: 'Création de sites web et applications pour entreprises seynoises. Expertise numérique dédiée aux activités maritimes, commerces locaux et secteur immobilier avec stratégies de visibilité adaptées au contexte portuaire méditerranéen.',
     url: 'https://killiandoubre.com/developpeur-web-la-seyne-sur-mer',
   }
 }

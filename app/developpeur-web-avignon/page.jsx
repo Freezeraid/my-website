@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Avignon | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Avignon spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces avignonnais, avec accompagnement personnalisé.',
+  title: 'Développeur Web Avignon | Création Digitale Festival & Patrimoine',
+  description: 'Expert en création de sites web pour le secteur culturel et touristique d\'Avignon. Solutions numériques adaptées aux festivals, théâtres et commerces locaux avec optimisation SEO ciblée pour la visibilité pendant les périodes de forte affluence touristique.',
   keywords: ['développeur web Avignon', 'création site web Avignon', 'freelance web Avignon', 'développeur 84', 'site internet Avignon', 'création site e-commerce Avignon', 'développeur application web Avignon', 'agence web Avignon', 'refonte site web Avignon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-avignon',
   },
   openGraph: {
-    title: 'Développeur Web Avignon | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Avignon spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces avignonnais, avec accompagnement personnalisé.',
+    title: 'Développeur Web Avignon | Création Digitale Festival & Patrimoine',
+    description: 'Expert en création de sites web pour le secteur culturel et touristique d\'Avignon. Solutions numériques adaptées aux festivals, théâtres et commerces locaux avec optimisation SEO ciblée pour la visibilité pendant les périodes de forte affluence touristique.',
     url: 'https://killiandoubre.com/developpeur-web-avignon',
   }
 }

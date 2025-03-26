@@ -1,4 +1,5 @@
 'use client'
+import OptimizedImage from '../ui/OptimizedImage'
 import { useState, useCallback, useEffect } from 'react'
 import Link from 'next/link'
 import styles from './Navbar.module.css'
@@ -50,7 +51,14 @@ export default function Navbar() {
             onClick={handleClick}
             className={`text-xl font-bold text-black hover:opacity-80 transition-opacity`}
           >
-            Killian DOUBRE
+            <OptimizedImage
+              src="/logo.svg"
+              alt="Logo du site Killian DOUBRE"
+              width={40}
+              height={40}
+              priority
+              className="object-cover w-full h-full"
+            />
           </Link>
           
           <div className="hidden md:block">

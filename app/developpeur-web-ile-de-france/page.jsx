@@ -13,182 +13,182 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web La Ciotat | Solutions Digitales Nautisme & Tourisme Côtier',
-  description: 'Création de sites web et applications pour entreprises ciotadennes. Expertise numérique dédiée aux activités nautiques, commerces locaux et établissements touristiques avec stratégies de visibilité adaptées au contexte maritime méditerranéen.',
-  keywords: ['développeur web La Ciotat', 'création site web La Ciotat', 'freelance web La Ciotat', 'développeur La Ciotat', 'site internet La Ciotat', 'création site e-commerce La Ciotat', 'développeur application web La Ciotat', 'agence web La Ciotat', 'refonte site web La Ciotat'],
+  title: 'Développeur Web Île-de-France | Création de Sites & Applications | Tech & Innovation',
+  description: 'Création de sites web et applications pour entreprises franciliennes dans les secteurs tech, innovation, grands groupes et institutions. Solutions digitales adaptées à la région capitale avec expertise en développement multilingue et plateformes collaboratives.',
+  keywords: ['développeur web Île-de-France', 'création site web Île-de-France', 'freelance web région parisienne', 'site internet tech Île-de-France', 'création site e-commerce francilien', 'développeur application La Défense', 'site web institution Île-de-France', 'développeur innovation Saclay', 'SEO local Île-de-France'],
   alternates: {
-    canonical: 'https://killiandoubre.com/developpeur-web-la-ciotat',
+    canonical: 'https://killiandoubre.com/developpeur-web-ile-de-france',
   },
   openGraph: {
-    title: 'Développeur Web La Ciotat | Solutions Digitales Nautisme & Tourisme Côtier',
-    description: 'Création de sites web et applications pour entreprises ciotadennes. Expertise numérique dédiée aux activités nautiques, commerces locaux et établissements touristiques avec stratégies de visibilité adaptées au contexte maritime méditerranéen.',
-    url: 'https://killiandoubre.com/developpeur-web-la-ciotat',
+    title: 'Développeur Web Île-de-France | Création de Sites & Applications | Tech & Innovation',
+    description: 'Création de sites web et applications pour entreprises franciliennes dans les secteurs tech, innovation, grands groupes et institutions. Solutions digitales adaptées à la région capitale avec expertise en développement multilingue et plateformes collaboratives.',
+    url: 'https://killiandoubre.com/developpeur-web-ile-de-france',
   }
 }
 
 // Données du service pour le schéma JSON-LD
 const serviceData = {
-  name: 'Développeur Web Freelance pour La Ciotat',
-  description: 'Services de développement web sur-mesure pour La Ciotat : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels ciotadens.',
-  slug: 'developpeur-web-la-ciotat',
+  name: 'Développeur Web Freelance pour l\'Île-de-France',
+  description: 'Services de développement web sur-mesure pour l\'Île-de-France : création de sites web, e-commerce, applications web et optimisation SEO pour entreprises et professionnels de la région francilienne.',
+  slug: 'developpeur-web-ile-de-france',
   image: 'https://killiandoubre.com/photo_close.jpg',
   features: [
     'Création de sites web professionnels',
     'Développement d\'applications web',
     'Sites e-commerce performants',
-    'Optimisation SEO locale',
+    'Optimisation SEO régionale',
     'Maintenance et support technique'
   ],
   faqs: [
     {
-      question: 'Quels types de sites web développez-vous pour La Ciotat ?',
-      answer: 'Je développe tous types de sites web pour les entreprises et professionnels ciotadens : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques du marché de La Ciotat et de son environnement maritime et touristique.'
+      question: 'Quels types de sites web développez-vous pour les entreprises franciliennes ?',
+      answer: 'Je développe tous types de sites web pour les entreprises et professionnels d\'Île-de-France : sites vitrines, e-commerce, portfolios, blogs, applications web et plateformes SaaS adaptés aux besoins spécifiques du marché francilien, qu\'il s\'agisse de startups innovantes, de grands groupes, d\'institutions ou de commerces locaux.'
     },
     {
-      question: 'Quel est le coût d\'un site web pour une entreprise à La Ciotat ?',
-      answer: 'Le coût d\'un site web pour une entreprise ciotadenne varie selon la complexité et les fonctionnalités souhaitées. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après étude de votre projet.'
+      question: 'Combien coûte la création d\'un site web pour une entreprise en Île-de-France ?',
+      answer: 'Le coût d\'un site web pour l\'Île-de-France varie selon vos besoins spécifiques. Les sites vitrines débutent à partir de 1500€, les e-commerce à partir de 3000€, et les applications web sur-mesure à partir de 5000€. Je vous propose un devis personnalisé après analyse approfondie de votre projet et de vos objectifs commerciaux.'
     },
     {
-      question: 'Proposez-vous des services de référencement local pour La Ciotat ?',
-      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché ciotaden, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant La Ciotat et sa région côtière.'
+      question: 'Proposez-vous des services de référencement local pour l\'Île-de-France ?',
+      answer: 'Oui, je propose des services d\'optimisation SEO spécifiquement adaptés au marché francilien, incluant le référencement local Google My Business, l\'optimisation pour les recherches géolocalisées et les stratégies de contenu ciblant l\'Île-de-France et ses différents départements, pour maximiser votre visibilité auprès de la clientèle locale.'
     }
   ]
 }
 
-export default function DeveloppeurWebLaCiotatPage() {
+export default function DeveloppeurWebIleDeFrancePage() {
   const webServices = [
     {
       icon: "🖥️",
       title: "Sites Web Professionnels",
-      description: "Conception de sites web sur-mesure pour les entreprises et professionnels ciotadens. Des vitrines web élégantes, responsive et optimisées pour transformer vos visiteurs en clients.",
+      description: "Conception de sites web sur-mesure pour les entreprises franciliennes. Des sites vitrines modernes, responsive et optimisés pour transformer vos visiteurs en clients et renforcer votre présence digitale dans toute l'Île-de-France.",
       features: [
-        "Design adapté à l'identité maritime de La Ciotat et de votre entreprise",
+        "Design contemporain adapté à votre identité de marque",
         "Parfaitement responsive (mobile, tablette, desktop)",
-        "Optimisé pour le référencement local à La Ciotat",
-        "Intégration de fonctionnalités personnalisées"
+        "Optimisé pour le référencement local en Île-de-France",
+        "Intégration de fonctionnalités personnalisées selon votre secteur"
       ]
     },
     {
       icon: "🛒",
       title: "E-commerce & Boutiques en Ligne",
-      description: "Développement de plateformes e-commerce performantes pour les commerçants et entrepreneurs de La Ciotat. Des boutiques en ligne sécurisées qui valorisent vos produits et stimulent vos ventes.",
+      description: "Développement de plateformes e-commerce performantes pour les commerçants et entrepreneurs franciliens. Des boutiques en ligne sécurisées qui maximisent vos conversions et étendent votre zone de chalandise au-delà de votre implantation physique.",
       features: [
-        "Interface utilisateur intuitive et attrayante",
-        "Gestion simplifiée des produits et des stocks",
+        "Interface utilisateur intuitive et parcours d'achat optimisé",
+        "Gestion efficace des produits, stocks et commandes",
         "Solutions de paiement sécurisées et options de livraison adaptées",
-        "Stratégies d'optimisation des conversions"
+        "Stratégies marketing pour augmenter vos conversions"
       ]
     },
     {
       icon: "📱",
       title: "Applications Web & Plateformes",
-      description: "Création d'applications web et plateformes sur-mesure pour mettre en ligne vos services et optimiser vos processus métier à La Ciotat et dans les Bouches-du-Rhône.",
+      description: "Création d'applications web et plateformes innovantes pour digitaliser vos services et optimiser vos processus métier dans toute la région Île-de-France, de Paris à la grande couronne.",
       features: [
-        "Développement full-stack avec technologies modernes",
+        "Développement full-stack avec technologies de pointe",
         "Interfaces utilisateurs intuitives et performantes",
-        "Systèmes sécurisés et évolutifs",
-        "Intégration avec vos outils existants"
+        "Architecture évolutive et sécurisée",
+        "Intégration avec vos systèmes d'information existants"
       ]
     },
     {
       icon: "🔍",
-      title: "SEO & Visibilité Locale",
-      description: "Stratégies d'optimisation du référencement naturel pour améliorer votre visibilité sur Google à La Ciotat. Attirez davantage de clients locaux grâce à un SEO ciblé et efficace.",
+      title: "SEO & Visibilité Régionale",
+      description: "Optimisation du référencement naturel pour améliorer votre visibilité sur Google dans toute l'Île-de-France. Attirez davantage de clients locaux grâce à une stratégie SEO ciblée sur la région francilienne.",
       features: [
-        "Stratégie SEO locale ciblée sur La Ciotat",
-        "Optimisation Google My Business",
-        "Création de contenu pertinent pour votre marché local",
-        "Suivi et amélioration continue des performances"
+        "Stratégie SEO locale adaptée aux différents territoires franciliens",
+        "Optimisation Google My Business pour chaque établissement",
+        "Création de contenu pertinent pour votre marché régional",
+        "Analyse et amélioration continue des performances"
       ]
     }
   ]
 
   const localAdvantages = [
     {
-      title: "Compréhension du Marché Ciotaden",
-      description: "Bien que basé à Nice, j'ai développé une connaissance approfondie du marché web ciotaden et de ses spécificités maritimes et touristiques. Cette compréhension me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs locaux et aux particularités économiques de La Ciotat et sa région."
+      title: "Compréhension du Marché Francilien",
+      description: "Ma connaissance approfondie du marché web francilien et de ses spécificités me permet de créer des solutions parfaitement adaptées aux attentes des utilisateurs de la région. Je comprends les particularités des différents territoires d'Île-de-France et les opportunités numériques qu'ils présentent."
     },
     {
-      title: "Accompagnement Personnalisé & Réactivité",
-      description: "En tant que développeur web freelance, je vous offre un accompagnement sur-mesure et une communication directe tout au long de votre projet. Cette relation privilégiée garantit une meilleure compréhension de vos besoins et une adaptation rapide aux évolutions de votre projet web."
+      title: "Collaboration à Distance Efficace",
+      description: "En tant que développeur web freelance basé à Nice travaillant pour l'Île-de-France, je vous propose un accompagnement personnalisé grâce à une méthodologie de travail à distance éprouvée. Cette approche garantit une communication fluide et une parfaite adéquation entre votre vision et la solution développée."
     },
     {
-      title: "Solutions Sur-Mesure pour Entreprises Ciotadennes",
-      description: "Chaque entreprise ciotadenne a ses propres défis et objectifs. C'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément à vos besoins spécifiques, vous permettant de vous démarquer efficacement dans le paysage concurrentiel local."
+      title: "Solutions Sur-Mesure pour Entreprises Franciliennes",
+      description: "Chaque entreprise francilienne a ses propres défis et objectifs. C'est pourquoi je développe des solutions entièrement personnalisées qui répondent précisément à vos besoins spécifiques et vous permettent de vous démarquer dans un marché régional hautement compétitif."
     },
     {
-      title: "Support Technique & Maintenance à Distance",
-      description: "Je vous propose un support technique réactif et une maintenance régulière de votre site ou application. Grâce aux outils de collaboration à distance, je peux intervenir rapidement pour résoudre tout problème technique ou former votre équipe à l'utilisation optimale de votre solution web."
+      title: "Support Technique & Maintenance Continue",
+      description: "Je vous offre un support technique réactif et une maintenance continue de votre site ou application, quelle que soit votre localisation en Île-de-France. Grâce aux technologies de maintenance à distance, je peux intervenir rapidement pour résoudre tout problème technique ou faire évoluer votre solution web."
     }
   ]
 
-  const ciotatBusinessSectors = [
-    {
-      icon: "⚓",
-      title: "Tourisme & Activités Nautiques",
-      description: "Solutions web pour les professionnels du tourisme et des activités nautiques de La Ciotat. Sites vitrines et applications optimisés pour valoriser vos offres touristiques, avec systèmes de réservation en ligne et présentation attractive de vos services maritimes."
-    },
-    {
-      icon: "🏪",
-      title: "Commerce & Artisanat Local",
-      description: "Sites web et e-commerce pour les commerçants et artisans ciotadens. Solutions web adaptées pour valoriser vos produits et services, avec fonctionnalités de vente en ligne et stratégies de fidélisation de la clientèle locale."
-    },
-    {
-      icon: "🍽️",
-      title: "Restauration & Hôtellerie",
-      description: "Plateformes web pour restaurants, hôtels et établissements d'hébergement de La Ciotat. Solutions adaptées pour mettre en valeur votre offre gastronomique et d'hébergement, avec systèmes de réservation et présentation attractive de vos services."
-    },
+  const idfBusinessSectors = [
     {
       icon: "🏢",
-      title: "Services & Professions Libérales",
-      description: "Présence web efficace pour les prestataires de services et professions libérales à La Ciotat. Sites et applications permettant de valoriser votre expertise et vos services, avec fonctionnalités de prise de rendez-vous et présentation détaillée de vos prestations."
+      title: "Tech & Innovation",
+      description: "Solutions web pour startups, scale-ups et entreprises tech de l'Île-de-France. Applications et plateformes innovantes pour concrétiser vos concepts disruptifs et accélérer votre croissance dans les pôles d'innovation franciliens comme Paris-Saclay, Station F ou La Défense."
+    },
+    {
+      icon: "🏭",
+      title: "Grands Groupes & Institutions",
+      description: "Présence web efficace pour grands groupes, institutions et administrations franciliennes. Sites et applications conçus pour répondre aux exigences spécifiques des grandes organisations, avec une attention particulière à la sécurité et à l'évolutivité."
+    },
+    {
+      icon: "🛍️",
+      title: "Commerce & Services",
+      description: "Sites web et applications pour commerces, artisans et prestataires de services en Île-de-France. Solutions optimisées pour attirer une clientèle locale, avec géolocalisation et fonctionnalités adaptées à la densité commerciale francilienne."
+    },
+    {
+      icon: "🎓",
+      title: "Éducation & Recherche",
+      description: "Plateformes web pour établissements d'enseignement, laboratoires et centres de recherche franciliens. Solutions permettant de valoriser vos programmes, travaux de recherche et d'améliorer l'expérience numérique de vos étudiants et chercheurs."
     }
   ]
 
   const workProcess = [
     {
       number: "01",
-      title: "Consultation & Analyse",
-      description: "Je débute par une analyse approfondie de votre activité, vos objectifs et le contexte ciotaden dans lequel vous évoluez. Cette phase essentielle me permet d'identifier les solutions les plus adaptées à votre projet et à votre marché local."
+      title: "Analyse & Découverte",
+      description: "Je commence par une analyse approfondie de votre activité, vos objectifs et vos besoins spécifiques. Cette phase d'étude me permet d'identifier les solutions les plus adaptées à votre projet et au contexte francilien, même à distance."
     },
     {
       number: "02",
-      title: "Conception & Prototypage",
-      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision et aux attentes de votre clientèle ciotadenne."
+      title: "Stratégie & Conception",
+      description: "J'élabore une stratégie web personnalisée et crée des maquettes détaillées de votre site ou application. Nous collaborons étroitement via visioconférence pour affiner le design et les fonctionnalités jusqu'à ce qu'ils correspondent parfaitement à votre vision."
     },
     {
       number: "03",
       title: "Développement & Intégration",
-      description: "Je développe votre solution avec les technologies les plus appropriées, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement codée et testée pour garantir performance, sécurité et fiabilité."
+      description: "Je développe votre solution avec les technologies les plus adaptées à vos besoins, en respectant les standards du web et les meilleures pratiques. Chaque fonctionnalité est soigneusement codée et testée pour garantir performance et fiabilité."
     },
     {
       number: "04",
       title: "Tests & Optimisation",
-      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs ciotadens."
+      description: "Votre site ou application est rigoureusement testé sur différents appareils et navigateurs. J'optimise les performances, la vitesse de chargement et le référencement local pour maximiser votre visibilité auprès des utilisateurs franciliens."
     },
     {
       number: "05",
-      title: "Déploiement & Formation",
-      description: "Après la mise en ligne, je reste à votre disposition pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à l'évolution de vos besoins et du marché ciotaden."
+      title: "Déploiement & Accompagnement",
+      description: "Après le lancement, je reste à vos côtés pour vous former à l'utilisation de votre solution et vous accompagner dans son évolution. Je propose des services de maintenance et d'amélioration continue pour adapter votre présence web à vos besoins futurs."
     }
   ]
 
-  const ciotatDigitalStats = [
+  const idfDigitalStats = [
     {
-      figure: "82%",
-      description: "des consommateurs à La Ciotat recherchent des entreprises locales en ligne avant de faire un achat"
+      figure: "92%",
+      description: "des consommateurs en Île-de-France recherchent des entreprises locales en ligne avant de faire un achat"
+    },
+    {
+      figure: "79%",
+      description: "des recherches locales sur mobile en Île-de-France aboutissent à une visite en magasin dans les 24 heures"
     },
     {
       figure: "75%",
-      description: "des recherches locales sur mobile à La Ciotat aboutissent à une visite en magasin dans les 24 heures"
+      description: "des entreprises franciliennes considèrent que leur site web est crucial pour leur développement commercial"
     },
     {
-      figure: "65%",
-      description: "des entreprises ciotadennes considèrent que leur site web est essentiel pour leur développement commercial"
-    },
-    {
-      figure: "92%",
-      description: "des utilisateurs à La Ciotat forment leur première impression d'une entreprise à partir de son site web"
+      figure: "95%",
+      description: "des utilisateurs en Île-de-France forment leur première impression d'une entreprise à partir de son site web"
     }
   ]
 
@@ -208,21 +208,21 @@ export default function DeveloppeurWebLaCiotatPage() {
             <Breadcrumb 
               items={[
                 { label: 'Accueil', href: '/' },
-                { label: 'Développeur Web Freelance pour La Ciotat', href: '/developpeur-web-la-ciotat', current: true }
+                { label: 'Développeur Web Freelance pour l\'Île-de-France', href: '/developpeur-web-ile-de-france', current: true }
               ]} 
             />
             
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">La Ciotat</span>
+                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">l'Île-de-France</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications
                 </h2>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Développeur web freelance basé à Nice proposant mes services pour <strong>La Ciotat</strong>, je conçois des sites web et applications sur-mesure pour les entreprises et professionnels ciotadens. Expertise technique, solutions personnalisées et accompagnement à distance pour donner vie à votre projet web.
+                  Développeur web freelance basé à <strong>Nice</strong> proposant mes services aux entreprises franciliennes. Je conçois des sites web et applications sur-mesure avec une expertise technique pointue et un accompagnement personnalisé pour votre projet web, que vous soyez à Paris ou dans toute la région Île-de-France.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
@@ -236,7 +236,7 @@ export default function DeveloppeurWebLaCiotatPage() {
                     href="#services"
                     className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 border-blue-600 text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 transform hover:-translate-y-0.5"
                   >
-                    Découvrir mes services
+                    Explorer mes services
                   </Link>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default function DeveloppeurWebLaCiotatPage() {
                     <div className="rounded-full overflow-hidden w-48 h-48 sm:w-40 sm:h-40 lg:w-48 lg:h-48">
                       <OptimizedImage
                         src="/photo_close.jpg"
-                        alt="Killian DOUBRE - Développeur Web Freelance pour La Ciotat"
+                        alt="Killian DOUBRE - Développeur Web Freelance pour l'Île-de-France"
                         width={256}
                         height={256}
                         priority
@@ -276,8 +276,8 @@ export default function DeveloppeurWebLaCiotatPage() {
                         </div>
                         <div className="bg-blue-50 p-4 rounded-lg text-center">
                           <div className="text-3xl mb-2">🔍</div>
-                          <h3 className="font-semibold text-gray-900">SEO Local</h3>
-                          <p className="text-sm text-gray-600">La Ciotat</p>
+                          <h3 className="font-semibold text-gray-900">SEO Régional</h3>
+                          <p className="text-sm text-gray-600">Île-de-France</p>
                         </div>
                       </div>
                     </div>
@@ -293,11 +293,11 @@ export default function DeveloppeurWebLaCiotatPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Services de Développement Web pour La Ciotat
+                Services de Développement Web pour l'Île-de-France
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je propose une gamme complète de services de développement web adaptés aux besoins des entreprises ciotadennes.
-                Chaque solution est conçue sur-mesure pour répondre à vos objectifs spécifiques et renforcer votre présence web sur le marché local.
+                J'offre une gamme complète de services de développement web pour les entreprises et professionnels franciliens.
+                Chaque solution est élaborée sur-mesure pour répondre à vos exigences spécifiques et vous démarquer sur le marché régional.
               </p>
             </div>
             
@@ -327,20 +327,20 @@ export default function DeveloppeurWebLaCiotatPage() {
           </div>
         </section>
 
-        {/* Secteurs d'activité à La Ciotat Section */}
+        {/* Secteurs d'activité en Île-de-France Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Solutions Adaptées aux Entreprises Ciotadennes
+                Solutions Adaptées aux Entreprises Franciliennes
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je développe des solutions web sur-mesure pour différents secteurs d'activité à La Ciotat et sa région côtière.
+                Je développe des solutions web sur-mesure pour différents secteurs d'activité dans toute l'Île-de-France, de Paris à la grande couronne.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {ciotatBusinessSectors.map((sector, index) => (
+              {idfBusinessSectors.map((sector, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                   <div className="text-3xl mb-4">{sector.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -360,15 +360,15 @@ export default function DeveloppeurWebLaCiotatPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                L'Importance du Web à La Ciotat
+                L'Importance du Web en Île-de-France
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises ciotadennes.
+                Quelques chiffres qui démontrent l'importance d'une présence web professionnelle pour les entreprises franciliennes.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {ciotatDigitalStats.map((stat, index) => (
+              {idfDigitalStats.map((stat, index) => (
                 <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-4">{stat.figure}</div>
                   <p className="text-gray-700">{stat.description}</p>
@@ -385,10 +385,7 @@ export default function DeveloppeurWebLaCiotatPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi me choisir pour votre projet web ?
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Collaborer avec moi offre de nombreux avantages pour votre projet web à La Ciotat.
-              </p>
-            </div>
+                          </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {localAdvantages.map((advantage, index) => (
@@ -413,7 +410,7 @@ export default function DeveloppeurWebLaCiotatPage() {
                 Mon Processus de Développement
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Une approche méthodique et collaborative pour transformer votre vision en une solution web performante.
+                Une approche structurée et collaborative pour transformer votre vision en une solution web performante, même à distance.
               </p>
             </div>
             
@@ -440,15 +437,15 @@ export default function DeveloppeurWebLaCiotatPage() {
           </div>
         </section>
 
-        {/* La Ciotat Web Development Section */}
+        {/* Île-de-France Web Development Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Développement Web pour La Ciotat : Expertise Adaptée
+                Développement Web pour l'Île-de-France : Expertise Régionale
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                En tant que développeur web proposant mes services pour La Ciotat, je comprends les spécificités du marché local et les besoins des entreprises de cette ville côtière.
+                En tant que développeur web proposant mes services aux entreprises franciliennes, je comprends les spécificités du marché régional et les besoins des entreprises dans les différents territoires d'Île-de-France.
               </p>
             </div>
             
@@ -456,32 +453,32 @@ export default function DeveloppeurWebLaCiotatPage() {
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🌐</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Présence Web Locale
+                  Présence Web Régionale
                 </h3>
                 <p className="text-gray-600">
-                  Une présence web optimisée pour le marché ciotaden vous permet d'attirer des clients locaux et de vous démarquer de la concurrence. 
-                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage à La Ciotat.
+                  Une présence web optimisée pour le marché francilien vous permet d'attirer des clients locaux et de vous démarquer dans un environnement hautement compétitif. 
+                  Je développe des sites web qui ciblent spécifiquement les recherches locales et mettent en valeur votre ancrage territorial, que vous soyez à Paris, en petite ou grande couronne.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">🤝</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Collaboration Efficace à Distance
+                  Collaboration à Distance Efficace
                 </h3>
                 <p className="text-gray-600">
-                  Grâce aux outils de collaboration modernes, je vous propose un accompagnement efficace à distance depuis Nice. Visioconférences, partage d'écran et communication régulière permettent de mener à bien votre projet web avec la même qualité qu'en présentiel.
+                  Grâce aux outils de communication modernes, la distance n'est plus un obstacle. Je vous offre une collaboration fluide et efficace, avec des points réguliers par visioconférence et un suivi transparent de l'avancement de votre projet, quel que soit votre emplacement en Île-de-France.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="text-3xl mb-4">📈</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  Croissance Web à La Ciotat
+                  Croissance Web en Île-de-France
                 </h3>
                 <p className="text-gray-600">
-                  Le marché web ciotaden offre d'importantes opportunités de développement pour les entreprises locales. 
-                  Un site web ou une application performante vous permet d'atteindre de nouveaux clients et d'étendre votre activité dans la région de La Ciotat et des Bouches-du-Rhône.
+                  Le marché web francilien, premier bassin économique français, offre d'immenses opportunités de croissance pour les entreprises locales. 
+                  Un site web ou une application performante vous permet de toucher de nouveaux clients et d'étendre votre activité dans toute la région et au-delà.
                 </p>
               </div>
             </div>

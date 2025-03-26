@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Strasbourg | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Strasbourg spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées et accompagnement personnalisé pour votre projet web.',
-  keywords: ['développeur web Strasbourg', 'création site web Strasbourg', 'freelance web Strasbourg', 'développeur Strasbourg', 'site internet Strasbourg', 'création site e-commerce Strasbourg', 'développeur application web Strasbourg', 'agence web Strasbourg', 'refonte site web Strasbourg'],
+  title: 'Développeur Web Strasbourg | Développeur de Sites & Applications | Europe & Institutions',
+  description: 'Création de sites web et applications pour entreprises strasbourgeoises dans les secteurs institutions européennes, transfrontalier, éducation et recherche. Solutions digitales multilingues adaptées au Grand Est avec expertise en projets internationaux.',
+  keywords: ['développeur web Strasbourg', 'création site web Strasbourg', 'freelance web Strasbourg', 'site internet institutions Strasbourg', 'création site e-commerce Grand Est', 'développeur application transfrontalière', 'site web multilingue Strasbourg', 'développeur européen Strasbourg', 'SEO local Strasbourg'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-strasbourg',
   },
   openGraph: {
-    title: 'Développeur Web à Strasbourg | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Strasbourg spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Strasbourg | Développeur de Sites & Applications | Europe & Institutions',
+    description: 'Création de sites web et applications pour entreprises strasbourgeoises dans les secteurs institutions européennes, transfrontalier, éducation et recherche. Solutions digitales multilingues adaptées au Grand Est avec expertise en projets internationaux.',
     url: 'https://killiandoubre.com/developpeur-web-strasbourg',
   }
 }

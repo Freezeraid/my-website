@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Toulouse | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice proposant ses services à Toulouse. Création de sites web, e-commerce et applications sur-mesure avec expertise technique et accompagnement personnalisé.',
-  keywords: ['développeur web Toulouse', 'création site web Toulouse', 'freelance web Toulouse', 'développeur Toulouse', 'site internet Toulouse', 'création site e-commerce Toulouse', 'développeur application web Toulouse', 'agence web Toulouse', 'refonte site web Toulouse'],
+  title: 'Développeur Web Toulouse | Création de Solutions Web | Aéronautique & Spatial',
+  description: 'Création de sites web et applications pour entreprises toulousaines dans les secteurs aéronautique, spatial, innovation et French Tech. Solutions digitales adaptées à la ville rose avec expertise technique pour startups et industries de pointe.',
+  keywords: ['développeur web Toulouse', 'création site web Toulouse', 'freelance web Toulouse', 'site internet aéronautique Toulouse', 'création site e-commerce Occitanie', 'développeur application spatial', 'site web French Tech Toulouse', 'développeur startup Toulouse', 'SEO local Toulouse'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-toulouse',
   },
   openGraph: {
-    title: 'Développeur Web à Toulouse | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice proposant ses services à Toulouse. Création de sites web, e-commerce et applications sur-mesure avec expertise technique et accompagnement personnalisé.',
+    title: 'Développeur Web Toulouse | Création de Solutions Web | Aéronautique & Spatial',
+    description: 'Création de sites web et applications pour entreprises toulousaines dans les secteurs aéronautique, spatial, innovation et French Tech. Solutions digitales adaptées à la ville rose avec expertise technique pour startups et industries de pointe.',
     url: 'https://killiandoubre.com/developpeur-web-toulouse',
   }
 }

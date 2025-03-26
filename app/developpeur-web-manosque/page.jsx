@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Manosque | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance à Manosque spécialisé en création de sites web, e-commerce et applications. Solutions Web adaptées aux entreprises et commerces manosquins, avec accompagnement personnalisé.',
+  title: 'Développeur Web Manosque | Solutions Digitales Luberon | Expert Freelance',
+  description: 'Création de sites web et applications sur-mesure pour les entreprises de Manosque. Expertise en développement digital adapté aux spécificités du marché local, valorisation des produits du terroir et optimisation SEO pour une visibilité maximale dans le Luberon.',
   keywords: ['développeur web Manosque', 'création site web Manosque', 'freelance web Manosque', 'développeur 04', 'site internet Manosque', 'création site e-commerce Manosque', 'développeur application web Manosque', 'agence web Manosque', 'refonte site web Manosque'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-manosque',

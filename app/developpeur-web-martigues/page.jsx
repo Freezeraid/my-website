@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Martigues | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Martigues spécialisé dans la création de sites web, e-commerce et applications. Solutions web personnalisées pour entreprises martégales avec accompagnement à distance et expertise technique.',
+  title: 'Développeur Web Martigues | Solutions Digitales Maritimes | Expert Portuaire',
+  description: 'Création de sites web et applications spécialisés pour les entreprises de Martigues. Expertise en développement numérique adapté au secteur maritime, industriel et touristique local, avec interfaces modernes et optimisation SEO pour valoriser votre activité professionnelle.',
   keywords: ['développeur web Martigues', 'création site web Martigues', 'freelance web Martigues', 'développeur Martigues', 'site internet Martigues', 'création site e-commerce Martigues', 'développeur application web Martigues', 'agence web Martigues', 'refonte site web Martigues'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-martigues',

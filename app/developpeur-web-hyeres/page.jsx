@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Hyères | Création Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Hyères spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et professionnels du Var.',
+  title: 'Développeur Web Hyères | Solutions Digitales Tourisme & Littoral',
+  description: 'Création de sites web et applications pour entreprises hyéroises. Expertise numérique dédiée aux établissements touristiques, commerces locaux et producteurs avec stratégies de visibilité adaptées à la saisonnalité méditerranéenne.',
   keywords: ['développeur web Hyères', 'création site web Hyères', 'freelance web Hyères', 'développeur Hyères', 'site internet Hyères', 'création site e-commerce Hyères', 'développeur application web Hyères', 'agence web Hyères', 'refonte site web Hyères'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-hyeres',
   },
   openGraph: {
-    title: 'Développeur Web à Hyères | Création Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Hyères spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et professionnels du Var.',
+    title: 'Développeur Web Hyères | Solutions Digitales Tourisme & Littoral',
+    description: 'Création de sites web et applications pour entreprises hyéroises. Expertise numérique dédiée aux établissements touristiques, commerces locaux et producteurs avec stratégies de visibilité adaptées à la saisonnalité méditerranéenne.',
     url: 'https://killiandoubre.com/developpeur-web-hyeres',
   }
 }

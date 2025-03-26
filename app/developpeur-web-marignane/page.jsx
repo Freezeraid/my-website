@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Marignane | Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Marignane spécialisé dans la création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises marignanaises avec accompagnement à distance et expertise technique.',
+  title: 'Développeur Web Marignane | Solutions Digitales Aéronautiques | Expert Web',
+  description: 'Création de sites web et applications dédiés aux entreprises de Marignane. Expertise en développement numérique adapté au secteur aéronautique et industriel local, avec optimisation SEO ciblée et interfaces modernes pour valoriser votre activité professionnelle.',
   keywords: ['développeur web Marignane', 'création site web Marignane', 'freelance web Marignane', 'développeur Marignane', 'site internet Marignane', 'création site e-commerce Marignane', 'développeur application web Marignane', 'agence web Marignane', 'refonte site web Marignane'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-marignane',

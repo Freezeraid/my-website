@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Rennes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Rennes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise technique et accompagnement personnalisé pour votre projet web.',
+  title: 'Développeur Web Rennes | Solutions Digitales pour Entreprises Bretonnes',
+  description: 'Création de sites web et applications adaptés au marché rennais. Développeur freelance proposant des solutions digitales sur-mesure pour les entreprises technologiques, éducatives et commerciales de la métropole bretonne.',
   keywords: ['développeur web Rennes', 'création site web Rennes', 'freelance web Rennes', 'développeur Rennes', 'site internet Rennes', 'création site e-commerce Rennes', 'développeur application web Rennes', 'agence web Rennes', 'refonte site web Rennes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-rennes',
   },
   openGraph: {
-    title: 'Développeur Web à Rennes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Rennes spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise technique et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Rennes | Solutions Digitales pour Entreprises Bretonnes',
+    description: 'Création de sites web et applications adaptés au marché rennais. Développeur freelance proposant des solutions digitales sur-mesure pour les entreprises technologiques, éducatives et commerciales de la métropole bretonne.',
     url: 'https://killiandoubre.com/developpeur-web-rennes',
   }
 }

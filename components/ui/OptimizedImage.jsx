@@ -48,7 +48,7 @@ function OptimizedImage({
       <Image
         src={src}
         alt={alt}
-        title={getImageTitle()}
+        title={alt}
         sizes={sizes}
         quality={quality}
         loading={priority ? 'eager' : loading}

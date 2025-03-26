@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web.',
-  keywords: ['développeur web Nice', 'création site web Nice', 'freelance web Nice', 'développeur Nice', 'site internet Nice', 'création site e-commerce Nice', 'développeur application web Nice', 'agence web Nice', 'refonte site web Nice'],
+  title: 'Développeur Web Nice | Expert Sites & Applications | Freelance Côte d\'Azur',
+  description: 'Développeur web freelance à Nice créant des sites et applications sur-mesure pour entreprises locales. Expertise technique, connaissance du marché niçois et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
+  keywords: ['développeur web Nice', 'création site web Nice', 'freelance web Nice', 'développeur Nice', 'site internet Nice', 'création site e-commerce Nice', 'développeur application web Nice', 'expert web Côte d\'Azur', 'développeur full-stack Nice'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-nice',
   },
   openGraph: {
-    title: 'Développeur Web à Nice | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance à Nice spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Nice | Expert Sites & Applications | Freelance Côte d\'Azur',
+    description: 'Développeur web freelance à Nice créant des sites et applications sur-mesure pour entreprises locales. Expertise technique, connaissance du marché niçois et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
     url: 'https://killiandoubre.com/developpeur-web-nice',
   }
 }

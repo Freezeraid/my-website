@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Lyon | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance basé à Nice proposant ses services à Lyon. Création de sites web, e-commerce et applications sur-mesure avec accompagnement personnalisé et expertise technique.',
-  keywords: ['développeur web Lyon', 'création site web Lyon', 'freelance web Lyon', 'développeur Lyon', 'site internet Lyon', 'création site e-commerce Lyon', 'développeur application web Lyon', 'agence web Lyon', 'refonte site web Lyon'],
+  title: 'Développeur Web Lyon | Création de Sites Web | Industrie & Gastronomie',
+  description: 'Création de sites web et applications pour entreprises lyonnaises dans les secteurs industrie, gastronomie, innovation et formation. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
+  keywords: ['développeur web Lyon', 'création site web Lyon', 'freelance web Lyon', 'site internet industrie Lyon', 'création site e-commerce Lyon', 'développeur application startup Lyon', 'site web gastronomie Lyon', 'développeur formation Lyon', 'SEO local Lyon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-lyon',
   },
   openGraph: {
-    title: 'Développeur Web à Lyon | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance basé à Nice proposant ses services à Lyon. Création de sites web, e-commerce et applications sur-mesure avec accompagnement personnalisé et expertise technique.',
+    title: 'Développeur Web Lyon | Création de Sites Web | Industrie & Gastronomie',
+    description: 'Création de sites web et applications pour entreprises lyonnaises dans les secteurs industrie, gastronomie, innovation et formation. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
     url: 'https://killiandoubre.com/developpeur-web-lyon',
   }
 }

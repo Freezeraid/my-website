@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Montpellier | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Montpellier spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre projet web.',
-  keywords: ['développeur web Montpellier', 'création site web Montpellier', 'freelance web Montpellier', 'développeur Montpellier', 'site internet Montpellier', 'création site e-commerce Montpellier', 'développeur application web Montpellier', 'agence web Montpellier', 'refonte site web Montpellier'],
+  title: 'Développeur Web Montpellier | Création de Solutions Web | Santé & Innovation',
+  description: 'Création de sites web et applications pour entreprises montpelliéraines dans les secteurs santé, biotechnologies, startups et environnement. Solutions digitales innovantes adaptées à l\'écosystème tech de Montpellier et l\'Occitanie.',
+  keywords: ['développeur web Montpellier', 'création site web Montpellier', 'freelance web Montpellier', 'site internet santé Montpellier', 'création site e-commerce Occitanie', 'développeur application biotech', 'site web startup Montpellier', 'développeur environnement Montpellier', 'SEO local Montpellier'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-montpellier',
   },
   openGraph: {
-    title: 'Développeur Web à Montpellier | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Montpellier spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre projet web.',
+    title: 'Développeur Web Montpellier | Création de Solutions Web | Santé & Innovation',
+    description: 'Création de sites web et applications pour entreprises montpelliéraines dans les secteurs santé, biotechnologies, startups et environnement. Solutions digitales innovantes adaptées à l\'écosystème tech de Montpellier et l\'Occitanie.',
     url: 'https://killiandoubre.com/developpeur-web-montpellier',
   }
 }

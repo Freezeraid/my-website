@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Fréjus | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance pour Fréjus spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Var.',
+  title: 'Développeur Web Fréjus | Solutions Digitales Tourisme & Nautisme',
+  description: 'Création de sites web et applications pour entreprises fréjusiennes. Expertise numérique dédiée aux établissements touristiques, activités nautiques et commerces locaux avec stratégies de visibilité adaptées à la saisonnalité.',
   keywords: ['développeur web Fréjus', 'création site web Fréjus', 'freelance web Fréjus', 'développeur Fréjus', 'site internet Fréjus', 'création site e-commerce Fréjus', 'développeur application web Fréjus', 'agence web Fréjus', 'refonte site web Var'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-frejus',
   },
   openGraph: {
-    title: 'Développeur Web à Fréjus | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Fréjus spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise dans le Var.',
+    title: 'Développeur Web Fréjus | Solutions Digitales Tourisme & Nautisme',
+    description: 'Création de sites web et applications pour entreprises fréjusiennes. Expertise numérique dédiée aux établissements touristiques, activités nautiques et commerces locaux avec stratégies de visibilité adaptées à la saisonnalité.',
     url: 'https://killiandoubre.com/developpeur-web-frejus',
   }
 }

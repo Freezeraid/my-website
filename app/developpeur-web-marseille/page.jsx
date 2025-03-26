@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Marseille | Création Sites & Applications | Freelance',
-  description: 'Développeur web freelance pour Marseille spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises marseillaises avec expertise technique et accompagnement personnalisé.',
-  keywords: ['développeur web Marseille', 'création site web Marseille', 'freelance web Marseille', 'développeur Marseille', 'site internet Marseille', 'création site e-commerce Marseille', 'développeur application web Marseille', 'agence web Marseille', 'refonte site web Marseille'],
+  title: 'Développeur Web Marseille | Création de Sites & Applications | Secteur Maritime & Urbain',
+  description: 'Création de sites web et applications pour entreprises marseillaises dans les secteurs maritime, portuaire, commerce urbain et startups. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
+  keywords: ['développeur web Marseille', 'création site web Marseille', 'freelance web Marseille', 'site internet secteur maritime', 'création site e-commerce Marseille', 'développeur application portuaire', 'site web commerce urbain Marseille', 'développeur startup Marseille', 'SEO local Marseille'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-marseille',
   },
   openGraph: {
-    title: 'Développeur Web à Marseille | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance pour Marseille spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure pour entreprises marseillaises avec expertise technique et accompagnement personnalisé.',
+    title: 'Développeur Web Marseille | Création de Sites & Applications | Secteur Maritime & Urbain',
+    description: 'Création de sites web et applications pour entreprises marseillaises dans les secteurs maritime, portuaire, commerce urbain et startups. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
     url: 'https://killiandoubre.com/developpeur-web-marseille',
   }
 }

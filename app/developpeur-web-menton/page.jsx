@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web à Menton | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance à Menton spécialisé en création de sites web, e-commerce et applications. Services sur-mesure, expertise locale et accompagnement personnalisé pour votre projet web dans les Alpes-Maritimes.',
+  title: 'Développeur Web Menton | Solutions Digitales Transfrontalières | Expert Franco-Italien',
+  description: 'Création de sites web et applications bilingues pour les entreprises de Menton. Expertise en développement numérique adapté au contexte transfrontalier, avec interfaces modernes valorisant les produits locaux et optimisation SEO ciblée pour la visibilité franco-italienne.',
   keywords: ['développeur web Menton', 'création site web Menton', 'freelance web Menton', 'développeur Menton', 'site internet Menton', 'création site e-commerce Menton', 'développeur application web Menton', 'agence web Menton', 'refonte site web Alpes-Maritimes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-menton',

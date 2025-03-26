@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web dans les Alpes-Maritimes | Création de Sites Web & Applications | Freelance',
-  description: 'Développeur web freelance dans les Alpes-Maritimes (06) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+  title: 'Développeur Web Alpes-Maritimes | Solutions Digitales Côte d\'Azur & Tech',
+  description: 'Création de sites web et applications pour entreprises du 06 - de la technopole de Sophia Antipolis au tourisme azuréen. Expertise en développement digital adapté aux secteurs innovants et luxe de la Côte d\'Azur.',
   keywords: ['développeur web Alpes-Maritimes', 'création site web 06', 'freelance web Alpes-Maritimes', 'développeur 06', 'site internet Alpes-Maritimes', 'création site e-commerce 06', 'développeur application web Alpes-Maritimes', 'agence web 06', 'refonte site web Alpes-Maritimes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-alpes-maritimes',
   },
   openGraph: {
-    title: 'Développeur Web dans les Alpes-Maritimes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance dans les Alpes-Maritimes (06) spécialisé en création de sites web, e-commerce et applications. Solutions web innovantes et accompagnement personnalisé pour votre entreprise.',
+    title: 'Développeur Web Alpes-Maritimes | Solutions Digitales Côte d\'Azur & Tech',
+    description: 'Création de sites web et applications pour entreprises du 06 - de la technopole de Sophia Antipolis au tourisme azuréen. Expertise en développement digital adapté aux secteurs innovants et luxe de la Côte d\'Azur.',
     url: 'https://killiandoubre.com/developpeur-web-alpes-maritimes',
   }
 }
