@@ -332,51 +332,14 @@ export default function DeveloppementWebFullStackPage() {
           </div>
         </section>
 
-        {/* Technologies Section */}
-        <section className="py-24 bg-gradient-to-b from-white to-blue-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Technologies Maîtrisées
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Je maîtrise un large éventail de technologies modernes pour développer des applications web performantes et évolutives.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {technologies.map((tech, index) => (
-                <div key={index} className="bg-white p-8 rounded-xl shadow-md">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-6">
-                    {tech.category}
-                  </h3>
-                  <div className="space-y-4">
-                    {tech.items.map((item, idx) => (
-                      <div key={idx}>
-                        <p className="font-medium text-gray-800 mb-1">{item.name}</p>
-                        <p className="text-gray-600 text-sm">
-                          {item.description}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Avantages Section */}
+                {/* Avantages Section */}
         <section className="py-24 bg-gradient-to-b from-blue-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi me choisir pour le développement de votre application Full-Stack ?
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec un moi offre de nombreux avantages pour votre projet d'application web.
-              </p>
-            </div>
+                          </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {freelanceAdvantages.map((advantage, index) => (
@@ -544,26 +507,7 @@ export default function DeveloppementWebFullStackPage() {
           </div>
         </section> */}
 
-        {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Développer Votre Projet Web ?
-            </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet de développement web et obtenir un devis personnalisé. 
-              Ensemble, transformons votre vision en une application web performante et évolutive.
-            </p>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-            >
-              Obtenez votre devis gratuitement !
-            </Link>
-          </div>
-        </section>
-
-        {/* Contact Section */}
+                {/* Contact Section */}
         <Suspense fallback={<Loading />}>
           <Contact />
         </Suspense>

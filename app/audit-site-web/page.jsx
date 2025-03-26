@@ -502,26 +502,7 @@ export default function AuditSiteWebPage() {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Améliorer les Performances de Votre Site Web ?
-            </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet d'audit et découvrir comment je peux vous aider à optimiser 
-              la vitesse de chargement et le référencement de votre site web.
-            </p>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-            >
-              Demander un audit
-            </Link>
-          </div>
-        </section>
-
-        {/* Contact Section */}
+                {/* Contact Section */}
         <Suspense fallback={<Loading />}>
           <Contact />
         </Suspense>

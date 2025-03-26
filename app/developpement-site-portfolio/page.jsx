@@ -296,10 +296,7 @@ export default function SitePortfolioPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 Pourquoi me choisir pour le développement de votre Portfolio en ligne ?
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Travailler avec moi offre de nombreux avantages pour votre projet de portfolio.
-              </p>
-            </div>
+                          </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {freelanceAdvantages.map((advantage, index) => (
@@ -541,26 +538,7 @@ export default function SitePortfolioPage() {
           </div>
         </section> */}
 
-        {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Prêt à Créer Votre Portfolio ?
-            </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Contactez-moi dès aujourd'hui pour discuter de votre projet de portfolio et obtenir un devis personnalisé. 
-              Ensemble, créons un portfolio qui met en valeur votre talent et attire de nouvelles opportunités.
-            </p>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-blue-600 font-medium hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-            >
-              Obtenez votre devis gratuitement !
-            </Link>
-          </div>
-        </section>
-
-        {/* Contact Section */}
+                {/* Contact Section */}
         <Suspense fallback={<Loading />}>
           <Contact />
         </Suspense>
