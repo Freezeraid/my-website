@@ -7,13 +7,12 @@ import ClientFooter from '../components/ui/ClientFooter'
 import ClientAnalytics from '../components/ui/ClientAnalytics'
 import { generateHomePageSchemas } from '../lib/schema'
 
-// Optimisation du chargement des polices
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
-  preload: true, // Préchargement de la police pour améliorer les performances
-  fallback: ['system-ui', 'sans-serif'] // Police de secours pendant le chargement
+  preload: true,
+  fallback: ['system-ui', 'sans-serif']
 })
 
 const poppins = Poppins({
@@ -21,8 +20,8 @@ const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-poppins',
-  preload: true, // Préchargement de la police pour améliorer les performances
-  fallback: ['system-ui', 'sans-serif'] // Police de secours pendant le chargement
+  preload: true,
+  fallback: ['system-ui', 'sans-serif']
 })
 
 export const metadata = {
@@ -31,7 +30,7 @@ export const metadata = {
     default: 'Killian DOUBRE - Développeur Web Freelance',
     template: '%s | Killian DOUBRE - Développeur Web Freelance'
   },
-  description: "Développeur Web Freelance basé à Nice. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour garantir votre succès.",
+  description: "Développeur Web Freelance à Nice spécialisé en React, Next.js et Node.js. Création de sites vitrines, e-commerce, applications web et mobiles sur mesure. Expert SEO pour une visibilité optimale en région PACA et partout en France.",
   keywords: [
     'développeur web freelance', 
     'développeur full stack', 
@@ -60,7 +59,7 @@ export const metadata = {
     locale: 'fr_FR',
     url: 'https://killiandoubre.com',
     title: 'Killian DOUBRE - Développeur Web Freelance',
-    description: "Développeur Web Freelance basé à Nice. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour garantir votre succès.",
+    description: "Développeur Web Freelance à Nice spécialisé en React, Next.js et Node.js. Création de sites vitrines, e-commerce, applications web et mobiles sur mesure. Expert SEO pour une visibilité optimale en région PACA et partout en France.",
     siteName: 'Killian DOUBRE - Développeur Web Freelance',
     images: [{
       url: '/og-image.jpg',
@@ -73,7 +72,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Killian DOUBRE - Développeur Web Freelance',
-    description: "Développeur Web Freelance basé à Nice. De l'architecture à l'expérience utilisateur, chaque ligne de code est optimisée pour garantir votre succès.",
+    description: "Développeur Web Freelance à Nice spécialisé en React, Next.js et Node.js. Création de sites vitrines, e-commerce, applications web et mobiles sur mesure. Expert SEO pour une visibilité optimale en région PACA.",
     images: ['/og-image.jpg'],
     creator: '@KillianDoubre',
   },
@@ -93,12 +92,25 @@ export const metadata = {
     canonical: 'https://killiandoubre.com',
     languages: {
       'fr-FR': 'https://killiandoubre.com',
+      'fr': 'https://killiandoubre.com',
+    },
+    types: {
+      'application/rss+xml': 'https://killiandoubre.com/rss.xml',
     },
   },
+  hreflang: [
+    { rel: 'alternate', hrefLang: 'fr', href: 'https://killiandoubre.com' },
+    { rel: 'alternate', hrefLang: 'fr-FR', href: 'https://killiandoubre.com' },
+    { rel: 'alternate', hrefLang: 'fr-BE', href: 'https://killiandoubre.com' },
+    { rel: 'alternate', hrefLang: 'fr-CH', href: 'https://killiandoubre.com' },
+    { rel: 'alternate', hrefLang: 'fr-CA', href: 'https://killiandoubre.com' },
+    { rel: 'alternate', hrefLang: 'x-default', href: 'https://killiandoubre.com' },
+  ],
   verification: {
-    google: 'ajoutez-votre-code-verification-google-ici',
-    yandex: 'ajoutez-votre-code-verification-yandex-ici',
-    bing: 'ajoutez-votre-code-verification-bing-ici',
+    // Remplacez ces valeurs par vos codes de vérification réels
+    google: 'google-site-verification-code',
+    yandex: 'yandex-verification-code',
+    bing: 'msvalidate.01.bing-verification-code',
   },
   other: {
     'theme-color': '#3b82f6',
