@@ -11,15 +11,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Création de Site de Blog | Développeur Web Freelance',
-  description: 'Création de sites de blog professionnels et optimisés pour le SEO. Développeur web freelance spécialisé en blogs d\'entreprise, blogs personnels et plateformes de contenu.',
+  title: 'Développement de Blog Pro | Audiences x5',
+  description: 'Blogs professionnels multipliant les audiences par 5. SEO optimisé, content marketing. Influence sur internet maximale !',
   keywords: ['site blog', 'création blog', 'blog professionnel', 'blog entreprise', 'blog personnel', 'plateforme de contenu', 'blog SEO', 'développeur web freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpement-site-blog',
   },
   openGraph: {
-    title: 'Création de Site de Blog | Développeur Web Freelance',
-    description: 'Création de sites de blog professionnels et optimisés pour le SEO. Développeur web freelance spécialisé en blogs d\'entreprise, blogs personnels et plateformes de contenu.',
+    title: 'Développement de Blog Pro | Audiences x5',
+    description: 'Blogs professionnels multipliant les audiences par 5. SEO optimisé, content marketing. Influence internet maximale !',
     url: 'https://killiandoubre.com/developpement-site-blog',
   }
 }

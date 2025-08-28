@@ -13,15 +13,18 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Nîmes | Solutions Digitales Romaines | Expert Patrimoine',
-  description: 'Création de sites web et applications spécialisés pour les entreprises de Nîmes. Expertise en développement numérique adapté au secteur touristique, culturel et viticole local, avec interfaces modernes valorisant le patrimoine romain et l\'identité gardoise.',
+  title: 'Développeur Web Nîmes | Visiteurs x10 | Pro',
+  description: 'Développeur web Nîmes multipliant les visiteurs x10. Solutions premium. Développement web d’excellence !',
+
+
   keywords: ['développeur web Nîmes', 'création site web Nîmes', 'freelance web Nîmes', 'développeur Nîmes', 'site internet Nîmes', 'création site e-commerce Nîmes', 'développeur application web Nîmes', 'agence web Nîmes', 'refonte site web Nîmes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-nimes',
   },
   openGraph: {
-    title: 'Développeur Web à Nîmes | Création de Sites Web & Applications | Freelance',
-    description: 'Développeur web freelance pour Nîmes spécialisé en création de sites web, e-commerce et applications. Solutions web sur-mesure et accompagnement personnalisé pour votre projet web nîmois.',
+    title: 'Développeur Web Nîmes | Visiteurs x10 | Pro',
+    description: 'Développeur web Nîmes multipliant les visiteurs x10. Solutions premium. Développement web d’excellence !',
+
     url: 'https://killiandoubre.com/developpeur-web-nimes',
   }
 }

@@ -13,15 +13,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Création de Site E-commerce | Développeur Web Freelance',
-  description: 'Création de boutiques en ligne professionnelles et performantes. Développeur web freelance spécialisé en e-commerce, paiement sécurisé et expérience d\'achat optimisée.',
+  title: 'Boutique E-commerce | CA et Ventes x2 Minimum',
+  description: 'E-commerce performant doublant votre CA et vos Ventes. Paiement sécurisé. Conversion optimisée !',
+
   keywords: ['site e-commerce', 'boutique en ligne', 'création site e-commerce', 'développeur e-commerce', 'site marchand', 'woocommerce', 'shopify', 'prestashop', 'développeur web freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpement-site-ecommerce',
   },
   openGraph: {
-    title: 'Création de Site E-commerce | Développeur Web Freelance',
-    description: 'Création de boutiques en ligne professionnelles et performantes. Développeur web freelance spécialisé en e-commerce, paiement sécurisé et expérience d\'achat optimisée.',
+    title: 'Boutique E-commerce | CA et Ventes x2 Minimum',
+    description: 'E-commerce performant doublant votre CA et vos Ventes. Paiement sécurisé. Conversion optimisée !',
+
     url: 'https://killiandoubre.com/developpement-site-ecommerce',
   }
 }

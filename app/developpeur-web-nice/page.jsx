@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Nice | Expert Sites & Applications | Freelance Côte d\'Azur',
-  description: 'Développeur web freelance à Nice créant des sites et applications sur-mesure pour entreprises locales. Expertise technique, connaissance du marché niçois et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
+  title: 'Développeur Web Nice | +250% Visibilité | Livré 3 Sem',
+  description: 'Développeur web à Nice générant +250% de visibilité locale. Sites pros livrés en 3 semaines. 99% clients satisfaits. Devis gratuit !',
   keywords: ['développeur web Nice', 'création site web Nice', 'freelance web Nice', 'développeur Nice', 'site internet Nice', 'création site e-commerce Nice', 'développeur application web Nice', 'expert web Côte d\'Azur', 'développeur full-stack Nice'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-nice',
   },
   openGraph: {
-    title: 'Développeur Web Nice | Expert Sites & Applications | Freelance Côte d\'Azur',
-    description: 'Développeur web freelance à Nice créant des sites et applications sur-mesure pour entreprises locales. Expertise technique, connaissance du marché niçois et accompagnement personnalisé pour votre projet digital sur la Côte d\'Azur.',
+    title: 'Développeur Web Nice | +250% Visibilité | Livré 3 Sem',
+    description: 'Développeur web à Nice générant +250% de visibilité locale. Sites pros livrés en 3 semaines. 99% clients satisfaits. Devis gratuit !',
     url: 'https://killiandoubre.com/developpeur-web-nice',
   }
 }
@@ -215,7 +215,7 @@ export default function DeveloppeurWebNicePage() {
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance à <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Nice</span>
+                  Développeur Web <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Nice</span> | Visibilité +250%
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications

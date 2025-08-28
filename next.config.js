@@ -120,6 +120,157 @@ const nextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      // Redirections pour les pages non indexées
+      {
+        source: "/developpeur-web-saint-raphael",
+        destination: "/developpeur-web-toulon",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-arles",
+        destination: "/developpeur-web-marseille",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-vitrolles",
+        destination: "/developpeur-web-marseille",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-saint-tropez",
+        destination: "/developpeur-web-toulon",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-marignane",
+        destination: "/developpeur-web-marseille",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-cavaillon",
+        destination: "/developpeur-web-marseille",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-ile-de-france",
+        destination: "/developpeur-web-paris",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-six-fours-les-plages",
+        destination: "/developpeur-web-toulon",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-alpes-de-haute-provence",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-hautes-alpes",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-vallauris",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-vence",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-le-cannet",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-digne-les-bains",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-pertuis",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-frejus",
+        destination: "/developpeur-web-toulon",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-cagnes-sur-mer",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-antibes",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-saint-etienne",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-provence",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-alpes-maritimes",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-carpentras",
+        destination: "/developpeur-web-marseille",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-menton",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-bouches-du-rhone",
+        destination: "/developpeur-web-marseille",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-hyeres",
+        destination: "/developpeur-web-toulon",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-mandelieu-la-napoule",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-cote-azur",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-manosque",
+        destination: "/developpeur-web-orange",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-gap",
+        destination: "/developpeur-web-nice",
+        permanent: true
+      },
+      {
+        source: "/developpeur-web-la-ciotat",
+        destination: "/developpeur-web-marseille",
+        permanent: true
+      }
     ];
   },
   

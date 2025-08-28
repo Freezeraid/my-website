@@ -13,15 +13,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Marseille | Création de Sites & Applications | Secteur Maritime & Urbain',
-  description: 'Création de sites web et applications pour entreprises marseillaises dans les secteurs maritime, portuaire, commerce urbain et startups. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
+  title: 'Développeur web Marseille | Ventes +400% et Top Position Google',
+  description: 'Expert web Marseille port, commerce, startup. Ventes +400% garanties. Solutions digitales sur-mesure. Résultats rapides !',
+
   keywords: ['développeur web Marseille', 'création site web Marseille', 'freelance web Marseille', 'site internet secteur maritime', 'création site e-commerce Marseille', 'développeur application portuaire', 'site web commerce urbain Marseille', 'développeur startup Marseille', 'SEO local Marseille'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-marseille',
   },
   openGraph: {
-    title: 'Développeur Web Marseille | Création de Sites & Applications | Secteur Maritime & Urbain',
-    description: 'Création de sites web et applications pour entreprises marseillaises dans les secteurs maritime, portuaire, commerce urbain et startups. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
+    title: 'Développeur web Marseille | Ventes +400% et Top Position Google',
+    description: 'Expert web Marseille port, commerce, startup. Ventes +400% garanties. Solutions digitales sur-mesure. Résultats rapides !',
+
     url: 'https://killiandoubre.com/developpeur-web-marseille',
   }
 }

@@ -13,15 +13,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Toulouse | Création de Solutions Web | Aéronautique & Spatial',
-  description: 'Création de sites web et applications pour entreprises toulousaines dans les secteurs aéronautique, spatial, innovation et French Tech. Solutions digitales adaptées à la ville rose avec expertise technique pour startups et industries de pointe.',
+  title: 'Sites Web Toulouse | Performance & SEO x5',
+  description: 'Spécialiste web Toulouse aéronautique, spatial, tech. Performance multipliée par 5. Expertise pointe. Succès garantis !',
+
   keywords: ['développeur web Toulouse', 'création site web Toulouse', 'freelance web Toulouse', 'site internet aéronautique Toulouse', 'création site e-commerce Occitanie', 'développeur application spatial', 'site web French Tech Toulouse', 'développeur startup Toulouse', 'SEO local Toulouse'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-toulouse',
   },
   openGraph: {
-    title: 'Développeur Web Toulouse | Création de Solutions Web | Aéronautique & Spatial',
-    description: 'Création de sites web et applications pour entreprises toulousaines dans les secteurs aéronautique, spatial, innovation et French Tech. Solutions digitales adaptées à la ville rose avec expertise technique pour startups et industries de pointe.',
+    title: 'Sites Web Toulouse | Performance & SEO x5',
+    description: 'Spécialiste web Toulouse aéronautique, spatial, tech. Performance multipliée par 5. Expertise pointe. Succès garantis !',
+
     url: 'https://killiandoubre.com/developpeur-web-toulouse',
   }
 }

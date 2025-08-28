@@ -13,15 +13,18 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Orange | Solutions Digitales Antiques | Expert Romain',
-  description: 'Création de sites web et applications spécialisés pour les entreprises d\'Orange. Expertise en développement numérique adapté au secteur touristique et viticole local, avec interfaces modernes valorisant le patrimoine romain et l\'identité provençale pour une visibilité optimale.',
+  title: 'Développeur Web Orange | Audience +2500% | Pro',
+  description: 'Virtuose web Orange augmentant l’audience de +2500%. Solutions provençales. Art digital d’excellence !',
+
+
   keywords: ['développeur web Orange', 'création site web Orange', 'freelance web Orange', 'développeur 84', 'site internet Orange', 'création site e-commerce Orange', 'développeur application web Orange', 'agence web Orange', 'refonte site web Orange'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-orange',
   },
   openGraph: {
-    title: 'Développeur Web Orange | Création Sites & Applications | Freelance',
-    description: 'Développeur web freelance à Orange spécialisé en création de sites web, e-commerce et applications. Solutions web adaptées aux entreprises et commerces orangeois, avec accompagnement personnalisé.',
+    title: 'Théâtre Web Orange | Antique +2500% | Provence',
+    description: 'Virtuose web Orange théâtre, patrimoine, Provence. Spectateurs +2500%. Culture antique. Art digital provençal !',
+
     url: 'https://killiandoubre.com/developpeur-web-orange',
   }
 }

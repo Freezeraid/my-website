@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Lille | Sites & Applications | Industrie & Transfrontalier',
-  description: 'Création de sites web et applications pour entreprises lilloises dans les secteurs industrie, innovation, éducation et projets transfrontaliers. Solutions digitales adaptées aux Hauts-de-France avec expertise multilingue et plateformes collaboratives.',
+  title: 'Développeur Web Lille | Trafic Local +280% | Prix -40%',
+  description: 'Développeur web Lille boostant le trafic local de +280%. Sites industrie, e-commerce, apps performantes. Prix -40% vs agences !',
   keywords: ['développeur web Lille', 'création site web Lille', 'freelance web Lille', 'site internet industrie Lille', 'création site e-commerce Hauts-de-France', 'développeur application transfrontalière', 'site web éducation Lille', 'développeur innovation Lille', 'SEO local Lille'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-lille',
   },
   openGraph: {
-    title: 'Développeur Web Lille | Sites & Applications | Industrie & Transfrontalier',
-    description: 'Création de sites web et applications pour entreprises lilloises dans les secteurs industrie, innovation, éducation et projets transfrontaliers. Solutions digitales adaptées aux Hauts-de-France avec expertise multilingue et plateformes collaboratives.',
+    title: 'Développeur Web Lille | Trafic Local +280% | Prix -40%',
+    description: 'Développeur web Lille boostant le trafic local de +280%. Sites industrie, e-commerce, apps performantes. Prix -40% vs agences !',
     url: 'https://killiandoubre.com/developpeur-web-lille',
   }
 }
@@ -215,7 +215,7 @@ export default function DeveloppeurWebLillePage() {
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Développeur Web Freelance pour <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Lille</span>
+                  Expert Web <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Lille</span> | Trafic +280%
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Création de Sites Web & Applications

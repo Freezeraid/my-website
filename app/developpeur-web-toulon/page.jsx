@@ -13,15 +13,19 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Toulon | Sites Web & Applications | Secteur Maritime & Naval',
-  description: 'Création de sites web et applications pour entreprises toulonnaises dans les secteurs maritime, naval, défense et tourisme. Solutions digitales adaptées au Var avec optimisation SEO locale et expertise technique pour le pôle Mer PACA.',
+  title: 'Développeur Web Toulon | Visibilité +500% | Pro',
+  description: 'Expert web Toulon augmentant la Visibilité du site de +500%. Techno avancées, sécurité professionnelle. Succès assuré !',
+
+
   keywords: ['développeur web Toulon', 'création site web Toulon', 'freelance web Toulon', 'site internet maritime Toulon', 'création site e-commerce Var', 'développeur application navale', 'site web défense Toulon', 'développeur tourisme Var', 'SEO local Toulon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-toulon',
   },
   openGraph: {
-    title: 'Développeur Web Toulon | Sites Web & Applications | Secteur Maritime & Naval',
-    description: 'Création de sites web et applications pour entreprises toulonnaises dans les secteurs maritime, naval, défense et tourisme. Solutions digitales adaptées au Var avec optimisation SEO locale et expertise technique pour le pôle Mer PACA.',
+    title: 'Développeur Web Toulon | Visibilité +500% | Pro',
+    description: 'Expert web Toulon augmentant la Visibilité du site de +500%. Techno avancées, sécurité professionnelle. Succès assuré !',
+
+
     url: 'https://killiandoubre.com/developpeur-web-toulon',
   }
 }

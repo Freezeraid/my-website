@@ -11,15 +11,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développement d\'Applications Mobiles | Développeur Web Freelance',
-  description: 'Création d\'applications mobiles natives et hybrides pour iOS et Android. Développeur freelance spécialisé en React Native, Flutter et interfaces utilisateur modernes.',
+  title: 'Création d\' Applications Mobiles | Downloads +10K | iOS/Android',
+  description: 'Applications mobiles générant +10K downloads. iOS, Android, React Native. Compatible App Store & Google Play !',
+
   keywords: ['application mobile', 'développement mobile', 'app iOS', 'app Android', 'React Native', 'Flutter', 'développeur mobile', 'développeur web freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpement-application-mobile',
   },
   openGraph: {
-    title: 'Développement d\'Applications Mobiles | Développeur Web Freelance',
-    description: 'Création d\'applications mobiles natives et hybrides pour iOS et Android. Développeur freelance spécialisé en React Native, Flutter et interfaces utilisateur modernes.',
+    title: 'Création d\' Applications Mobiles | Downloads +10K | iOS/Android',
+    description: 'Applications mobiles générant +10K downloads. iOS, Android, React Native. Compatible App Store & Google Play !',
+
     url: 'https://killiandoubre.com/developpement-application-mobile',
   }
 }

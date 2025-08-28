@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Création de Site Web Vitrine | Développeur Front-End Freelance',
-  description: 'Création de sites web vitrine professionnels et sur-mesure. Développeur front-end freelance spécialisé en design responsive, optimisation SEO et expérience utilisateur.',
+  title: 'Site Vitrine Pro | ROI +200% Garanti | Livraison 3 Sem',
+  description: 'Sites vitrine rentables générant +200% de ROI. Design pro + SEO optimisé. Première page Google garantie. Livraison rapide !',
   keywords: ['site web vitrine', 'création site web', 'développeur front-end', 'site web professionnel', 'site web responsive', 'site web sur-mesure', 'développeur web freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpement-site-vitrine',
   },
   openGraph: {
-    title: 'Création de Site Web Vitrine | Développeur Front-End Freelance',
-    description: 'Création de sites web vitrine professionnels et sur-mesure. Développeur front-end freelance spécialisé en design responsive, optimisation SEO et expérience utilisateur.',
+    title: 'Site Vitrine Pro | ROI +200% Garanti | Livraison 3 Sem',
+    description: 'Sites vitrine rentables générant +200% de ROI. Design pro + SEO optimisé. Première page Google garantie. Livraison rapide !',
     url: 'https://killiandoubre.com/developpement-site-vitrine',
   }
 }
@@ -134,7 +134,7 @@ export default function DeveloppeurWebFreelancePage() {
             <div className="flex flex-col md:flex-row gap-12 items-center mt-12">
               <div className="md:w-1/2 text-center md:text-left space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
-                  Site Web <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Vitrine</span>
+                  Site <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Vitrine</span> Rentable | ROI +200%
                 </h1>
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                   Votre Présence Professionnelle en Ligne
