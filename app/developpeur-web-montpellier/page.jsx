@@ -13,15 +13,16 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Montpellier | Création de Solutions Web | Santé & Innovation',
-  description: 'Création de sites web et applications pour entreprises montpelliéraines dans les secteurs santé, biotechnologies, startups et environnement. Solutions digitales innovantes adaptées à l\'écosystème tech de Montpellier et l\'Occitanie.',
+  title: 'Développeur Web Montpellier | Résultats x3',
+  description: 'Spécialiste web Montpellier triplant vos résultats web. Technos web de pointe. Succès web garanti en Occitanie !',
+
   keywords: ['développeur web Montpellier', 'création site web Montpellier', 'freelance web Montpellier', 'site internet santé Montpellier', 'création site e-commerce Occitanie', 'développeur application biotech', 'site web startup Montpellier', 'développeur environnement Montpellier', 'SEO local Montpellier'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-montpellier',
   },
   openGraph: {
-    title: 'Développeur Web Montpellier | Création de Solutions Web | Santé & Innovation',
-    description: 'Création de sites web et applications pour entreprises montpelliéraines dans les secteurs santé, biotechnologies, startups et environnement. Solutions digitales innovantes adaptées à l\'écosystème tech de Montpellier et l\'Occitanie.',
+    title: 'Développeur Web Montpellier | Résultats x3',
+    description: 'Spécialiste web Montpellier triplant vos résultats web. Technos web de pointe. Succès web garanti en Occitanie !',
     url: 'https://killiandoubre.com/developpeur-web-montpellier',
   }
 }

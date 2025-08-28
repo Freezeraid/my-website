@@ -13,15 +13,19 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Monaco | Créations de Sites & Applications',
-  description: 'Création de sites web et applications haut de gamme pour entreprises monégasques dans les secteurs finance, immobilier de luxe et yachting. Solutions digitales internationales multilingues avec design exclusif et sécurité renforcée.',
+  title: 'Développeur Web Monaco | Clients +800% | VIP',
+  description: 'Expert web Monaco attirant +800% de clients. Solutions premium, sécurité maximale. Excellence internationale !',
+
+
   keywords: ['développeur web Monaco', 'création site web Monaco', 'freelance web Monaco', 'site internet luxe Monaco', 'création site e-commerce Monaco', 'développeur application web Monaco', 'site web finance Monaco', 'développeur yachting Monaco', 'site web multilingue Monaco'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-monaco',
   },
   openGraph: {
-    title: 'Développeur Web Monaco | Créations de Sites & Applications',
-    description: 'Création de sites web et applications haut de gamme pour entreprises monégasques dans les secteurs finance, immobilier de luxe et yachting. Solutions digitales internationales multilingues avec design exclusif et sécurité renforcée.',
+    title: 'Développeur Web Monaco | Clients +800% | VIP',
+    description: 'Expert web Monaco attirant +800% de clients. Solutions premium, sécurité maximale. Excellence internationale !',
+
+
     url: 'https://killiandoubre.com/developpeur-web-monaco',
   }
 }
