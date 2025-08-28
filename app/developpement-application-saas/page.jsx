@@ -11,15 +11,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développement d\'Applications SaaS | Développeur Web Freelance',
-  description: 'Création d\'applications SaaS (Software as a Service) sur-mesure. Développeur web freelance spécialisé en applications cloud, interfaces utilisateur modernes et architectures évolutives.',
+  title: 'App SaaS Cloud | MRR +200% | Scalabilité Pro',
+  description: 'Applications SaaS boostant votre MRR de +200%. Solutions cloud scalables. Architecture pro pour un succès garanti et scalable !',
+
   keywords: ['application SaaS', 'développement SaaS', 'software as a service', 'application cloud', 'application web', 'développeur SaaS', 'développeur web freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpement-application-saas',
   },
   openGraph: {
-    title: 'Développement d\'Applications SaaS | Développeur Web Freelance',
-    description: 'Création d\'applications SaaS (Software as a Service) sur-mesure. Développeur web freelance spécialisé en applications cloud, interfaces utilisateur modernes et architectures évolutives.',
+    title: 'App SaaS Cloud | MRR +200% | Scalabilité Pro',
+    description: 'Applications SaaS boostant votre MRR de +200%. Solutions cloud scalables. Architecture pro pour un un succès garanti et scalable !',
+
     url: 'https://killiandoubre.com/developpement-application-saas',
   }
 }

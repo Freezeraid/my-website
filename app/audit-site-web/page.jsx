@@ -11,15 +11,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Audit de Site Web | Performance & SEO | Freelance',
-  description: 'Service d\'audit de site web professionnel pour analyser la performance, la vitesse de chargement et le SEO. Identifiez les problèmes techniques et améliorez l\'expérience utilisateur de votre site.',
+  title: 'Audit Web | Vitesse x3 | SEO Score 100/100',
+  description: 'Audit web professionnel multipliant la vitesse par 3. Score SEO 100/100 garanti. Problèmes détectés. Performance maximale !',
+
   keywords: ['audit site web', 'audit performance', 'audit SEO', 'vitesse de chargement', 'core web vitals', 'analyse technique', 'optimisation site web', 'freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/audit-site-web',
   },
   openGraph: {
-    title: 'Audit de Site Web | Performance & SEO | Freelance',
-    description: 'Service d\'audit de site web professionnel pour analyser la performance, la vitesse de chargement et le SEO. Identifiez les problèmes techniques et améliorez l\'expérience utilisateur de votre site.',
+    title: 'Audit Web | Vitesse x3 | SEO Score 100/100',
+    description: 'Audit web professionnel multipliant la vitesse par 3. Score SEO 100/100 garanti. Problèmes détectés. Performance maximale !',
+
     url: 'https://killiandoubre.com/audit-site-web',
   }
 }

@@ -11,15 +11,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Création de Site Portfolio | Développeur Web Freelance',
-  description: 'Création de sites portfolio professionnels et créatifs. Développeur web freelance spécialisé en design moderne, mise en valeur de vos projets et optimisation pour attirer des clients.',
+  title: 'Portfolio Créatif | Clients +300% | Artistique',
+  description: 'Portfolios créatifs attirant +300% de clients. Design artistique et Pages optimisées, projets valorisés !',
+
   keywords: ['site portfolio', 'création portfolio en ligne', 'portfolio créatif', 'site web portfolio', 'portfolio professionnel', 'portfolio artiste', 'portfolio photographe', 'portfolio designer', 'développeur web freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpement-site-portfolio',
   },
   openGraph: {
-    title: 'Création de Site Portfolio | Développeur Web Freelance',
-    description: 'Création de sites portfolio professionnels et créatifs. Développeur web freelance spécialisé en design moderne, mise en valeur de vos projets et optimisation pour attirer des clients.',
+    title: 'Portfolio Créatif | Clients +300% | Artistique',
+    description: 'Portfolios créatifs attirant +300% de clients. Design artistique et Pages optimisées, projets valorisés !',
+
     url: 'https://killiandoubre.com/developpement-site-portfolio',
   }
 }

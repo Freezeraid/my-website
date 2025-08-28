@@ -11,15 +11,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développement Web Full Stack | Node.js & React | Développeur Freelance',
-  description: 'Services de développement web full stack avec Node.js et React. Développeur freelance spécialisé en applications web modernes, performantes et évolutives pour les entreprises.',
-  keywords: ['développement web full stack', 'développeur Node.js', 'développeur React', 'MERN stack', 'JavaScript', 'applications web', 'développeur web freelance'],
+  title: 'Développeur Full Stack | React, Mongo, Node, Golang',
+  description: 'Développeur full stack MERN soucieux de la qualité et la scalabilité de son code. Expert en React, Node, Mongo et Golang',
+
+  keywords: ['développement web full stack', 'développeur Node.js', 'golang', 'développeur React', 'MERN stack', 'JavaScript', 'applications web', 'développeur web freelance'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpement-web-fullstack',
   },
   openGraph: {
-    title: 'Développement Web Full Stack | Node.js & React | Développeur Freelance',
-    description: 'Services de développement web full stack avec Node.js et React. Développeur freelance spécialisé en applications web modernes, performantes et évolutives pour les entreprises.',
+    title: 'Développeur Full Stack | React, Mongo, Node, Golang',
+    description: 'Développeur full stack MERN soucieux de la qualité et la scalabilité de son code. Expert en React, Node, Mongo et Golang',
+
     url: 'https://killiandoubre.com/developpement-web-fullstack',
   }
 }
