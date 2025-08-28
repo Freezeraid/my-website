@@ -13,15 +13,19 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Dijon | Solutions Digitales Gastronomie & Innovation',
-  description: 'Conception de sites web et applications pour entreprises dijonnaises. Expertise numérique dédiée aux domaines viticoles, commerces gastronomiques et startups avec stratégies de visibilité adaptées au marché bourguignon.',
+  title: 'Développeur Web Dijon | CA & ventes x2',
+  description: 'Virtuose web Dijon multipliant CA & ventes x2. Commerce premium. Excellence digitale bourguignonne !',
+
+
   keywords: ['développeur web Dijon', 'création site web Dijon', 'freelance web Dijon', 'développeur Dijon', 'site internet Dijon', 'création site e-commerce Dijon', 'développeur application web Dijon', 'agence web Dijon', 'refonte site web Dijon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-dijon',
   },
   openGraph: {
-    title: 'Développeur Web Dijon | Solutions Digitales Gastronomie & Innovation',
-    description: 'Conception de sites web et applications pour entreprises dijonnaises. Expertise numérique dédiée aux domaines viticoles, commerces gastronomiques et startups avec stratégies de visibilité adaptées au marché bourguignon.',
+    title: 'Développeur Web Dijon | CA & ventes x2',
+    description: 'Virtuose web Dijon multipliant CA & ventes x2. Commerce premium. Excellence digitale bourguignonne !',
+
+
     url: 'https://killiandoubre.com/developpeur-web-dijon',
   }
 }

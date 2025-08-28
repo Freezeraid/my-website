@@ -18,10 +18,10 @@ export default function Hero() {
                 Killian Doubre
               </h2>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-gray-900">
-                Développeur Web Freelance
+                Développeur Web Freelance pour votre Site Internet
               </h1>
               <h2 className={`text-2xl sm:text-3xl font-bold tracking-tight ${styles.gradientText}`}>
-                Un nouveau cap pour votre business
+                Un nouveau cap pour votre business et votre présence en ligne
               </h2>
               
               <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">

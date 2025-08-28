@@ -13,15 +13,16 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Strasbourg | Développeur de Sites & Applications | Europe & Institutions',
-  description: 'Création de sites web et applications pour entreprises strasbourgeoises dans les secteurs institutions européennes, transfrontalier, éducation et recherche. Solutions digitales multilingues adaptées au Grand Est avec expertise en projets internationaux.',
+  title: 'Développeur Web Strasbourg | Performance +100% | Pro',
+  description: 'Expert digital Strasbourg améliorant les performances de +100%. Projets internationaux. Excellence assurée !',
+
   keywords: ['développeur web Strasbourg', 'création site web Strasbourg', 'freelance web Strasbourg', 'site internet institutions Strasbourg', 'création site e-commerce Grand Est', 'développeur application transfrontalière', 'site web multilingue Strasbourg', 'développeur européen Strasbourg', 'SEO local Strasbourg'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-strasbourg',
   },
   openGraph: {
-    title: 'Développeur Web Strasbourg | Développeur de Sites & Applications | Europe & Institutions',
-    description: 'Création de sites web et applications pour entreprises strasbourgeoises dans les secteurs institutions européennes, transfrontalier, éducation et recherche. Solutions digitales multilingues adaptées au Grand Est avec expertise en projets internationaux.',
+    title: 'Développeur Web Strasbourg | Performance +100% | Pro',
+    description: 'Expert digital Strasbourg améliorant les performances de +100%. Projets internationaux. Excellence assurée !',
     url: 'https://killiandoubre.com/developpeur-web-strasbourg',
   }
 }

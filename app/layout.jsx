@@ -27,10 +27,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://killiandoubre.com'),
   title: {
-    default: 'Killian DOUBRE - Développeur Web Freelance',
-    template: '%s | Killian DOUBRE - Développeur Web Freelance'
+    default: 'Killian DOUBRE | +150% Trafic Web | Devis Gratuit 24h',
+    template: '%s | Killian DOUBRE - Expert Web'
   },
-  description: "Développeur Web Freelance à Nice spécialisé en React, Next.js et Node.js. Création de sites vitrines, e-commerce, applications web et mobiles sur mesure. Expert SEO pour une visibilité optimale en région PACA et partout en France.",
+  description: "Développeur web freelance boostant votre trafic de +150%. Sites performants livrés en 3 semaines. Devis gratuit sous 24h !",
   keywords: [
     'développeur web freelance', 
     'développeur full stack', 
@@ -58,8 +58,8 @@ export const metadata = {
     type: 'website',
     locale: 'fr_FR',
     url: 'https://killiandoubre.com',
-    title: 'Killian DOUBRE - Développeur Web Freelance',
-    description: "Développeur Web Freelance à Nice spécialisé en React, Next.js et Node.js. Création de sites vitrines, e-commerce, applications web et mobiles sur mesure. Expert SEO pour une visibilité optimale en région PACA et partout en France.",
+    title: 'Killian DOUBRE | +150% Trafic Web | Devis Gratuit 24h',
+    description: "Développeur web freelance boostant votre trafic de +150%. Sites performants livrés en 3 semaines. Devis gratuit sous 24h !",
     siteName: 'Killian DOUBRE - Développeur Web Freelance',
     images: [{
       url: '/og-image.jpg',
@@ -71,8 +71,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Killian DOUBRE - Développeur Web Freelance',
-    description: "Développeur Web Freelance à Nice spécialisé en React, Next.js et Node.js. Création de sites vitrines, e-commerce, applications web et mobiles sur mesure. Expert SEO pour une visibilité optimale en région PACA.",
+    title: 'Killian DOUBRE | +150% Trafic Web | Devis Gratuit 24h',
+    description: "Développeur web freelance boostant votre trafic de +150%. Sites performants livrés en 3 semaines. Devis gratuit sous 24h !",
     images: ['/og-image.jpg'],
     creator: '@KillianDoubre',
   },

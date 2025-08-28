@@ -13,15 +13,15 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Paris | Création de Sites Web | Startups & Entreprises',
-  description: 'Création de sites web et applications pour entreprises parisiennes dans les secteurs startup, finance, culture et commerce. Solutions digitales innovantes avec optimisation SEO locale et e-commerce performant pour la capitale.',
+  title: 'Développeur Web Paris | Startup Ready | ROI x3 | Devis 24h',
+  description: 'Développeur web Paris. ROI multiplié par 3 garanti. Sites haute performance livrés en 2 semaines !',
   keywords: ['développeur web Paris', 'création site web Paris', 'freelance web Paris', 'site internet startup Paris', 'création site e-commerce Paris', 'développeur application finance Paris', 'site web culture Paris', 'développeur commerce Paris', 'SEO local Paris'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-paris',
   },
   openGraph: {
-    title: 'Développeur Web Paris | Création de Sites Web | Startups & Entreprises',
-    description: 'Création de sites web et applications pour entreprises parisiennes dans les secteurs startup, finance, culture et commerce. Solutions digitales innovantes avec optimisation SEO locale et e-commerce performant pour la capitale.',
+    title: 'Développeur Web Paris | Startup Ready | ROI x3 | Devis 24h',
+    description: 'Développeur web Paris. ROI multiplié par 3 garanti. Sites haute performance livrés en 2 semaines !',
     url: 'https://killiandoubre.com/developpeur-web-paris',
   }
 }

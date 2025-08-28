@@ -11,15 +11,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Consultant en Référencement Naturel (SEO) | Freelance',
-  description: 'Services de consultant SEO freelance pour améliorer votre visibilité sur Google. Audit SEO, optimisation technique, stratégie de contenu et netlinking pour augmenter votre trafic organique.',
+  title: 'Consultant SEO | Position #1 | Trafic x4',
+  description: 'Expert SEO position #1 Google. Trafic organique x4 garanti. Audit complet. Stratégie gagnante. Résultats mesurés !',
+
   keywords: ['consultant SEO', 'référencement naturel', 'audit SEO', 'optimisation SEO', 'stratégie de contenu', 'netlinking', 'SEO technique', 'freelance SEO'],
   alternates: {
     canonical: 'https://killiandoubre.com/consultant-referencement-naturel',
   },
   openGraph: {
-    title: 'Consultant en Référencement Naturel (SEO) | Freelance',
-    description: 'Services de consultant SEO freelance pour améliorer votre visibilité sur Google. Audit SEO, optimisation technique, stratégie de contenu et netlinking pour augmenter votre trafic organique.',
+    title: 'Consultant SEO | Position #1 | Trafic x4',
+    description: 'Expert SEO position #1 Google. Trafic organique x4 garanti. Audit complet. Stratégie gagnante. Résultats mesurés !',
+
     url: 'https://killiandoubre.com/consultant-referencement-naturel',
   }
 }

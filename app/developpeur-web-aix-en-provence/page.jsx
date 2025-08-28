@@ -13,15 +13,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Expert Développeur Web Aix-en-Provence | Solutions Digitales Innovantes',
-  description: 'Création de sites web et applications sur-mesure pour entreprises aixoises. Expertise en développement e-commerce, applications métier et solutions digitales adaptées au patrimoine culturel et économique d\'Aix-en-Provence.',
+  title: 'Développeur Web Aix | ROI +200% | Culture Pro',
+  description: 'Développeur web Aix en Provence. ROI +200% minimum. Élégance provençale et d\'inspiration aixoise !',
+
   keywords: ['développeur web Aix-en-Provence', 'création site web Aix-en-Provence', 'freelance web Aix', 'développeur Aix', 'site internet Aix', 'création site e-commerce Aix', 'développeur application web Aix', 'agence web Aix-en-Provence', 'refonte site web Aix'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
   },
   openGraph: {
-    title: 'Expert Développeur Web Aix-en-Provence | Solutions Digitales Innovantes',
-    description: 'Création de sites web et applications sur-mesure pour entreprises aixoises. Expertise en développement e-commerce, applications métier et solutions digitales adaptées au patrimoine culturel et économique d\'Aix-en-Provence.',
+    title: 'Développeur Web Aix | ROI +200% | Culture Pro',
+    description: 'Développeur web Aix en Provence. ROI +200% minimum. Élégance provençale et d\'inspiration aixoise !',
+
     url: 'https://killiandoubre.com/developpeur-web-aix-en-provence',
   }
 }
