@@ -13,15 +13,19 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Reims | Expert Sites & Applications | Champagne & Patrimoine',
-  description: 'Création de sites web et applications pour entreprises rémoises dans les secteurs champagne, œnotourisme, patrimoine et industrie. Solutions digitales adaptées à la Marne avec expertise en e-commerce viticole et plateformes de valorisation du terroir.',
+  title: 'Développeur Web Reims | Ventes +500% | Devis 24h',
+  description: 'Maître web Reims boostant les ventes de +500%. Solutions e-commerce premium. Excellence digitale !',
+
+
   keywords: ['développeur web Reims', 'création site web Reims', 'freelance web Reims', 'site internet champagne Reims', 'création site e-commerce Marne', 'développeur application œnotourisme', 'site web patrimoine Reims', 'développeur industrie Reims', 'SEO local Reims'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-reims',
   },
   openGraph: {
-    title: 'Développeur Web Reims | Expert Sites & Applications | Champagne & Patrimoine',
-    description: 'Création de sites web et applications pour entreprises rémoises dans les secteurs champagne, œnotourisme, patrimoine et industrie. Solutions digitales adaptées à la Marne avec expertise en e-commerce viticole et plateformes de valorisation du terroir.',
+    title: 'Développeur Web Reims | Ventes +500% | Devis 24h',
+    description: 'Maître web Reims boostant les ventes de +500%. Solutions e-commerce premium. Excellence digitale !',
+
+
     url: 'https://killiandoubre.com/developpeur-web-reims',
   }
 }
