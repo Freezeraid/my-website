@@ -13,15 +13,19 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Freelance Cannes | Expert Sites Premium & Applications | Côte d\'Azur',
-  description: 'Expert en développement web à Cannes créant des sites et applications haut de gamme pour hôtels, commerces de luxe et événementiel. Solutions digitales premium adaptées au prestige cannois avec optimisation SEO locale.',
+  title: 'Développeur Web Cannes | Croissance +300% | Expert',
+  description: 'Expert web Cannes multipliant la Croissance de +300%. Solutions premium, design élégant. Résultats garantis !',
+
+
   keywords: ['développeur web Cannes', 'création site web Cannes', 'freelance web Cannes', 'développeur Cannes', 'site internet luxe Cannes', 'création site e-commerce Cannes', 'développeur application web Cannes', 'site web hôtel Cannes', 'développeur événementiel Cannes'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-cannes',
   },
   openGraph: {
-    title: 'Développeur Web Freelance Cannes | Expert Sites & Applications | Côte d\'Azur',
-    description: 'Expert en développement web à Cannes créant des sites et applications haut de gamme pour hôtels, commerces de luxe et événementiel. Solutions digitales premium adaptées au prestige cannois avec optimisation SEO locale.',
+    title: 'Développeur Web Cannes | Croissance +300% | Expert',
+    description: 'Expert web Cannes multipliant la Croissance de +300%. Solutions premium, design élégant. Résultats garantis !',
+
+
     url: 'https://killiandoubre.com/developpeur-web-cannes',
   }
 }

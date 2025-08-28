@@ -13,15 +13,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Bordeaux | Création de Sites & Applications | Vin & Culture',
-  description: 'Création de sites web et applications pour entreprises bordelaises dans les secteurs viticole, œnotourisme, culture et industries créatives. Solutions digitales adaptées à la Nouvelle-Aquitaine avec expertise e-commerce et plateformes innovantes.',
+  title: 'Agence Web Bordeaux | Leads +300%',
+  description: 'Expert web Bordeaux, tech, startup. Leads +300% garantis. Solutions premium et Innovation assurée !',
+
   keywords: ['développeur web Bordeaux', 'création site web Bordeaux', 'freelance web Bordeaux', 'site internet viticole Bordeaux', 'création site e-commerce vin', 'développeur application œnotourisme', 'site web culture Bordeaux', 'développeur créatif Bordeaux', 'SEO local Bordeaux'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-bordeaux',
   },
   openGraph: {
-    title: 'Développeur Web Bordeaux | Création de Sites & Applications | Vin & Culture',
-    description: 'Création de sites web et applications pour entreprises bordelaises dans les secteurs viticole, œnotourisme, culture et industries créatives. Solutions digitales adaptées à la Nouvelle-Aquitaine avec expertise e-commerce et plateformes innovantes.',
+    title: 'Agence Web Bordeaux | Leads +300%',
+    description: 'Expert web Bordeaux, tech, startup. Leads +300% garantis. Solutions premium et Innovation assurée !',
+
     url: 'https://killiandoubre.com/developpeur-web-bordeaux',
   }
 }
