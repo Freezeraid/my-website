@@ -13,15 +13,18 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Le Havre | Solutions Digitales Maritime & Industrie Portuaire',
-  description: 'Création de sites web et applications pour entreprises havraises. Expertise numérique dédiée au secteur maritime, portuaire, logistique et commerce local avec stratégies de visibilité adaptées au contexte économique normand.',
+  title: 'Développeur Web Le Havre | Commerce et Ventes +300%',
+  description: 'Capitaine web Le Havre boostant le commerce et les ventes de +300%. Solutions normandes. Économie digitale florissante !',
+
+
   keywords: ['développeur web Le Havre', 'création site web Le Havre', 'freelance web Le Havre', 'développeur Le Havre', 'site internet Le Havre', 'création site e-commerce Le Havre', 'développeur application web Le Havre', 'agence web Le Havre', 'refonte site web Le Havre'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-le-havre',
   },
   openGraph: {
-    title: 'Développeur Web Le Havre | Solutions Digitales Maritime & Industrie Portuaire',
-    description: 'Création de sites web et applications pour entreprises havraises. Expertise numérique dédiée au secteur maritime, portuaire, logistique et commerce local avec stratégies de visibilité adaptées au contexte économique normand.',
+    title: 'Développeur Web Le Havre | Commerce et Ventes +300%',
+    description: 'Capitaine web Le Havre boostant le commerce et les ventes de +300%. Solutions normandes. Économie digitale florissante !',
+
     url: 'https://killiandoubre.com/developpeur-web-le-havre',
   }
 }

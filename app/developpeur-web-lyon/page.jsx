@@ -13,15 +13,17 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Lyon | Création de Sites Web | Industrie & Gastronomie',
-  description: 'Création de sites web et applications pour entreprises lyonnaises dans les secteurs industrie, gastronomie, innovation et formation. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
+  title: 'Créateur Web Lyon | Conversion +320% | Top Google',
+  description: 'Sites web Lyon avec +320% de conversion. Industrie, restau, e-commerce. Top Google assuré. Livraison express 15 jours !',
+
   keywords: ['développeur web Lyon', 'création site web Lyon', 'freelance web Lyon', 'site internet industrie Lyon', 'création site e-commerce Lyon', 'développeur application startup Lyon', 'site web gastronomie Lyon', 'développeur formation Lyon', 'SEO local Lyon'],
   alternates: {
     canonical: 'https://killiandoubre.com/developpeur-web-lyon',
   },
   openGraph: {
-    title: 'Développeur Web Lyon | Création de Sites Web | Industrie & Gastronomie',
-    description: 'Création de sites web et applications pour entreprises lyonnaises dans les secteurs industrie, gastronomie, innovation et formation. Solutions digitales adaptées à la métropole avec optimisation SEO locale et e-commerce performant.',
+    title: 'Créateur Web Lyon | Conversion +320% | Top Google',
+    description: 'Sites web Lyon avec +320% de conversion. Industrie, restau, e-commerce. Top Google assuré. Livraison express 15 jours !',
+
     url: 'https://killiandoubre.com/developpeur-web-lyon',
   }
 }
