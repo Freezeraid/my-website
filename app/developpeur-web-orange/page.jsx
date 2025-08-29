@@ -13,8 +13,8 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Orange | Audience +2500% | Pro',
-  description: 'Virtuose web Orange augmentant l’audience de +2500%. Solutions provençales. Art digital d’excellence !',
+  title: 'Développeur Web Orange | Audience +500%',
+  description: 'Développeur web à Orange augmentant l’audience de +500%. Solutions provençales. Sites web d’excellence !',
 
 
   keywords: ['développeur web Orange', 'création site web Orange', 'freelance web Orange', 'développeur 84', 'site internet Orange', 'création site e-commerce Orange', 'développeur application web Orange', 'agence web Orange', 'refonte site web Orange'],
@@ -22,8 +22,8 @@ export const metadata = {
     canonical: 'https://killiandoubre.com/developpeur-web-orange',
   },
   openGraph: {
-    title: 'Théâtre Web Orange | Antique +2500% | Provence',
-    description: 'Virtuose web Orange théâtre, patrimoine, Provence. Spectateurs +2500%. Culture antique. Art digital provençal !',
+    title: 'Développeur Web Orange | Audience +500%',
+    description: 'Développeur web à Orange augmentant l’audience de +500%. Solutions provençales. Sites web d’excellence !',
 
     url: 'https://killiandoubre.com/developpeur-web-orange',
   }

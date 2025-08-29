@@ -13,7 +13,7 @@ const Contact = dynamic(() => import('../../components/sections/Contact'), {
 })
 
 export const metadata = {
-  title: 'Développeur Web Monaco | Clients +800% | VIP',
+  title: 'Développeur Web Monaco | Clients +800% | Sites VIP',
   description: 'Expert web Monaco attirant +800% de clients. Solutions premium, sécurité maximale. Excellence internationale !',
 
 
@@ -22,7 +22,7 @@ export const metadata = {
     canonical: 'https://killiandoubre.com/developpeur-web-monaco',
   },
   openGraph: {
-    title: 'Développeur Web Monaco | Clients +800% | VIP',
+    title: 'Développeur Web Monaco | Clients +800% | Sites VIP',
     description: 'Expert web Monaco attirant +800% de clients. Solutions premium, sécurité maximale. Excellence internationale !',
 
 
